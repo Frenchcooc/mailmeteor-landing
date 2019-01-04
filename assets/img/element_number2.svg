@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Number 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME" transform="translate(-281.000000, -1265.000000)">
+            <g id="Tutorial" transform="translate(-131.000000, 528.000000)">
+                <g id="Tutorial-steps" transform="translate(305.000000, 517.000000)">
+                    <g id="Numbers" transform="translate(108.000000, 221.000000)">
+                        <g id="Number-1">
+                            <circle id="Oval" stroke="#FFDDE2" fill="#FFDDE2" fill-rule="nonzero" cx="38" cy="38" r="38"></circle>
+                            <circle id="Oval" fill="#FF486A" fill-rule="nonzero" cx="38.5" cy="38.5" r="29.5"></circle>
+                            <text id="2" font-family="ProductSans-Bold, Product Sans" font-size="34" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="29.235" y="50">2</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
