@@ -3,16 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 
   <title>Mailmeteor</title>
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
-  <!-- Bootstrap -->
+  <!-- Bootstrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
   <!-- Scroll library -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -24,6 +21,7 @@
 </head>
 <header>
 
+  <!-- Hello :-) -->
 
   <nav class="navbar navbar-expand-md navbar-light bg-light">
 
@@ -36,7 +34,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTabs">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto smooth-scroll">
           <li class="nav-item">
             <a class="nav-link" href="#features">FEATURES</a>
           </li>
@@ -59,7 +57,7 @@
       <div class="row">
         <div class="col-md-4 cold sm-6 mt-4">
           <h1>Send hundreds of personalized emails, right from Gmail. </h1>
-          <h2>Everyone likes to feel unique. Mailmeteor lets you personalize your emails so that every of your recipients get a dedicated copy.</h2>
+          <h2>Everyone likes to feel special. Mailmeteor lets you personalize your emails so that every of your recipients get a dedicated copy.</h2>
           <button class="btnFilled">INSTALL MAILMETEOR</button>
         </div>
         <div class="col-md-8 mt-2">
@@ -84,7 +82,6 @@
     <div class="container">
       <h1 class="darkbg">Quick tutorial</h1>
       <h2 class="darkbg">Send your first mail merge campaign following these 3 steps.</h2>
-
       <div class="steps row d-flex justify-content-around">
 
         <div class="card" style="width: 300px;margin:1em 0.5em" data-aos="fade-up">
@@ -109,6 +106,9 @@
           </div>
         </div>
 
+      </div>
+      <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-duration="800">
+        <button class="btnOutline">VIEW FULL TUTORIAL</button>
       </div>
     </div>
   </section>
@@ -155,11 +155,11 @@
 
 <!-- INSTALL -->
 
-  <section class="install" data-aos="" data-aos-delay="200" data-aos-duration="800" data-aos-easing="ease-out" id="pricing">
+  <section class="install" data-aos="" data-aos-delay="200" data-aos-duration="800" data-aos-easing="ease-out">
     <div class="install-svg"> </div>
     <div class="container">
         <h1 class="darkbg" >Try it, it's free.</h1>
-        <h2 class="darkbg" class="col-xs-2">Starting version is free, forever. Update anytime for advanced features.</h2>
+        <h2 class="darkbg" class="col-xs-2"id="pricing">Starting version is free, forever. Update anytime for advanced features.</h2>
         <button class="btnFilled"> INSTALL IN GMAIL </button>
     </div>
   </section>
@@ -169,16 +169,15 @@
   <section class="pricing" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-out">
     <div class="container">
       <h1>Pricing</h1>
-
       <div class="container card-deck d-flex justify-content-center text-center mt-4">
         <div class="col-md-8 col-xs-12 col-sm-10 col-lg-4 mb-5">
           <div class="pricingcard">
             <div class="card-header">
-              <h4 class="my-0 font-weight-bold">Free</h4>
+              <h5 class="my-0 font-weight-bold">Essential</h4>
                 <span class="font-italic">Get up and running for free.</span>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ year</small></h1>
+              <h1 class="card-title pricing-card-title">Free<small class="text-muted"></small></h1>
               <ul class="list-unstyled mt-3 mb-4 pricingfeatures">
                 <li>Up to 100 mails sent a day</li>
                 <li>Realtime tracking </li>
@@ -192,8 +191,8 @@
         <div class="col-md-8 col-xs-12 col-sm-10 col-lg-4  mb-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
           <div class="pricingcard">
             <div class="card-header">
-              <h4 class="my-0 font-weight-bold">Grow</h4>
-                <span class="font-italic">Increase your email quota. Available for individuals.</span>
+              <h5 class="my-0 font-weight-bold">Grow</h4>
+                <span class="font-italic">Increase your email quota. For individuals.</span>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">$20 <small class="text-muted">/ year</small></h1>
@@ -214,8 +213,8 @@
         <div class="col-md-8 col-xs-12 col-sm-10 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
           <div class="pricingcard">
             <div class="card-header">
-              <h4 class="my-0 font-weight-bold">Pro</h4>
-                <span class="font-italic">Unlock full sending limit. Available for multiple users in one domain.</span>
+              <h5 class="my-0 font-weight-bold">Pro</h4>
+                <span class="font-italic">Unlock full sending limit. For multiple users in one domain.</span>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">$200 <small class="text-muted">/ year</small></h1>
@@ -232,12 +231,15 @@
           </div>
         </div>
       </div>
+      <h2>Information note! Mailmeteor is currently free for everyone</h2>
     </div>
   </section>
 
   <!-- FAQs  -->
 
-  <section class="faq" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-out">
+  <!-- Enlever l'animation sur Firefox -->
+
+  <section class="faq pb-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-out">
     <div class="container">
       <h1>FAQs</h1>
 
@@ -286,19 +288,30 @@
   <footer class="footer">
     <div class="footer-svg"> </div>
     <div class="container-fluid d-flex justify-content-center">
-      <img id ="logo" src="assets/img/logo_mailmeteor_white.svg" />
+      <img id="logo" src="assets/img/logo_mailmeteor_white.svg" />
+    </div>
+    <div class="container d-flex justify-content-center">
+      <h2 class="darkbg mr-4">COMPANY</p>
+      <h2 class="darkbg mr-4">CONTACT US</p>
+      <h2 class="darkbg mr-4">TUTORIAL</p>
     </div>
     <div class="container-fluid d-flex justify-content-center">
       <p class="mr-4">Privacy policy</p>
-      <p class="mr-4">Copyright Geminides 2018-2019</p>
-      <p class="mr-4">Terms & Conditions</p>
+      <p class="mr-4">Terms & conditions</p>
     </div>
 
   </footer>
 
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>  AOS.init(); </script>
+  <!-- Bootstrap scripts -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- Scroll library  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>  AOS.init(); </script>
 
 </body>
 

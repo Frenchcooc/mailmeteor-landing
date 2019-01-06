@@ -4,6 +4,8 @@
 
 html, body {
 	font-family: 'Karla', sans-serif;
+	scroll-behavior: smooth;
+
 }
 
 body {
@@ -385,11 +387,12 @@ section.features {
 
 .install-svg{
 	width: 100%;
-	height: 500%;
-	top: -310px;
+	height: 450%;
+	top: -340px;
 	position: absolute;
 	background-image: url(../img/home_install.svg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	z-index: -1;
 }
 
@@ -424,6 +427,16 @@ section.features {
 
 }
 
+
+section.pricing .card-body {
+	padding:0.2em;
+}
+
+section.pricing .card-header {
+	padding: .75rem .75rem;
+	min-height: 22%;
+}
+
 .pricingfeatures {
 	min-height:100px;
 	text-align:left;
@@ -453,10 +466,6 @@ section.features {
 .pricing-highlight {
 	font-weight:bold;
 	color:#FF486A;
-}
-
-.card-header{
-	min-height:20%;
 }
 
 
@@ -503,11 +512,12 @@ section.faq {
 
 .footer-svg{
 	width: 100%;
-	height: 200%;
-	top: -85px;
+  height: 140%;
+	top: -45px;
 	position: absolute;
 	background-image: url(../img/footer.svg);
 	background-repeat: no-repeat;
+	background-size:cover;
 	z-index: -1;
 }
 
