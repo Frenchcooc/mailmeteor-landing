@@ -1,5 +1,3 @@
-
-
 /* ----global---- */
 
 html, body {
@@ -39,6 +37,8 @@ section {
 	margin-bottom:4em;
 }
 
+/* logo */
+
 #logo {
 	width:150px;
 }
@@ -51,11 +51,10 @@ section {
 	}
 }
 
-
 /* ----buttons---- */
 
 
-.btnOutline {
+.btn-outline {
 	display:block;
 	text-decoration:none;
 	text-align:center;
@@ -66,9 +65,10 @@ section {
 	background-color: white;
 	outline:none;
 	transition: all 0.400s cubic-bezier(0, 0, 0.2, 1);
+	cursor:pointer;
 }
 
-.btnFilled {
+.btn-filled {
 	display:block;
 	text-decoration:none;
 	text-align:center;
@@ -79,20 +79,27 @@ section {
 	background-color: #FF486A;
 	outline:none;
 	transition: all 0.400s cubic-bezier(0, 0, 0.2, 1);
+	cursor:pointer;
 }
 
-.btnFilled:active, .btnFilled:focus, .btnOutline:active, .btnOutline:focus {
+.btn-filled:active, .btn-filled:focus,
+.btn-outline:active, .btn-outline:focus {
 	outline:none;
+}
+
+.btn-filled:hover {
+ -webkit-box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2);
+ box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2);
 }
 
 
 /*---styling dark backgrounds---*/
 
-h1.darkbg {
+h1.dark-bg {
 	color:#FF486A;
 }
 
-h2.darkbg {
+h2.dark-bg {
 	color:white;
 }
 
@@ -155,6 +162,8 @@ h2.darkbg {
 
 		/*navbar animation*/
 
+		/* navbar toggler  */
+
 .icon-bar {
 	width: 22px;
 	height: 2px;
@@ -196,23 +205,19 @@ h2.darkbg {
 }
 
 
-/* ----hero---- */
+/* ----demo---- */
 
-.hero {
-	position:relative;
-}
 
-section.hero {
+section.demo {
 	margin-top:2.5em;
 }
 
-#demoproduct {
-	height: 400px;
-	box-shadow: 0 16px 48px rgba(32,41,50,0.12);
+.demo {
+	position:relative;
 }
 
 .top-svg{
-	width:100%;
+	width:101%;
 	height: 500px;
 	position:absolute;
 	background-image: url(../img/home_top_right.svg);
@@ -236,11 +241,6 @@ section.hero {
   }
 }
 
-.hero .btnFilled:hover {
- -webkit-box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2);
- box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2);
- cursor: pointer;
-}
 
 /* ----tutorial---- */
 
@@ -315,6 +315,10 @@ section.hero {
 
 /* ----features---- */
 
+section.features {
+	margin-bottom:15em;
+}
+
 .card {
 	border:none;
 }
@@ -377,10 +381,6 @@ section.hero {
   display: flex;
 }
 
-section.features {
-	margin-bottom:15em;
-}
-
 
 /* ----install---- */
 
@@ -405,11 +405,6 @@ section.features {
 	z-index: -1;
 }
 
-.install .btnFilled:hover {
-	-webkit-box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2);
-  box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2);
-  cursor: pointer;
-}
 
 /* ----pricing---- */
 
@@ -469,7 +464,11 @@ section.pricing .card-header {
 
 .pricingcard button {
 	 width: 100%;
-	 cursor: pointer;
+}
+
+.pricingcard button.btn-outline {
+	 width: 100%;
+	 cursor: default;
 }
 
 .pricing-highlight {
@@ -508,10 +507,6 @@ section.pricing .card-header {
 	cursor:pointer;
 }
 
-.btnfaq {
-
-}
-
 section.faq {
 	margin-bottom:8em;
 }
@@ -547,7 +542,6 @@ body > footer > div > p {
 }
 
 /* Footer display for Firefox */
-
 @-moz-document url-prefix() {
 	body > footer > div > p {
 		margin-top: -0.3em;
