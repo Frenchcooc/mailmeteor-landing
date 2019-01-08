@@ -51,6 +51,7 @@ section {
 	}
 }
 
+
 /* ----buttons---- */
 
 
@@ -217,16 +218,16 @@ section.demo {
 }
 
 .top-svg{
-	width:101%;
+	width:100%;
 	height: 500px;
 	position:absolute;
 	background-image: url(../img/home_top_right.svg);
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-size:55%;
+	background-size:65%;
 	top:-140px;
 	z-index: -1;
-	animation: slidein 0.8s ease-out;
+	animation: slidein 1.2s ease-out;
 }
 
 @keyframes slidein {
@@ -266,7 +267,7 @@ section.demo {
 @media (max-width: 1330px) {
 
 	.tutorial-svg {
-		top:-235px;
+		top:-250px;
 	}
 }
 
