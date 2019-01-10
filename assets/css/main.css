@@ -206,14 +206,14 @@ h2.dark-bg {
 }
 
 
-/* ----demo---- */
+/* ----HERO---- */
 
 
-section.demo {
+section.hero {
 	margin-top:2.5em;
 }
 
-.demo {
+.hero {
 	position:relative;
 }
 
@@ -224,7 +224,7 @@ section.demo {
 	background-image: url(../img/home_top_right.svg);
 	background-repeat: no-repeat;
 	background-position: top right;
-	top:-275px;
+	top:-265px;
 	z-index: -1;
 	animation: slidein 1s ease-out;
 }
@@ -236,7 +236,7 @@ section.demo {
   }
 
   to {
-    top:-275px;
+    top:-265px;
     opacity:1;
   }
 }
@@ -246,10 +246,10 @@ section.demo {
 
 .features-svg {
 	width: 100%;
-	height: 175%;
+	height: 180%;
 	top: -200px;
 	position:absolute;
-	background-image: url(../img/home_tutorial2.svg);
+	background-image: url(../img/home_features.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	z-index: -1;
@@ -345,49 +345,55 @@ section.features {
 
 .card-body#steps1:before {
 	content: '';
-	width: 100%;
-	height: 80px;
-	top: 250px;
-	left: 111px;
+  width: 100%;
+  height: 100%;
+	left: -15px;
 	position: absolute;
 	margin-right: 12px;
 	display: inline-block;
 	background-image: url(../img/element_number1.svg);
 	background-repeat: no-repeat;
+	background-size: 15%;
 }
 
 .card-body#steps2:before {
 	content: '';
-	width: 100%;
-	height: 80px;
-	top: 250px;
-	left: 111px;
+  width: 100%;
+  height: 100%;
+	left: -15px;
 	position: absolute;
 	margin-right: 12px;
 	display: inline-block;
 	background-image: url(../img/element_number2.svg);
 	background-repeat: no-repeat;
+	background-size: 15%;
 }
 
 .card-body#steps3:before {
 	content: '';
-	width: 100%;
-	height: 80px;
-	top: 250px;
-	left: 111px;
+  width: 100%;
+  height: 100%;
+	left: -15px;
 	position: absolute;
 	margin-right: 12px;
 	display: inline-block;
 	background-image: url(../img/element_number3.svg);
 	background-repeat: no-repeat;
+	background-size: 15%;
 }
 
 .card-body>p{
 	text-align:center;
 }
 
+section.tutorial img {
+	width:100%;
+	height:100%;
+	margin-top:2em;
+}
+
 section.tutorial {
-	margin-bottom:15em;
+	margin-bottom:20em;
 }
 
 section.tutorial button {
