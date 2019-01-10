@@ -331,6 +331,12 @@ section.features {
 	margin-bottom:10em;
 }
 
+@media (max-width: 400px) {
+	section.features {
+		margin-bottom:15em;
+	}
+}
+
 @media (max-width: 768px) {
 	.features-svg {
 		height:160%;
