@@ -118,7 +118,7 @@ h2.dark-bg {
 }
 
 .nav-link {
-	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.100s cubic-bezier(0, 0, 0.2, 1);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -553,6 +553,19 @@ section.faq {
 body > footer > div > p {
 	color:white;
 }
+
+.footer a {
+	text-decoration:none;
+	color:white;
+}
+
+.footer a:hover {
+	color:#FF486A;
+	transition: all 0.1s cubic-bezier(0, 0, 0.2, 1);
+	cursor:pointer;
+}
+
+
 
 /* Footer display for Firefox */
 @-moz-document url-prefix() {
