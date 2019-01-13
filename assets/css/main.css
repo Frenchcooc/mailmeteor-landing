@@ -523,6 +523,19 @@ section.faq {
 	cursor:pointer;
 }
 
+#accordion .card-header {
+	font-weight:bold;
+}
+
+@media (max-width: 768px) {
+	.faqexpander{
+		display:none;
+	}
+}
+
+.faq-highlight {
+	color:#FF486A;
+}
 
 
 /* ----footer---- */
