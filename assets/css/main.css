@@ -351,11 +351,10 @@ section.tutorial button {
 	height: 100%;
 	left: 10px;
 	position: absolute;
-	margin-right: 12px;
 	display: inline-block;
 	background-image: url(../img/element_number1.svg);
 	background-repeat: no-repeat;
-	background-size: 8%;
+	background-size:40px;
 }
 
 #steps2:before {
@@ -364,11 +363,10 @@ section.tutorial button {
 	height: 100%;
 	left: 10px;
 	position: absolute;
-	margin-right: 12px;
 	display: inline-block;
 	background-image: url(../img/element_number2.svg);
 	background-repeat: no-repeat;
-	background-size: 8%;
+	background-size: 40px;
 }
 
 #steps3:before {
@@ -377,11 +375,10 @@ section.tutorial button {
 	height: 100%;
 	left: 10px;
 	position: absolute;
-	margin-right: 12px;
 	display: inline-block;
 	background-image: url(../img/element_number3.svg);
 	background-repeat: no-repeat;
-	background-size: 8%;
+	background-size: 40px;
 }
 
 .card-body>p{
