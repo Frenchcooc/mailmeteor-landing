@@ -45,11 +45,11 @@ section {
 
 /* Prevent horizontal scroll on Firefox */
 
-@-moz-document url-prefix() {
+/*@-moz-document url-prefix() {
 	body {
 		overflow: hidden;
 	}
-}
+}*/
 
 /*---styling dark backgrounds---*/
 
@@ -355,7 +355,7 @@ section.tutorial button {
 	display: inline-block;
 	background-image: url(../img/element_number1.svg);
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 8%;
 }
 
 #steps2:before {
@@ -368,7 +368,7 @@ section.tutorial button {
 	display: inline-block;
 	background-image: url(../img/element_number2.svg);
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 8%;
 }
 
 #steps3:before {
@@ -381,7 +381,7 @@ section.tutorial button {
 	display: inline-block;
 	background-image: url(../img/element_number3.svg);
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 8%;
 }
 
 .card-body>p{
