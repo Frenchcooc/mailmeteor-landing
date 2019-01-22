@@ -26,11 +26,18 @@ h2 {
 	margin-top: 0;
 }
 
-button {
+button, .btn {
 	font-size: 100%;
 	padding: 1em;
 	margin: 1em 0 1em 0;
 }
+
+.btn-install:hover {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.btn-inline { display:inline-block !important; }
 
 section {
 	margin-top: 6em;
