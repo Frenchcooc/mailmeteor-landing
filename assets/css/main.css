@@ -19,7 +19,7 @@ h1 {
 	letter-spacing: -1.5px;
 }
 
-h2 {
+.hero h2 {
 	font-size: 1em;
 	font-weight: normal;
 	color: #434343;
@@ -64,7 +64,7 @@ h1.dark-bg {
 	color:#FF486A;
 }
 
-h2.dark-bg {
+h2.dark-bg, p.dark-bg {
 	color:white;
 }
 
