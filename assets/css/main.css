@@ -611,7 +611,8 @@ body > footer > div > p {
 @media (min-width: 1440px) {
 
 	html {
-		zoom: 135%;
+		font-size: 90%;
+		zoom: 140%;
 	}
 
 	section.tutorial img {
