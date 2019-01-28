@@ -19,7 +19,7 @@ h1 {
 	letter-spacing: -1.5px;
 }
 
-.hero h2 {
+.home-h2 {
 	font-size: 1em;
 	font-weight: normal;
 	color: #434343;
@@ -231,7 +231,7 @@ section.hero {
 
 .top-svg{
 	width:100%;
-	height: 500px;
+	height: 420px;
 	position:absolute;
 	background-image: url(../img/home_top_right.svg);
 	background-repeat: no-repeat;
@@ -355,7 +355,7 @@ section.tutorial button {
 #steps1:before {
 	content: '';
 	height: 100%;
-  top: -40px;
+  top: -20px;
   left: 50%;
   position: absolute;
   display: inline-block;
@@ -369,7 +369,7 @@ section.tutorial button {
 #steps2:before {
 	content: '';
 	height: 100%;
-	top: -40px;
+	top: -20px;
 	left: 50%;
 	position: absolute;
 	display: inline-block;
@@ -383,7 +383,7 @@ section.tutorial button {
 #steps3:before {
 	content: '';
 	height: 100%;
-  top: -40px;
+  top: -20px;
   left: 50%;
   position: absolute;
   display: inline-block;
@@ -555,8 +555,8 @@ section.faq {
 
 .footer-svg{
 	width: 100%;
-  height: 140%;
-	top: -45px;
+  height: 160%;
+	top: -80px;
 	position: absolute;
 	background-image: url(../img/footer2.svg);
 	background-repeat: no-repeat;
@@ -604,4 +604,13 @@ body > footer > div > p {
 		margin-bottom: 10px;
 		padding-top:10px;
 	}
+}
+
+
+/* Other pages  */
+
+/* Privacy */
+
+.privacy {
+	position:relative;
 }
