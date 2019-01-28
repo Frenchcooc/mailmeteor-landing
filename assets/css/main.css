@@ -622,6 +622,10 @@ body > footer > div > p {
 	.footer-svg {
 		top:-35px;
 	}
+
+	.crisp-client {
+		zoom:80%;
+	}
 }
 
 
