@@ -15,7 +15,7 @@ h1 {
 	font-size:2em;
 	font-weight: 700;
 	color: #04143A;
-	line-height: 46px;
+	line-height: 1.6em;
 	letter-spacing: -1.5px;
 }
 
@@ -305,8 +305,8 @@ section.features {
 }
 
 .featureitem .heading {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.2em;
+  line-height: 1.5em;
   color: #FF486A;
   font-weight: 600;
   display: block;
@@ -315,8 +315,8 @@ section.features {
 }
 
 .featureitem .summary {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1.5em;
   color: white;
 }
 
@@ -606,10 +606,31 @@ body > footer > div > p {
 	}
 }
 
+/* Big display > 1440px */
+
+@media (min-width: 1440px) {
+
+	html {
+		zoom: 135%;
+	}
+
+	section.tutorial img {
+		width: 70%;
+	}
+
+	.footer-svg {
+		top:-35px;
+	}
+}
+
 
 /* Other pages  */
 
 /* Privacy */
+
+section.privacy {
+ 	margin-bottom: 8em;
+}
 
 .privacy {
 	position:relative;
