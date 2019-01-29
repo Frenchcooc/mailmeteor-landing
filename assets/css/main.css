@@ -50,13 +50,6 @@ section {
 	width:150px;
 }
 
-/* Prevent horizontal scroll on Firefox */
-
-/*@-moz-document url-prefix() {
-	body {
-		overflow: hidden;
-	}
-}*/
 
 /*---styling dark backgrounds---*/
 
@@ -262,7 +255,7 @@ section.features {
 
 .features-svg {
 	width: 100%;
-	height: 180%;
+	height: 185%;
 	top: -200px;
 	position:absolute;
 	background-image: url(../img/home_features.svg);
@@ -340,11 +333,11 @@ section.tutorial img {
 	height:100%;
 }
 
-section.tutorial {
+.tutorial {
 	margin-bottom:20em;
 }
 
-section.tutorial button {
+.tutorial button {
 	margin: 1em auto;
 }
 
@@ -413,7 +406,7 @@ section.tutorial button {
 
 .install-svg{
 	width: 100%;
-	height: 450%;
+	height: 410%;
 	top: -340px;
 	position: absolute;
 	background-image: url(../img/home_install.svg);
@@ -422,10 +415,9 @@ section.tutorial button {
 	z-index: -1;
 }
 
-
 /* ----pricing---- */
 
-section.pricing {
+.pricing {
 	margin-top:10em;
 }
 
@@ -500,7 +492,7 @@ section.pricing {
 /* ----faq---- */
 
 
-section.faq {
+.faq {
 	margin-bottom:8em;
 }
 
@@ -606,13 +598,24 @@ body > footer > div > p {
 	}
 }
 
+/* Privacy page */
+
+section.privacy {
+ 	margin-bottom: 8em;
+}
+
+.privacy {
+	position:relative;
+}
+
+
 /* Big display > 1440px */
 
 @media (min-width: 1440px) {
 
 	html {
 		font-size: 90%;
-		zoom: 140%;
+		zoom: 110%;
 	}
 
 	section.tutorial img {
@@ -628,15 +631,34 @@ body > footer > div > p {
 	}
 }
 
+ @media (min-width: 1500px) {
 
-/* Other pages  */
-
-/* Privacy */
-
-section.privacy {
- 	margin-bottom: 8em;
+	html {
+		font-size: 90%;
+		zoom: 120%;
+	}
 }
 
-.privacy {
-	position:relative;
+/* @media (min-width: 1720px) {
+
+	html {
+		font-size: 90%;
+		zoom: 130%;
+	}
 }
+
+@media (min-width: 1830px) {
+
+	html {
+		font-size: 90%;
+		zoom: 138%;
+	}
+}  */
+
+/* Prevent horizontal scroll on Firefox */
+
+/*@-moz-document url-prefix() {
+	body {
+		overflow: hidden;
+	}
+}*/
