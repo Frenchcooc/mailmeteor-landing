@@ -507,7 +507,7 @@ section.pricing {
 	content: '';
 	min-width: 20px;
   height: 12px;
-	margin-right: 12px;
+	margin-right: 4px;
 	display: inline-block;
 	background-image: url(../img/element_tick.svg);
 	background-repeat: no-repeat;
