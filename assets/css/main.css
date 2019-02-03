@@ -531,6 +531,13 @@ section.pricing {
 	font-size:0.9em;
 }
 
+@media (min-width: 576px){
+.card-deck {
+	margin-left:0px !important;
+	margin-right:0px !important;
+	}
+}
+
 /* ----faq---- */
 
 
