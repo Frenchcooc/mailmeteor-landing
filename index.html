@@ -65,7 +65,7 @@
 		<div class="top-svg"> </div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 cold sm-6 mt-4">
+				<div class="col-md-4 mt-4">
 					<h1>Send hundreds of personalized emails, <span id="tagline">right from Gmail.</span></h1>
 					<h2>Everyone likes to feel special. Mailmeteor lets you run mail merge campaigns so that every of your recipients
 						get a personalized email.</h2>
@@ -120,43 +120,40 @@
 	<section class="tutorial" id="demo">
 		<div class="container">
 			<h1 class="text-center pt-5">Get started</h1>
-			<h2 class="text-center home-h2">Send your first mail merge campaign with Mailmeteor. Install from here.</h2>
+			<h2 class="text-center home-h2">Send your first mail merge campaign with Mailmeteor.</h2>
 			<div class="d-flex justify-content-center" data-aos="fade-up" data-aos-duration="800">
 				<img class="mt-2 mb-4" src="assets/img/demo.png" />
 			</div>
-			<div class="row mt-5">
-				<div class="col-xs-4 col-md-4 pr-2 pt-3 pb-3" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
+			<div class="row mt-4">
+				<div class="col-md-12 col-lg-4 pr-2 pt-3 pb-4" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
 					<div class="tutorialcard pt-3">
 						<h1 id="steps1" class="text-center">Write a draft in Gmail</h1>
-						<p>In Gmail, compose the draft that will be used as template for the campaign.</p>
+						<p>In Gmail, compose the draft that will be used as template for the campaign</p>
 						<ul>
 							<li>Add personalized tags in your draft with brackets, example : <span class="font-weight-bold">{{firstname}}</span></li>
-							<li>The tags names must corresponds with your columns name in Gsheet. Avoid uppercase or spacing in your tags
-								names.</li>
-
+							<li>You can personnalize email subject and content, as much as you wish</li>
 						</ul>
+
 					</div>
 				</div>
-				<div class="col-xs-4 col-md-4 pr-2 pt-3 pb-3" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out"
+				<div class="col-md-12 col-lg-4 pr-2 pt-3 pb-4" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out"
 				 data-aos-delay="100">
 				 <div class="tutorialcard pt-3">
 					 <h1 id="steps2" class="text-center">Add contacts in Gsheets</h1>
- 					<p>In Google sheets, create a spreadsheet containing your recipients list.</p>
+ 					<p>In Google sheets, create a spreadsheet containing your recipients list</p>
  					<ul>
- 						<li>Each column represents one personalized tag in your mail</li>
- 						<li>Be sure to add one column with all your recipients emails</li>
- 						<li>You can add as many columns as you want</li>
+ 						<li>Add one colum with your contacts emails.</li>
+ 						<li>Column titles must match your draft variables to be used</li>
 					</ul>
 				 </div>
 				</div>
-				<div class="col-xs-4 col-md-4 pr-2 pt-3 pb-3" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out"
+				<div class="col-md-12 col-lg-4 pr-2 pt-3 pb-4" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out"
 				 data-aos-delay="200">
 				 <div class="tutorialcard pt-3">
 					 <h1 id="steps3" class="text-center">Preview emails and send</h1>
- 					<p>Once you're done writing your emails, you're all set to test and send.</p>
+ 					<p>Once you're done setting up the campaign, you're all set to test and send.</p>
  					<ul>
  						<li>Mailmeteor allows you to preview each emails that will be sent</li>
- 						<li>Check your emails with different recipients.</li>
  						<li>After sending, track your campaigns stats right in your Gsheet </li>
 					</ul>
 				 </div>
@@ -182,7 +179,7 @@
 
 	<section class="pricing" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-out">
 		<div class="container">
-			<h1 id="pricing pt-3">Pricing</h1>
+			<h1 class="text-center pt-5">Pricing</h1>
 			<div class="container card-deck d-flex justify-content-center text-center mt-4">
 				<div class="col-md-8 col-xs-12 col-sm-10 col-lg-4 mb-5">
 					<div class="pricingcard">
@@ -256,7 +253,7 @@
 
 	<section class="faq pb-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-out">
 		<div class="container">
-			<h1 id="faq">FAQs</h1>
+			<h1 id="faq" class="text-center">FAQs</h1>
 
 			<div id="accordion">
 				<div class="card">
@@ -335,11 +332,14 @@
 							examples:
 							<ul>
 								<li>
-									Personalize greetings & recipients name depending on how close you are with recipients : Hi, Hello,
-									Ghostbusters, whatya want?...
+									Personalized email subject.
 								</li>
 								<li>
-									Personalize content: add personal notes, custom URLs...
+									Personalized greetings and recipients name. Depending on how close you are with recipients : "Hi", "Hello" or
+									"Ghostbusters, whatya want?" for example...
+								</li>
+								<li>
+									Personalized content: add personal notes, custom URLs, postscriptum...
 								</li>
 							</ul>
 						</div>
