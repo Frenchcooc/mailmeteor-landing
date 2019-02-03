@@ -1,7 +1,7 @@
 /* ----global---- */
 
 html, body {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -11,37 +11,14 @@ body {
   box-shadow: 0 16px 48px rgba(32,41,50,0.12);
 }
 
-h1 {
-	font-size:2em;
-	font-weight: 700;
-	color: #04143A;
-	line-height: 1.6em;
-	letter-spacing: -1.5px;
-}
-
-.home-h2 {
-	font-size: 1em;
-	font-weight: normal;
-	color: #434343;
-	margin-top: 0;
-}
-
-button, .btn {
-	font-size: 100%;
-	padding: 1em;
-	margin: 1em 0 1em 0;
-}
-
-.btn-install:hover {
-	color: #FFF;
-	border-color: #FFF;
-}
-
-.btn-inline { display:inline-block !important; }
 
 section {
 	margin-top: 6em;
 	margin-bottom:4em;
+}
+
+.highlight {
+	color:#FF486A;
 }
 
 /* logo */
@@ -50,8 +27,29 @@ section {
 	width:150px;
 }
 
+/* Headings */
 
-/*---styling dark backgrounds---*/
+h1 {
+	font-size:2em;
+	font-weight: 700;
+	color: #04143A;
+}
+
+h2 {
+	font-size:1.15em;
+	letter-spacing: 0.01em;
+	color: #434343;
+}
+
+h3 {
+	font-size:1em;
+	letter-spacing: 0.01em;
+	color: #434343;
+}
+
+
+
+/*---for dark blue background---*/
 
 h1.dark-bg {
 	color:#FF486A;
@@ -61,8 +59,16 @@ h2.dark-bg, p.dark-bg {
 	color:white;
 }
 
-
+#tagline {
+	box-shadow: inset 0 -14px 0 0 #ff486ab5;
+}
 /* ----buttons---- */
+
+button, .btn {
+	font-size: 100%;
+	padding: 1em;
+	margin: 1em 0 1em 0;
+}
 
 
 .btn-outline {
@@ -105,6 +111,14 @@ h2.dark-bg, p.dark-bg {
 .btn-outline:focus {
 	outline:none;
 }
+
+.btn-install:hover {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.btn-inline { display:inline-block !important; }
+
 
 
 /* ---nav---- */
@@ -331,6 +345,8 @@ section.features {
 section.tutorial img {
 	width:100%;
 	height:100%;
+	border: 1px solid #eee;
+	border-radius: 5px;
 }
 
 .tutorial {
@@ -348,7 +364,7 @@ section.tutorial img {
 #steps1:before {
 	content: '';
 	height: 100%;
-  top: -20px;
+  top: -5px;
   left: 50%;
   position: absolute;
   display: inline-block;
@@ -362,7 +378,7 @@ section.tutorial img {
 #steps2:before {
 	content: '';
 	height: 100%;
-	top: -20px;
+	top: -5px;
 	left: 50%;
 	position: absolute;
 	display: inline-block;
@@ -376,7 +392,7 @@ section.tutorial img {
 #steps3:before {
 	content: '';
 	height: 100%;
-  top: -20px;
+  top: -5px;
   left: 50%;
   position: absolute;
   display: inline-block;
@@ -391,6 +407,24 @@ section.tutorial img {
 	text-align:center;
 }
 
+
+.tutorialcard {
+	background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+	padding-left:20px;
+	padding-right:20px;
+	border: 1px solid #eee;
+	border-radius:5px;
+	height:105%;
+  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.tutorialcard:hover {
+	background-color: white;
+ 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+ 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+}
 
 /* ----install---- */
 
@@ -488,6 +522,9 @@ section.tutorial img {
 	color:#FF486A;
 }
 
+.pricing-subheader {
+	font-size:0.9em;
+}
 
 /* ----faq---- */
 
@@ -538,9 +575,7 @@ section.tutorial img {
 	}
 }
 
-.faq-highlight {
-	color:#FF486A;
-}
+
 
 
 /* ----footer---- */
