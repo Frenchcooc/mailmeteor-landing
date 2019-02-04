@@ -264,13 +264,14 @@ section.hero {
 /* ----features---- */
 
 section.features {
+	margin-top:4em;
 	margin-bottom:10em;
 }
 
 .features-svg {
 	width: 100%;
 	height: 200%;
-    top: -285px;
+    top: -235px;
 	position:absolute;
 	background-image: url(../img/home_features.svg);
 	background-repeat: no-repeat;
