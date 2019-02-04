@@ -327,13 +327,13 @@ section.features {
 
 @media (max-width: 1000px) {
 	.features-svg {
-		height:150%;
+		height:170%;
 	}
 }
 
 @media (max-width: 480px) {
 	.features-svg {
-		height:160%;
+		height:150%;
 	}
 }
 
