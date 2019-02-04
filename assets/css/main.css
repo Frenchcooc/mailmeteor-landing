@@ -288,13 +288,6 @@ section.features {
 	}
 }
 
-/* .featureitem {
-	background-color: white;
- -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
- box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
-
-} */
-
 .featureitem {
 	width:100%;
 	height: auto;
@@ -681,30 +674,6 @@ section.privacy {
 		zoom:80%;
 	}
 }
-
- /* @media (min-width: 1500px) {
-
-	html {
-		font-size: 90%;
-		zoom: 120%;
-	}
-} */
-
-/* @media (min-width: 1720px) {
-
-	html {
-		font-size: 90%;
-		zoom: 130%;
-	}
-}
-
-@media (min-width: 1830px) {
-
-	html {
-		font-size: 90%;
-		zoom: 138%;
-	}
-}  */
 
 /* Prevent horizontal scroll on Firefox */
 
