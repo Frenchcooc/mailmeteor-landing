@@ -68,6 +68,7 @@ button, .btn {
 	font-size: 100%;
 	padding: 1em;
 	margin: 1em 0 1em 0;
+	letter-spacing: 0.05em;
 }
 
 
@@ -133,6 +134,7 @@ button, .btn {
 
 .nav-link {
 	transition: all 0.100s cubic-bezier(0, 0, 0.2, 1);
+	letter-spacing: 0.04em;
 }
 
 .navbar-light .navbar-nav .nav-link {
