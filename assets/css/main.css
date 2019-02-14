@@ -1,7 +1,7 @@
 /* ----global---- */
 
 html, body {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -11,37 +11,14 @@ body {
   box-shadow: 0 16px 48px rgba(32,41,50,0.12);
 }
 
-h1 {
-	font-size:2em;
-	font-weight: 700;
-	color: #04143A;
-	line-height: 46px;
-	letter-spacing: -1.5px;
-}
-
-.hero h2 {
-	font-size: 1em;
-	font-weight: normal;
-	color: #434343;
-	margin-top: 0;
-}
-
-button, .btn {
-	font-size: 100%;
-	padding: 1em;
-	margin: 1em 0 1em 0;
-}
-
-.btn-install:hover {
-	color: #FFF;
-	border-color: #FFF;
-}
-
-.btn-inline { display:inline-block !important; }
 
 section {
 	margin-top: 6em;
 	margin-bottom:4em;
+}
+
+.highlight {
+	color:#FF486A;
 }
 
 /* logo */
@@ -50,15 +27,29 @@ section {
 	width:150px;
 }
 
-/* Prevent horizontal scroll on Firefox */
+/* Headings */
 
-/*@-moz-document url-prefix() {
-	body {
-		overflow: hidden;
-	}
-}*/
+h1 {
+	font-size:2em;
+	font-weight: 700;
+	color: #04143A;
+}
 
-/*---styling dark backgrounds---*/
+h2 {
+	font-size:1.15em;
+	letter-spacing: 0.01em;
+	color: #434343;
+}
+
+h3 {
+	font-size:1em;
+	letter-spacing: 0.01em;
+	color: #434343;
+}
+
+
+
+/*---for dark blue background---*/
 
 h1.dark-bg {
 	color:#FF486A;
@@ -68,8 +59,17 @@ h2.dark-bg, p.dark-bg {
 	color:white;
 }
 
-
+#tagline {
+	box-shadow: inset 0 -14px 0 0 #ff486ab5;
+}
 /* ----buttons---- */
+
+button, .btn {
+	font-size: 100%;
+	padding: 1em;
+	margin: 1em 0 1em 0;
+	letter-spacing: 0.05em;
+}
 
 
 .btn-outline {
@@ -113,6 +113,14 @@ h2.dark-bg, p.dark-bg {
 	outline:none;
 }
 
+.btn-install:hover {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.btn-inline { display:inline-block !important; }
+
+
 
 /* ---nav---- */
 
@@ -126,6 +134,7 @@ h2.dark-bg, p.dark-bg {
 
 .nav-link {
 	transition: all 0.100s cubic-bezier(0, 0, 0.2, 1);
+	letter-spacing: 0.04em;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -231,7 +240,7 @@ section.hero {
 
 .top-svg{
 	width:100%;
-	height: 500px;
+	height: 420px;
 	position:absolute;
 	background-image: url(../img/home_top_right.svg);
 	background-repeat: no-repeat;
@@ -257,13 +266,14 @@ section.hero {
 /* ----features---- */
 
 section.features {
+	margin-top:4em;
 	margin-bottom:10em;
 }
 
 .features-svg {
 	width: 100%;
-	height: 180%;
-	top: -200px;
+	height: 200%;
+    top: -235px;
 	position:absolute;
 	background-image: url(../img/home_features.svg);
 	background-repeat: no-repeat;
@@ -280,16 +290,6 @@ section.features {
 	}
 }
 
-
-
-
-/* .featureitem {
-	background-color: white;
- -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
- box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
-
-} */
-
 .featureitem {
 	width:100%;
 	height: auto;
@@ -305,8 +305,8 @@ section.features {
 }
 
 .featureitem .heading {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.2em;
+  line-height: 1.5em;
   color: #FF486A;
   font-weight: 600;
   display: block;
@@ -315,21 +315,27 @@ section.features {
 }
 
 .featureitem .summary {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1.5em;
   color: white;
 }
 
 
 @media (max-width: 400px) {
 	section.features {
-		margin-bottom:15em;
+		margin-bottom:12em;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.features-svg {
-		height:160%;
+		height:170%;
+	}
+}
+
+@media (max-width: 480px) {
+	.features-svg {
+		height:150%;
 	}
 }
 
@@ -338,13 +344,15 @@ section.features {
 section.tutorial img {
 	width:100%;
 	height:100%;
+	border: 1px solid #eee;
+	border-radius: 5px;
 }
 
-section.tutorial {
+.tutorial {
 	margin-bottom:20em;
 }
 
-section.tutorial button {
+.tutorial button {
 	margin: 1em auto;
 }
 
@@ -355,7 +363,7 @@ section.tutorial button {
 #steps1:before {
 	content: '';
 	height: 100%;
-  top: -40px;
+  top: -5px;
   left: 50%;
   position: absolute;
   display: inline-block;
@@ -369,7 +377,7 @@ section.tutorial button {
 #steps2:before {
 	content: '';
 	height: 100%;
-	top: -40px;
+	top: -5px;
 	left: 50%;
 	position: absolute;
 	display: inline-block;
@@ -383,7 +391,7 @@ section.tutorial button {
 #steps3:before {
 	content: '';
 	height: 100%;
-  top: -40px;
+  top: -5px;
   left: 50%;
   position: absolute;
   display: inline-block;
@@ -396,6 +404,25 @@ section.tutorial button {
 
 .card-body>p{
 	text-align:center;
+}
+
+
+.tutorialcard {
+	background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+	padding:20px;
+	width: 100%;
+	min-height:100%;
+	border: 1px solid #eee;
+	border-radius:5px;
+  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.tutorialcard:hover {
+	background-color: white;
+ 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+ 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -413,7 +440,7 @@ section.tutorial button {
 
 .install-svg{
 	width: 100%;
-	height: 450%;
+	height: 430%;
 	top: -340px;
 	position: absolute;
 	background-image: url(../img/home_install.svg);
@@ -422,11 +449,10 @@ section.tutorial button {
 	z-index: -1;
 }
 
-
 /* ----pricing---- */
 
 section.pricing {
-	margin-top:10em;
+	margin-top:12em;
 }
 
 	/*Pricing card*/
@@ -476,7 +502,7 @@ section.pricing {
 	content: '';
 	min-width: 20px;
   height: 12px;
-	margin-right: 12px;
+	margin-right: 4px;
 	display: inline-block;
 	background-image: url(../img/element_tick.svg);
 	background-repeat: no-repeat;
@@ -496,11 +522,21 @@ section.pricing {
 	color:#FF486A;
 }
 
+.pricing-subheader {
+	font-size:0.9em;
+}
+
+@media (min-width: 576px){
+.card-deck {
+	margin-left:0px !important;
+	margin-right:0px !important;
+	}
+}
 
 /* ----faq---- */
 
 
-section.faq {
+.faq {
 	margin-bottom:8em;
 }
 
@@ -516,8 +552,6 @@ section.faq {
 	position:absolute;
 	right: 30px;
 	top: 5px;
-
-
 }
 
 .card-header .faqexpander:after{
@@ -546,17 +580,15 @@ section.faq {
 	}
 }
 
-.faq-highlight {
-	color:#FF486A;
-}
+
 
 
 /* ----footer---- */
 
 .footer-svg{
 	width: 100%;
-  height: 140%;
-	top: -45px;
+  height: 160%;
+	top: -80px;
 	position: absolute;
 	background-image: url(../img/footer2.svg);
 	background-repeat: no-repeat;
@@ -605,3 +637,44 @@ body > footer > div > p {
 		padding-top:10px;
 	}
 }
+
+/* Privacy page */
+
+section.privacy {
+ 	margin-bottom: 8em;
+}
+
+.privacy {
+	position:relative;
+}
+
+
+/* Big display > 1440px */
+
+@media (min-width: 1440px) {
+
+	html {
+		font-size: 90%;
+		zoom: 110%;
+	}
+
+	section.tutorial img {
+		width: 70%;
+	}
+
+	.footer-svg {
+		top:-35px;
+	}
+
+	.crisp-client {
+		zoom:80%;
+	}
+}
+
+/* Prevent horizontal scroll on Firefox */
+
+/*@-moz-document url-prefix() {
+	body {
+		overflow: hidden;
+	}
+}*/
