@@ -648,6 +648,15 @@ section.privacy {
 	position:relative;
 }
 
+.privacy h1,
+.privacy h2,
+.privacy h3,
+.privacy h4,
+.privacy h5,
+.privacy h6 {
+	font-weight: bold!important;
+}
+
 
 /* Big display > 1440px */
 
