@@ -36,9 +36,9 @@ h1 {
 }
 
 h2 {
-	font-size:1.15em;
-	letter-spacing: 0.01em;
-	color: #434343;
+	font-size:2em;
+	font-weight: 700;
+	color: #04143A;
 }
 
 h3 {
@@ -51,11 +51,11 @@ h3 {
 
 /*---for dark blue background---*/
 
-h1.dark-bg {
+h1.dark-bg, h2.dark-bg {
 	color:#FF486A;
 }
 
-h2.dark-bg, p.dark-bg {
+h3.dark-bg, p.dark-bg {
 	color:white;
 }
 
@@ -440,7 +440,7 @@ section.tutorial img {
 
 .install-svg{
 	width: 100%;
-	height: 430%;
+	height: 440%;
 	top: -340px;
 	position: absolute;
 	background-image: url(../img/home_install.svg);
@@ -453,6 +453,7 @@ section.tutorial img {
 
 section.pricing {
 	margin-top:12em;
+	z-index: -2;
 }
 
 	/*Pricing card*/
