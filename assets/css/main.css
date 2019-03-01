@@ -27,6 +27,16 @@ section {
 	width:150px;
 }
 
+/* strong SEO */
+
+.heading strong {
+	font-weight: 600;
+}
+
+h3 strong {
+	font-weight:normal;
+} 
+
 /* Headings */
 
 h1 {
