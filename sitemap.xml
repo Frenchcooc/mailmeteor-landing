@@ -6,17 +6,17 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://www.mailmeteor.com/</loc>
+  <loc>/</loc>
   <lastmod>2019-03-01T17:38:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.mailmeteor.com/privacy-policy</loc>
+  <loc>/privacy-policy</loc>
   <lastmod>2019-03-01T17:38:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mailmeteor.com/terms</loc>
+  <loc>/terms</loc>
   <lastmod>2019-03-01T17:38:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
