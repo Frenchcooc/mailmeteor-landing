@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
   box-shadow: 0 16px 48px rgba(32,41,50,0.12);
 }
@@ -250,7 +250,7 @@ section.hero {
 
 .top-svg{
 	width:100%;
-	height: 420px;
+	height: 500px;
 	position:absolute;
 	background-image: url(../img/home_top_right.svg);
 	background-repeat: no-repeat;
@@ -285,7 +285,7 @@ section.features {
 	height: 200%;
     top: -235px;
 	position:absolute;
-	background-image: url(../img/home_features.svg);
+	background-image: url(../img/home_features2.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	z-index: -1;
@@ -453,7 +453,7 @@ section.tutorial img {
 	height: 440%;
 	top: -340px;
 	position: absolute;
-	background-image: url(../img/home_install.svg);
+	background-image: url(../img/home_install2.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: -1;
@@ -601,7 +601,7 @@ section.pricing {
   height: 160%;
 	top: -80px;
 	position: absolute;
-	background-image: url(../img/footer2.svg);
+	background-image: url(../img/footer3.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	z-index: -1;
@@ -616,7 +616,7 @@ section.pricing {
 #logo-bottom {
 	width: 150px;
 	height: 10%;
-	padding-top:20px;
+	padding-top:50px;
 	padding-bottom:10px;
 }
 body > footer > div > p {
@@ -680,10 +680,6 @@ section.privacy {
 
 	section.tutorial img {
 		width: 70%;
-	}
-
-	.footer-svg {
-		top:-35px;
 	}
 
 	.crisp-client {
