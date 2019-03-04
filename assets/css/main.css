@@ -250,7 +250,7 @@ section.hero {
 
 .top-svg{
 	width:100%;
-	height: 500px;
+	height: 465px;
 	position:absolute;
 	background-image: url(../img/home_top_right.svg);
 	background-repeat: no-repeat;
@@ -667,7 +667,6 @@ section.privacy {
 .privacy h6 {
 	font-weight: bold !important;
 }
-
 
 /* Big display > 1440px */
 

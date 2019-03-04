@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 656.5 302" style="enable-background:new 0 0 656.5 302;" xml:space="preserve">
+	 viewBox="0 0 687.5 302" style="enable-background:new 0 0 687.5 302;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 </style>
@@ -13,12 +13,12 @@
 			<g id="Demo-produit" transform="translate(1.000000, 0.000000)">
 				<g id="SVG" transform="translate(264.000000, 0.000000)">
 					
-						<radialGradient id="SVGID_1_" cx="335.2337" cy="230.9366" r="2.5171" gradientTransform="matrix(-390.3649 397.849 -400.7856 -386.0788 224300.0625 -44052.8164)" gradientUnits="userSpaceOnUse">
+						<radialGradient id="SVGID_1_" cx="366.2337" cy="230.9366" r="2.5171" gradientTransform="matrix(-414.1925 397.849 -425.2493 -386.0788 250807.0781 -56386.1367)" gradientUnits="userSpaceOnUse">
 						<stop  offset="0" style="stop-color:#0B3C90"/>
 						<stop  offset="1" style="stop-color:#0A1965"/>
 					</radialGradient>
-					<path class="st0" d="M248,306.6c5.4,20.1,11.3,40,21.8,58.3c22.3,39.6,76.1,45.8,116.8,48.2c52.9,3.1,95.8,12.8,137.4,48.1
-						c44,37.3,90.5,68.4,147.2,82c59.9,14.3,117.4,7.4,176.1-8c4.7-1.2,54.8-15.3,54.8-17.9l0.1-210.6H248V306.6z"/>
+					<path class="st0" d="M239.1,306.6c5.7,20.1,12,40,23.1,58.3c23.6,39.6,80.7,45.8,123.9,48.2c56.1,3.1,101.6,12.8,145.8,48.1
+						c46.7,37.3,96,68.4,156.2,82c63.5,14.3,124.6,7.4,186.9-8c5-1.2,58.1-15.3,58.1-17.9l0.1-210.6h-694V306.6z"/>
 				</g>
 			</g>
 		</g>
