@@ -339,13 +339,22 @@ section.features {
 
 @media (max-width: 1000px) {
 	.features-svg {
-		height:170%;
+		height:180%;
 	}
 }
 
 @media (max-width: 480px) {
 	.features-svg {
-		height:150%;
+		height:160%;
+	}
+}
+
+@media (min-width: 1440px) {
+	.features-svg {
+		height:220%;
+	} 
+	section.features {
+		margin-bottom:12em;
 	}
 }
 
