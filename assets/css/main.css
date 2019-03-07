@@ -171,6 +171,10 @@ button, .btn {
 	padding:0.4em 0.6em 0.4em 0.6em;
 }
 
+.navbar-shadow {
+	box-shadow: -2px -4px 20px 0px rgba(32,41,50,0.12);
+}
+
 @media (max-width: 768px) {
 
 	body {
@@ -186,7 +190,7 @@ button, .btn {
 @media (min-width: 768px) {
 
 	.bg-light {
-	    background-color: transparent!important;
+		background-color: white!important;
 	}
 
 	.navbar-light .navbar-nav .nav-link {
@@ -248,7 +252,7 @@ button, .btn {
 
 
 section.hero {
-	margin-top:2.5em;
+	margin-top:4.5em;
 }
 
 .hero {

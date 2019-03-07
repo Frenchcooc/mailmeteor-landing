@@ -36,7 +36,7 @@
 
 	<header>
 
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
 
 			<div class="container">
 				<a href="/"><img class="navbar-brand" id="logo" alt="Mailmeteor logo" src="assets/img/logo_mailmeteor.svg" /></a>
@@ -72,7 +72,7 @@
 
 	<section class="hero">
 		<!-- <div class="top-svg"> </div> -->
-		<div class="container">
+		<div class="container pt-3">
 			<div class="row">
 				<div class="col-md-4 mt-4">
 					<h1>Send hundreds of personalized emails, right from Gmail.</h1>
@@ -448,6 +448,18 @@
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>  
  	AOS.init();
+	</script>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("navbar").classList.add('navbar-shadow');
+			} else {
+				document.getElementById("navbar").classList.remove('navbar-shadow');
+			}
+			}
 	</script>
 
 	<!-- Crisp chat -->
