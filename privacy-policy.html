@@ -27,7 +27,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
 
             <div class="container">
                 <a href="/"><img class="navbar-brand" id="logo" src="/assets/img/logo_mailmeteor.svg" /></a>
@@ -586,6 +586,18 @@
     <!-- Scroll library  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>  AOS.init(); </script>
+
+    <script>
+		window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("navbar").classList.add('navbar-shadow');
+			} else {
+				document.getElementById("navbar").classList.remove('navbar-shadow');
+			}
+			}
+	</script>
 
 </body>
 
