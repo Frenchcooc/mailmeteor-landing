@@ -382,6 +382,22 @@ section.features {
 	height:100%;
 }
 
+@media (max-width:575px) {
+	.video-wrapper {
+		margin-left: 0.5em;
+    margin-right: 0.5em;
+	}
+}
+
+@media (min-width: 992px) { 
+	.video-wrapper iframe {
+		height:70%;
+	}
+
+	section.features {
+		margin-top:-10em;
+	}
+}
 
 /* ----tutorial---- */
 
