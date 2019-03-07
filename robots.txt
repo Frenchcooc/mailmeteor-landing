@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://mailmeteor.com/sitemap.xml
