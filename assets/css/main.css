@@ -37,7 +37,7 @@ section {
 	font-weight: 600;
 }
 
-h3 strong {
+h3 strong, p strong {
 	font-weight:normal;
 } 
 
