@@ -292,7 +292,7 @@ section.features {
 	height: 200%;
     top: -235px;
 	position:absolute;
-	background-image: url(../img/home_features2.svg);
+	background-image: url(../img/home_features.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	z-index: -1;
