@@ -84,6 +84,10 @@ button, .btn {
 	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
+button:hover, .btn:hover {
+	cursor:pointer;
+}
+
 .btn-outline {
 	display:block;
 	text-decoration:none;
