@@ -39,7 +39,7 @@ section {
 
 h3 strong, p strong {
 	font-weight:normal;
-} 
+}
 
 /* Headings */
 
@@ -270,7 +270,7 @@ section.hero {
 	z-index: -1;
 	animation: slidein 0.9s ease-out;
 } */
-/* 
+/*
 @keyframes slidein {
   from {
     top: -300px;
@@ -363,7 +363,7 @@ section.features {
 @media (min-width: 1440px) {
 	.features-svg {
 		height:220%;
-	} 
+	}
 	section.features {
 		margin-bottom:12em;
 	}
@@ -393,7 +393,7 @@ section.features {
 	}
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.video-wrapper iframe {
 		height:70%;
 	}
@@ -704,7 +704,7 @@ body > footer > div > p {
 /* Privacy page */
 
 section.privacy {
- 	margin-bottom: 8em;
+ 	margin-bottom: 4.5em;
 }
 
 /* .privacy {
