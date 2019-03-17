@@ -138,6 +138,11 @@ button:hover, .btn:hover {
 	transform: scale(1.014);
 }
 
+.btn-outline:hover {
+	color:#FF486A;
+	border-color:#FF486A;
+	transform: scale(1.014);
+}
 
 /* ---nav---- */
 
@@ -548,14 +553,13 @@ section.pricing {
 }
 
 .pricing .card-header {
-	padding: .75rem .75rem;
+	padding: .95rem .75rem 0em;
 	min-height: 22%;
 }
 
 .pricingfeatures {
-	min-height:100px;
+	min-height:90px;
 	text-align:left;
-	min-height: 150px;
 }
 
 .pricingfeatures li {
@@ -596,6 +600,11 @@ section.pricing {
 	margin-left:0px !important;
 	margin-right:0px !important;
 	}
+}
+
+sup {
+	font-weight: normal;
+	font-size: 0.5em;
 }
 
 /* ----faq---- */
