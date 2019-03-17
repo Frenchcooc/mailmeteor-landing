@@ -704,7 +704,8 @@ body > footer > div > p {
 /* Privacy page */
 
 section.privacy {
- 	margin-bottom: 4.5em;
+ 	margin-bottom: 10em;
+	margin-top:4.5em;
 }
 
 /* .privacy {
