@@ -65,7 +65,7 @@ h3 {
 /*--- headings styling for dark background---*/
 
 h1.dark-bg, h2.dark-bg {
-	color:#FF486A;
+	color:white;
 }
 
 h3.dark-bg, p.dark-bg {
@@ -88,7 +88,7 @@ button, .btn {
 button:hover, .btn:hover {
 	cursor:pointer;
 }
-
+ 
 .btn-outline {
 	display:block;
 	text-decoration:none;
@@ -119,18 +119,7 @@ button:hover, .btn:hover {
 
 
 .btn-filled:hover {
- /* -webkit-box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2); */
- /* box-shadow: 0px 8px 26px 2px rgba(255, 72, 106, 0.2); */
  transform: scale(1.014);
-}
-
-.btn-filled:active,
-.btn-filled:focus,
-.btn-outline:active,
-.btn-outline:focus,
-.btn-install:active,
-.btn-install:focus {
-	outline:none;
 }
 
 .btn-install:hover {
@@ -265,30 +254,6 @@ section.hero {
 	position:relative;
 }
 
-/* .top-svg{
-	width:100%;
-	height: 465px;
-	position:absolute;
-	background-image: url(../img/home_top_right.svg);
-	background-repeat: no-repeat;
-	background-position: top right;
-	top:-265px;
-	z-index: -1;
-	animation: slidein 0.9s ease-out;
-} */
-/*
-@keyframes slidein {
-  from {
-    top: -300px;
-    opacity: .8;
-  }
-
-  to {
-    top:-265px;
-    opacity:1;
-  }
-}
- */
 
 /* ----features---- */
 
@@ -300,7 +265,7 @@ section.features {
 .features-svg {
 	width: 100%;
 	height: 200%;
-    top: -235px;
+    top: -240px;
 	position:absolute;
 	background-image: url(../img/home_features.svg);
 	background-repeat: no-repeat;
@@ -576,20 +541,20 @@ section.pricing {
 	min-height: 22%;
 }
 
-.pricingfeatures {
-	min-height:90px;
+.pricing-features {
+	min-height:170px;
 	text-align:left;
 }
 
-.pricingfeatures li {
+.pricing-features li {
 	display: flex;
 	align-items: center;
 }
 
-.pricingfeatures li:before {
+.pricing-features li:before {
 	content: '';
 	min-width: 20px;
-  height: 12px;
+ 	 height: 12px;
 	margin-right: 4px;
 	display: inline-block;
 	background-image: url(../img/element_tick.svg);
@@ -605,9 +570,12 @@ section.pricing {
 	 cursor: default;
 }
 
-
 .pricing-subheader {
 	font-size:0.9em;
+}
+
+.pricingcard-title {
+	font.size:1em;
 }
 
 @media (min-width: 576px){

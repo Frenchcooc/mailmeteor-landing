@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="320 77 1920 647" style="enable-background:new 320 77 1920 647;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<title>Fill 1</title>
+<desc>Created with Sketch.</desc>
+<g id="Artboards">
+	<g id="Desktop-HD" transform="translate(0.000000, -225.000000)">
+		
+			<radialGradient id="SVGID_1_" cx="1303.7692" cy="284.8983" r="1159.5138" gradientTransform="matrix(1.3339 5.536820e-04 0 0.9558 -533.6385 -133.2213)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#1059B5"/>
+			<stop  offset="0.2059" style="stop-color:#0E4DA5"/>
+			<stop  offset="0.6057" style="stop-color:#082D7C"/>
+			<stop  offset="1" style="stop-color:#02094D"/>
+		</radialGradient>
+		<path class="st0" d="M2240.9,885V506.3c-37.3-0.2-140-18-151.8-20.5c-84.4-17.9-163.4-45.9-250.1-59.4
+			c-51.8-8.1-108-10.7-159.7-0.5c-48.2,9.7-88.4,31.5-133.7,45.4c-40.3,12.4-83.4,20.5-127.1,24.2c-77,6.5-149.5-5.5-224.8-14.2
+			c-105.6-12.2-207.3-8.2-312.7,4.8c-79.1,9.8-151.5,24.8-232.6,19.1c-60.6-4.2-121-18.8-165.7-46.8c-19.3-12.1-34.7-26-47.9-40.9
+			c-17.5-19.9-30.8-41.6-43.9-63.1c-14.7-24.1-39-44.5-74.7-52.8L316.1,885H2240.9z"/>
+	</g>
+</g>
+</svg>
