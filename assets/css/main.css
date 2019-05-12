@@ -17,22 +17,23 @@ body {
 
 
 section {
-	margin-top: 6em;
+	/*margin-top: 6em;*/
 	margin-bottom:4em;
 }
+
+
+/*generic elements*/
 
 .highlight {
 	font-weight:bold;
 	color:#FF486A;
 }
 
-/* logo */
-
 #logo {
 	width:150px;
 }
 
-/* SEO strong emphasis*/
+/* SEO emphasis with strong*/
 
 .heading strong {
 	font-weight: 600;
@@ -72,9 +73,6 @@ h3.dark-bg, p.dark-bg {
 	color:white;
 }
 
-#tagline {
-	box-shadow: inset 0 -14px 0 0 #ff486ab5;
-}
 /* ----buttons---- */
 
 button, .btn {
@@ -115,8 +113,9 @@ button:hover, .btn:hover {
 	cursor:pointer;
 }
 
-.btn-inline { display:inline-block !important; }
-
+.btn-inline { 
+	display:inline-block !important;
+}
 
 .btn-filled:hover {
  transform: scale(1.014);
@@ -137,8 +136,6 @@ button:hover, .btn:hover {
 /* ---nav---- */
 
 
-		/*navbar styling*/
-
 .navbar-nav .nav-link {
   padding-right: 0;
 	text-align: center;
@@ -157,7 +154,6 @@ button:hover, .btn:hover {
 
 .nav-link:hover{
 	color:#FF486A !important;
-
 }
 
 .navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus {
@@ -243,19 +239,16 @@ button:hover, .btn:hover {
 }
 
 
-/* ----HERO---- */
+/*SECTIONS*/
+
+/* ----Hero section---- */
 
 
 section.hero {
-	margin-top:4.5em;
+	margin-top:4.5em; /*adding margins between nav and hero section*/
 }
 
-.hero {
-	position:relative;
-}
-
-
-/* ----features---- */
+/* ----Features section---- */
 
 section.features {
 	margin-top:4em;
@@ -273,6 +266,35 @@ section.features {
 	z-index: -1;
 
 }
+
+@media (max-width: 400px) {
+	section.features {
+		margin-bottom:12em;
+	}
+}
+
+@media (max-width: 480px) {
+	.features-svg {
+		height:160%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.features-svg {
+		height:180%;
+	}
+}
+
+@media (min-width: 1440px) {
+/*	.features-svg {
+		height:220%;
+	}*/
+	section.features {
+		margin-bottom:12em;
+	}
+}
+
+/*features list*/
 
 @media (max-width: 1330px) {
 
@@ -313,34 +335,7 @@ section.features {
 }
 
 
-@media (max-width: 400px) {
-	section.features {
-		margin-bottom:12em;
-	}
-}
-
-@media (max-width: 1000px) {
-	.features-svg {
-		height:180%;
-	}
-}
-
-@media (max-width: 480px) {
-	.features-svg {
-		height:160%;
-	}
-}
-
-@media (min-width: 1440px) {
-	.features-svg {
-		height:220%;
-	}
-	section.features {
-		margin-bottom:12em;
-	}
-}
-
-/* Remove black bars on Youtube video */
+/* Youtube video - Remove black bars on Youtube video */
 
 .yt-video-wrapper {
 	position: relative;
@@ -364,10 +359,9 @@ section.features {
 	height:100%;
 }
 
-/* And set the max-width of the parent element */
 .video-wrap {
-  width: 100%;
-	max-height: 500px;
+	width: 100%;
+	max-height: 500px; /* And set the max-width of the parent element */
 }
 
 @media (max-width:575px) {
@@ -387,7 +381,7 @@ section.features {
 	}
 }
 
-/* ----tutorial---- */
+/* ----Tutorial section---- */
 
 section.tutorial video {
 	width:100%;
@@ -454,6 +448,10 @@ section.tutorial video {
 	text-align:center;
 }
 
+.card-body > a {
+	white-space: normal;
+}
+
 
 .tutorialcard {
 	background-color: white;
@@ -478,7 +476,7 @@ section.tutorial video {
 }
 
 
-/* ----install---- */
+/* ----Install section---- */
 
 .install {
 	text-align: center;
@@ -501,7 +499,7 @@ section.tutorial video {
 	z-index: -1;
 }
 
-/* ----pricing---- */
+/* ----Pricing section---- */
 
 section.pricing {
 	margin-top:12em;
@@ -605,7 +603,7 @@ sup {
 }
 
 
-/* ----faq---- */
+/* ----Faq section--- */
 
 
 .faq {
@@ -656,7 +654,7 @@ sup {
 
 
 
-/* ----footer---- */
+/* ----Footer---- */
 
 .footer-svg{
 	width: 100%;
@@ -709,16 +707,12 @@ body > footer > div > p {
 	}
 }
 
-/* Privacy page */
+/* Privacy pages */
 
 section.privacy {
  	margin-bottom: 10em;
 	margin-top:4.5em;
 }
-
-/* .privacy {
-	position:relative;
-} */
 
 .privacy h1,
 .privacy h2,
