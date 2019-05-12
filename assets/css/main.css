@@ -160,10 +160,6 @@ button:hover, .btn:hover {
 		outline: none;
 }
 
-#navbarTabs > ul > li:nth-child(4) > a {
-	margin:auto;
-	padding:0.4em 0.6em 0.4em 0.6em;
-}
 
 .navbar-shadow {
 	box-shadow: -2px -4px 20px 0px rgba(32,41,50,0.12);
