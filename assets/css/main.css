@@ -271,12 +271,9 @@ section.features {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 	section.features {
-		margin-bottom:12em;
-	}
-	.features-svg {
-		height:90%;
+		margin-bottom:14em;
 	}
 }
 
