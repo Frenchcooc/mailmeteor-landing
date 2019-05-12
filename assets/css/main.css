@@ -275,6 +275,9 @@ section.features {
 	section.features {
 		margin-bottom:12em;
 	}
+	.features-svg {
+		height:90%;
+	}
 }
 
 @media (max-width: 480px) {
