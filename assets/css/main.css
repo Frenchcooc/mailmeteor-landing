@@ -271,17 +271,6 @@ section.features {
 
 }
 
-@media (max-width: 480px) {
-	section.features {
-		margin-bottom:15em;
-	}
-}
-
-@media (max-width: 480px) {
-	.features-svg {
-		height:160%;
-	}
-}
 
 @media (max-width: 1000px) {
 	.features-svg {
@@ -297,6 +286,16 @@ section.features {
 		margin-bottom:12em;
 	}
 }
+
+@media (max-width: 480px) {
+	section.features {
+		margin-bottom:15em;
+	}
+	.features-svg {
+		height:160%;
+	}
+}
+
 
 /*features list*/
 
