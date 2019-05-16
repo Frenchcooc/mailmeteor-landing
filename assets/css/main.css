@@ -509,6 +509,10 @@ section.pricing {
 	z-index: -2;
 }
 
+.pricing-header {
+	max-width: 700px;
+}
+
 	/*Pricing card*/
 
 .pricingcard {
