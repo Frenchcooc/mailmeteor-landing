@@ -542,20 +542,20 @@ section.pricing {
 	min-height: 22%;
 }
 
-.pricing-features {
+.pricing-home-features {
 	min-height:170px;
 	text-align:left;
 }
 
-.pricing-features li {
+.pricing-home-features li {
 	display: flex;
 	align-items: center;
 }
 
-.pricing-features li:before {
+.pricing-home-features li:before {
 	content: '';
 	min-width: 20px;
- 	 height: 12px;
+ 	height: 12px;
 	margin-right: 4px;
 	display: inline-block;
 	background-image: url(../img/element_tick.svg);
@@ -710,7 +710,9 @@ body > footer > div > p {
 	}
 }
 
-/* Privacy pages */
+/* Other pages 
+
+Privacy pages  */
 
 section.privacy {
  	margin-bottom: 10em;
@@ -725,6 +727,32 @@ section.privacy {
 .privacy h6 {
 	font-weight: bold !important;
 }
+
+/* Pricing page */
+
+	/*Pricing content*/
+
+		
+	.pricing-plan-features {
+		text-align:left;
+	}
+	
+	.pricing-plan-features li {
+		display: flex;
+		align-items: center;
+	}
+	
+	.pricing-plan-features li:before {
+		content: '';
+		min-width: 20px;
+			height: 12px;
+		margin-right: 4px;
+		display: inline-block;
+		background-image: url(../img/element_tick.svg);
+		background-repeat: no-repeat;
+	}
+		
+
 
 /* Big display > 1440px */
 
