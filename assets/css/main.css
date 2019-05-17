@@ -729,7 +729,7 @@ section.privacy {
 
 		
 	.pricing-plan-features {
-		min-height:170px; /* can be removed to obtain squared pricings */
+		min-height:90px; /* can be removed to obtain squared pricings */
 		text-align:left;
 	}
 	
