@@ -125,7 +125,7 @@ button:hover, .btn:hover {
  transform: scale(1.014);
 }
 
-.btn-install:hover {
+.btn-filled:hover {
 	color: #FFF;
 	border-color: #FFF;
 	transform: scale(1.014);
