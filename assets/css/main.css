@@ -749,6 +749,14 @@ section.privacy {
 		background-repeat: no-repeat;
 	}
 		
+	#pricing-plan {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+		background: linear-gradient(to bottom, #fff, #f5f6fa);
+		z-index:-2;
+	}
 
 
 /* Big display > 1440px */
