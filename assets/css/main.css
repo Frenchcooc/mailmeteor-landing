@@ -510,6 +510,7 @@ section.pricing {
 }
 
 .pricing-header {
+	padding:.3em;
 	max-width: 700px; /* applies both on home and pricing page */
 }
 
