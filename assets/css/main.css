@@ -761,6 +761,8 @@ section.privacy {
 	}
 
 
+	
+
 /* Big display > 1440px */
 
 @media (min-width: 1440px) {
@@ -778,6 +780,8 @@ section.privacy {
 		zoom:80%;
 	}
 }
+
+
 
 /* Prevent horizontal scroll on Firefox */
 
