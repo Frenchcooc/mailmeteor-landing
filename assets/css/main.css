@@ -761,26 +761,22 @@ section.privacy {
 	}
 
 
-	/* Success page */
+	/* Success and fail UIs */
 
-	#floating {
-		animation: float 6s ease-in-out infinite;
+	.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
 	}
 
-	@keyframes float {
-		0% {
-			transform: translatey(0px);
-		}
-		50% {
-			transform: translatey(-20px);
-		}
-		100% {
-			transform: translatey(0px);
-		}
+	@keyframes floating {
+			from { transform: translate(0,  0px); }
+			65%  { transform: translate(0, 15px); }
+			to   { transform: translate(0, -0px); }    
 	}
-	
-
-	
 
 /* Big display > 1440px */
 
