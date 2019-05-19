@@ -763,7 +763,7 @@ section.privacy {
 
 	/* Success page */
 
-	#float {
+	#floating {
 		animation: float 6s ease-in-out infinite;
 	}
 
