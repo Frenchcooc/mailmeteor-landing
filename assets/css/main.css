@@ -772,7 +772,7 @@ section.privacy {
 
 	@keyframes floating {
 			from { transform: translate(0,  0px); }
-			65%  { transform: translate(0, 7px); }
+			65%  { transform: translate(0, 3px); }
 			to   { transform: translate(0, -0px); }    
 	}
 
