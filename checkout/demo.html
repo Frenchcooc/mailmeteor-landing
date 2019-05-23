@@ -3,21 +3,12 @@
 <script src="https://js.stripe.com/v3"></script>
 
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  class="stripe-checkout"
-  role="link"
-  data-stripe-plan="monthly-dollar"
-  data-stripe-plan-id="plan_F4brBcaQY6GEEA"
->
-  Monthly booster 4,99€
-</button>
 
 <button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
   class="stripe-checkout"
   data-stripe-plan="monthly-euro"
-  data-stripe-plan-id="plan_F4bqaUJRgoUGcH"
+  data-stripe-plan-id="plan_F5wdsqE4qJ4LPH"
   role="link"
 >
   Monthly booster $4,99
@@ -26,27 +17,27 @@
 <button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
   class="stripe-checkout"
-  data-stripe-plan="yearly-euro"
-  data-stripe-plan-id="plan_F4cIsrAfba14Ot"
-  role="link"
->
-  Yearly 24,95€
-</button>
-
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  class="stripe-checkout"
   data-stripe-plan="yearly-dollar"
-  data-stripe-plan-id="plan_F4cImcnbw08hUP"
+  data-stripe-plan-id="plan_F5wbHFAyliGUPU"
   role="link"
 >
   Yearly $24,95
 </button>
 
+<button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+  class="stripe-checkout"
+  data-stripe-plan="enterprise-dollar"
+  data-stripe-plan-id="plan_F5wfQunLALF29C"
+  role="link"
+>
+  Enterprise $199,60
+</button>
+
 <div id="error-message"></div>
 
 <script>
-  var stripe = Stripe('pk_test_QZCJhmkpR03mAot2XsRUs0qM00B4gZtUh8')
+  var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
   var checkoutButtons = document.getElementsByClassName('stripe-checkout')
 
   for (var i = 0; i < checkoutButtons.length; i++) {
