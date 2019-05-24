@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description"
         content="Mailmeteor pricing. Starting from $2 per month only.">
-    <link rel="canonical" href="https://mailmeteor.com/pricing" />
-    <title>Pricing | Mailmeteor - mail merge for Gmail</title>
+    <link rel="canonical" href="https://mailmeteor.com/checkout/plans" />
+    <title>Checkout | Mailmeteor - mail merge for Gmail</title>
     <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap Stylesheet -->
@@ -23,9 +23,9 @@
     <!-- Scroll library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Stripe Checkout
+    Stripe Checkout
     <script src="https://js.stripe.com/v3"></script>
-    <script src="/assets/js/checkout.js"></script>-->
+    <script src="/assets/js/checkout.js"></script>
 
 </head>
 
@@ -105,7 +105,14 @@
                                                 <li>Preview emails</li>
                                                 <li>1 user included</li>
                                             </ul>
-                                        <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled">FREE UNTIL MAY 31, 2019</a>
+                                            <button
+
+                                              class="btn btn-filled"
+                                              data-stripe-plan="monthly-euro"
+                                              data-stripe-plan-id="plan_F5wdsqE4qJ4LPH"
+                                              role="link">
+                                              BUY NOW
+                                            </button>
                                         <small>Can be ended anytime, billed monthly.</small>
                                     </div>
                                 </div>
@@ -125,7 +132,14 @@
                                                 <li>Preview emails</li>
                                                 <li>1 user included</li>
                                         </ul>
-                                        <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled">FREE UNTIL MAY 31, 2019</a>
+                                        <button
+                                          class="btn btn-filled"
+                                          data-stripe-plan="yearly-dollar"
+                                          data-stripe-plan-id="plan_F5wbHFAyliGUPU"
+                                          role="link">
+                                        BUY NOW
+                                        </button>
+
                                         <small>That's only $2.08/month, billed yearly.</small>
                                     </div>
                                 </div>
@@ -151,7 +165,13 @@
                                             <li>Preview emails</li>
                                             <li>Custom support expertise</li>
                                         </ul>
-                                        <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled">FREE UNTIL MAY 31, 2019</a>
+                                        <button
+                                          class="btn btn-filled"
+                                          data-stripe-plan="enterprise-dollar"
+                                          data-stripe-plan-id="plan_F5wfQunLALF29C"
+                                          role="link">
+                                          BUY NOW
+                                        </button>
                                         <small>You need more than 10 accounts? <a href="mailto:hello@mailmeteor.com">Contact us</a> so we can offer a plan suited to your needs.</small>
                                     </div>
                                 </div>
@@ -270,6 +290,9 @@
         </div>
 
     </footer>
+
+
+    <div id="error-message"></div>
 
 
     <!-- Bootstrap scripts -->
