@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  max-width: 2560px;
+  max-width: 1920px;
   margin: 0 auto;
   box-shadow: 0 16px 48px rgba(32,41,50,0.12);
 }
@@ -794,22 +794,6 @@ section.privacy {
 	}
 }
 
-@media (min-width: 2560px) {
-
-	features-svg {
-		height: 170%;
-	}
-
-	install-svg {
-		height: 420%;
-	}
-
-	#features > div.container {
-		padding-top: 4em;
-	}
-
-
-}
 
 
 /* Prevent horizontal scroll on Firefox */
