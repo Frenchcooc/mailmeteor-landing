@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  max-width: 1920px;
+  max-width: 2560px;
   margin: 0 auto;
   box-shadow: 0 16px 48px rgba(32,41,50,0.12);
 }
@@ -90,7 +90,7 @@ button:hover, .btn:hover {
 .btn:focus {
     box-shadow: none;
 }
- 
+
 .btn-outline {
 	display:block;
 	text-decoration:none;
@@ -117,7 +117,7 @@ button:hover, .btn:hover {
 	cursor:pointer;
 }
 
-.btn-inline { 
+.btn-inline {
 	display:inline-block !important;
 }
 
@@ -706,7 +706,7 @@ body > footer > div > p {
 	}
 }
 
-/* Other pages 
+/* Other pages
 
 Privacy pages  */
 
@@ -728,18 +728,18 @@ section.privacy {
 
 	/*Pricing content*/
 
-		
+
 	.pricing-plan-features {
 		min-height:90px; /* can be removed to obtain squared pricings */
 		text-align:left;
 		display:block;
 	}
-	
+
 	.pricing-plan-features li {
 		display: block;
 		align-items: center;
 	}
-	
+
 	.pricing-plan-features li:before {
 		content: '';
 		min-width: 20px;
@@ -749,7 +749,7 @@ section.privacy {
 		background-image: url(../img/element_tick.svg);
 		background-repeat: no-repeat;
 	}
-		
+
 	#pricing-plans {
     top: 0;
     left: 0;
@@ -763,7 +763,7 @@ section.privacy {
 
 	/* Success and fail UIs */
 
-	.floating {  
+	.floating {
     animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -773,7 +773,7 @@ section.privacy {
 	@keyframes floating {
 			from { transform: translate(0,  0px); }
 			65%  { transform: translate(0, 3px); }
-			to   { transform: translate(0, -0px); }    
+			to   { transform: translate(0, -0px); }
 	}
 
 /* Big display > 1440px */
@@ -794,6 +794,22 @@ section.privacy {
 	}
 }
 
+@media (min-width: 2560px) {
+
+	features-svg {
+		height: 170%;
+	}
+
+	install-svg {
+		height: 420%;
+	}
+
+	#features > div.container {
+		padding-top: 4em;
+	}
+
+
+}
 
 
 /* Prevent horizontal scroll on Firefox */
