@@ -1,6 +1,6 @@
 var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
 
-var checkoutButtons = document.getElementsByClassName('stripe-checkout')
+var checkoutButtons = document.getElementById('stripe-checkout')
 
 for (var i = 0; i < checkoutButtons.length; i++) {
   checkoutButtons[i].addEventListener('click', function() {
