@@ -785,14 +785,25 @@ section.privacy {
 		zoom: 110%;
 	}
 
-	section.tutorial img {
-		width: 70%;
-	}
 
 	.crisp-client {
 		zoom:80%;
 	}
 }
+
+@media (min-width: 2000px) {
+
+	html {
+		font-size: 95%;
+		zoom: 135%;
+	}
+
+
+	.crisp-client {
+		zoom:85%;
+	}
+}
+
 
 
 
