@@ -23,9 +23,8 @@
     <!-- Scroll library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Stripe Checkout
+    <!-- Stripe Checkout -->
     <script src="https://js.stripe.com/v3"></script>
-    <script src="/assets/js/checkout.js"></script>-->
 
 </head>
 
@@ -105,7 +104,14 @@
                                                 <li>Preview emails</li>
                                                 <li>1 user included</li>
                                             </ul>
-                                        <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled">FREE UNTIL MAY 31, 2019</a>
+                                            <button
+
+                                              class="stripe-checkout btn btn-filled"
+                                              data-stripe-plan="monthly-euro"
+                                              data-stripe-plan-id="plan_F5wdsqE4qJ4LPH"
+                                              role="link">
+                                              BUY NOW
+                                            </button>
                                         <small>Can be ended anytime, billed monthly.</small>
                                     </div>
                                 </div>
@@ -125,7 +131,14 @@
                                                 <li>Preview emails</li>
                                                 <li>1 user included</li>
                                         </ul>
-                                        <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled">FREE UNTIL MAY 31, 2019</a>
+                                        <button
+                                          class="stripe-checkout btn btn-filled"
+                                          data-stripe-plan="yearly-dollar"
+                                          data-stripe-plan-id="plan_F5wbHFAyliGUPU"
+                                          role="link">
+                                        BUY NOW
+                                        </button>
+
                                         <small>That's only $2.08/month, billed yearly.</small>
                                     </div>
                                 </div>
@@ -151,13 +164,19 @@
                                             <li>Preview emails</li>
                                             <li>Custom support expertise</li>
                                         </ul>
-                                        <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled">FREE UNTIL MAY 31, 2019</a>
+                                        <button
+                                          class="stripe-checkout btn btn-filled"
+                                          data-stripe-plan="enterprise-dollar"
+                                          data-stripe-plan-id="plan_F5wfQunLALF29C"
+                                          role="link">
+                                          BUY NOW
+                                        </button>
                                         <small>You need more than 10 accounts? <a href="mailto:hello@mailmeteor.com">Contact us</a> so we can offer a plan suited to your needs.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-lg-9 mb-5 ml-auto mr-auto"  data-aos="fade-in" data-aos-duration="800">
-                                <img src="/assets/img/payments.svg" alt="Secure payments icon">
+                                <img src="/assets/img/payments/payment-secure.svg" alt="Secure payments icon">
                             </div>
                     </div>
                     <div class="row">
@@ -270,6 +289,44 @@
         </div>
 
     </footer>
+
+
+    <div id="error-message"></div>
+
+    <script>
+      var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
+      var checkoutButtons = document.getElementsByClassName('stripe-checkout')
+
+      for (var i = 0; i < checkoutButtons.length; i++) {
+        checkoutButtons[i].addEventListener('click', function() {
+          var plan = 'plan_F4cImcnbw08hUP'
+          if (this && this.getAttribute('data-stripe-plan-id')) {
+            plan = this.getAttribute('data-stripe-plan-id')
+          }
+
+          stripe
+            .redirectToCheckout({
+              items: [{ plan: plan, quantity: 1 }],
+
+              // Do not rely on the redirect to the successUrl for fulfilling
+              // purchases, customers may not always reach the success_url after
+              // a successful payment.
+              // Instead use one of the strategies described in
+              // https://stripe.com/docs/payments/checkout/fulfillment
+              successUrl: 'https://mailmeteor.com/checkout/success',
+              cancelUrl: 'https://mailmeteor.com/checkout/canceled'
+            })
+            .then(function(result) {
+              if (result.error) {
+                // If `redirectToCheckout` fails due to a browser or network
+                // error, display the localized error message to your customer.
+                var displayError = document.getElementById('error-message')
+                displayError.textContent = result.error.message
+              }
+            })
+        })
+      }
+    </script>
 
 
     <!-- Bootstrap scripts -->
