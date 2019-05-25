@@ -508,7 +508,7 @@ section.pricing {
 	z-index: -2;
 }
 
-.pricing-header {
+.pricing-header, .comparison-header {
 	padding:.3em;
 	max-width: 700px; /* applies both on home and pricing page */
 }
@@ -774,6 +774,15 @@ section.privacy {
 			65%  { transform: translate(0, 3px); }
 			to   { transform: translate(0, -0px); }
 	}
+
+
+/* Comparison pages  */
+
+section.comparison {
+	margin-top:12em;
+}
+
+
 
 /* Big display > 1440px */
 
