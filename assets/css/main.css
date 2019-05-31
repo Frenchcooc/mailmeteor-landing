@@ -759,6 +759,16 @@ section.privacy {
 		margin-bottom:0;
 	}
 
+	/* styling popover */
+
+	.popover-title {
+    background-color:white;
+		font-family: 'Poppins', sans-serif;
+}
+	.popover-content {
+		font-family: 'Poppins', sans-serif;
+	}
+
 	/* Success and fail UIs */
 
 	.floating {
