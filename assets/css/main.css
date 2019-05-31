@@ -758,9 +758,14 @@ section.privacy {
 		z-index:-2;
 		margin-bottom:0;
 	}
-	.popover-header {
+
+	/* styling Popover */
+	.popover-header, .popover-body {
 		background:white;
+		font-family: 'Poppins', sans-serif;
 	}
+
+
 
 	/* Success and fail UIs */
 
