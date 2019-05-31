@@ -454,6 +454,10 @@ section.tutorial video {
 	white-space: normal;
 }
 
+.card-body {
+	padding:1em;
+}
+
 
 .tutorialcard {
 	background-color: white;
