@@ -109,7 +109,6 @@ button:hover, .btn:hover {
 	text-align:center;
 	color:white;
 	font-weight:bolder;
-	border: 2px solid;
 	border-radius:6px;
 	background-color: #FF486A;
 	outline:none;
@@ -120,13 +119,9 @@ button:hover, .btn:hover {
 	display:inline-block !important;
 }
 
-.btn-filled:hover {
- transform: scale(1.014);
-}
 
 .btn-filled:hover {
 	color: #FFF;
-	border-color: #FFF;
 	transform: scale(1.014);
 }
 
@@ -733,7 +728,7 @@ section.privacy {
 
 
 	.pricing-plan-features {
-		min-height:90px; /* can be removed to obtain squared pricings */
+		min-height:100px; /* can be removed to obtain squared pricings */
 		text-align:left;
 		display:block;
 	}
