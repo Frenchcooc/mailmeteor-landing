@@ -758,7 +758,9 @@ section.privacy {
 		z-index:-2;
 		margin-bottom:0;
 	}
-
+	.popover-header {
+		background:white;
+	}
 
 	/* Success and fail UIs */
 
