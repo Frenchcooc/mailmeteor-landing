@@ -759,6 +759,11 @@ section.privacy {
 		margin-bottom:0;
 	}
 
+	#questionmark {
+		background-image: url(../img/elements/questionmark.svg);
+		background-repeat: no-repeat;
+	}
+
 
 	/* Success and fail UIs */
 
