@@ -571,7 +571,7 @@ section.pricing {
 }
 
 .pricingcard-title {
-	font.size:1em;
+	font-size:1em;
 }
 
 @media (min-width: 576px){
@@ -758,12 +758,6 @@ section.privacy {
 		z-index:-2;
 		margin-bottom:0;
 	}
-
-	#questionmark {
-		background-image: url(../img/elements/questionmark.svg);
-		background-repeat: no-repeat;
-	}
-
 
 	/* Success and fail UIs */
 
