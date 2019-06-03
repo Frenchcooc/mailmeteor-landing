@@ -122,12 +122,12 @@ button:hover, .btn:hover {
 
 .btn-filled:hover {
 	color: #FFF;
-	transform: scale(1.01);
+	transform: scale(1.014);
 }
 
 .btn-outline:hover {
 	color:#FF486A;
-	transform: scale(1.01);
+	transform: scale(1.014);
 }
 
 /* ---nav---- */
