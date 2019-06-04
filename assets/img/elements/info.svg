@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>info</title>
+    <title>Shape</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="info" transform="translate(-2.000000, -2.000000)">
-            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
-            <path d="M9.2,6 L10.8,6 L10.8,7.6 L9.2,7.6 L9.2,6 Z M9.2,9.2 L10.8,9.2 L10.8,14 L9.2,14 L9.2,9.2 Z M10,2 C5.584,2 2,5.584 2,10 C2,14.416 5.584,18 10,18 C14.416,18 18,14.416 18,10 C18,5.584 14.416,2 10,2 Z M10,16.4 C6.472,16.4 3.6,13.528 3.6,10 C3.6,6.472 6.472,3.6 10,3.6 C13.528,3.6 16.4,6.472 16.4,10 C16.4,13.528 13.528,16.4 10,16.4 Z" id="Shape" fill="#6C757D" fill-rule="nonzero"></path>
+        <g id="info" transform="translate(-2.000000, -2.000000)" fill="#6C757D" fill-rule="nonzero">
+            <path d="M9.2,6 L10.8,6 L10.8,7.6 L9.2,7.6 L9.2,6 Z M9.2,9.2 L10.8,9.2 L10.8,14 L9.2,14 L9.2,9.2 Z M10,2 C5.584,2 2,5.584 2,10 C2,14.416 5.584,18 10,18 C14.416,18 18,14.416 18,10 C18,5.584 14.416,2 10,2 Z M10,16.4 C6.472,16.4 3.6,13.528 3.6,10 C3.6,6.472 6.472,3.6 10,3.6 C13.528,3.6 16.4,6.472 16.4,10 C16.4,13.528 13.528,16.4 10,16.4 Z" id="Shape"></path>
         </g>
     </g>
 </svg>
