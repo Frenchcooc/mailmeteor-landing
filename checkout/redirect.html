@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<p>
+  You are been redirected. Please don't close this window.
+</p>
+<p id="error-message"></p>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+  function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]')
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)')
+    var results = regex.exec(location.search)
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '))
+  }
+
+  try {
+    var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
+    stripe
+      .redirectToCheckout({
+        sessionId: "getUrlParameter('csi')"
+      })
+      .then(function(result) {
+        if (result.error) {
+          throw Error(result.error.message)
+        }
+      })
+  } catch (err) {
+    var displayError = document.getElementById('error-message')
+    displayError.textContent = err.message
+  }
+</script>
