@@ -13,10 +13,15 @@
   }
 
   try {
+    var checkoutSessionId = getUrlParameter('csi')
+    if (!checkoutSessionId) {
+      throw Error('Missing a Stripe Checkout ID.')
+    }
+
     var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
     stripe
       .redirectToCheckout({
-        sessionId: "getUrlParameter('csi')"
+        sessionId: checkoutSessionId
       })
       .then(function(result) {
         if (result.error) {
