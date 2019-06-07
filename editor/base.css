@@ -50,7 +50,6 @@
 /* Author: attila@google.com (Attila Bodis) */
 
 body {
-  background-color: #ffe;
   font: normal 10pt Arial, sans-serif;
 }
 
@@ -89,7 +88,7 @@ input {
 }
 
 .goog-debug-panel .logdiv .logmsg {
-  font: normal 10px 'Lucida Sans Typewriter', 'Courier New', Courier, fixed;
+  font: normal 10px Arial, sans-serif;
 }
 
 .perf {
@@ -725,8 +724,8 @@ input {
 
 .goog-toolbar {
   /* Client apps may override the URL at which they serve the image. */
-  background: #fafafa url(//ssl.gstatic.com/editor/toolbar-bg.png) repeat-x bottom left;
-  border-bottom: 1px solid #d5d5d5;
+  background:white;
+  /* border-bottom: 1px solid #d5d5d5; */
   cursor: default;
   font: normal 12px Arial, sans-serif;
   margin: 0;
@@ -1056,16 +1055,16 @@ input {
 
 /* Menu button caption style. */
 .goog-toolbar-menu-button-caption {
-  padding: 0 4px 0 0;
+  padding: 0 0 0 0;
   vertical-align: middle;
 }
 
 /* Dropdown style. */
 .goog-toolbar-menu-button-dropdown {
-  width: 7px;
+  width: 20px;
   /* Client apps may override the URL at which they serve the sprite. */
-  background: url(//ssl.gstatic.com/editor/editortoolbar.png) no-repeat -388px 0;
-  vertical-align: middle;
+  background: url('gmailUI/baseline-arrow_drop_down-24px.svg');
+  vertical-align: top;
 }
 
 /*
@@ -1122,9 +1121,9 @@ input {
  */
 
 /* Color indicator. */
-.goog-color-menu-button-indicator {
+/* .goog-color-menu-button-indicator {
   border-bottom: 4px solid #f0f0f0;
-}
+} */
 
 /* Thinner padding for color picker buttons, to leave room for the indicator. */
 .goog-color-menu-button .goog-menu-button-inner-box,
@@ -1413,107 +1412,104 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Common base style for all icons. */
 .tr-icon {
-  width: 16px;
-  height: 16px;
-  background: url(//ssl.gstatic.com/editor/editortoolbar.png) no-repeat;
+  width: 24px;
+  height: 24px;
   vertical-align: middle;
 }
 
-.goog-color-menu-button-indicator .tr-icon {
+/* .goog-color-menu-button-indicator .tr-icon {
   height: 14px;
-}
+} */
 
 /* Undo (redo when the chrome is right-to-left). */
 .tr-undo,
 .goog-toolbar-button-rtl .tr-redo {
-  background-position: 0;
+  background:url('gmailUI/baseline-undo-24px.svg');
 }
 
 /* Redo (undo when the chrome is right-to-left). */
 .tr-redo,
 .goog-toolbar-button-rtl .tr-undo {
-  background-position: -16px;
+  background:url('gmailUI/baseline-redo-24px.svg');
 }
 
 /* Font name. */
 .tr-fontName .goog-toolbar-menu-button-caption {
   color: #246;
-  width: 16ex;
-  height: 16px;
   overflow: hidden;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 /* Font size. */
 .tr-fontSize .goog-toolbar-menu-button-caption {
-  color: #246;
+  background:url('gmailUI/baseline-text_fields-24px.svg');
+  background-repeat:no-repeat;
+  /* color: #246;
   width: 8ex;
   height: 16px;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 /* Bold. */
 .tr-bold {
-  background-position: -32px;
+  background:url('gmailUI/baseline-format_bold-24px.svg');
 }
 
 /* Italic. */
 .tr-italic {
-  background-position: -48px;
+  background:url('gmailUI/baseline-format_italic-24px.svg');
 }
 
 /* Underline. */
 .tr-underline {
-  background-position: -64px;
+  background:url('gmailUI/baseline-format_underlined-24px.svg');
 }
 
 /* Foreground color. */
 .tr-foreColor {
-  height: 14px;
-  background-position: -80px;
+  background:url('gmailUI/baseline-format_color_text-24px.svg');
 }
 
 /* Background color. */
 .tr-backColor {
-  height: 14px;
-  background-position: -96px;
+  background:url('gmailUI/baseline-format_color_fill-24px.svg');
 }
 
 /* Link. */
 .tr-link {
-  font-weight: bold;
-  color: #009;
-  text-decoration: underline;
+  background:url('gmailUI/baseline-insert_link-24px.svg');
 }
 
 /* Insert image. */
 .tr-image {
-  background-position: -112px;
+  background:url('gmailUI/baseline-photo-24px.svg');
 }
 
-/* Insert drawing. */
+/* Insert drawing.
 .tr-newDrawing {
   background-position: -592px;
 }
 
 /* Insert special character. */
-.tr-spChar {
+/* .tr-spChar {
   font-weight: bold;
   color: #900;
-}
+} */ 
 
 /* Increase indent. */
 .tr-indent {
-  background-position: -128px;
+  background:url('gmailUI/baseline-format_indent_increase-24px.svg');
 }
 
 /* Increase ident in right-to-left text mode, regardless of chrome direction. */
-.tr-rtl-mode .tr-indent {
+/* .tr-rtl-mode .tr-indent {
   background-position: -400px;
-}
+} */
 
 /* Decrease indent. */
 .tr-outdent {
-  background-position: -144px;
+  background:url('gmailUI/baseline-format_indent_decrease-24px.svg');
 }
 
 /* Decrease indent in right-to-left text mode, regardless of chrome direction. */
@@ -1523,102 +1519,102 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Bullet (unordered) list. */
 .tr-insertUnorderedList {
-  background-position: -160px;
+  background:url('gmailUI/baseline-format_list_bulleted-24px.svg');
 }
 
 /* Bullet list in right-to-left text mode, regardless of chrome direction. */
-.tr-rtl-mode .tr-insertUnorderedList {
-  background-position: -432px;
-}
+/* .tr-rtl-mode .tr-insertUnorderedList {
+  background:url('gmailUI/baseline-format_list_bulleted-24px.svg');
+} */
 
 /* Number (ordered) list. */
 .tr-insertOrderedList {
-  background-position: -176px;
+  background:url('gmailUI/baseline-format_list_numbered-24px.svg');
 }
 
 /* Number list in right-to-left text mode, regardless of chrome direction. */
-.tr-rtl-mode .tr-insertOrderedList {
+/* .tr-rtl-mode .tr-insertOrderedList {
   background-position: -448px;
-}
+} */
 
 /* Text alignment buttons. */
 .tr-justifyLeft {
-  background-position: -192px;
+  background:url('gmailUI/baseline-format_align_left-24px.svg');
 }
 .tr-justifyCenter {
-  background-position: -208px;
+  background:url('gmailUI/baseline-format_align_center-24px.svg');
 }
 .tr-justifyRight {
-  background-position: -224px;
+  background:url('gmailUI/baseline-format_align_right-24px.svg');
 }
-.tr-justifyFull {
+/* .tr-justifyFull {
   background-position: -480px;
-}
+} */
 
 /* Blockquote. */
 .tr-BLOCKQUOTE {
-  background-position: -240px;
+  background:url('gmailUI/baseline-format_quote-24px.svg');
 }
 
 /* Blockquote in right-to-left text mode, regardless of chrome direction. */
-.tr-rtl-mode .tr-BLOCKQUOTE {
-  background-position: -464px;
-}
+/* .tr-rtl-mode .tr-BLOCKQUOTE {
+  background-position:('gmailUI/baseline-format_quote-24px.svg');
+} */
 
 /* Remove formatting. */
 .tr-removeFormat {
-  background-position: -256px;
+  background:url('gmailUI/baseline-format_clear-24px.svg');
 }
 
 /* Spellcheck. */
-.tr-spell {
+/* .tr-spell {
   background-position: -272px;
-}
+} */
 
 /* Left-to-right text direction. */
-.tr-ltr {
+/* .tr-ltr {
   background-position: -288px;
-}
+} */
 
 /* Right-to-left text direction. */
-.tr-rtl {
+/* .tr-rtl {
   background-position: -304px;
-}
+} */
 
 /* Insert iGoogle module. */
-.tr-insertModule {
+/* .tr-insertModule {
   background-position: -496px;
-}
+} */
 
 /* Strike through text */
 .tr-strikeThrough {
-  background-position: -544px;
+  background:url('gmailUI/baseline-format_clear-24px.svg');
 }
 
 /* Subscript */
-.tr-subscript {
+/* .tr-subscript {
   background-position: -560px;
-}
+} */
 
 /* Superscript */
-.tr-superscript {
+/* .tr-superscript {
   background-position: -576px;
-}
+} */
 
 /* Insert drawing. */
-.tr-equation {
+/* .tr-equation {
   background-position: -608px;
-}
+} */
 
 /* Edit HTML. */
-.tr-editHtml {
+/* .tr-editHtml {
   color: #009;
-}
+} */
 
 /* "Format block" menu. */
-.tr-formatBlock .goog-toolbar-menu-button-caption {
+/* .tr-formatBlock .goog-toolbar-menu-button-caption {
   color: #246;
   width: 12ex;
   height: 16px;
   overflow: hidden;
-}
+} */
