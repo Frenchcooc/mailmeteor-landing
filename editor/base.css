@@ -165,17 +165,19 @@ input {
  */
 
 .modal-dialog {
-  background: #c1d9ff;
-  border: 1px solid #3a5774;
-  color: #000;
-  padding: 4px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding: 0;
   position: absolute;
 }
 
 .modal-dialog a,
 .modal-dialog a:link,
 .modal-dialog a:visited {
-  color: #06c;
+  color: black;
   cursor: pointer;
 }
 
@@ -187,14 +189,13 @@ input {
 }
 
 .modal-dialog-title {
-  background: #e0edfe;
   color: #000;
   cursor: pointer;
   font-size: 120%;
   font-weight: bold;
 
   /* Add padding on the right to ensure the close button has room. */
-  padding: 8px 31px 8px 8px;
+  padding: 24px 24px 16px;
 
   position: relative;
   _zoom: 1; /* Ensures proper width in IE6 RTL. */
@@ -214,12 +215,20 @@ input {
 
 .modal-dialog-buttons,
 .modal-dialog-content {
-  background-color: #fff;
-  padding: 8px;
+  padding: 24px;
+  color: #7e8286;
+}
+.modal-dialog-content {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .goog-buttonset-default {
   font-weight: bold;
+}
+
+#linkdialog-text-label {
+  color: #7e8286;
 }
 
 /*
@@ -237,7 +246,7 @@ input {
 
 .goog-link-button {
   position: relative;
-  color: #00f;
+  color: #7e8286;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -460,7 +469,7 @@ input {
 .goog-tab {
   position: relative;
   padding: 4px 8px;
-  color: #00c;
+  color: #7e8286;
   text-decoration: underline;
   cursor: default;
 }
@@ -512,7 +521,6 @@ input {
   background: #fff;
   text-decoration: none;
   font-weight: bold;
-  border: 1px solid #6b90da;
 }
 
 .goog-tab-bar-top {
@@ -569,7 +577,6 @@ input {
   list-style: none;
   cursor: default;
   outline: none;
-  background: #ebeff9;
 }
 
 .goog-tab-bar-clear {
@@ -724,7 +731,7 @@ input {
 
 .goog-toolbar {
   /* Client apps may override the URL at which they serve the image. */
-  background:white;
+  background: white;
   /* border-bottom: 1px solid #d5d5d5; */
   cursor: default;
   font: normal 12px Arial, sans-serif;
@@ -1065,6 +1072,7 @@ input {
   /* Client apps may override the URL at which they serve the sprite. */
   background: url('gmailUI/baseline-arrow_drop_down-24px.svg');
   vertical-align: top;
+  display: none;
 }
 
 /*
@@ -1328,7 +1336,6 @@ div.tr_multi_bubble div.tr_bubble_panel {
 .tr-tabpane-caption {
   font-size: 10pt;
   margin-bottom: 0.7ex;
-  background-color: #fffaf5;
   line-height: 1.3em;
 }
 
@@ -1347,7 +1354,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 .tr-tabpane .goog-tab {
   text-decoration: underline;
-  color: blue;
+  color: black;
   cursor: pointer;
 }
 
@@ -1424,13 +1431,13 @@ div.tr_multi_bubble div.tr_bubble_panel {
 /* Undo (redo when the chrome is right-to-left). */
 .tr-undo,
 .goog-toolbar-button-rtl .tr-redo {
-  background:url('gmailUI/baseline-undo-24px.svg');
+  background: url('gmailUI/baseline-undo-24px.svg');
 }
 
 /* Redo (undo when the chrome is right-to-left). */
 .tr-redo,
 .goog-toolbar-button-rtl .tr-undo {
-  background:url('gmailUI/baseline-redo-24px.svg');
+  background: url('gmailUI/baseline-redo-24px.svg');
 }
 
 /* Font name. */
@@ -1443,8 +1450,8 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Font size. */
 .tr-fontSize .goog-toolbar-menu-button-caption {
-  background:url('gmailUI/baseline-text_fields-24px.svg');
-  background-repeat:no-repeat;
+  background: url('gmailUI/baseline-text_fields-24px.svg');
+  background-repeat: no-repeat;
   /* color: #246;
   width: 8ex;
   height: 16px;
@@ -1453,37 +1460,37 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Bold. */
 .tr-bold {
-  background:url('gmailUI/baseline-format_bold-24px.svg');
+  background: url('gmailUI/baseline-format_bold-24px.svg');
 }
 
 /* Italic. */
 .tr-italic {
-  background:url('gmailUI/baseline-format_italic-24px.svg');
+  background: url('gmailUI/baseline-format_italic-24px.svg');
 }
 
 /* Underline. */
 .tr-underline {
-  background:url('gmailUI/baseline-format_underlined-24px.svg');
+  background: url('gmailUI/baseline-format_underlined-24px.svg');
 }
 
 /* Foreground color. */
 .tr-foreColor {
-  background:url('gmailUI/baseline-format_color_text-24px.svg');
+  background: url('gmailUI/baseline-format_color_text-24px.svg');
 }
 
 /* Background color. */
 .tr-backColor {
-  background:url('gmailUI/baseline-format_color_fill-24px.svg');
+  background: url('gmailUI/baseline-format_color_fill-24px.svg');
 }
 
 /* Link. */
 .tr-link {
-  background:url('gmailUI/baseline-insert_link-24px.svg');
+  background: url('gmailUI/baseline-insert_link-24px.svg');
 }
 
 /* Insert image. */
 .tr-image {
-  background:url('gmailUI/baseline-photo-24px.svg');
+  background: url('gmailUI/baseline-photo-24px.svg');
 }
 
 /* Insert drawing.
@@ -1495,11 +1502,11 @@ div.tr_multi_bubble div.tr_bubble_panel {
 /* .tr-spChar {
   font-weight: bold;
   color: #900;
-} */ 
+} */
 
 /* Increase indent. */
 .tr-indent {
-  background:url('gmailUI/baseline-format_indent_increase-24px.svg');
+  background: url('gmailUI/baseline-format_indent_increase-24px.svg');
 }
 
 /* Increase ident in right-to-left text mode, regardless of chrome direction. */
@@ -1509,7 +1516,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Decrease indent. */
 .tr-outdent {
-  background:url('gmailUI/baseline-format_indent_decrease-24px.svg');
+  background: url('gmailUI/baseline-format_indent_decrease-24px.svg');
 }
 
 /* Decrease indent in right-to-left text mode, regardless of chrome direction. */
@@ -1519,7 +1526,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Bullet (unordered) list. */
 .tr-insertUnorderedList {
-  background:url('gmailUI/baseline-format_list_bulleted-24px.svg');
+  background: url('gmailUI/baseline-format_list_bulleted-24px.svg');
 }
 
 /* Bullet list in right-to-left text mode, regardless of chrome direction. */
@@ -1529,7 +1536,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Number (ordered) list. */
 .tr-insertOrderedList {
-  background:url('gmailUI/baseline-format_list_numbered-24px.svg');
+  background: url('gmailUI/baseline-format_list_numbered-24px.svg');
 }
 
 /* Number list in right-to-left text mode, regardless of chrome direction. */
@@ -1539,13 +1546,13 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Text alignment buttons. */
 .tr-justifyLeft {
-  background:url('gmailUI/baseline-format_align_left-24px.svg');
+  background: url('gmailUI/baseline-format_align_left-24px.svg');
 }
 .tr-justifyCenter {
-  background:url('gmailUI/baseline-format_align_center-24px.svg');
+  background: url('gmailUI/baseline-format_align_center-24px.svg');
 }
 .tr-justifyRight {
-  background:url('gmailUI/baseline-format_align_right-24px.svg');
+  background: url('gmailUI/baseline-format_align_right-24px.svg');
 }
 /* .tr-justifyFull {
   background-position: -480px;
@@ -1553,7 +1560,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Blockquote. */
 .tr-BLOCKQUOTE {
-  background:url('gmailUI/baseline-format_quote-24px.svg');
+  background: url('gmailUI/baseline-format_quote-24px.svg');
 }
 
 /* Blockquote in right-to-left text mode, regardless of chrome direction. */
@@ -1563,7 +1570,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Remove formatting. */
 .tr-removeFormat {
-  background:url('gmailUI/baseline-format_clear-24px.svg');
+  background: url('gmailUI/baseline-format_clear-24px.svg');
 }
 
 /* Spellcheck. */
@@ -1588,7 +1595,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Strike through text */
 .tr-strikeThrough {
-  background:url('gmailUI/baseline-format_clear-24px.svg');
+  background: url('gmailUI/baseline-format_clear-24px.svg');
 }
 
 /* Subscript */

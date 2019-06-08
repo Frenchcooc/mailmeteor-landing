@@ -33,13 +33,13 @@
 
     <style>
       #editMe {
-        font-family:sans-serif;
+        font-family: sans-serif;
         width: 100%;
         height: 200px;
         background-color: white;
         border: 1px solid #ccc;
         border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;     
+        border-bottom-right-radius: 3px;
       }
     </style>
   </head>
@@ -62,7 +62,6 @@
       // Create and register all of the editing plugins you want to use.
       myField.registerPlugin(new goog.editor.plugins.BasicTextFormatter())
       myField.registerPlugin(new goog.editor.plugins.RemoveFormatting())
-      myField.registerPlugin(new goog.editor.plugins.UndoRedo())
       myField.registerPlugin(new goog.editor.plugins.ListTabHandler())
       myField.registerPlugin(new goog.editor.plugins.SpacesTabHandler())
       myField.registerPlugin(new goog.editor.plugins.EnterHandler())
@@ -73,10 +72,6 @@
 
       // Specify the buttons to add to the toolbar, using built in default buttons.
       var buttons = [
-        goog.editor.Command.UNDO,
-        goog.editor.Command.REDO,
-        goog.editor.Command.FONT_FACE,
-        goog.editor.Command.FONT_SIZE,
         goog.editor.Command.BOLD,
         goog.editor.Command.ITALIC,
         goog.editor.Command.UNDERLINE,
@@ -90,10 +85,7 @@
         goog.editor.Command.UNORDERED_LIST,
         goog.editor.Command.ORDERED_LIST,
         goog.editor.Command.INDENT,
-        goog.editor.Command.OUTDENT,
-        // goog.editor.Command.SUBSCRIPT,
-        // goog.editor.Command.SUPERSCRIPT,
-        // goog.editor.Command.STRIKE_THROUGH,
+        goog.editor.Command.OUTDENT
       ]
       var myToolbar = goog.ui.editor.DefaultToolbar.makeToolbar(buttons, goog.dom.getElement('toolbar'))
 
