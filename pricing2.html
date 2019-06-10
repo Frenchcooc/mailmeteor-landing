@@ -23,20 +23,17 @@
     <!-- Scroll library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Stripe Checkout -->
-    <script src="https://js.stripe.com/v3"></script>
-
     <!-- Hotjar Tracking Code for https://mailmeteor.com -->
-		<script>
-		    (function(h,o,t,j,a,r){
-		        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-		        h._hjSettings={hjid:1336209,hjsv:6};
-		        a=o.getElementsByTagName('head')[0];
-		        r=o.createElement('script');r.async=1;
-		        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-		        a.appendChild(r);
-		    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-		</script>
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1336209,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
 
 </head>
@@ -81,7 +78,7 @@
         <div class="pricing mt-5">
             <div class="container">
                 <h2 class="text-center pt-5">Get Mailmeteor PRO</h2>
-                <h3 class="pricing-header text-center ml-auto mr-auto">Whether you need to send campaigns regularly or just need to use Mailmeteor once in a while, find plans adapted to your needs.</h3>
+                <h3 class="pricing-header text-center ml-auto mr-auto">Whether you need to send campaigns regularly or just need to use Mailmeteor once in a while, find plans adapted to your needs. Prices exclude taxes.</h3>
                 <div class="container text-center mt-4">
 
                     <h5 class="pt-3 pb-2 font-weight-bold text-center text-muted">Individual plans</h5>
@@ -120,8 +117,9 @@
                                           </ul>
                                           <button
                                             class="stripe-checkout btn btn-filled"
-                                            data-stripe-plan="monthly-euro"
-                                            data-stripe-plan-id="plan_F5wdsqE4qJ4LPH"
+                                            data-checkout-plan-id="plan_F5wdsqE4qJ4LPH"
+                                            data-toggle="modal" 
+                                            data-target="#activeEmailModal"
                                             role="link">
                                             BUY NOW
                                           </button>
@@ -146,8 +144,9 @@
                                         </ul>
                                         <button
                                           class="stripe-checkout btn btn-filled"
-                                          data-stripe-plan="yearly-dollar"
-                                          data-stripe-plan-id="plan_F5wbHFAyliGUPU"
+                                          data-checkout-plan-id="plan_F5wbHFAyliGUPU"
+                                          data-toggle="modal" 
+                                          data-target="#activeEmailModal"
                                           role="link">
                                         BUY NOW
                                         </button>
@@ -246,9 +245,7 @@
     <section class="faq pt-5 pb-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-out">
             <div class="container" style="max-width: 80%">
                 <h2 id="faq" class="text-center">FAQs</h2>
-
                 <div id="accordion">
-
                         <div class="card">
                             <div class="card-header accordionpointer collapsed" id="heading1" data-toggle="collapse" data-target="#collapse1">
                                 <p class="mb-0" aria-expanded="true" aria-controls="collapse1"> Is Mailmeteor free? </p>
@@ -323,62 +320,36 @@
     </footer>
 
 
-    <div id="error-message"></div>
-
+    <!-- MODAL FOR ACTIVE EMAIL  -->
     <div class="modal fade" id="activeEmailModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body" >
-                    <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
-                        <input type="email" name="active_email"/>
+            <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
+                <div class="modal-content">
+                    <div class="modal-header" style="padding: 1rem 2rem;">
+                        <h5 class="modal-title" style="font-size: 1.5rem;font-weight: 700;color: #04143A;">Mailmeteor upgrade</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="padding: 2rem;">
+                        <label>Enter the email you want to upgrade on Mailmeteor:</label>
+                        <div>
+                            <div class="input-group mb-3">
+                                <input type="email" style="outline: none;" class="form-control" placeholder="Your email address" required="true" name="active_email">
+                                <div class="input-group-append">
+                                    <button class="btn btn btn-filled" type="submit" style="margin:0">Checkout</button>
+                                </div>
+                            </div>
+                        </div>
                         <input type="hidden" name="plan_id" class="checkout-plan-id" />
-                        <button class="btn btn-primary" type="submit">Checkout</button>
-                    </form>
-                </div>
-                
-            </div>
+                    </div>
+                </div> 
+            </form>
         </div>
     </div>
 
-    <script>
-      var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
-      var checkoutButtons = document.getElementsByClassName('stripe-checkout')
-
-      for (var i = 0; i < checkoutButtons.length; i++) {
-        checkoutButtons[i].addEventListener('click', function() {
-          var plan = 'plan_F4cImcnbw08hUP'
-          if (this && this.getAttribute('data-stripe-plan-id')) {
-            plan = this.getAttribute('data-stripe-plan-id')
-          }
-
-          stripe
-            .redirectToCheckout({
-              items: [{ plan: plan, quantity: 1 }],
-
-              // Do not rely on the redirect to the successUrl for fulfilling
-              // purchases, customers may not always reach the success_url after
-              // a successful payment.
-              // Instead use one of the strategies described in
-              // https://stripe.com/docs/payments/checkout/fulfillment
-              successUrl: 'https://mailmeteor.com/checkout/success',
-              cancelUrl: 'https://mailmeteor.com/checkout/canceled'
-            })
-            .then(function(result) {
-              if (result.error) {
-                // If `redirectToCheckout` fails due to a browser or network
-                // error, display the localized error message to your customer.
-                var displayError = document.getElementById('error-message')
-                displayError.textContent = result.error.message
-              }
-            })
-        })
-      }
-
-    </script>
-
 
     <!-- Bootstrap scripts -->
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -406,7 +377,6 @@
         // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
         var modal = $(this)
         modal.find('input.checkout-plan-id').val(planId)
-        console.log(modal.find('input.checkout-plan-id'))
     })
     </script>
 
