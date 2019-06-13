@@ -176,14 +176,15 @@
                                             <li>Preview emails</li>
                                             <li>Custom support expertise</li>
                                         </ul>
-                                        <button
-                                          class="btn btn-filled"
-                                          data-checkout-plan-id="plan_F5wfQunLALF29C"
-                                          data-toggle="modal"
-                                          data-target="#activeEmailModal"
-                                          role="link">
-                                          BUY NOW
-                                        </button>
+                                        <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
+                                            <input type="hidden" name="plan_id" value="plan_F5wfQunLALF29C"/>
+                                            <button
+                                            class="btn btn-filled"
+                                            type="submit"
+                                            role="link">
+                                            BUY NOW
+                                            </button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
