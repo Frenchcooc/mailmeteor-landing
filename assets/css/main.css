@@ -764,6 +764,16 @@ section.privacy {
 	}
 
 
+	/*Remove outline on input*/
+
+	#activeEmailModal > input:focus{
+		outline:none;
+	}
+
+	#activeEmailModal > button:focus {
+		outline:none;
+	}
+
 
 	/* Success and fail UIs */
 
