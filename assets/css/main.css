@@ -766,12 +766,12 @@ section.privacy {
 
 	/*Remove outline on input*/
 
-	#activeEmailModal > input:focus, #activeEmailModal > input:active{
+	#activeEmailModal input:focus, #activeEmailModal input:active{
 		outline:none;
 	}
 
 
-	#activeEmailModal > div > form > div > div.modal-header > button:focus, #activeEmailModal > div > form > div > div.modal-header > button:active {
+	#activeEmailModal button:focus, #activeEmailModal button:active {
 		outline:none;
 	}
 
