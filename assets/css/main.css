@@ -771,8 +771,12 @@ section.privacy {
 	}
 
 
-	#activeEmailModal > button:focus, #activeEmailModal > button:active {
+	#activeEmailModal > div > form > div > div.modal-header > button:focus, #activeEmailModal > div > form > div > div.modal-header > button:active {
 		outline:none;
+	}
+
+	.close {
+		font-weight: 500;
 	}
 
 
