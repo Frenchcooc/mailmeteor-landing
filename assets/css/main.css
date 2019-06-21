@@ -723,7 +723,16 @@ section.subpage {
 
 .header-center {
 	max-width: 50%;
-    margin: auto;
+	margin: auto;
+	text-align:center;
+}
+
+.subheader-center {
+	max-width: 50%;
+	margin: auto;
+	text-align:center;
+	font-size:1em;
+	font-weight: normal;
 }
 
 /* Pricing page */
