@@ -707,18 +707,23 @@ body > footer > div > p {
 
 Privacy pages, terms, other  */
 
-section.plainpage {
+section.subpage {
  	margin-bottom: 10em;
 	margin-top:4.5em;
 }
 
-.plainpage h1,
-.plainpage h2,
-.plainpage h3,
-.plainpage h4,
-.plainpage h5,
-.plainpage h6 {
+.subpage h1,
+.subpage h2,
+.subpage h3,
+.subpage h4,
+.subpage h5,
+.subpage h6 {
 	font-weight: bold !important;
+}
+
+.header-center {
+	max-width: 50%;
+    margin: auto;
 }
 
 /* Pricing page */
@@ -794,15 +799,6 @@ section.plainpage {
 			65%  { transform: translate(0, 3px); }
 			to   { transform: translate(0, -0px); }
 	}
-
-
-/* Comparison pages  */
-
-section.comparison {
-	margin-top:12em;
-}
-
-
 
 /* Big display > 1440px */
 
