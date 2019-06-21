@@ -712,19 +712,12 @@ section.subpage {
 	margin-top:4.5em;
 }
 
-.subpage h1,
-.subpage h2,
-.subpage h3,
-.subpage h4,
-.subpage h5,
-.subpage h6 {
-	font-weight: bold !important;
-}
 
 .header-center {
 	max-width: 50%;
 	margin: auto;
 	text-align:center;
+	font-weight: bold;
 }
 
 .subheader-center {
