@@ -705,19 +705,19 @@ body > footer > div > p {
 
 /* Other pages
 
-Privacy pages  */
+Privacy pages, terms, other  */
 
-section.privacy {
+section.plainpage {
  	margin-bottom: 10em;
 	margin-top:4.5em;
 }
 
-.privacy h1,
-.privacy h2,
-.privacy h3,
-.privacy h4,
-.privacy h5,
-.privacy h6 {
+.plainpage h1,
+.plainpage h2,
+.plainpage h3,
+.plainpage h4,
+.plainpage h5,
+.plainpage h6 {
 	font-weight: bold !important;
 }
 
