@@ -598,8 +598,14 @@ sup {
 	background: #FF486A;
 }
 
+/*---Testimonials---*/
 
-/* ----Faq section--- */
+.testimonials-logo {
+	margin:5%;
+}
+
+
+/* ---Faq section--- */
 
 
 .faq {
