@@ -713,14 +713,14 @@ section.subpage {
 
 
 .header-center {
-	max-width: 50%;
+	max-width: 80%;
 	margin: auto;
 	text-align:center;
 	font-weight: bold;
 }
 
 .subheader-center {
-	max-width: 50%;
+	max-width: 80%;
 	margin: auto;
 	text-align:center;
 	font-size:1em;
