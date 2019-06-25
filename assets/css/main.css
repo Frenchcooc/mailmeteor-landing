@@ -717,16 +717,17 @@ section.subpage {
 	margin-top:4.5em;
 }
 
+.subpage .table th {
+	border-top:none;
+}
 
 .header-center {
-	max-width: 80%;
 	margin: auto;
 	text-align:center;
 	font-weight: bold;
 }
 
 .subheader-center {
-	max-width: 80%;
 	margin: auto;
 	text-align:center;
 	font-size:1em;
