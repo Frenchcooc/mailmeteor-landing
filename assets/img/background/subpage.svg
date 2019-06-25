@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 671.1" style="enable-background:new 0 0 1440 671.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<title>Path</title>
+<desc>Created with Sketch.</desc>
+<g id="Artboards">
+	<g id="HOME" transform="translate(0.000000, -680.000000)">
+		<g id="Tutorial" transform="translate(-174.000000, 475.000000)">
+			
+				<g id="why" transform="translate(789.157027, 519.145536) scale(1, -1) rotate(-11.000000) translate(-789.157027, -519.145536) translate(60.657027, 132.145536)">
+				
+					<g id="Group-6" transform="translate(728.615162, 387.027111) scale(-1, 1) rotate(174.000000) translate(-728.615162, -387.027111) translate(29.615162, 72.027111)">
+					
+						<radialGradient id="SVGID_1_" cx="1352.8976" cy="90.3011" r="1.3188" gradientTransform="matrix(361.6945 -954.4222 -1425.7896 -201.9446 -359458.2188 1310177.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#1059B5"/>
+						<stop  offset="1" style="stop-color:#02094D"/>
+					</radialGradient>
+					<path class="st0" d="M47.8,46.1l38.6,441.2c3.9-0.1,7.8-0.2,11.7-0.3c249.6-5.7,503.6,12.1,748.7-46.7
+						c111.4-26.8,221.2-71.7,335.9-81.8c119.2-10.4,238.4,7.6,357.6,9.9L1501-81L47.8,46.1z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<radialGradient id="SVGID_2_" cx="732" cy="-562" r="0" gradientTransform="matrix(1 0 0 1 0 518)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#1059B5"/>
+	<stop  offset="1" style="stop-color:#02094D"/>
+</radialGradient>
+<path class="st1" d="M732-44"/>
+</svg>
