@@ -38,7 +38,7 @@ section {
 	font-weight: 600;
 }
 
-h3 strong, p strong {
+strong {
 	font-weight:normal;
 }
 
@@ -745,7 +745,6 @@ section.subpage {
     border-radius: 5px;
 	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
-
 
 .subpage img:hover, .subpage .comparison-table:hover {
  	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
