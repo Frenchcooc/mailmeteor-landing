@@ -730,15 +730,24 @@ section.subpage {
 	font-weight: normal;
 }
 
-.subpage img, .subpage table {
-	border-radius: 5px;
+.subpage img {
 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
- 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+	 box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+    border-radius: 5px;
+	padding: 0;
+	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.subpage .comparison-table {
+	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+	border: 1px solid #eee;
+    border-radius: 5px;
 	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
 
-.subpage img:hover, .subpage table:hover {
+.subpage img:hover, .subpage .comparison-table:hover {
  	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
  	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
