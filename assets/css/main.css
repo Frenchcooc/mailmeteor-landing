@@ -745,7 +745,7 @@ section.subpage {
 }
 
 .subpag table th {
-	border-top:none;
+	border-top:0;
 }
 
 /* Pricing page */
