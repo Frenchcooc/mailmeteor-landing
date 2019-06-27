@@ -734,6 +734,12 @@ section.subpage {
 	font-weight: normal;
 }
 
+.subpage img {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 9px;
+    border-radius: 8px;
+    padding: 0;
+}
+
 /* Pricing page */
 
 	/*Pricing content*/
