@@ -17,6 +17,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://mailmeteor.com/alternative/yetanothermailmerge</loc>
+  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
   <loc>https://mailmeteor.com/privacy-policy</loc>
   <lastmod>2019-05-24T10:21:27+00:00</lastmod>
   <priority>0.50</priority>
