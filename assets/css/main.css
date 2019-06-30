@@ -5,8 +5,15 @@
 }
 
 html, body {
-	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
+}
+
+h1,h2, a{
+	font-family:'Poppins', sans-serif
+}
+
+p, span, h3, h4, h5, h6 {
+	font-family: 'DM Sans', sans-serif;
 }
 
 body {
