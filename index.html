@@ -30,7 +30,6 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="stylesheet" href="/assets/css/font.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,900" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"></script>
@@ -41,20 +40,6 @@
 
 		gtag('config', 'UA-136395985-1');
 	</script>
-
-	<!-- Hotjar Tracking Code for https://mailmeteor.com -->
-	<script>
-		(function (h, o, t, j, a, r) {
-			h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-			h._hjSettings = { hjid: 1336209, hjsv: 6 };
-			a = o.getElementsByTagName('head')[0];
-			r = o.createElement('script'); r.async = 1;
-			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-	</script>
-
-
 </head>
 
 <body>
@@ -169,7 +154,8 @@
 				<div class="col-md-8 col-lg-8">
 					<div class="embed-responsive embed-responsive-16by9" data-aos="fade-up" data-aos-duration="800">
 						<iframe class="embed-responsive-item" title="Mailmeteor product demo video"
-							src="https://www.youtube-nocookie.com/embed/eeYXR3xFyAo?vq=hd720" show-info="O"
+							src="" show-info="O"
+							data-src="https://www.youtube-nocookie.com/embed/eeYXR3xFyAo?vq=hd720"
 							frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen></iframe>
@@ -542,6 +528,19 @@
 		}
 	</script>
 
+	<!-- Youtube loader optimization -->
+	<script>
+		function init() {
+			var vidDefer = document.getElementsByTagName('iframe');
+			for (var i=0; i<vidDefer.length; i++) {
+			if(vidDefer[i].getAttribute('data-src')) {
+				vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+				}
+			} 
+		}
+		window.onload = init;
+	</script>
+
 	<!-- Crisp chat -->
 	<script type="text/javascript">
 
@@ -551,6 +550,18 @@
 			window.$crisp = []; window.CRISP_WEBSITE_ID = "ed04cf12-0517-47a4-9b26-e4bef78b1b01"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();
 		}
 
+	</script>
+
+	<!-- Hotjar Tracking Code for https://mailmeteor.com -->
+	<script defer>
+		(function (h, o, t, j, a, r) {
+			h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+			h._hjSettings = { hjid: 1336209, hjsv: 6 };
+			a = o.getElementsByTagName('head')[0];
+			r = o.createElement('script'); r.async = 1;
+			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 	</script>
 
 </body>
