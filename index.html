@@ -514,11 +514,6 @@
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 		AOS.init();
-	</script>
-
-	<script>
-		window.onscroll = function () { scrollFunction() };
-
 		function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 				document.getElementById("navbar").classList.add('navbar-shadow');
@@ -526,10 +521,10 @@
 				document.getElementById("navbar").classList.remove('navbar-shadow');
 			}
 		}
-	</script>
+		window.onscroll = function () { scrollFunction() };
 
-	<!-- Youtube loader optimization -->
-	<script>
+	// Youtube loader optimization 
+
 		function init() {
 			var vidDefer = document.getElementsByTagName('iframe');
 			for (var i=0; i<vidDefer.length; i++) {
@@ -539,29 +534,14 @@
 			} 
 		}
 		window.onload = init;
-	</script>
 
-	<!-- Crisp chat -->
-	<script type="text/javascript">
-
-		document.addEventListener("DOMContentLoaded", crisplauncher);
-
+	// Crisp chat -->
+	
 		function crisplauncher() {
 			window.$crisp = []; window.CRISP_WEBSITE_ID = "ed04cf12-0517-47a4-9b26-e4bef78b1b01"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();
 		}
 
-	</script>
-
-	<!-- Hotjar Tracking Code for https://mailmeteor.com -->
-	<script defer>
-		(function (h, o, t, j, a, r) {
-			h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-			h._hjSettings = { hjid: 1336209, hjsv: 6 };
-			a = o.getElementsByTagName('head')[0];
-			r = o.createElement('script'); r.async = 1;
-			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+		document.addEventListener("DOMContentLoaded", crisplauncher);
 	</script>
 
 </body>
