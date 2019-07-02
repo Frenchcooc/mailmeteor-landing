@@ -522,8 +522,7 @@
 		}
 		window.onscroll = function () { scrollFunction() };
 
-	// Youtube loader optimization 
-
+		// Youtube loader optimization 
 		function init() {
 			var vidDefer = document.getElementsByTagName('iframe');
 			for (var i=0; i<vidDefer.length; i++) {
@@ -534,13 +533,13 @@
 		}
 		window.onload = init;
 
-	// Crisp chat -->
-	
-		function crisplauncher() {
-			window.$crisp = []; window.CRISP_WEBSITE_ID = "ed04cf12-0517-47a4-9b26-e4bef78b1b01"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();
-		}
-
-		document.addEventListener("DOMContentLoaded", crisplauncher);
+		// Crisp chat
+		window.setTimeout(function () {
+			function crisplauncher() {
+				window.$crisp = []; window.CRISP_WEBSITE_ID = "ed04cf12-0517-47a4-9b26-e4bef78b1b01"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();
+			}
+			crisplauncher()
+		}, 4000);
 	</script>
 
 </body>
