@@ -1382,6 +1382,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
  */
 
 .tr-link-dialog-explanation-text {
+  display: none;
   font-size: 83%;
   margin-top: 15px;
 }
