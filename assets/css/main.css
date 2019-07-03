@@ -21,9 +21,9 @@ h3 {
 }
 
 body {
-  max-width: 1920px;
-  margin: 0 auto;
-  box-shadow: 0 16px 48px rgba(32,41,50,0.12);
+	max-width: 1920px;
+	margin: 0 auto;
+	box-shadow: 0 16px 48px rgba(32,41,50,0.12);
 }
 
 
@@ -98,7 +98,7 @@ button:hover, .btn:hover {
 }
 
 .btn:focus {
-    box-shadow: none;
+	box-shadow: none;
 }
 
 .btn-outline {
@@ -145,7 +145,7 @@ button:hover, .btn:hover {
 
 
 .navbar-nav .nav-link {
-  padding-right: 0;
+	padding-right: 0;
 	text-align: center;
 }
 
@@ -155,9 +155,9 @@ button:hover, .btn:hover {
 }
 
 .navbar-light .navbar-nav .nav-link {
-		color:#1b1240;
-		font-weight: 600;
-		font-size:0.9em;
+	color:#1b1240;
+	font-weight: 600;
+	font-size:0.9em;
 }
 
 .nav-link:hover{
@@ -165,7 +165,7 @@ button:hover, .btn:hover {
 }
 
 .navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus {
-		outline: none;
+	outline: none;
 }
 
 #navbarTabs > ul > li:nth-child(4) > a {
@@ -178,31 +178,31 @@ button:hover, .btn:hover {
 }
 
 @media (max-width: 768px) {
-
+	
 	body {
 		background-image: url();
 	}
-
+	
 	.top-svg{
 		display:none;
 	}
-
+	
 }
 
 @media (min-width: 768px) {
-
+	
 	.bg-light {
 		background-color: white!important;
 	}
-
+	
 	.navbar-light .navbar-nav .nav-link {
-    color:#333;
+		color:#333;
 		padding-right: .8em;
-    padding-left: .8em;
+		padding-left: .8em;
 	}
 }
 
-	/* navbar toggler  */
+/* navbar toggler  */
 
 .icon-bar {
 	width: 22px;
@@ -213,37 +213,37 @@ button:hover, .btn:hover {
 	margin-top: 4px
 }
 
-	/*navbar toggler*/
+/*navbar toggler*/
 
 .navbar-toggler {
-  border: none;
-  background: transparent !important;
+	border: none;
+	background: transparent !important;
 }
 
 .navbar-toggler .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
 }
 
 .navbar-toggler .middle-bar {
-  opacity: 0;
+	opacity: 0;
 }
 
 .navbar-toggler .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
 }
 
 .navbar-toggler.collapsed .top-bar {
-  transform: rotate(0);
+	transform: rotate(0);
 }
 
 .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
+	opacity: 1;
 }
 
 .navbar-toggler.collapsed .bottom-bar {
-  transform: rotate(0);
+	transform: rotate(0);
 }
 
 
@@ -266,13 +266,13 @@ section.features {
 .features-svg {
 	width: 100%;
 	height: 200%;
-    top: -240px;
+	top: -240px;
 	position:absolute;
 	background-image: url(../img/background/home_features.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	z-index: -1;
-
+	
 }
 
 
@@ -283,7 +283,7 @@ section.features {
 }
 
 @media (min-width: 1440px) {
-/*	.features-svg {
+	/*	.features-svg {
 		height:220%;
 	}*/
 	section.features {
@@ -304,7 +304,7 @@ section.features {
 /*features list*/
 
 @media (max-width: 1330px) {
-
+	
 	.featureitem{
 		margin:0;
 		width:100%;
@@ -320,27 +320,30 @@ section.features {
 
 .featureitem .tab_icon {
 	position:absolute;
-  left: 30px;
-  top: 30px;
+	left: 30px;
+	top: 30px;
 	max-width: 35px;
 }
 
 .featureitem .heading {
-  font-size: 1.2em;
-  line-height: 1.5em;
-  color: #FF486A;
-  font-weight: 600;
-  display: block;
-  position: relative;
-  padding-bottom: 5px;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #FF486A;
+	font-weight: 600;
+	display: block;
+	position: relative;
+	padding-bottom: 5px;
 }
 
 .featureitem .summary {
-  font-size: 1em;
-  line-height: 1.5em;
-  color: white;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: white;
 }
 
+#Gsuite_verified {
+	width:220px;
+}
 
 /* Youtube video - Remove black bars on Youtube video */
 
@@ -374,7 +377,7 @@ section.features {
 @media (max-width:575px) {
 	.video-wrapper {
 		margin-left: 0.5em;
-    margin-right: 0.5em;
+		margin-right: 0.5em;
 	}
 }
 
@@ -382,7 +385,7 @@ section.features {
 	/* .video-wrapper iframe {
 		height:70%;
 	} */
-
+	
 	section.features {
 		margin-top:-10em;
 	}
@@ -412,15 +415,15 @@ section.tutorial video {
 #steps1:before {
 	content: '';
 	height: 100%;
-  top: -5px;
-  left: 50%;
-  position: absolute;
-  display: inline-block;
-  background-image: url(../img/elements/number1.svg);
-  background-repeat: no-repeat;
-  background-size: 40px;
-  margin-left: -20px;
-  width: 40px;
+	top: -5px;
+	left: 50%;
+	position: absolute;
+	display: inline-block;
+	background-image: url(../img/elements/number1.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	margin-left: -20px;
+	width: 40px;
 }
 
 #steps2:before {
@@ -440,15 +443,15 @@ section.tutorial video {
 #steps3:before {
 	content: '';
 	height: 100%;
-  top: -5px;
-  left: 50%;
-  position: absolute;
-  display: inline-block;
-  background-image: url(../img/elements/number3.svg);
-  background-repeat: no-repeat;
-  background-size: 40px;
-  margin-left: -20px;
-  width: 40px;
+	top: -5px;
+	left: 50%;
+	position: absolute;
+	display: inline-block;
+	background-image: url(../img/elements/number3.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	margin-left: -20px;
+	width: 40px;
 }
 
 .card-body>p{
@@ -466,20 +469,20 @@ section.tutorial video {
 
 .tutorialcard {
 	background-color: white;
- 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
- 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
 	padding:10px;
 	width: 100%;
 	min-height:100%;
 	border: 1px solid #eee;
 	border-radius:5px;
-  	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
 .tutorialcard:hover {
 	background-color: white;
- 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
- 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
 
 .tutorialcard h2 {
@@ -522,27 +525,27 @@ section.pricing {
 	max-width: 700px; /* applies both on home and pricing page */
 }
 
-	/*Pricing card*/
+/*Pricing card*/
 
 .pricingcard {
 	height: 100%;
 	background-color: white;
 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
 	border: 1px solid #eee;
 	border-radius:5px;
-  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
 .pricingcard:hover {
 	background-color: white;
- 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
-	 box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 	cursor:pointer;
-
+	
 }
 
-	/*Pricing content*/
+/*Pricing content*/
 
 .pricing .card-header {
 	padding: .95rem .75rem .95em;
@@ -562,7 +565,7 @@ section.pricing {
 .pricing-home-features li:before {
 	content: '';
 	min-width: 20px;
- 	height: 12px;
+	height: 12px;
 	margin-right: 4px;
 	display: inline-block;
 	background-image: url(../img/elements/tick.svg);
@@ -571,8 +574,8 @@ section.pricing {
 
 .pricingcard button,
 .pricingcard button.btn-outline  {
-	 width: 100%;
-	 cursor: default;
+	width: 100%;
+	cursor: default;
 }
 
 .pricing-subheader {
@@ -584,9 +587,9 @@ section.pricing {
 }
 
 @media (min-width: 576px){
-.card-deck {
-	margin-left:0px !important;
-	margin-right:0px !important;
+	.card-deck {
+		margin-left:0px !important;
+		margin-right:0px !important;
 	}
 }
 
@@ -672,7 +675,7 @@ sup {
 
 .footer-svg{
 	width: 100%;
-  height: 360px;
+	height: 360px;
 	top: -80px;
 	position: absolute;
 	background-image: url(../img/background/footer.svg);
@@ -746,7 +749,7 @@ section.subpage {
 
 .subpage img {
 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-	 box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
 	padding: 0;
 	height:auto;
 	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
@@ -756,13 +759,13 @@ section.subpage {
 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01)l;
 	border: 1px solid #eee;
-    border-radius: 5px;
+	border-radius: 5px;
 	transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
 .subpage img:hover, .subpage .comparison-table:hover {
- 	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
- 	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
 
 .subpage .table th {
@@ -771,107 +774,105 @@ section.subpage {
 
 /* Pricing page */
 
-	/*Pricing content*/
+/*Pricing content*/
 
 
-	.pricing-plan-features {
-		min-height:100px; /* can be removed to obtain squared pricings */
-		text-align:left;
-		display:block;
-	}
+.pricing-plan-features {
+	min-height:100px; /* can be removed to obtain squared pricings */
+	text-align:left;
+	display:block;
+}
 
-	.pricing-plan-features li {
-		display: block;
-		align-items: center;
-	}
+.pricing-plan-features li {
+	display: block;
+	align-items: center;
+}
 
-	.pricing-plan-features li:before {
-		content: '';
-		min-width: 20px;
-		height: 12px;
-		margin-right: 4px;
-		display: inline-block;
-		background-image: url(../img/elements/tick.svg);
-		background-repeat: no-repeat;
-	}
+.pricing-plan-features li:before {
+	content: '';
+	min-width: 20px;
+	height: 12px;
+	margin-right: 4px;
+	display: inline-block;
+	background-image: url(../img/elements/tick.svg);
+	background-repeat: no-repeat;
+}
 
-	#pricing-plans {
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
-		background: linear-gradient(to bottom, #fff, #f5f6fa);
-		z-index:-2;
-		margin-bottom:0;
-	}
+#pricing-plans {
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background: linear-gradient(to bottom, #fff, #f5f6fa);
+	z-index:-2;
+	margin-bottom:0;
+}
 
-	/* styling Popover */
-	.popover-header, .popover-body {
-		background:white;
-		font-family: 'Poppins', sans-serif;
-	}
-
-
-	/*Remove outline on input*/
-
-	#activeEmailModal input:focus, #activeEmailModal input:active{
-		outline:none;
-	}
+/* styling Popover */
+.popover-header, .popover-body {
+	background:white;
+	font-family: 'Poppins', sans-serif;
+}
 
 
-	#activeEmailModal button:focus, #activeEmailModal button:active {
-		outline:none;
-	}
+/*Remove outline on input*/
 
-	.close {
-		font-weight: 500;
-	}
+#activeEmailModal input:focus, #activeEmailModal input:active{
+	outline:none;
+}
 
 
-	/* Success and fail UIs */
+#activeEmailModal button:focus, #activeEmailModal button:active {
+	outline:none;
+}
 
-	.floating {
-    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-	}
+.close {
+	font-weight: 500;
+}
 
-	@keyframes floating {
-			from { transform: translate(0,  0px); }
-			65%  { transform: translate(0, 3px); }
-			to   { transform: translate(0, -0px); }
-	}
+
+/* Success and fail UIs */
+
+.floating {
+	animation-name: floating;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	from { transform: translate(0,  0px); }
+	65%  { transform: translate(0, 3px); }
+	to   { transform: translate(0, -0px); }
+}
 
 /* Big display > 1440px */
 
 @media (min-width: 1440px) {
-
+	
 	html {
 		font-size: 90%;
 		zoom: 110%;
 	}
-
-
+	
+	
 	.crisp-client {
 		zoom:80%;
 	}
 }
 
 @media (min-width: 2000px) {
-
+	
 	html {
 		font-size: 90%;
 		zoom: 135%;
 	}
-
-
+	
+	
 	.crisp-client {
 		zoom:85%;
 	}
 }
-
-
 
 
 /* Prevent horizontal scroll on Firefox */
@@ -891,179 +892,179 @@ section.subpage {
 	font-weight: 400;
 	src: url('../fonts/poppins-v5-latin-regular.eot'); /* IE9 Compat Modes */
 	src: local('Poppins Regular'), local('Poppins-Regular'),
-		 url('../fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-italic - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-italic - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: italic;
 	font-weight: 400;
 	src: url('../fonts/poppins-v5-latin-italic.eot'); /* IE9 Compat Modes */
 	src: local('Poppins Italic'), local('Poppins-Italic'),
-		 url('../fonts/poppins-v5-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-italic.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-600 - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
 	src: url('../fonts/poppins-v5-latin-600.eot'); /* IE9 Compat Modes */
 	src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
-		 url('../fonts/poppins-v5-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-600.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-600italic - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-600.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-600italic - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: italic;
 	font-weight: 600;
 	src: url('../fonts/poppins-v5-latin-600italic.eot'); /* IE9 Compat Modes */
 	src: local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'),
-		 url('../fonts/poppins-v5-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-600italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-600italic.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-700 - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-600italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-600italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 700;
 	src: url('../fonts/poppins-v5-latin-700.eot'); /* IE9 Compat Modes */
 	src: local('Poppins Bold'), local('Poppins-Bold'),
-		 url('../fonts/poppins-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-700.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-700italic - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-700italic - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: italic;
 	font-weight: 700;
 	src: url('../fonts/poppins-v5-latin-700italic.eot'); /* IE9 Compat Modes */
 	src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'),
-		 url('../fonts/poppins-v5-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-700italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-700italic.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-800 - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-700italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-700italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 800;
 	src: url('../fonts/poppins-v5-latin-800.eot'); /* IE9 Compat Modes */
 	src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
-		 url('../fonts/poppins-v5-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-800.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  /* poppins-800italic - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-800.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-800italic - latin */
+@font-face {
 	font-family: 'Poppins';
 	font-style: italic;
 	font-weight: 800;
 	src: url('../fonts/poppins-v5-latin-800italic.eot'); /* IE9 Compat Modes */
 	src: local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'),
-		 url('../fonts/poppins-v5-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/poppins-v5-latin-800italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/poppins-v5-latin-800italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/poppins-v5-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/poppins-v5-latin-800italic.svg#Poppins') format('svg'); /* Legacy iOS */
-  }
-  
-  /* dm-sans-regular - latin */
-  @font-face {
+	url('../fonts/poppins-v5-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/poppins-v5-latin-800italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/poppins-v5-latin-800italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/poppins-v5-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/poppins-v5-latin-800italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/* dm-sans-regular - latin */
+@font-face {
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 400;
 	src: url('../fonts/dm-sans-v1-latin-regular.eot'); /* IE9 Compat Modes */
 	src: local('DM Sans Regular'), local('DMSans-Regular'),
-		 url('../fonts/dm-sans-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/dm-sans-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/dm-sans-v1-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
-  }
-  /* dm-sans-italic - latin */
-  @font-face {
+	url('../fonts/dm-sans-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/dm-sans-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/dm-sans-v1-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-italic - latin */
+@font-face {
 	font-family: 'DM Sans';
 	font-style: italic;
 	font-weight: 400;
 	src: url('../fonts/dm-sans-v1-latin-italic.eot'); /* IE9 Compat Modes */
 	src: local('DM Sans Italic'), local('DMSans-Italic'),
-		 url('../fonts/dm-sans-v1-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/dm-sans-v1-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/dm-sans-v1-latin-italic.svg#DMSans') format('svg'); /* Legacy iOS */
-  }
-  /* dm-sans-500 - latin */
-  @font-face {
+	url('../fonts/dm-sans-v1-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/dm-sans-v1-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/dm-sans-v1-latin-italic.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-500 - latin */
+@font-face {
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 500;
 	src: url('../fonts/dm-sans-v1-latin-500.eot'); /* IE9 Compat Modes */
 	src: local('DM Sans Medium'), local('DMSans-Medium'),
-		 url('../fonts/dm-sans-v1-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/dm-sans-v1-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-500.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/dm-sans-v1-latin-500.svg#DMSans') format('svg'); /* Legacy iOS */
-  }
-  /* dm-sans-500italic - latin */
-  @font-face {
+	url('../fonts/dm-sans-v1-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/dm-sans-v1-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-500.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/dm-sans-v1-latin-500.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-500italic - latin */
+@font-face {
 	font-family: 'DM Sans';
 	font-style: italic;
 	font-weight: 500;
 	src: url('../fonts/dm-sans-v1-latin-500italic.eot'); /* IE9 Compat Modes */
 	src: local('DM Sans Medium Italic'), local('DMSans-MediumItalic'),
-		 url('../fonts/dm-sans-v1-latin-500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/dm-sans-v1-latin-500italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-500italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/dm-sans-v1-latin-500italic.svg#DMSans') format('svg'); /* Legacy iOS */
-  }
-  /* dm-sans-700 - latin */
-  @font-face {
+	url('../fonts/dm-sans-v1-latin-500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/dm-sans-v1-latin-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-500italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/dm-sans-v1-latin-500italic.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-700 - latin */
+@font-face {
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 700;
 	src: url('../fonts/dm-sans-v1-latin-700.eot'); /* IE9 Compat Modes */
 	src: local('DM Sans Bold'), local('DMSans-Bold'),
-		 url('../fonts/dm-sans-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/dm-sans-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-700.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/dm-sans-v1-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
-  }
-  /* dm-sans-700italic - latin */
-  @font-face {
+	url('../fonts/dm-sans-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/dm-sans-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/dm-sans-v1-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-700italic - latin */
+@font-face {
 	font-family: 'DM Sans';
 	font-style: italic;
 	font-weight: 700;
 	src: url('../fonts/dm-sans-v1-latin-700italic.eot'); /* IE9 Compat Modes */
 	src: local('DM Sans Bold Italic'), local('DMSans-BoldItalic'),
-		 url('../fonts/dm-sans-v1-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/dm-sans-v1-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-700italic.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/dm-sans-v1-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/dm-sans-v1-latin-700italic.svg#DMSans') format('svg'); /* Legacy iOS */
-  }
+	url('../fonts/dm-sans-v1-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/dm-sans-v1-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-700italic.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/dm-sans-v1-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/dm-sans-v1-latin-700italic.svg#DMSans') format('svg'); /* Legacy iOS */
+}
