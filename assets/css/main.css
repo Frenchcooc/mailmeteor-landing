@@ -12,7 +12,7 @@ h1,h2, a {
 	font-family:'Poppins', sans-serif;
 }
 
-p, span, h3, h4, h5, h6, :not(a.btn) {
+p, span, h3, h4, h5, h6, a:not(.btn) {
 	font-family: 'DM Sans', sans-serif;
 }
 
