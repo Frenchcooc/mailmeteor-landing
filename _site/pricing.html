@@ -397,7 +397,7 @@
     <!-- MODAL FOR ACTIVE EMAIL  -->
     <div class="modal fade" id="activeEmailModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
+            <!-- <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout"> -->
                 <div class="modal-content">
                     <div class="modal-header" style="padding: 1rem 2rem;">
                         <h5 class="modal-title" style="font-size: 1.5rem;font-weight: 700;color: #04143A;">Mailmeteor upgrade</h5>
@@ -418,30 +418,9 @@
                         <input type="hidden" name="plan_id" class="checkout-plan-id" />
                     </div>
                 </div>
-            </form>
+            <!-- </form> -->
         </div>
     </div>
-
-
-    <script>
-    // enabling popovers
-    $(function () {
-        $('[data-toggle="popover"]').popover()
-    })
-
-    /**
-     * Email confirmation modal handler
-     */
-
-    $('#activeEmailModal').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget) // Button that triggered the modal
-        var planId = button.data('checkout-plan-id') // Extract info from data-* attributes
-        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-        var modal = $(this)
-        modal.find('input.checkout-plan-id').val(planId)
-    })
-    </script>
 
 <!-- FOOTERs  -->
 
@@ -523,6 +502,30 @@
   crisplauncher()
   // }, 4000);
 </script>
-</body>
+
+  
+      <script>
+      // Enabling Stripe popovers
+      $(function () {
+          $('[data-toggle="popover"]').popover()
+      })
+
+      /**
+      * Email confirmation modal handler
+      */
+
+      $('#activeEmailModal').on('show.bs.modal', function (event) {
+          var button = $(event.relatedTarget) // Button that triggered the modal
+          var planId = button.data('checkout-plan-id') // Extract info from data-* attributes
+          // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+          // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+          var modal = $(this)
+          modal.find('input.checkout-plan-id').val(planId)
+          console.log(planId)
+      })
+      </script>
+
+    
+  </body>
 
 </html>
