@@ -1,0 +1,80 @@
+<!-- FOOTERs  -->
+
+<footer class="footer">
+  <div class="footer-svg"></div>
+  <div class="container-fluid d-flex justify-content-center">
+    <img id="logo-bottom" src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor footer logo" />
+  </div>
+  <div class="container d-flex justify-content-center align-content-center">
+    <p class="p-2 text-center"><a href="mailto:hello@mailmeteor.com">Contact us</a></p>
+    <p class="p-2 text-center"><a href="mailto:jobs@mailmeteor.com">Jobs</a></p>
+    <p class="p-2 text-center"><a href="/privacy-policy">Privacy</a></p>
+    <p class="p-2 text-center"><a href="/terms">Terms</a></p>
+    <p class="p-2 text-center"><a href="https://support.mailmeteor.com/">Support</a></p>
+  </div>
+  <div class="container-fluid d-flex justify-content-center">
+    <p class="p-2 text-center">2018-2019 Geminides</p>
+  </div>
+</footer>
+
+<!-- Bootstrap scripts -->
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+  crossorigin="anonymous"
+></script>
+
+<!-- Scroll library  -->
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<script src="/assets/js/aos.js"></script>
+<script>
+  AOS.init()
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById('navbar').classList.add('navbar-shadow')
+    } else {
+      document.getElementById('navbar').classList.remove('navbar-shadow')
+    }
+  }
+  window.onscroll = function() {
+    scrollFunction()
+  }
+
+  // Youtube loader optimization
+  function init() {
+    var vidDefer = document.getElementsByTagName('iframe')
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute('data-src')) {
+        vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'))
+      }
+    }
+  }
+  window.onload = init
+
+  // Crisp chat
+  // window.setTimeout(function () {
+  function crisplauncher() {
+    window.$crisp = []
+    window.CRISP_WEBSITE_ID = 'ed04cf12-0517-47a4-9b26-e4bef78b1b01'
+    ;(function() {
+      d = document
+      s = d.createElement('script')
+      s.src = 'https://client.crisp.chat/l.js'
+      s.async = 1
+      d.getElementsByTagName('head')[0].appendChild(s)
+    })()
+  }
+  crisplauncher()
+  // }, 4000);
+</script>
