@@ -68,6 +68,10 @@
 
   function initAos() {
     if (typeof AOS !== 'undefined') {
+      var aosCSS = document.createElement('link')
+      aosCSS.setAttribute('rel', 'stylesheet')
+      aosCSS.setAttribute('href', '/assets/css/aos.css')
+      document.body.appendChild(aosCSS)
       return AOS.init()
     }
     window.setTimeout(initAos, 100)
