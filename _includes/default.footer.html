@@ -39,7 +39,6 @@
 <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
 <script src="/assets/js/aos.js" async defer></script>
 <script>
-  AOS.init()
   function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       document.getElementById('navbar').classList.add('navbar-shadow')
@@ -50,17 +49,6 @@
   window.onscroll = function() {
     scrollFunction()
   }
-
-  // Youtube loader optimization
-  function init() {
-    var vidDefer = document.getElementsByTagName('iframe')
-    for (var i = 0; i < vidDefer.length; i++) {
-      if (vidDefer[i].getAttribute('data-src')) {
-        vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'))
-      }
-    }
-  }
-  window.onload = init
 
   // Crisp chat
   // window.setTimeout(function () {
@@ -77,4 +65,8 @@
   }
   crisplauncher()
   // }, 4000);
+
+  if (AOS) {
+    AOS.init()
+  }
 </script>
