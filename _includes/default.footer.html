@@ -67,7 +67,7 @@
   // }, 4000);
 
   function initAos() {
-    if (AOS) {
+    if (typeof AOS !== 'undefined') {
       return AOS.init()
     }
     window.setTimeout(initAos, 100)
