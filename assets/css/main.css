@@ -25,6 +25,11 @@ a:not(.btn) {
   font-family: 'DM Sans', sans-serif;
 }
 
+a, 
+a:hover{
+  text-decoration: none;
+}
+
 h3 {
   font-weight: normal;
 }
