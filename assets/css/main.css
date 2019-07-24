@@ -22,7 +22,8 @@ h4,
 h5,
 h6,
 a:not(.btn),
-table {
+table,
+li {
   font-family: 'DM Sans', sans-serif;
 }
 
