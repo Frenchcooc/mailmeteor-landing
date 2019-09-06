@@ -12,14 +12,9 @@ for (var i = 0; i < checkoutButtons.length; i++) {
     stripe
       .redirectToCheckout({
         items: [{ plan: plan, quantity: 1 }],
-
-        // Do not rely on the redirect to the successUrl for fulfilling
-        // purchases, customers may not always reach the success_url after
-        // a successful payment.
-        // Instead use one of the strategies described in
-        // https://stripe.com/docs/payments/checkout/fulfillment
         successUrl: 'https://mailmeteor.com/checkout/success',
-        cancelUrl: 'https://mailmeteor.com/checkout/fail'
+        cancelUrl: 'https://mailmeteor.com/checkout/fail',
+        allowIncompleteSubscriptions: true
       })
       .then(function(result) {
         if (result.error) {
