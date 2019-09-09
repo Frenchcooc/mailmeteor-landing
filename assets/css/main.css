@@ -663,6 +663,11 @@ sup {
   cursor: pointer;
 }
 
+#accordion {
+  width: 90%;
+  margin: auto;
+}
+
 #accordion .card-header {
   font-weight: bold;
 }
