@@ -294,12 +294,13 @@ section.features {
 }
 
 @media (min-width: 1440px) {
-  /*	.features-svg {
-		height:220%;
-	}*/
-  section.features {
+  	.features-svg {
+    height:240%;
+    max-height: 500px;
+	}
+  /* section.features {
     margin-bottom: 12em;
-  }
+  } */
 }
 
 @media (max-width: 480px) {
