@@ -667,6 +667,13 @@ sup {
    margin-bottom:0!important;
  } 
 
+ @media (max-width: 400px) {
+  .review-stars {
+    display:none;
+  }
+ }
+
+
 /* ---Faq section--- */
 
 .faq {
