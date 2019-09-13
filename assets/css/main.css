@@ -87,6 +87,7 @@ h3 {
   color: #434343;
 }
 
+
 /*--- headings styling for dark background---*/
 
 h1.dark-bg,
@@ -558,6 +559,10 @@ section.pricing {
 .pricing .card-header {
   padding: 0.95rem 0.75rem 0.95em;
   /* min-height: 22%; */
+}
+
+.pricing h5 {
+  color:#04143a;
 }
 
 .pricing-home-features {
