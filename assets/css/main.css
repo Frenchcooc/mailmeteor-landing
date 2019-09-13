@@ -557,7 +557,7 @@ section.pricing {
 
 .pricing .card-header {
   padding: 0.95rem 0.75rem 0.95em;
-  min-height: 22%;
+  /* min-height: 22%; */
 }
 
 .pricing-home-features {
