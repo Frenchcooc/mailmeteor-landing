@@ -38,17 +38,17 @@
 
         let priceHTML = ' <small style="font-size:50%;">$</small><span id="enterprise-plan-price">' + this.value + '</span><sup>.99 /year</sup>'
         let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
-        let buttonID = $('enterprise-plan-button').value
+        let buttonID = $('#enterprise-plan-button').value
 
-        if (this.value != "Contact us") {
-          $('#enterprise-plan').html(priceHTML)
-          $('enterprise-plan-button').attr('data-checkout-plan-id', planID)
-          console.log(buttonID)
+        $('#enterprise-plan').html(priceHTML)
+        
+        if (!planID) {
+          $('#enterprise-plan-button').html('Contact us');
+          $('#enterprise-plan-button').removeAttr('data-checkout-plan-id');
         }
         else {
-          $('#enterprise-plan').html(this.value);
-          $('enterprise-plan-button').attr('data-checkout-plan-id', planID)
-          console.log(buttonID)
+          $('#enterprise-plan-button').html('Buy now');
+          $('#enterprise-plan-button').attr('data-checkout-plan-id', planID)
         }
       });
     });

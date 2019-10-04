@@ -27,8 +27,8 @@ li {
   font-family: 'DM Sans', sans-serif;
 }
 
-a, 
-a:hover{
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -86,7 +86,6 @@ h3 {
   letter-spacing: 0.01em;
   color: #434343;
 }
-
 
 /*--- headings styling for dark background---*/
 
@@ -295,9 +294,9 @@ section.features {
 }
 
 @media (min-width: 1440px) {
-  	.features-svg {
-    height:240%;
-	}
+  .features-svg {
+    height: 240%;
+  }
   /* section.features {
     margin-bottom: 12em;
   } */
@@ -561,7 +560,7 @@ section.pricing {
 }
 
 .pricing h5 {
-  color:#04143a;
+  color: #04143a;
 }
 
 .pricing-home-features {
@@ -629,19 +628,19 @@ sup {
   width: 50%;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  border: 1px solid rgba(0,0,0,.125);;
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
   margin: 0;
-} 
+}
 
 #pricing-enterprise-select:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 
-#pricing-enterprise-select select:active, #pricing-enterprise-select select:focus{
-  outline:none;
+#pricing-enterprise-select select:active,
+#pricing-enterprise-select select:focus {
+  outline: none;
 }
-
 
 /*---Testimonials---*/
 
@@ -669,34 +668,33 @@ sup {
 
 @media (min-width: 768px) {
   .review-shifted {
-    margin-top:2em!important;
+    margin-top: 2em !important;
   }
- }
+}
 
- .review-quote {
-   font-family: 'Poppins', sans-serif;
-   font-weight: bold;
-   font-size:4em;
-   color:#04143A;
- }
+.review-quote {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  color: #04143a;
+}
 
- .review-text {
+.review-text {
   line-height: 1.4em;
   font-size: 1.1em;
-  font-weight:500;
-  color:#04143A;
- }
+  font-weight: 500;
+  color: #04143a;
+}
 
- .review-profile p {
-   margin-bottom:0!important;
- } 
+.review-profile p {
+  margin-bottom: 0 !important;
+}
 
- @media (max-width: 400px) {
+@media (max-width: 400px) {
   .review-stars {
-    display:none;
+    display: none;
   }
- }
-
+}
 
 /* ---Faq section--- */
 
@@ -886,6 +884,10 @@ section.subpage {
   margin-bottom: 0;
 }
 
+#pricing-plans .btn {
+  text-transform: uppercase;
+}
+
 /* styling Popover */
 .popover-header,
 .popover-body {
@@ -893,8 +895,8 @@ section.subpage {
   font-family: 'DM Sans', sans-serif;
 }
 
-.popover-header{
-  font-weight:bold;
+.popover-header {
+  font-weight: bold;
 }
 
 /*Remove outline on input*/
