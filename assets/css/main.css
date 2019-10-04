@@ -903,12 +903,12 @@ section.subpage {
 
 #activeEmailModal input:focus,
 #activeEmailModal input:active {
-  outline: none;
+  outline: none!important;
 }
 
 #activeEmailModal button:focus,
 #activeEmailModal button:active {
-  outline: none;
+  outline: none!important;
 }
 
 .close {
