@@ -41,13 +41,17 @@
         let buttonID = $('#enterprise-plan-button').value
 
         $('#enterprise-plan').html(priceHTML)
-        
+
         if (!planID) {
           $('#enterprise-plan-button').html('Contact us');
           $('#enterprise-plan-button').removeAttr('data-checkout-plan-id');
+          $('#enterprise-plan-button').removeAttr('data-target')
+          $('#enterprise-plan-button').attr('onclick', "location.href='https://support.mailmeteor.com/help/contact-support'")
         }
         else {
           $('#enterprise-plan-button').html('Buy now');
+          $('#enterprise-plan-button').attr('data-target', '#activeEmailModal')
+          $('#enterprise-plan-button').removeAttr('onclick')
           $('#enterprise-plan-button').attr('data-checkout-plan-id', planID)
         }
       });
