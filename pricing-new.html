@@ -76,21 +76,17 @@ stripe: "popover"
                                 <span class="pricing-subheader">For teams and companies, billed yearly.</span>
                             </div>
                             <div class="card-body">
-                                <h3 class="mt-2 mb-2 font-weight-bold" style="font-size:1.8em; color:#04143a"><small style="font-size:50%;">$</small>99<sup>.99 /year</sup></h3>
+                                <h3 class="mt-2 mb-2 font-weight-bold" style="font-size:1.8em; color:#04143a" id="enterprise-plan">
+                                    <small style="font-size:50%;">$</small><span id="enterprise-plan-price">99</span><sup>.99 /year</sup></h3>
                                 <ul class="list-unstyled mt-3 mb-4 pricing-plan-features">
                                     <li>
-                                        <div class="dropdown" style="display:inline">
-                                            <button class="dropdown-toggle" type="button" id="pricing-enterprise-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                5 users
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#">5 users</a>
-                                                <a class="dropdown-item" href="#">10 users</a>
-                                                <a class="dropdown-item" href="#">50 users</a>
-                                                <a class="dropdown-item" href="#">100 users</a>
-                                                <a class="dropdown-item" href="#">1000 users</a>
-                                            </div>
-                                        </div>
+                                        <select class="form-control" id="pricing-enterprise-select" style="display:inline">
+                                            <option value="99" data-checkout-plan-id="1">5 users</option>
+                                            <option value="189" data-checkout-plan-id="2">10 users</option>
+                                            <option value="899" data-checkout-plan-id="3">50 users</option>
+                                            <option value="1699" data-checkout-plan-id="4">100 users</option>
+                                            <option value="Contact us">+1000 users</option>
+                                        </select>
                                     </li>
                                     <li>Up to 1500 mails per day<span data-toggle="popover" title="Google's sending policy" data-content="To help prevent spam and keep accounts safe, Gmail limits the number of emails you can send per day: <ul><li>G Suite accounts have a limit of 1,500 recipients per day</li><li>Regular Gmail accounts (@gmail.com) have a limit of 500 recipients per day</li></ul>Mailmeteor Premium allows you to send personalized emails up to these limits imposed by Gmail. Read more about Google's policy in our FAQ below." data-trigger="hover" data-html="true"><img class="ml-1" src="https://mailmeteor.com/assets/img/elements/info.svg" alt="Information mark"></span></li>
                                     <li>Real-time tracking</li>
@@ -98,12 +94,9 @@ stripe: "popover"
                                     <li>Send with email alias</li>
                                     <li>Custom support</li>
                                 </ul>
-                                <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
-                                    <input type="hidden" name="plan_id" value="plan_F5wfQunLALF29C" />
-                                    <button class="btn btn-filled" type="submit" role="link">
-                                        BUY NOW
-                                    </button>
-                                </form>
+                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_F5wbHFAyliGUPU" data-toggle="modal" data-target="#activeEmailModal" role="link">
+                                    BUY NOW
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -115,17 +108,6 @@ stripe: "popover"
                     <div class="col-xs-12 col-lg-9 mb-5 ml-auto mr-auto" data-aos="fade-in" data-aos-duration="800">
                         <img src="/assets/img/payment/payment-secure.svg" alt="Secure payments icon">
                     </div>
-                    <!-- <div class="col-xs-12 col-lg-12 pt-5 mb-5 ml-auto mr-auto" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                  <div class="pricingcard">
-                      <div class="featureitem">
-                        <img class="tab_icon" src="/assets/img/icons/credits.svg" alt="Credits icon">
-                        <div>
-                            <span class="heading text-left">Earn FREE credits</span>
-                            <p class="summary text-left mb-2" style="color:black">Leave us a review on the <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301">GSuite Store</a> and double your free quota per day for free!</p>
-                            <p class="summary text-left" style="color:black"><a href="mailto:hello@mailmeteor.com">Contact us</a> to unlock credits.</p>
-                        </div>
-                      </div>
-                </div> -->
                 </div>
             </div>
         </div>

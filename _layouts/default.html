@@ -1,40 +1,61 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include default.header.html -%}
+  {%- include default.header.html -%}
 
-    {{ content }}
+  {{ content }}
 
-    {%- include default.footer.html -%}
+  {%- include default.footer.html -%}
 
-    {% if page.stripe == "popover" %}
-  
-      <script>
-      // Enabling Stripe popovers
-      $(function () {
-          $('[data-toggle="popover"]').popover()
-      })
+  {% if page.stripe == "popover" %}
 
-      /**
-      * Email confirmation modal handler
-      */
+  <script>
+    // Enabling Stripe popovers
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
 
-      $('#activeEmailModal').on('show.bs.modal', function (event) {
-          var button = $(event.relatedTarget) // Button that triggered the modal
-          var planId = button.data('checkout-plan-id') // Extract info from data-* attributes
-          // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-          // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-          var modal = $(this)
-          modal.find('input.checkout-plan-id').val(planId)
-          console.log(planId)
-      })
-      </script>
+    /**
+    * Email confirmation modal handler
+    */
 
-    {% endif %}
-  </body>
+    $('#activeEmailModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var planId = button.data('checkout-plan-id') // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('input.checkout-plan-id').val(planId)
+      console.log(planId)
+    })
+
+    $(function () {
+      $('#pricing-enterprise-select').change(function () {
+
+        let priceHTML = ' <small style="font-size:50%;">$</small><span id="enterprise-plan-price">' + this.value + '</span><sup>.99 /year</sup>'
+        let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
+        let buttonID = $('enterprise-plan-button').value
+
+        if (this.value != "Contact us") {
+          $('#enterprise-plan').html(priceHTML)
+          $('enterprise-plan-button').attr('data-checkout-plan-id', planID)
+          console.log(buttonID)
+        }
+        else {
+          $('#enterprise-plan').html(this.value);
+          $('enterprise-plan-button').attr('data-checkout-plan-id', planID)
+          console.log(buttonID)
+        }
+      });
+    });
+
+  </script>
+
+  {% endif %}
+</body>
 
 </html>

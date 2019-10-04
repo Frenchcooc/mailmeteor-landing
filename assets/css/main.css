@@ -624,21 +624,21 @@ sup {
   background: #ff486a;
 }
 
-#pricing-enterprise-dropdown {
+#pricing-enterprise-select {
   padding: 0.3em;
   width: 50%;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  border: 1px solid #ff486a;;
+  border: 1px solid rgba(0,0,0,.125);;
   border-radius: 5px;
   margin: 0;
 } 
 
-#pricing-enterprise-dropdown:hover {
+#pricing-enterprise-select:hover {
   cursor:pointer;
 }
 
-.dropdown button:active, .dropdown button:focus{
+#pricing-enterprise-select select:active, #pricing-enterprise-select select:focus{
   outline:none;
 }
 
