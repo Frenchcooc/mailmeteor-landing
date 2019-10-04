@@ -558,7 +558,6 @@ section.pricing {
 
 .pricing .card-header {
   padding: 0.95rem 0.75rem 0.95em;
-  /* min-height: 22%; */
 }
 
 .pricing h5 {
@@ -612,7 +611,7 @@ sup {
 }
 
 #launch-offer {
-  font-size: 0.55em;
+  font-size: 0.7em;
   font-weight: bold;
   color: white;
   position: absolute;
@@ -621,9 +620,28 @@ sup {
   border-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  padding: 0.5em 0.65em 0.02em;
+  padding: 0.3em 0.65em 0.02em;
   background: #ff486a;
 }
+
+#pricing-enterprise-dropdown {
+  padding: 0.3em;
+  width: 50%;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  border: 1px solid #ff486a;;
+  border-radius: 5px;
+  margin: 0;
+} 
+
+#pricing-enterprise-dropdown:hover {
+  cursor:pointer;
+}
+
+.dropdown button:active, .dropdown button:focus{
+  outline:none;
+}
+
 
 /*---Testimonials---*/
 
@@ -635,7 +653,7 @@ sup {
 .reviewcard {
   background-color: white;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   padding: 20px;
   width: 100%;
   border: 1px solid #eee;
@@ -837,7 +855,7 @@ section.subpage {
 /*Pricing content*/
 
 .pricing-plan-features {
-  min-height: 100px; /* can be removed to obtain squared pricings */
+  min-height: 160px; /* can be removed to obtain squared pricings */
   text-align: left;
   display: block;
 }
@@ -845,6 +863,7 @@ section.subpage {
 .pricing-plan-features li {
   display: block;
   align-items: center;
+  padding: 0 0 0.2em 0;
 }
 
 .pricing-plan-features li:before {
@@ -872,6 +891,10 @@ section.subpage {
 .popover-body {
   background: white;
   font-family: 'DM Sans', sans-serif;
+}
+
+.popover-header{
+  font-weight:bold;
 }
 
 /*Remove outline on input*/
