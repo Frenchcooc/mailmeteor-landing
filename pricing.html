@@ -218,12 +218,12 @@ stripe: "popover"
                 <div class="modal-body" style="padding: 2rem;">
                     <label>Enter the email you want to upgrade on Mailmeteor. Make sure the email address is spelled correctly:</label>
                     <div>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="Your email address" required="true" name="active_email">
-                            <div class="input-group-append">
-                                <button class="btn btn-filled" type="submit" style="margin:0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">Checkout</button>
-                            </div>
+                        <div class="input mb-3">
+                            <label for="emailAddress" class="font-weight-bold">Email address to upgrade</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="Your email address" required="true" name="active_email">
+                            <button class="btn btn-filled mt-3" type="submit" style="width:100%;margin:0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">Checkout</button>
                         </div>
+                        <small>Your license will be activated immediately after payment.</small>
                     </div>
                     <input type="hidden" name="plan_id" class="checkout-plan-id" />
                 </div>
