@@ -902,13 +902,13 @@ section.subpage {
 
 /*Remove outline on input*/
 
-#activeIndidualModal input:focus,
-#activeIndidualModal input:active {
+#activeIndividualModal input:focus,
+#activeIndividualModal input:active {
   outline: none !important;
 }
 
-#activeIndidualModal button:focus,
-#activeIndidualModal button:active {
+#activeIndividualModal button:focus,
+#activeIndividualModal button:active {
   outline: none !important;
 }
 
