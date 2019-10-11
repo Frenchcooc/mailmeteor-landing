@@ -38,7 +38,7 @@ stripe: "popover"
                                     <li>Preview emails</li>
                                     <li>Send with email alias</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_FvjjUydPks6TAs" data-toggle="modal" data-target="#activeEmailModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_FvjjUydPks6TAs" data-toggle="modal" data-target="#activeIndidualModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -60,7 +60,7 @@ stripe: "popover"
                                     <li>Preview emails</li>
                                     <li>Send with email alias</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_Fvjkfiuy4vaEIR" data-toggle="modal" data-target="#activeEmailModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_Fvjkfiuy4vaEIR" data-toggle="modal" data-target="#activeIndidualModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -96,7 +96,7 @@ stripe: "popover"
                                     <li>Send with email alias</li>
                                     <li>Custom support</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-toggle="modal" data-target="#activeEmailModalEnterprise" role="link">
+                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_FvjloaPqbzMA87" data-toggle="modal" data-target="#activeEnterpriseModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -204,7 +204,7 @@ stripe: "popover"
 </section>
 
 <!-- MODAL FOR INDIVIDUAL PLANS  -->
-<div class="modal fade" id="activeEmailModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="activeIndidualModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
             <div class="modal-content">
@@ -233,7 +233,7 @@ stripe: "popover"
 </div>
 
 <!-- MODAL FOR ENTEPRISE PLANS  -->
-<div class="modal fade" id="activeEmailModalEnterprise" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="activeEnterpriseModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
             <div class="modal-content">

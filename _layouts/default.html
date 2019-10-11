@@ -20,10 +20,10 @@
     })
 
     /**
-    * Email confirmation modal handler
+    * Plan confirmation modal handler
     */
 
-    $('#activeEmailModal').on('show.bs.modal', function (event) {
+    function planConfirmationModal (event) {
       var button = $(event.relatedTarget) // Button that triggered the modal
       var planId = button.data('checkout-plan-id') // Extract info from data-* attributes
       // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
@@ -31,7 +31,10 @@
       var modal = $(this)
       modal.find('input.checkout-plan-id').val(planId)
       console.log(planId)
-    })
+    }
+
+    $('#activeIndidualModal').on('show.bs.modal', planConfirmationModal)
+    $('#activeEnterpriseModal').on('show.bs.modal', planConfirmationModal)
 
     $(function () {
       $('#pricing-enterprise-select').change(function () {
@@ -50,7 +53,7 @@
         }
         else {
           $('#enterprise-plan-button').html('Buy now');
-          $('#enterprise-plan-button').attr('data-target', '#activeEmailModalEnterprise')
+          $('#enterprise-plan-button').attr('data-target', '#activeEnterpriseModal')
           $('#enterprise-plan-button').removeAttr('onclick')
           $('#enterprise-plan-button').attr('data-checkout-plan-id', planID)
         }
