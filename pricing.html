@@ -96,7 +96,7 @@ stripe: "popover"
                                     <li>Send with email alias</li>
                                     <li>Custom support</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_F5wbHFAyliGUPU" data-toggle="modal" data-target="#activeEmailModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_F5wbHFAyliGUPU" data-toggle="modal" data-target="#activeEmailModalEnterprise" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -203,7 +203,7 @@ stripe: "popover"
     </div>
 </section>
 
-<!-- MODAL FOR ACTIVE EMAIL  -->
+<!-- MODAL FOR INDIVIDUAL PLANS  -->
 <div class="modal fade" id="activeEmailModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
@@ -224,6 +224,39 @@ stripe: "popover"
                                 <button class="btn btn-filled" type="submit" style="margin:0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">Checkout</button>
                             </div>
                         </div>
+                    </div>
+                    <input type="hidden" name="plan_id" class="checkout-plan-id" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- MODAL FOR ENTEPRISE PLANS  -->
+<div class="modal fade" id="activeEmailModalEnterprise" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
+            <div class="modal-content">
+                <div class="modal-header" style="padding: 1rem 2rem;">
+                    <h5 class="modal-title" style="font-size: 1.5rem;font-weight: 700;color: #04143A;">Mailmeteor
+                        upgrade</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="padding: 2rem;">
+                    <label>Enter the domain you want to upgrade on Mailmeteor. Make sure the domain and email address are spelled correctly:</label>
+                    <div>
+                        <div class="input mb-3">
+                            <label for="emailDomain" class="font-weight-bold">Domain</label>
+                            <input type="text" class="form-control" id="emailDomain" placeholder="e.g. mailmeteor.com" required="true" name="active_domain">
+                        </div>
+                        <div class="input mb-3">
+                            <label for="billingAddress" class="font-weight-bold">Billing email address</label>
+                            <input type="email" class="form-control" id="billingAddress" placeholder="Billing email address" required="true" name="active_email">
+                            <button class="btn btn-filled mt-3" type="submit" style="width:100%;margin:0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">Checkout</button>
+                        </div>
+                        <small>Your Enterprise license will be activated under 24h after payment.</small>
                     </div>
                     <input type="hidden" name="plan_id" class="checkout-plan-id" />
                 </div>
