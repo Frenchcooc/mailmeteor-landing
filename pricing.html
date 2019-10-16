@@ -38,7 +38,7 @@ stripe: "popover"
                                     <li>Preview emails</li>
                                     <li>Send with email alias</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_FvjjUydPks6TAs" data-toggle="modal" data-target="#activeEmailModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_FvjjUydPks6TAs" data-toggle="modal" data-target="#activeIndividualModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -60,7 +60,7 @@ stripe: "popover"
                                     <li>Preview emails</li>
                                     <li>Send with email alias</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_Fvjkfiuy4vaEIR" data-toggle="modal" data-target="#activeEmailModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_Fvjkfiuy4vaEIR" data-toggle="modal" data-target="#activeIndividualModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -78,7 +78,7 @@ stripe: "popover"
                                     <small style="font-size:50%">$</small><span id="enterprise-plan-price">99</span><sup>.99 /year</sup></h3>
                                 <ul class="list-unstyled mt-3 pricing-plan-features">
                                     <li>
-                                        <select class="form-control" id="pricing-enterprise-select" style="display:inline; height:30px">
+                                        <select class="form-control" id="pricing-enterprise-select" style="display:inline; height: 30px;">
                                             <option value="99" data-checkout-plan-id="plan_FvjloaPqbzMA87">5 users
                                             </option>
                                             <option value="189" data-checkout-plan-id="plan_FvjmZ7JK9dvQ9Z">10 users
@@ -96,7 +96,7 @@ stripe: "popover"
                                     <li>Send with email alias</li>
                                     <li>Custom support</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_F5wbHFAyliGUPU" data-toggle="modal" data-target="#activeEmailModalEnterprise" role="link">
+                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_FvjloaPqbzMA87" data-toggle="modal" data-target="#activeEnterpriseModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -204,7 +204,7 @@ stripe: "popover"
 </section>
 
 <!-- MODAL FOR INDIVIDUAL PLANS  -->
-<div class="modal fade" id="activeEmailModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="activeIndividualModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
             <div class="modal-content">
@@ -218,12 +218,12 @@ stripe: "popover"
                 <div class="modal-body" style="padding: 2rem;">
                     <label>Enter the email you want to upgrade on Mailmeteor. Make sure the email address is spelled correctly:</label>
                     <div>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="Your email address" required="true" name="active_email">
-                            <div class="input-group-append">
-                                <button class="btn btn-filled" type="submit" style="margin:0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">Checkout</button>
-                            </div>
+                        <div class="input mb-3">
+                            <label for="emailAddress" class="font-weight-bold">Email address to upgrade</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="Your email address" required="true" name="active_email">
+                            <button class="btn btn-filled mt-3" type="submit" style="width:100%;margin:0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">Checkout</button>
                         </div>
+                        <small>Your license will be activated immediately after payment.</small>
                     </div>
                     <input type="hidden" name="plan_id" class="checkout-plan-id" />
                 </div>
@@ -233,7 +233,7 @@ stripe: "popover"
 </div>
 
 <!-- MODAL FOR ENTEPRISE PLANS  -->
-<div class="modal fade" id="activeEmailModalEnterprise" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="activeEnterpriseModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
             <div class="modal-content">

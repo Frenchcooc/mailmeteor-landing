@@ -708,7 +708,7 @@ sup {
 
 .card-header {
   background-color: white;
-  border-bottom: 1px solid rgba(16,24,32,.05);
+  border-bottom: 1px solid rgba(16, 24, 32, 0.05);
 }
 
 .card-header .faqexpander {
@@ -902,14 +902,14 @@ section.subpage {
 
 /*Remove outline on input*/
 
-#activeEmailModal input:focus,
-#activeEmailModal input:active {
-  outline: none!important;
+#activeIndividualModal input:focus,
+#activeIndividualModal input:active {
+  outline: none !important;
 }
 
-#activeEmailModal button:focus,
-#activeEmailModal button:active {
-  outline: none!important;
+#activeIndividualModal button:focus,
+#activeIndividualModal button:active {
+  outline: none !important;
 }
 
 .close {
