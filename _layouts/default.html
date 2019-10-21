@@ -20,8 +20,8 @@
     })
 
     /**
-    * Plan confirmation modal handler
-    */
+     * Plan confirmation modal handler
+     */
 
     function planConfirmationModal (event) {
       var button = $(event.relatedTarget) // Button that triggered the modal
@@ -60,6 +60,34 @@
       });
     });
 
+    /**
+     * Plans with coupons
+     */
+    
+    function qs(key) {
+      key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+      var match = location.search.match(new RegExp("[?&]"+key+"=([^&]+)(&|$)"));
+      return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+    }
+
+    try {
+
+    var coupon = qs('coupon')
+      if (coupon && coupon === "OFF20") {
+        var monthlyPlan = qs('monthly')
+        var yearlyPlan = qs('yearly')
+
+        var monthlyPrice = $('#plan-monthly .pricingcard-price').first()
+        monthlyPrice.wrapInner('<strike></strike>')
+        monthlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>4<sup>.79 /month</sup></span>')
+        $('#plan-monthly button[data-checkout-plan-id]').each(function () {$(this).attr('data-checkout-plan-id', monthlyPlan)})
+
+        var yearlyPrice = $('#plan-yearly .pricingcard-price').first()
+        yearlyPrice.wrapInner('<strike></strike>')
+        yearlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>23<sup>.99 /month</sup></span>')
+        $('#plan-yearly button[data-checkout-plan-id]').each(function () {$(this).attr('data-checkout-plan-id', yearlyPlan)})
+      }
+    } catch (e) {console.error(e)}
   </script>
 
   {% endif %}
