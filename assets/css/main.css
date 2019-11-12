@@ -39,7 +39,7 @@ h3 {
 body {
   max-width: 1920px;
   margin: 0 auto;
-  box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
+  /* box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12); */
 }
 
 section {
@@ -809,6 +809,7 @@ Privacy pages, terms, other  */
 
 section.subpage {
   margin-top: 4.5em;
+  margin-bottom: 10em;
 }
 
 .header-center {
