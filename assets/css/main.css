@@ -703,10 +703,6 @@ sup {
 
 /* ---Faq section--- */
 
-.faq {
-  margin-bottom: 10em;
-}
-
 .card {
   border: none;
 }
@@ -757,13 +753,11 @@ sup {
 
 .footer-svg {
   width: 100%;
-  height: 360px;
-  top: -80px;
+  top:-180px;
   position: absolute;
   background-image: url(../img/background/footer.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
 }
 
 .footer {
@@ -791,6 +785,10 @@ body > footer > div > p {
   color: #ff486a;
   transition: all 0.1s cubic-bezier(0, 0, 0.2, 1);
   cursor: pointer;
+}
+
+.footer p {
+  margin:0;
 }
 
 /* Footer display for Firefox */

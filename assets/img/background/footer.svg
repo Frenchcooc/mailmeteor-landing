@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 494.8" style="enable-background:new 0 0 1920 494.8;" xml:space="preserve">
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 599.6" style="enable-background:new 0 0 1920 599.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 </style>
@@ -10,7 +10,7 @@
 <g id="Artboards">
 	<g id="Desktop-HD" transform="translate(0.000000, -757.000000)">
 		
-			<radialGradient id="SVGID_1_" cx="2251.2844" cy="1844.1232" r="1.6869" gradientTransform="matrix(-723.5974 1080.9558 -1806.2035 -433.0503 4961001 -1634554.5)" gradientUnits="userSpaceOnUse">
+			<radialGradient id="SVGID_1_" cx="2443.4038" cy="-455.1596" r="1.8172" gradientTransform="matrix(-723.5974 1080.9558 1806.2035 433.0503 2591307 -2443740.75)" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#1059B5"/>
 			<stop  offset="0.1291" style="stop-color:#0D49A0"/>
 			<stop  offset="0.3816" style="stop-color:#082D7C"/>
@@ -18,10 +18,10 @@
 			<stop  offset="0.8316" style="stop-color:#030D52"/>
 			<stop  offset="1" style="stop-color:#02094D"/>
 		</radialGradient>
-		<path class="st0" d="M1942.9,900.3c-4.9-0.4-9.9-0.8-14.9-1.3c-32.8-3.1-66.7-7.6-103.6-13.4c-61.7-9.9-123.3-22.6-181.1-34.8
+		<path class="st0" d="M1931.1,899.3c-1-0.1-2.1-0.2-3.1-0.3c-32.8-3.1-66.7-7.6-103.6-13.4c-61.7-9.9-123.3-22.6-181.1-34.8
 			c-65.2-13.7-141-29.4-217.6-41.8c-137.5-22-250.3-28.6-355.6-20.9c-89.5,6.7-169.9,29.4-247.7,51.5c-27.9,7.9-56.4,16-85,23.3
-			c-122,30.9-238.2,35.9-365.5,15.5c-3.7-0.5-7.5-1.2-11.2-1.9C300,866.2,241.2,851.8,184.7,838c-60.1-14.6-122.1-29.9-186.1-39.9
-			c-3.2-0.5-6.3-1-9.4-1.5v482.3h1953.7V900.3z"/>
+			c-122,30.9-238.2,35.9-365.5,15.5c-3.7-0.5-7.5-1.2-11.2-1.9c-60.7-10.3-119.5-24.7-176-38.5c-60.1-14.6-122.1-29.9-186.1-39.9
+			c-3.2-0.5-6.3-1-9.4-1.5v562.9h1941.9V899.3z"/>
 	</g>
 </g>
 <title>Fill 1</title>
