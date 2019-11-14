@@ -298,9 +298,15 @@ section.features {
   .features-svg {
     height: 240%;
   }
-  /* section.features {
-    margin-bottom: 12em;
-  } */
+}
+
+/* Media query to prevent tagline to be covered by features svg */
+
+@media (max-width:1100px) and (min-width:992px) {
+  .features-svg {
+    height: 200%;
+    top: -200px;
+  }
 }
 
 @media (max-width: 480px) {
