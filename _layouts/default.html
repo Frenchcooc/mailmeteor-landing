@@ -39,11 +39,15 @@
     $(function () {
       $('#pricing-enterprise-select').change(function () {
 
-        let priceHTML = ' <small style="font-size:50%;">$</small><span id="enterprise-plan-price">' + this.value + '</span><sup>.99 /year</sup>'
-        let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
-        let buttonID = $('#enterprise-plan-button').value
+        // let priceHTML = ' <small style="font-size:50%;">$</small><span id="enterprise-plan-price">' + this.value + '</span><sup>.99 /year</sup>'
+        // let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
+        // $('#enterprise-plan').html(priceHTML)
 
-        $('#enterprise-plan').html(priceHTML)
+        // <black-friday>
+        let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
+        $('#enterprise-plan-price').html(this.value)
+        $('#enterprise-plan-price-discount').html($(this).find(':selected').attr('data-value-discount'))
+        // </black-friday>
 
         if (!planID) {
           $('#enterprise-plan-button').html('Contact us');
@@ -73,7 +77,8 @@
     try {
 
       var coupon = qs('coupon')
-      if (coupon && coupon === "OFF20") {
+      var blackfriday = document.getElementById('blackfriday')
+      if (coupon && coupon === "OFF20" && !blackfriday) {
         var monthlyPlan = qs('monthly')
         var yearlyPlan = qs('yearly')
 
@@ -87,6 +92,7 @@
         yearlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>23<sup>.99 /year</sup></span>')
         $('#plan-yearly button[data-checkout-plan-id]').each(function () { $(this).attr('data-checkout-plan-id', yearlyPlan) })
       }
+
     } catch (e) { console.error(e) }
   </script>
 
