@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Pricing | Mailmeteor - mail merge for Gmail
-description: Mailmeteor pricing. Premium includes up to 1500 emails a day, real-time tracking, preview before sending. Starting from $2.5 per month only.
+description: Mailmeteor pricing for the Black Friday. Premium includes up to 1500 emails a day, real-time tracking, preview before sending. Starting from $2.5 per month only.
 canonical: https://mailmeteor.com/pricing
 
 og_title: Pricing | Mailmeteor - mail merge for Gmail
-og_description: Mailmeteor pricing. Premium includes up to 1500 emails a day, real-time tracking, preview before sending. Starting from $2.5 per month only.
+og_description: Mailmeteor pricing for the Black Friday. Premium includes up to 1500 emails a day, real-time tracking, preview before sending. Starting from $2.5 per month only.
 og_image: https://mailmeteor.com/assets/img/demo/og-image.jpg
 og_url: https://mailmeteor.com/pricing
 
@@ -17,8 +17,8 @@ stripe: "popover"
 <section id="pricing-plans" class="mb-5">
     <div class="pricing mt-5">
         <div class="container">
-            <h2 class="text-center pt-5">Get Mailmeteor Premium</h2>
-            <h3 class="pricing-header text-center ml-auto mr-auto">Simple pricing that works at any scale. Prices exclude taxes.</h3>
+            <h2 class="text-center pt-5" style="color:black;"><span style="background-color:black; color:white; padding: 0 8px;" id="blackfriday">It's Black Friday.</span><br>-50% on Mailmeteor Annual Licenses</h2>
+            <h3 class="pricing-header text-center ml-auto mr-auto">Limited offer up to November 29th. Prices exclude taxes.</h3>
             <div class="container text-center mt-4">
 
                 <div class="row">
@@ -52,7 +52,10 @@ stripe: "popover"
                                 <span class="pricing-subheader">Unlock Mailmeteor for a year, billed yearly.</span>
                             </div>
                             <div class="card-body">
-                                <h3 class="mt-2 mb-2 font-weight-bold pricingcard-price" style="font-size:1.8em; color:#04143a"><small style="font-size:50%;">$</small>29<sup>.99 /year</sup></h3>
+                                <h3 class="mt-2 mb-2 font-weight-bold pricingcard-price" style="font-size:1.8em; color:#04143a">
+                                    <strike><small style="font-size:50%;">$</small>29<sup>.99 /year</sup></strike>
+                                    <span style="color:#FF486A"><small style="font-size:50%;">$</small>14<sup>.99 /year</sup></span>
+                                </h3>
                                 <ul class="list-unstyled mt-3 pricing-plan-features">
                                     <li>1 user included</li>
                                     <li>Up to 1500 mails per day<span data-toggle="popover" title="Google's sending policy" data-content="To help prevent spam and keep accounts safe, Gmail limits the number of emails you can send per day: <ul><li>G Suite accounts have a limit of 1,500 recipients per day</li><li>Regular Gmail accounts (@gmail.com) have a limit of 500 recipients per day</li></ul>Mailmeteor Premium allows you to send personalized emails up to these limits imposed by Gmail. Read more about Google's policy in our FAQ below." data-trigger="hover" data-html="true"><img class="ml-1" src="https://mailmeteor.com/assets/img/elements/info.svg" alt="Information mark"></span></li>
@@ -60,7 +63,7 @@ stripe: "popover"
                                     <li>Preview emails</li>
                                     <li>Send with email alias</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_Fvjkfiuy4vaEIR" data-toggle="modal" data-target="#activeIndividualModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" data-checkout-plan-id="plan_GG0vUvhEpMxmwm" data-toggle="modal" data-target="#activeIndividualModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -75,19 +78,21 @@ stripe: "popover"
                             </div>
                             <div class="card-body">
                                 <h3 class="mt-2 mb-2 font-weight-bold" style="font-size:1.8em; color:#04143a" id="enterprise-plan">
-                                    <small style="font-size:50%">$</small><span id="enterprise-plan-price">99</span><sup>.99 /year</sup></h3>
+                                    <strike><small style="font-size:50%">$</small><span id="enterprise-plan-price">99</span><sup>.99 /year</sup></strike>
+                                    <span style="color:#FF486A"><small style="font-size:50%">$</small><span id="enterprise-plan-price-discount">49</span><sup>.99 /year</sup></span>
+                                </h3>
                                 <ul class="list-unstyled mt-3 pricing-plan-features">
                                     <li>
                                         <select class="form-control" id="pricing-enterprise-select" style="display:inline; height: 30px;">
-                                            <option value="99" data-checkout-plan-id="plan_FvjloaPqbzMA87">5 users
+                                            <option value="99" data-value-discount="49" data-checkout-plan-id="plan_GG0wZk6cwH3lYR">5 users
                                             </option>
-                                            <option value="189" data-checkout-plan-id="plan_FvjmZ7JK9dvQ9Z">10 users
+                                            <option value="189" data-value-discount="94" data-checkout-plan-id="plan_GG0x1jm3UfJ2Zo">10 users
                                             </option>
-                                            <option value="899" data-checkout-plan-id="plan_FvjnNvKTNkjJFM">50 users
+                                            <option value="899" data-value-discount="449" data-checkout-plan-id="plan_GG0xRbfm3CqQPe">50 users
                                             </option>
-                                            <option value="1,699" data-checkout-plan-id="plan_FvjoLytl6ue7MZ">100 users
+                                            <option value="1,699" data-value-discount="849" data-checkout-plan-id="plan_GG0xdf843yYGAH">100 users
                                             </option>
-                                            <option value="14,999">+1000 users</option>
+                                            <option value="14,999" data-value-discount="7,499">+1000 users</option>
                                         </select>
                                     </li>
                                     <li>Up to 1500 mails per day<span data-toggle="popover" title="Google's sending policy" data-content="To help prevent spam and keep accounts safe, Gmail limits the number of emails you can send per day: <ul><li>G Suite accounts have a limit of 1,500 recipients per day</li><li>Regular Gmail accounts (@gmail.com) have a limit of 500 recipients per day</li></ul>Mailmeteor Premium allows you to send personalized emails up to these limits imposed by Gmail. Read more about Google's policy in our FAQ below." data-trigger="hover" data-html="true"><img class="ml-1" src="https://mailmeteor.com/assets/img/elements/info.svg" alt="Information mark"></span></li>
@@ -96,7 +101,7 @@ stripe: "popover"
                                     <li>Send with email alias</li>
                                     <li>Custom support</li>
                                 </ul>
-                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_FvjloaPqbzMA87" data-toggle="modal" data-target="#activeEnterpriseModal" role="link">
+                                <button class="stripe-checkout btn btn-filled" id="enterprise-plan-button" data-checkout-plan-id="plan_GG0wZk6cwH3lYR" data-toggle="modal" data-target="#activeEnterpriseModal" role="link">
                                     BUY NOW
                                 </button>
                             </div>
@@ -211,7 +216,7 @@ stripe: "popover"
                 </div>
             </div>
 
-           <div class="card">
+            <div class="card">
                 <div class="card-header accordionpointer collapsed" id="heading5" data-toggle="collapse" data-target="#collapse5">
                     <p class="mb-0" aria-expanded="false" aria-controls="collapse5"> How to cancel my subscription?</p>
                     <span class="faqexpander"></span>
