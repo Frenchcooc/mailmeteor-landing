@@ -968,6 +968,15 @@ section.subpage {
   }
 }
 
+/* Education LP */
+
+@media (max-width:420px){
+  #education-table {
+    display:none
+  }
+}
+
+
 /* Prevent horizontal scroll on Firefox */
 
 /*@-moz-document url-prefix() {
