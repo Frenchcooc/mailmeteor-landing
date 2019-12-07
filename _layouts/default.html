@@ -82,6 +82,10 @@
         var monthlyPlan = qs('monthly')
         var yearlyPlan = qs('yearly')
 
+        if (yearlyPlan === 'plan_G2Cj0ws5MbHAqe') {
+          yearlyPlan = 'plan_GJcRpB4WfoNAJs'
+        }
+
         var monthlyPrice = $('#plan-monthly .pricingcard-price').first()
         monthlyPrice.wrapInner('<strike></strike>')
         monthlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>4<sup>.79 /month</sup></span>')
