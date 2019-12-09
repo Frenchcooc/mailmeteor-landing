@@ -39,7 +39,7 @@ h3 {
 body {
   max-width: 1920px;
   margin: 0 auto;
-  padding-bottom:10em;
+  padding-bottom: 10em;
   box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
   -webkit-box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
@@ -303,7 +303,7 @@ section.features {
 
 /* Media query to prevent tagline to be covered by features svg */
 
-@media (max-width:1100px) and (min-width:992px) {
+@media (max-width: 1100px) and (min-width: 992px) {
   .features-svg {
     height: 200%;
     top: -200px;
@@ -791,7 +791,7 @@ body > footer > div > p {
 }
 
 .footer p {
-  margin:0;
+  margin: 0;
 }
 
 /* Footer display for Firefox */
@@ -970,12 +970,38 @@ section.subpage {
 
 /* Education LP */
 
-@media (max-width:420px){
-  #education-table {
-    display:none
+.block-with-quote {
+  position: relative;
+}
+
+.block-with-quote > .quote {
+  font-size: 43px;
+  line-height: 43px;
+  position: absolute;
+  left: -25px;
+  top: 0;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .block-with-quote {
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+    margin: 0px 0 20px 20px;
+  }
+
+  .block-with-quote > .quote {
+    display: block;
   }
 }
 
+@media (max-width: 420px) {
+  #education-table {
+    display: none;
+  }
+}
 
 /* Prevent horizontal scroll on Firefox */
 
