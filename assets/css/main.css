@@ -1003,6 +1003,16 @@ section.subpage {
   }
 }
 
+/* Product Hunt Launch */
+
+#ph-launch {
+  background:#007bff;
+  color:white;
+  text-align:center;
+  font-weight: 500;
+  padding:0.5em;
+}
+
 /* Prevent horizontal scroll on Firefox */
 
 /*@-moz-document url-prefix() {
