@@ -1006,11 +1006,17 @@ section.subpage {
 /* Product Hunt Launch */
 
 #ph-launch {
-  background:#007bff;
+  background:#ff5555;
   color:white;
   text-align:center;
   font-weight: 500;
-  padding:0.5em;
+  padding:0.8em;
+}
+
+#ph-launch a {
+  text-decoration: underline;
+  color:white;
+}
 }
 
 /* Prevent horizontal scroll on Firefox */
