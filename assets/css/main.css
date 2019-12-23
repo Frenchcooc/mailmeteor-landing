@@ -568,6 +568,11 @@ section.pricing {
   padding: 0.95rem 0.75rem 0.95em;
 }
 
+.pricing-card-body {
+  padding: 1em 1em 0 1em;
+
+}
+
 .pricing h5 {
   color: #04143a;
 }
