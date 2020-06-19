@@ -111,7 +111,8 @@ button:hover,
   cursor: pointer;
 }
 
-.btn:focus, .btn.focus {
+.btn:focus,
+.btn.focus {
   box-shadow: none;
 }
 
@@ -535,35 +536,29 @@ section.pricing {
 
 /* Pricing toggle */
 
-#pricing-plans .btn-group-toggle .btn {
-  padding:0.5em;
+#pricing-plans .btn-group-toggle-recurrence .btn {
+  padding: 0.5em;
   font-size: 0.8em;
   margin-top: 0em;
 }
 
-.toggle-outline {
+#pricing-plans .btn-group-toggle-recurrence .btn {
   display: block;
   text-decoration: none;
   text-align: center;
   color: #ff486a;
   border: 2px solid;
-  border-radius: 8px;
   border-color: #ff486a;
   background-color: white;
   outline: none;
   cursor: pointer;
+  padding: 0.25rem 1rem;
 }
 
-.toggle-filled {
-  display: block;
-  text-decoration: none;
-  text-align: center;
+#pricing-plans .btn-group-toggle-recurrence .btn.active {
   color: white;
   font-weight: bolder;
-  border-radius: 8px;
   background-color: #ff486a;
-  outline: none;
-  cursor: pointer;
 }
 
 /*Pricing card*/
@@ -593,13 +588,12 @@ section.pricing {
 /* Pricing header */
 
 .pricing-card-header {
-border-radius: 8px 8px 0 0;
-background-color: white;
-border-bottom: 1px solid rgba(16, 24, 32, 0.05);
-padding: .75rem 1.25rem;
-margin-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  background-color: white;
+  border-bottom: 1px solid rgba(16, 24, 32, 0.05);
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
 }
-
 
 /*Pricing content*/
 

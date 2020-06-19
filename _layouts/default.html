@@ -20,83 +20,208 @@
     })
 
     /**
-     * Plan confirmation modal handler
+     * Render products cards
      */
 
-    function planConfirmationModal(event) {
-      var button = $(event.relatedTarget) // Button that triggered the modal
-      var planId = button.data('checkout-plan-id') // Extract info from data-* attributes
-      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-      var modal = $(this)
-      modal.find('input.checkout-plan-id').val(planId)
-      console.log(planId)
-    }
-
-    $('#activeIndividualModal').on('show.bs.modal', planConfirmationModal)
-    $('#activeEnterpriseModal').on('show.bs.modal', planConfirmationModal)
-
-    $(function () {
-      $('#pricing-enterprise-select').change(function () {
-
-        // let priceHTML = ' <small style="font-size:50%;">$</small><span id="enterprise-plan-price">' + this.value + '</span><sup>.99 /year</sup>'
-        // let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
-        // $('#enterprise-plan').html(priceHTML)
-
-        // <black-friday>
-        let planID = $("#pricing-enterprise-select option:selected").attr('data-checkout-plan-id')
-        $('#enterprise-plan-price').html(this.value)
-        $('#enterprise-plan-price-discount').html($(this).find(':selected').attr('data-value-discount'))
-        // </black-friday>
-
-        if (!planID) {
-          $('#enterprise-plan-button').html('Contact us');
-          $('#enterprise-plan-button').removeAttr('data-checkout-plan-id');
-          $('#enterprise-plan-button').removeAttr('data-target')
-          $('#enterprise-plan-button').attr('onclick', "location.href='https://support.mailmeteor.com/help/contact-support'")
+    function renderProducts() {
+      var products = {
+        monthly: {
+          'individual': {
+            title: "Monthly Booster",
+            subtitle: "Can be ended anytime. Billed monthly.",
+            price: 7.99,
+            id: "plan_GeOaGV67IuLp0O"
+          },
+          'individual-OFF20': {
+            title: "Monthly Booster",
+            subtitle: "Can be ended anytime. Billed monthly.",
+            price: 7.99,
+            discount: 6.39,
+            id: "plan_GeXu6Qjz2Jiz5o"
+          },
+          'enterprise-3': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            price: 23.99,
+            id: "price_1GvlK3KALIjZusuQO5MZpPWY"
+          },
+          'enterprise-5': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            price: 39.99,
+            id: "price_1GvlK3KALIjZusuQribPjxTy"
+          },
+          'enterprise-10': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            price: 79.99,
+            id: "price_1GvlK3KALIjZusuQUfEEZsdB"
+          },
+          'enterprise-more': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            cta: "CONTACT US",
+          },
+        },
+        yearly: {
+          'individual': {
+            title: "Yearly License",
+            subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
+            price: 39.99,
+            id: "plan_H94vBgcwlWONN8"
+          },
+          'individual-OFF20': {
+            title: "Yearly License",
+            subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
+            price: 39.99,
+            discount: 31.99,
+            id: "plan_H94wjkUJNv8YzG"
+          },
+          'enterprise-3': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            price: 99.99,
+            id: "price_1GvlPKKALIjZusuQrAWZ1iSz"
+          },
+          'enterprise-5': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            price: 149.99,
+            id: "price_1GvlPLKALIjZusuQAR7fxk76"
+          },
+          'enterprise-10': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            price: 289.99,
+            id: "price_1GvlPKKALIjZusuQ2o7jpdrz"
+          },
+          'enterprise-more': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            cta: "CONTACT US",
+          },
         }
-        else {
-          $('#enterprise-plan-button').html('Buy now');
-          $('#enterprise-plan-button').attr('data-target', '#activeEnterpriseModal')
-          $('#enterprise-plan-button').removeAttr('onclick')
-          $('#enterprise-plan-button').attr('data-checkout-plan-id', planID)
-        }
-      });
-    });
-
-    /**
-     * Plans with coupons
-     */
-
-    function qs(key) {
-      key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
-      var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
-      return match && decodeURIComponent(match[1].replace(/\+/g, " "));
-    }
-
-    try {
-
-      var coupon = qs('coupon')
-      var blackfriday = document.getElementById('blackfriday')
-      if (coupon && coupon === "OFF20" && !blackfriday) {
-        var monthlyPlan = 'plan_GeXu6Qjz2Jiz5o'
-        var yearlyPlan = 'plan_H94wjkUJNv8YzG'
-
-        var monthlyPrice = $('#plan-monthly .pricingcard-price').first()
-        monthlyPrice.wrapInner('<strike></strike>')
-        monthlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>6<sup>.39 /month</sup></span>')
-        $('#plan-monthly button[data-checkout-plan-id]').each(function () { $(this).attr('data-checkout-plan-id', monthlyPlan) })
-
-        var yearlyPrice = $('#plan-yearly .pricingcard-price').first()
-        yearlyPrice.wrapInner('<strike></strike>')
-        yearlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>31<sup>.99 /year</sup></span>')
-        $('#plan-yearly button[data-checkout-plan-id]').each(function () { $(this).attr('data-checkout-plan-id', yearlyPlan) })
       }
 
-    } catch (e) { console.error(e) }
+      $("[data-checkout-product]").each(function() {
+        var card = $(this)
+        var recurrence = $('[data-checkout-recurrence]')
+
+        if (recurrence) { recurrence = recurrence.data('checkout-recurrence')}
+        else { recurrence = "monthly" }
+
+        var productId = card.data("checkout-product")
+        var productCategory = products[recurrence]
+        var product = productCategory && productCategory[productId]
+        if (!product) { throw new Error('Undefined plan: ' + cardPlanName)}
+        
+        var title = card.find('[data-checkout-product-item="title"]')
+        if (title && product.title) { title.first().text(product.title) }
+
+        var subtitle = card.find('[data-checkout-product-item="subtitle"]')
+        if (subtitle && product.title) { subtitle.first().text(product.subtitle) }
+
+        var price = card.find('[data-checkout-product-item="price"]')
+        if (price) {
+          if (product.price) {
+            var productPrice = product.price.toString().split('.')
+            var productPriceInteger = productPrice.shift()
+            var productPriceDecimal = productPrice.length && productPrice.shift()
+
+            var priceHtml = '<small style="font-size: 50%;">$</small>'
+            priceHtml += productPriceInteger
+            priceHtml += '<sup>'+ (productPriceDecimal ? ('.' + productPriceDecimal) : '') + ' / '+recurrence.slice(0, -2)+'</sup>'
+            price.first().html(priceHtml)
+            
+            if (product.discount) {
+              var productDiscount = product.discount.toString().split('.')
+              var productDiscountInteger = productDiscount.shift()
+              var productDiscountDecimal = productDiscount.length && productDiscount.shift()
+              
+              var discountHtml = '<small style="font-size: 50%;">$</small>'
+              discountHtml += productDiscountInteger
+              discountHtml += '<sup>'+ (productDiscountDecimal ? ('.' + productDiscountDecimal) : '') + ' / '+recurrence.slice(0, -2)+'</sup>'
+
+              price.first().html('<strike>'+ priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>')
+            }
+          }
+          else {
+            price.first().html("Let's talk")
+          }
+        }
+
+        var cta = card.find('[data-checkout-product-item="cta"]')
+        if (cta) {
+          cta.first().data("checkout-product-id", product.id || "")
+          cta.first().text(product.cta || 'BUY NOW')
+        }
+      })
+    }
 
     /**
-     * Upgrade modal validation (enterprise plan)
+     * Initialize products
+     */
+
+    $(function () {
+      // Render products
+      renderProducts()
+
+      // Handle monthly / yearly
+      $('input[name=checkout-recurrence]').on('change', function () {
+        var recurrence = $('[data-checkout-recurrence]')
+        if (recurrence) { recurrence.first().data('checkout-recurrence', $(this).val())}
+        renderProducts()
+      })
+      
+      // Handle users selector (for enterprise)
+      $('#checkout-selector-users').change(function () {
+        var card = $(this).closest('[data-checkout-product]')
+        card.data('checkout-product', 'enterprise-' + $(this).val())
+        renderProducts()
+      });
+
+      // Handle confirmation modals
+      function planConfirmationModal(event) {
+        var button = $(event.relatedTarget)
+        var productId = button.data('checkout-product-id')
+        if (!productId) {
+          window.location.href = "https://support.mailmeteor.com/help/contact-support"
+        } else {
+          var modal = $(this)
+          modal.find('input.checkout-plan-id').val(productId)
+        }
+      }
+
+      $('#activeIndividualModal').on('show.bs.modal', planConfirmationModal)
+      $('#activeEnterpriseModal').on('show.bs.modal', planConfirmationModal)
+
+      // Handle 20% OFF coupon
+      function qs(key) {
+        key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+        var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+        return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+      }
+
+      try {
+        var coupon = qs('coupon')
+        if (coupon && coupon === "OFF20") {
+          $("[data-checkout-product]").each(function() {
+            var card = $(this)
+            var productId = card.data("checkout-product")
+
+            if (productId === "individual") {
+              card.data("checkout-product", "individual-OFF20")
+              renderProducts()
+            }
+          })
+        }
+
+      } catch (e) { console.error(e) }
+    });
+    
+
+    /**
+     * Validation on the enterprise modal
      */
 
     $( "#enterprise-form" ).submit(function( event ) {
@@ -122,6 +247,8 @@
         return notValid("Please enter your G Suite domain here (the part after @).");
       } else if (domain.substr(0,4) === "www.") {
         return notValid("Please enter your G Suite domain (without www).");
+      } else if (domain.substr(0,4) === "http") {
+        return notValid("Please enter your G Suite domain (without http).");
       }
 
       var validation = domainElt.parent().find('.email-domain-validation')
