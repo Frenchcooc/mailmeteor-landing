@@ -905,7 +905,7 @@ section.subpage {
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(to bottom, #fff, #f5f6fa);
+  background: linear-gradient(to bottom, #fff, #f5f6fa7a);
   z-index: -2;
   margin-bottom: 0;
 }
