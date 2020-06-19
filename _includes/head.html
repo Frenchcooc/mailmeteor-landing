@@ -26,35 +26,3 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="/assets/css/main.css" />
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "UA-136395985-1");
-</script>
-
-<script async src="https://js.stripe.com/v3/"></script>
-<script>
-  if (window.fetch && window.localStorage) {
-    try {
-      window._geo = JSON.parse(window.localStorage.getItem("_geo"));
-    } catch (err) {}
-
-    if (!window._geo) {
-      window
-        .fetch("https://ip-api.io/json/?token=d372470b9ce43e")
-        .then((response) => response.json())
-        .then((response) => {
-          if (response.currency) window.localStorage.setItem("_geo", JSON.stringify(response));
-          window._geo = response;
-        })
-        .catch();
-    }
-  }
-</script>
