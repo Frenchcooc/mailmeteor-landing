@@ -14,7 +14,12 @@
 <meta property="og:url" content="{{ page.og_url }}" />
 
 <!-- Bootstrap Stylesheet -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
 
 <!-- Scroll library -->
 <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
@@ -25,13 +30,31 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || []
+  window.dataLayer = window.dataLayer || [];
   function gtag() {
-    dataLayer.push(arguments)
+    dataLayer.push(arguments);
   }
-  gtag('js', new Date())
+  gtag("js", new Date());
 
-  gtag('config', 'UA-136395985-1')
+  gtag("config", "UA-136395985-1");
 </script>
 
 <script async src="https://js.stripe.com/v3/"></script>
+<script>
+  if (window.fetch && window.localStorage) {
+    try {
+      window._geo = JSON.parse(window.localStorage.getItem("_geo"));
+    } catch (err) {}
+
+    if (!window._geo) {
+      window
+        .fetch("https://ip-api.io/json/?token=d372470b9ce43e")
+        .then((response) => response.json())
+        .then((response) => {
+          if (response.currency) window.localStorage.setItem("_geo", JSON.stringify(response));
+          window._geo = response;
+        })
+        .catch();
+    }
+  }
+</script>
