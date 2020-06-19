@@ -111,7 +111,7 @@ button:hover,
   cursor: pointer;
 }
 
-.btn:focus {
+.btn:focus, .btn.focus {
   box-shadow: none;
 }
 
@@ -531,6 +531,39 @@ section.pricing {
 .comparison-header {
   padding: 0.3em;
   max-width: 700px; /* applies both on home and pricing page */
+}
+
+/* Pricing toggle */
+
+#pricing-plans .btn-group-toggle .btn {
+  padding:0.5em;
+  font-size: 0.8em;
+  margin-top: 0em;
+}
+
+.toggle-outline {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #ff486a;
+  border: 2px solid;
+  border-radius: 8px;
+  border-color: #ff486a;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.toggle-filled {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+  background-color: #ff486a;
+  outline: none;
+  cursor: pointer;
 }
 
 /*Pricing card*/
