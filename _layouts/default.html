@@ -185,7 +185,7 @@
         var button = $(event.relatedTarget)
         var productId = button.data('checkout-product-id')
         if (!productId) {
-          window.location.href = "https://support.mailmeteor.com/help/contact-support"
+          window.location.href = "https://support.mailmeteor.com/help/contact-support#contact-mailmeteor-team"
         } else {
           var modal = $(this)
           modal.find('input.checkout-plan-id').val(productId)
