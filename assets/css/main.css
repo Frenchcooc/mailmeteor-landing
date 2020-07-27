@@ -640,6 +640,12 @@ section.pricing {
   font-size: 1em;
 }
 
+.pricingcard-currency {
+  font-size: 50%;
+  min-width: 16px;
+  display: inline-block;
+}
+
 @media (min-width: 576px) {
   .card-deck {
     margin-left: 0px !important;
@@ -1008,13 +1014,14 @@ section.subpage {
 /* Disable CSS transition on page load */
 
 .preload * {
+  transition: none !important;
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
- }
+}
 
- /* LANDING PAGES */
+/* LANDING PAGES */
 
 /* Education LP */
 
@@ -1023,7 +1030,24 @@ section.subpage {
   font-weight: 700;
 }
 
+/* ANIMATIONS */
 
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /* FONTS */
 
