@@ -211,12 +211,6 @@ button:hover,
   }
 }
 
-@media (max-width: 576px) {
-  body {
-    padding-top:14em;
-  }
-}
-
 /* navbar toggler  */
 
 .icon-bar {

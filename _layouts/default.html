@@ -27,7 +27,7 @@
       var products = {
         monthly: {
           'free': {
-            title:"Free",
+            title: "Free",
             subtitle: "Start free, upgrade whenever you want.",
             prices: {
               usd: {
@@ -83,6 +83,22 @@
               },
             },
           },
+          'enterprise-3-OFF20': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            prices: {
+              usd: {
+                amount: 23.99,
+                discount: 19,
+                id: "price_1HOQZ7KALIjZusuQRK7zJvzY"
+              },
+              eur: {
+                amount: 23.99,
+                discount: 19,
+                id: "price_1HOQXpKALIjZusuQRaWwY1rr"
+              },
+            },
+          },
           'enterprise-5': {
             title: "Enterprise Monthly",
             subtitle: "For teams and companies. Billed monthly.",
@@ -94,6 +110,22 @@
               eur: {
                 amount: 39.99,
                 id: "price_1H9SUGKALIjZusuQeGWwThZ7"
+              },
+            },
+          },
+          'enterprise-5-OFF20': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            prices: {
+              usd: {
+                amount: 39.99,
+                discount: 32,
+                id: "price_1HOQZOKALIjZusuQpk2V2DRy"
+              },
+              eur: {
+                amount: 39.99,
+                discount: 32,
+                id: "price_1HOQYZKALIjZusuQhL6zJncS"
               },
             },
           },
@@ -111,6 +143,22 @@
               },
             },
           },
+          'enterprise-10-OFF20': {
+            title: "Enterprise Monthly",
+            subtitle: "For teams and companies. Billed monthly.",
+            prices: {
+              usd: {
+                amount: 79.99,
+                discount: 63,
+                id: "price_1HOQZmKALIjZusuQVdT843uU"
+              },
+              eur: {
+                amount: 79.99,
+                discount: 63,
+                id: "price_1HOQYqKALIjZusuQOup2V0qZ"
+              },
+            },
+          },
           'enterprise-more': {
             title: "Enterprise Monthly",
             subtitle: "For teams and companies. Billed monthly.",
@@ -119,7 +167,7 @@
         },
         yearly: {
           'free': {
-            title:"Free",
+            title: "Free",
             subtitle: "Start free, upgrade whenever you want.",
             prices: {
               usd: {
@@ -175,6 +223,22 @@
               },
             },
           },
+          'enterprise-3-OFF20': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            prices: {
+              usd: {
+                amount: 99.99,
+                discount: 80,
+                id: "price_1HOQTsKALIjZusuQYxQuyXR8"
+              },
+              eur: {
+                amount: 99.99,
+                discount: 80,
+                id: "price_1HOQPYKALIjZusuQvv6KD6RK"
+              },
+            },
+          },
           'enterprise-5': {
             title: "Enterprise Yearly",
             subtitle: "For teams and companies. Billed yearly.",
@@ -186,6 +250,22 @@
               eur: {
                 amount: 149.99,
                 id: "price_1H9SYZKALIjZusuQ2Pv1NU5Q"
+              },
+            },
+          },
+          'enterprise-5-OFF20': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            prices: {
+              usd: {
+                amount: 149.99,
+                discount: 120,
+                id: "price_1HOQU8KALIjZusuQlIXDnY7i"
+              },
+              eur: {
+                amount: 149.99,
+                discount: 120,
+                id: "price_1HOQRnKALIjZusuQVZqQrxlJ"
               },
             },
           },
@@ -203,6 +283,22 @@
               },
             },
           },
+          'enterprise-10-OFF20': {
+            title: "Enterprise Yearly",
+            subtitle: "For teams and companies. Billed yearly.",
+            prices: {
+              usd: {
+                amount: 289.99,
+                discount: 231,
+                id: "price_1HOQUUKALIjZusuQtxl6yRpu"
+              },
+              eur: {
+                amount: 289.99,
+                discount: 231,
+                id: "price_1HOQSKKALIjZusuQnq1prAlm"
+              },
+            },
+          },
           'enterprise-more': {
             title: "Enterprise Yearly",
             subtitle: "For teams and companies. Billed yearly.",
@@ -210,24 +306,24 @@
           },
         }
       }
-      
-      var currencies = {"usd":"$", "eur": "€"}
+
+      var currencies = { "usd": "$", "eur": "€" }
 
 
       $("[data-checkout-product]").each(function () {
         var card = $(this)
         var recurrence = $('[data-checkout-recurrence]').first()
-        recurrence = recurrence && recurrence.data('checkout-recurrence') ||  "monthly" 
+        recurrence = recurrence && recurrence.data('checkout-recurrence') || "monthly"
 
         var currency = $('[data-checkout-currency]').first()
-        currency = (currency && currency.data('checkout-currency') ||  "USD").toLowerCase()
+        currency = (currency && currency.data('checkout-currency') || "USD").toLowerCase()
         if (!currencies[currency]) { currency = 'usd' }
 
         var productType = card.data("checkout-product")
         var productCategory = products[recurrence]
         var product = productCategory && productCategory[productType]
         if (!product) { return console.error('Undefined product: ' + productType) }
-        
+
         var title = card.find('[data-checkout-product-item="title"]')
         if (title && product.title) { title.first().text(product.title) }
 
@@ -236,7 +332,7 @@
 
         var priceElt = card.find('[data-checkout-product-item="price"]')
         var productPrice = product.prices && product.prices[currency] || null
-        
+
         if (priceElt) {
           if (productPrice) {
             var amount = productPrice.amount.toString().split('.')
@@ -244,7 +340,7 @@
             var amountDecimal = amount.length && amount.shift()
             var amountCurrency = currencies[currency]
 
-            var priceHtml = '<small class="pricingcard-currency">'+amountCurrency+'</small>'
+            var priceHtml = '<small class="pricingcard-currency">' + amountCurrency + '</small>'
             priceHtml += amountInteger
             priceHtml += '<sup>' + (amountDecimal ? ('.' + amountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
             priceElt.first().html(priceHtml)
@@ -255,7 +351,7 @@
               var discountDecimal = discount.length && discount.shift()
               var discountCurrency = currencies[currency]
 
-              var discountHtml = '<small class="pricingcard-currency">'+discountCurrency+'</small>'
+              var discountHtml = '<small class="pricingcard-currency">' + discountCurrency + '</small>'
               discountHtml += discountInteger
               discountHtml += '<sup>' + (discountDecimal ? ('.' + discountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
 
@@ -274,13 +370,13 @@
         }
       })
     }
-    
+
     /**
      * Handle user's currency
      */
-    
+
     function setUserCurrency(currency) {
-      var currencyElt =  $('[data-checkout-currency]').first()
+      var currencyElt = $('[data-checkout-currency]').first()
       if (currencyElt) { currencyElt.data('checkout-currency', currency || 'USD') }
     }
 
@@ -295,7 +391,7 @@
         setUserCurrency(window._geo.currency)
         renderProducts()
       }
-      
+
       // Render products with default currency
       else {
         renderProducts()
@@ -311,7 +407,7 @@
       // Handle users selector (for enterprise)
       $('#checkout-selector-users').change(function () {
         var card = $(this).closest('[data-checkout-product]')
-        if (card) { card.data('checkout-product', 'enterprise-' + $(this).val()) } 
+        if (card) { card.data('checkout-product', 'enterprise-' + $(this).val() + '-OFF20') }
         renderProducts()
       });
 
