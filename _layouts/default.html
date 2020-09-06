@@ -355,7 +355,7 @@
               discountHtml += discountInteger
               discountHtml += '<sup>' + (discountDecimal ? ('.' + discountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
 
-              priceElt.first().html('<strike>' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>')
+              priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>')
             }
           }
           else {
