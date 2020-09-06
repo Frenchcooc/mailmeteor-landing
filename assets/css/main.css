@@ -38,9 +38,9 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   padding-bottom: 10em;
-  box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
-  -moz-box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
-  -webkit-box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
+  box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
+  -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
+  -webkit-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
 }
 
 section {
