@@ -417,8 +417,8 @@
         var productId = button.data('checkout-product-id')
 
         if (!productId) {
-          window.location.href = "https://support.mailmeteor.com/help/contact-support#contact-us"
           event.preventDefault()
+          LoadDriftWidget()
         } else {
           var modal = $(this)
           modal.find('input.checkout-plan-id').val(productId)
