@@ -919,7 +919,7 @@ section.legal {
 /*Pricing content*/
 
 .pricing-plan-features {
-  min-height: 200px; /* can be removed to obtain squared pricings */
+  min-height: 230px; /* can be removed to obtain squared pricings */
   text-align: left;
   display: block;
 }
@@ -929,13 +929,14 @@ section.legal {
   align-items: center;
   padding: 0 0 0.1em 0;
   margin: 2px;
+  line-height:1.6;
 }
 
 .pricing-plan-features li:before {
   content: "";
   min-width: 20px;
   height: 20px;
-  margin-right: 4px;
+  margin-right: 8px;
   display: inline-block;
   background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
