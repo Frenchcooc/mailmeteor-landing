@@ -357,6 +357,18 @@
             priceHtml += '<sup>' + (amountDecimal ? ('.' + amountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
             priceElt.first().html(priceHtml)
 
+            // Calculate the amount saved when buying Enterprise plan
+            $(".savings").show()
+            var savingsCurrency = card.find('[data-checkout-product-item="savingsCurrency"]')
+            var savingsAmount = card.find('[data-checkout-product-item="savingsAmount"]')
+            var savingsRecurrence = card.find('[data-checkout-product-item="savingsRecurrence"]')
+
+            if (savingsAmount && product.savings) {
+              savingsCurrency.first().text(amountCurrency)
+              savingsAmount.first().text(product.savings)
+              savingsRecurrence.first().text(recurrence)
+            }
+
             if (productPrice.discount) {
               var discount = productPrice.discount.toString().split('.')
               var discountInteger = discount.shift()
@@ -371,7 +383,8 @@
             }
           }
           else {
-            priceElt.first().html("Let's talk")
+            priceElt.first().html("Contact us")
+            $(".savings").hide()
           }
         }
 
