@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>tick</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="tick">
-            <circle id="Oval" fill-opacity="0.781878278" fill="#FFD8DE" cx="7" cy="7" r="7"></circle>
-            <polygon id="Path" fill="#FF486A" fill-rule="nonzero" points="6.6 6.4 2.6 4 1 5.6 6.6 12 17 1.6 15.4 0"></polygon>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="tick_2_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFD8DE;fill-opacity:0.7819;}
+	.st1{fill:#FF486A;}
+</style>
+<g id="round-tick">
+	<g id="tick">
+		<circle id="Oval" class="st0" cx="8.3" cy="10" r="8.2"/>
+		<polygon id="Path" class="st1" points="7.8,9.3 3.1,6.5 1.3,8.4 7.8,15.8 19.9,3.7 18,1.8 		"/>
+	</g>
+</g>
 </svg>
