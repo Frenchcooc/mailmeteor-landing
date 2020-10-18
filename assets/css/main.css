@@ -696,6 +696,11 @@ sup {
   outline: none;
 }
 
+@media screen and (max-width:892px) {
+  div[data-checkout-product="free"]{
+    display:none;
+  }
+}
 /*---Testimonials---*/
 
 .testimonials-logo {
