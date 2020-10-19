@@ -84,23 +84,6 @@
               },
             },
           },
-          'enterprise-3-OFF20': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            savings: 2.4,
-            prices: {
-              usd: {
-                amount: 23.99,
-                discount: 19,
-                id: "price_1HOQZ7KALIjZusuQRK7zJvzY"
-              },
-              eur: {
-                amount: 23.99,
-                discount: 19,
-                id: "price_1HOQXpKALIjZusuQRaWwY1rr"
-              },
-            },
-          },
           'enterprise-5': {
             title: "Teams",
             subtitle: "For teams and companies. Billed monthly.",
@@ -116,23 +99,6 @@
               },
             },
           },
-          'enterprise-5-OFF20': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            savings: 4,
-            prices: {
-              usd: {
-                amount: 39.99,
-                discount: 32,
-                id: "price_1HOQZOKALIjZusuQpk2V2DRy"
-              },
-              eur: {
-                amount: 39.99,
-                discount: 32,
-                id: "price_1HOQYZKALIjZusuQhL6zJncS"
-              },
-            },
-          },
           'enterprise-10': {
             title: "Teams",
             subtitle: "For teams and companies. Billed monthly.",
@@ -145,23 +111,6 @@
               eur: {
                 amount: 79.99,
                 id: "price_1H9SUaKALIjZusuQylln3EYs"
-              },
-            },
-          },
-          'enterprise-10-OFF20': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            savings: 8,
-            prices: {
-              usd: {
-                amount: 79.99,
-                discount: 63,
-                id: "price_1HOQZmKALIjZusuQVdT843uU"
-              },
-              eur: {
-                amount: 79.99,
-                discount: 63,
-                id: "price_1HOQYqKALIjZusuQOup2V0qZ"
               },
             },
           },
@@ -230,23 +179,6 @@
               },
             },
           },
-          'enterprise-3-OFF20': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            savings: 100,
-            prices: {
-              usd: {
-                amount: 99.99,
-                discount: 80,
-                id: "price_1HOQTsKALIjZusuQYxQuyXR8"
-              },
-              eur: {
-                amount: 99.99,
-                discount: 80,
-                id: "price_1HOQPYKALIjZusuQvv6KD6RK"
-              },
-            },
-          },
           'enterprise-5': {
             title: "Teams",
             subtitle: "For teams and companies. Billed yearly.",
@@ -262,23 +194,6 @@
               },
             },
           },
-          'enterprise-5-OFF20': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            savings: 180,
-            prices: {
-              usd: {
-                amount: 149.99,
-                discount: 120,
-                id: "price_1HOQU8KALIjZusuQlIXDnY7i"
-              },
-              eur: {
-                amount: 149.99,
-                discount: 120,
-                id: "price_1HOQRnKALIjZusuQVZqQrxlJ"
-              },
-            },
-          },
           'enterprise-10': {
             title: "Teams",
             subtitle: "For teams and companies. Billed yearly.",
@@ -291,23 +206,6 @@
               eur: {
                 amount: 289.99,
                 id: "price_1H9SYsKALIjZusuQWXXjACye"
-              },
-            },
-          },
-          'enterprise-10-OFF20': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            savings: 370,
-            prices: {
-              usd: {
-                amount: 289.99,
-                discount: 231,
-                id: "price_1HOQUUKALIjZusuQtxl6yRpu"
-              },
-              eur: {
-                amount: 289.99,
-                discount: 231,
-                id: "price_1HOQSKKALIjZusuQnq1prAlm"
               },
             },
           },
@@ -358,10 +256,11 @@
             priceElt.first().html(priceHtml)
 
             // Calculate the amount saved when buying Enterprise plan
-
-            if (product.savings) {
+            if (product.savings && window.location.href.indexOf('coupon') === -1) {
               $(".savings").text('Save ' + amountCurrency + product.savings + ' ' + recurrence)
               $(".savings").show()
+            } else {
+              $(".savings").hide()
             }
 
             if (productPrice.discount) {
