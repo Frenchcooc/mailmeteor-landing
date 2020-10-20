@@ -72,13 +72,14 @@
           'enterprise-3': {
             title: "Teams",
             subtitle: "For teams and companies. Billed monthly.",
-            savings: 3,
             prices: {
               usd: {
+                savings: '10%',
                 amount: 23.99,
                 id: "price_1GvlK3KALIjZusuQO5MZpPWY"
               },
               eur: {
+                savings: '10%',
                 amount: 23.99,
                 id: "price_1H9SU2KALIjZusuQiVpnim4E"
               },
@@ -87,13 +88,14 @@
           'enterprise-5': {
             title: "Teams",
             subtitle: "For teams and companies. Billed monthly.",
-            savings: 5,
             prices: {
               usd: {
+                savings: '10%',
                 amount: 39.99,
                 id: "price_1GvlK3KALIjZusuQribPjxTy"
               },
               eur: {
+                savings: '10%',
                 amount: 39.99,
                 id: "price_1H9SUGKALIjZusuQeGWwThZ7"
               },
@@ -105,10 +107,12 @@
             savings: 10,
             prices: {
               usd: {
+                savings: '10%',
                 amount: 79.99,
                 id: "price_1GvlK3KALIjZusuQUfEEZsdB"
               },
               eur: {
+                savings: '10%',
                 amount: 79.99,
                 id: "price_1H9SUaKALIjZusuQylln3EYs"
               },
@@ -167,13 +171,14 @@
           'enterprise-3': {
             title: "Teams",
             subtitle: "For teams and companies. Billed yearly.",
-            savings: 80,
             prices: {
               usd: {
+                savings: '$80',
                 amount: 99.99,
                 id: "price_1GvlPKKALIjZusuQrAWZ1iSz"
               },
               eur: {
+                savings: '80€',
                 amount: 99.99,
                 id: "price_1H9SYFKALIjZusuQn1sDRPl3"
               },
@@ -182,13 +187,14 @@
           'enterprise-5': {
             title: "Teams",
             subtitle: "For teams and companies. Billed yearly.",
-            savings: 150,
             prices: {
               usd: {
+                savings: '$150',
                 amount: 149.99,
                 id: "price_1GvlPLKALIjZusuQAR7fxk76"
               },
               eur: {
+                savings: '150€',
                 amount: 149.99,
                 id: "price_1H9SYZKALIjZusuQ2Pv1NU5Q"
               },
@@ -197,13 +203,14 @@
           'enterprise-10': {
             title: "Teams",
             subtitle: "For teams and companies. Billed yearly.",
-            savings: 310,
             prices: {
               usd: {
+                savings: '$310',
                 amount: 289.99,
                 id: "price_1GvlPKKALIjZusuQ2o7jpdrz"
               },
               eur: {
+                savings: '310€',
                 amount: 289.99,
                 id: "price_1H9SYsKALIjZusuQWXXjACye"
               },
@@ -256,11 +263,11 @@
             priceElt.first().html(priceHtml)
 
             // Calculate the amount saved when buying Enterprise plan
-            if (product.savings && window.location.href.indexOf('coupon') === -1) {
-              $(".savings").text('Save ' + amountCurrency + product.savings + ' ' + recurrence)
-              $(".savings").show()
+            if (productPrice.savings && window.location.href.indexOf('coupon') === -1) {
+              $(".pricing-card-savings").text('Save ' + productPrice.savings + ' compared to individual plans')
+              $(".pricing-card-savings").show()
             } else {
-              $(".savings").hide()
+              $(".pricing-card-savings").hide()
             }
 
             if (productPrice.discount) {
@@ -278,7 +285,7 @@
           }
           else {
             priceElt.first().html("Contact us")
-            $(".savings").hide()
+            $(".pricing-card-savings").hide()
           }
         }
 
