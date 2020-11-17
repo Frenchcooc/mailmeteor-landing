@@ -45,10 +45,12 @@
             prices: {
               usd: {
                 amount: 8.99,
+                discount: 5.99, //bf-offer
                 id: "price_1HPMJIKALIjZusuQZjuI5Xop"
               },
               eur: {
                 amount: 8.99,
+                discount: 5.99, //bf-offer
                 id: "price_1HPMIfKALIjZusuQi90z2OsL"
               },
             },
@@ -76,11 +78,13 @@
               usd: {
                 savings: '10%',
                 amount: 23.99,
+                discount: 16.8, //bf-offer
                 id: "price_1GvlK3KALIjZusuQO5MZpPWY"
               },
               eur: {
                 savings: '10%',
                 amount: 23.99,
+                discount: 16.8, //bf-offer
                 id: "price_1H9SU2KALIjZusuQiVpnim4E"
               },
             },
@@ -92,11 +96,13 @@
               usd: {
                 savings: '10%',
                 amount: 39.99,
+                discount: 28, //bf-offer
                 id: "price_1GvlK3KALIjZusuQribPjxTy"
               },
               eur: {
                 savings: '10%',
                 amount: 39.99,
+                discount: 28, //bf-offer
                 id: "price_1H9SUGKALIjZusuQeGWwThZ7"
               },
             },
@@ -109,11 +115,13 @@
               usd: {
                 savings: '10%',
                 amount: 79.99,
+                discount: 56, //bf-offer
                 id: "price_1GvlK3KALIjZusuQUfEEZsdB"
               },
               eur: {
                 savings: '10%',
                 amount: 79.99,
+                discount: 56, //bf-offer
                 id: "price_1H9SUaKALIjZusuQylln3EYs"
               },
             },
@@ -144,12 +152,12 @@
             prices: {
               usd: {
                 amount: 108,
-                discount: 49.99,
+                discount: 49.99, //bf-offer
                 id: "price_1HlwUXKALIjZusuQfLtFodcR"
               },
               eur: {
                 amount: 108,
-                discount: 49.99,
+                discount: 49.99, //bf-offer
                 id: "price_1HlwUnKALIjZusuQn9490Ffy"
               },
             },
@@ -175,13 +183,17 @@
             subtitle: "For teams and companies. Billed yearly.",
             prices: {
               usd: {
-                savings: '$223',
+                //savings: '$224',
+                savings: '$274', // bf-offer
                 amount: 99.99,
+                discount: 49.99, //bf-offer
                 id: "price_1GvlPKKALIjZusuQrAWZ1iSz"
               },
               eur: {
-                savings: '223€',
+                // savings: '224€',
+                savings: '274€', // bf-offer
                 amount: 99.99,
+                discount: 49.99, //bf-offer
                 id: "price_1H9SYFKALIjZusuQn1sDRPl3"
               },
             },
@@ -191,13 +203,17 @@
             subtitle: "For teams and companies. Billed yearly.",
             prices: {
               usd: {
-                savings: '$389',
+                // savings: '$390',
+                savings: '$465', // bf-offer
                 amount: 149.99,
+                discount: 75, //bf-offer
                 id: "price_1GvlPLKALIjZusuQAR7fxk76"
               },
               eur: {
-                savings: '389€',
+                // savings: '390€',
+                savings: '€465', // bf-offer
                 amount: 149.99,
+                discount: 75, //bf-offer
                 id: "price_1H9SYZKALIjZusuQ2Pv1NU5Q"
               },
             },
@@ -207,13 +223,17 @@
             subtitle: "For teams and companies. Billed yearly.",
             prices: {
               usd: {
-                savings: '$789',
+                //savings: '$789',
+                savings: '$935', // bf-offer
                 amount: 289.99,
+                discount: 144.5, //bf-offer
                 id: "price_1GvlPKKALIjZusuQ2o7jpdrz"
               },
               eur: {
-                savings: '789€',
+                //savings: '789€',
+                savings: '935€', // bf-offer
                 amount: 289.99,
+                discount: 144.5, //bf-offer
                 id: "price_1H9SYsKALIjZusuQWXXjACye"
               },
             },
@@ -232,7 +252,7 @@
       $("[data-checkout-product]").each(function () {
         var card = $(this)
         var recurrence = $('[data-checkout-recurrence]').first()
-        recurrence = recurrence && recurrence.data('checkout-recurrence') || "monthly"
+        recurrence = recurrence && recurrence.data('checkout-recurrence') || "yearly"
 
         var currency = $('[data-checkout-currency]').first()
         currency = (currency && currency.data('checkout-currency') || "USD").toLowerCase()
