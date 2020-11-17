@@ -13,7 +13,8 @@ body {
 body {
   max-width: 1920px;
   margin: 0 auto;
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  padding-top:160px; /* increase padding-top for BF banner */
   padding-bottom: 10em;
   box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
@@ -522,12 +523,12 @@ section.features {
 
 /* ----Pricing section---- */
 
-#summer-sales-banner {
-  background: #ff486a;
+#bf-banner {
+  background: #000000;
   color: white;
   text-align: center;
-  font-weight: 500;
-  padding: 0.5em;
+  font-weight: 800;
+  padding: 1.2rem;
 }
 
 .pricing-header,
