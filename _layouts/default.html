@@ -45,12 +45,12 @@
             prices: {
               usd: {
                 amount: 8.99,
-                discount: 6.3, //bf-offer
+                discount: 6.29, //bf-offer
                 id: "price_1HPMJIKALIjZusuQZjuI5Xop"
               },
               eur: {
                 amount: 8.99,
-                discount: 6.3, //bf-offer
+                discount: 6.29, //bf-offer
                 id: "price_1HPMIfKALIjZusuQi90z2OsL"
               },
             },
@@ -76,15 +76,15 @@
             subtitle: "For teams and companies. Billed monthly.",
             prices: {
               usd: {
-                savings: '30%',
+                peruserpermonth: '$5.59',
                 amount: 23.99,
-                discount: 16.8, //bf-offer
+                discount: 16.79, //bf-offer
                 id: "price_1GvlK3KALIjZusuQO5MZpPWY"
               },
               eur: {
-                savings: '30%',
+                peruserpermonth: '€5.59',
                 amount: 23.99,
-                discount: 16.8, //bf-offer
+                discount: 16.79, //bf-offer
                 id: "price_1H9SU2KALIjZusuQiVpnim4E"
               },
             },
@@ -94,15 +94,15 @@
             subtitle: "For teams and companies. Billed monthly.",
             prices: {
               usd: {
-                savings: '30%',
+                peruserpermonth: '$5.59',
                 amount: 39.99,
-                discount: 28, //bf-offer
+                discount: 27.99, //bf-offer
                 id: "price_1GvlK3KALIjZusuQribPjxTy"
               },
               eur: {
-                savings: '30%',
+                peruserpermonth: '€5.59',
                 amount: 39.99,
-                discount: 28, //bf-offer
+                discount: 27.99, //bf-offer
                 id: "price_1H9SUGKALIjZusuQeGWwThZ7"
               },
             },
@@ -110,18 +110,17 @@
           'enterprise-10': {
             title: "Teams",
             subtitle: "For teams and companies. Billed monthly.",
-            savings: 10,
             prices: {
               usd: {
-                savings: '30%',
+                peruserpermonth: '$5.59',
                 amount: 79.99,
-                discount: 56, //bf-offer
+                discount: 55.99, //bf-offer
                 id: "price_1GvlK3KALIjZusuQUfEEZsdB"
               },
               eur: {
-                savings: '30%',
+                peruserpermonth: '€5.59',
                 amount: 79.99,
-                discount: 56, //bf-offer
+                discount: 55.99, //bf-offer
                 id: "price_1H9SUaKALIjZusuQylln3EYs"
               },
             },
@@ -134,7 +133,7 @@
         },
         yearly: {
           'free': {
-            title: "Free",
+            title: "Starter",
             subtitle: "Start free, upgrade whenever you want.",
             prices: {
               usd: {
@@ -151,12 +150,12 @@
             subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
             prices: {
               usd: {
-                amount: 108,
+                amount: 49.99,
                 discount: 24.99, //bf-offer
                 id: "price_1HlwUXKALIjZusuQfLtFodcR"
               },
               eur: {
-                amount: 108,
+                amount: 49.99,
                 discount: 24.99, //bf-offer
                 id: "price_1HlwUnKALIjZusuQn9490Ffy"
               },
@@ -184,14 +183,14 @@
             prices: {
               usd: {
                 //savings: '$224',
-                savings: '$274', // bf-offer
+                peruserpermonth: '$1.38', // bf-offer
                 amount: 99.99,
                 discount: 49.99, //bf-offer
                 id: "price_1GvlPKKALIjZusuQrAWZ1iSz"
               },
               eur: {
                 // savings: '224€',
-                savings: '274€', // bf-offer
+                peruserpermonth: '€1.38', // bf-offer
                 amount: 99.99,
                 discount: 49.99, //bf-offer
                 id: "price_1H9SYFKALIjZusuQn1sDRPl3"
@@ -204,16 +203,16 @@
             prices: {
               usd: {
                 // savings: '$390',
-                savings: '$465', // bf-offer
+                peruserpermonth: '$1.24', // bf-offer
                 amount: 149.99,
-                discount: 75, //bf-offer
+                discount: 74.99, //bf-offer
                 id: "price_1GvlPLKALIjZusuQAR7fxk76"
               },
               eur: {
                 // savings: '390€',
-                savings: '€465', // bf-offer
+                peruserpermonth: '€1.24', // bf-offer
                 amount: 149.99,
-                discount: 75, //bf-offer
+                discount: 74.99, //bf-offer
                 id: "price_1H9SYZKALIjZusuQ2Pv1NU5Q"
               },
             },
@@ -224,16 +223,16 @@
             prices: {
               usd: {
                 //savings: '$789',
-                savings: '$935', // bf-offer
+                peruserpermonth: '$1.20', // bf-offer
                 amount: 289.99,
-                discount: 144.5, //bf-offer
+                discount: 144.99, //bf-offer
                 id: "price_1GvlPKKALIjZusuQ2o7jpdrz"
               },
               eur: {
                 //savings: '789€',
-                savings: '935€', // bf-offer
+                peruserpermonth: '€1.20', // bf-offer
                 amount: 289.99,
-                discount: 144.5, //bf-offer
+                discount: 144.99, //bf-offer
                 id: "price_1H9SYsKALIjZusuQWXXjACye"
               },
             },
@@ -284,11 +283,20 @@
             priceHtml += '<sup>' + (amountDecimal ? ('.' + amountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
             priceElt.first().html(priceHtml)
 
-            // Calculate the amount saved when buying Enterprise plan
-            if (productPrice.savings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + productPrice.savings + ' during Black Friday')
+            // Show the price "/user/month" when buying Enterprise plan
+            if (product.savings && window.location.href.indexOf('coupon') === -1) {
+              $(".pricing-card-savings").text('Save ' + product.savings + ' compared to individual plans.')
               $(".pricing-card-savings").show()
-            } else {
+            } 
+
+            // Show the price "/user/month" when buying Enterprise plan
+            else if (productPrice.peruserpermonth && window.location.href.indexOf('coupon') === -1) {
+              $(".pricing-card-savings").text('As low as ' + productPrice.peruserpermonth + '/user/month.' + (recurrence === "yearly" ? " Billed yearly" : ""))
+              $(".pricing-card-savings").show()
+            } 
+            
+            // Hide savings
+            else {
               $(".pricing-card-savings").hide()
             }
 
@@ -383,21 +391,23 @@
         return match && decodeURIComponent(match[1].replace(/\+/g, " "));
       }
 
-      try {
-        var coupon = qs('coupon')
-        if (coupon && coupon === "OFF20") {
-          $("[data-checkout-product]").each(function () {
-            var card = $(this)
-            var productId = card.data("checkout-product")
+      // Stop handling ?coupon=OFF20
+      // during Black Friday
+      // try {
+      //   var coupon = qs('coupon')
+      //   if (coupon && coupon === "OFF20") {
+      //     $("[data-checkout-product]").each(function () {
+      //       var card = $(this)
+      //       var productId = card.data("checkout-product")
 
-            if (productId === "individual") {
-              card.data("checkout-product", "individual-OFF20")
-              renderProducts()
-            }
-          })
-        }
+      //       if (productId === "individual") {
+      //         card.data("checkout-product", "individual-OFF20")
+      //         renderProducts()
+      //       }
+      //     })
+      //   }
 
-      } catch (e) { console.error(e) }
+      // } catch (e) { console.error(e) }
     });
 
 

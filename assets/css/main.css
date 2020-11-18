@@ -14,7 +14,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   /* padding-top: 100px; */
-  padding-top:160px; /* increase padding-top for BF banner */
+  padding-top: 160px; /* increase padding-top for BF banner */
   padding-bottom: 10em;
   box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
@@ -22,7 +22,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  body { padding-top: 240px; } /* add padding on tablet and mobile displays for banner */
+  body {
+    padding-top: 240px;
+  } /* add padding on tablet and mobile displays for banner */
 }
 
 body,
@@ -602,7 +604,7 @@ section.features {
 }
 
 #pricingTable .pricing-card-header {
-  min-height: 80px!important;
+  min-height: 80px !important;
 }
 /*Pricing content*/
 
@@ -651,6 +653,7 @@ section.features {
   display: inline-block;
 }
 
+.pricing-card-hint,
 .pricing-card-savings {
   color: #7da4ff;
   font-size: 0.8em;
@@ -664,6 +667,7 @@ section.features {
 }
 
 @media (min-width: 1200px) {
+  .pricing-card-hint,
   .pricing-card-savings {
     font-size: 0.9em;
   }
