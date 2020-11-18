@@ -45,12 +45,12 @@
             prices: {
               usd: {
                 amount: 8.99,
-                discount: 5.99, //bf-offer
+                discount: 6.3, //bf-offer
                 id: "price_1HPMJIKALIjZusuQZjuI5Xop"
               },
               eur: {
                 amount: 8.99,
-                discount: 5.99, //bf-offer
+                discount: 6.3, //bf-offer
                 id: "price_1HPMIfKALIjZusuQi90z2OsL"
               },
             },
@@ -76,13 +76,13 @@
             subtitle: "For teams and companies. Billed monthly.",
             prices: {
               usd: {
-                savings: '10%',
+                savings: '30%',
                 amount: 23.99,
                 discount: 16.8, //bf-offer
                 id: "price_1GvlK3KALIjZusuQO5MZpPWY"
               },
               eur: {
-                savings: '10%',
+                savings: '30%',
                 amount: 23.99,
                 discount: 16.8, //bf-offer
                 id: "price_1H9SU2KALIjZusuQiVpnim4E"
@@ -94,13 +94,13 @@
             subtitle: "For teams and companies. Billed monthly.",
             prices: {
               usd: {
-                savings: '10%',
+                savings: '30%',
                 amount: 39.99,
                 discount: 28, //bf-offer
                 id: "price_1GvlK3KALIjZusuQribPjxTy"
               },
               eur: {
-                savings: '10%',
+                savings: '30%',
                 amount: 39.99,
                 discount: 28, //bf-offer
                 id: "price_1H9SUGKALIjZusuQeGWwThZ7"
@@ -113,13 +113,13 @@
             savings: 10,
             prices: {
               usd: {
-                savings: '10%',
+                savings: '30%',
                 amount: 79.99,
                 discount: 56, //bf-offer
                 id: "price_1GvlK3KALIjZusuQUfEEZsdB"
               },
               eur: {
-                savings: '10%',
+                savings: '30%',
                 amount: 79.99,
                 discount: 56, //bf-offer
                 id: "price_1H9SUaKALIjZusuQylln3EYs"
@@ -152,12 +152,12 @@
             prices: {
               usd: {
                 amount: 108,
-                discount: 49.99, //bf-offer
+                discount: 24.99, //bf-offer
                 id: "price_1HlwUXKALIjZusuQfLtFodcR"
               },
               eur: {
                 amount: 108,
-                discount: 49.99, //bf-offer
+                discount: 24.99, //bf-offer
                 id: "price_1HlwUnKALIjZusuQn9490Ffy"
               },
             },
@@ -286,7 +286,7 @@
 
             // Calculate the amount saved when buying Enterprise plan
             if (productPrice.savings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + productPrice.savings + ' compared to individual plans')
+              $(".pricing-card-savings").text('Save ' + productPrice.savings + ' during Black Friday')
               $(".pricing-card-savings").show()
             } else {
               $(".pricing-card-savings").hide()
