@@ -21,6 +21,10 @@ body {
   -webkit-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
 }
 
+@media screen and (max-width: 768px) {
+  body { padding-top: 240px; } /* add padding on tablet and mobile displays for banner */
+}
+
 body,
 p,
 span,
