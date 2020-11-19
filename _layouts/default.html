@@ -291,7 +291,7 @@
 
             // Show the price "/user/month" when buying Enterprise plan
             else if (productPrice.peruserpermonth && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('As low as ' + productPrice.peruserpermonth + '/user/month.' + (recurrence === "yearly" ? " Billed yearly" : ""))
+              $(".pricing-card-savings").text('That\'s ' + productPrice.peruserpermonth + '/user/month.' + (recurrence === "yearly" ? " Billed yearly" : ""))
               $(".pricing-card-savings").show()
             } 
             
