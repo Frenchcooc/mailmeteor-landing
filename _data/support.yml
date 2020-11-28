@@ -1,0 +1,81 @@
+#
+# Main sections
+#
+
+sections:
+  - name: What is Mailmeteor?
+    link: https://support.mailmeteor.com/
+
+  - name: Mailmeteor Features
+    link: https://support.mailmeteor.com/introduction/advanced
+
+  - name: Your Account
+    link: https://support.mailmeteor.com/help/faq/account
+
+  - name: Troubleshootings
+    link: https://support.mailmeteor.com/help/troubleshooting
+
+  - name: Frequently Asked Questions
+    link: https://support.mailmeteor.com/help/faq
+
+  - name: Contact Us
+    link: https://support.mailmeteor.com/help/contact-support
+
+#
+# Top articles
+#
+
+articles:
+  - name: What is Mailmeteor?
+    link: https://support.mailmeteor.com/
+
+  - name: Installing Mailmeteor
+    link: https://support.mailmeteor.com/introduction/quick-start/install-mailmeteor/individual-installation
+
+  - name: Sending you first mail merge
+    link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
+
+  - name: How quota works?
+    link: https://support.mailmeteor.com/introduction/quick-start/email-quota
+
+  - name: Tracking emails
+    link: https://support.mailmeteor.com/introduction/advanced/tracking-report
+
+  - name: Sending guidelines
+    link: https://support.mailmeteor.com/introduction/sending-guidelines
+
+  - name: Alias
+    link: https://support.mailmeteor.com/introduction/advanced/alias
+
+  - name: Personalize email (variables)
+    link: https://support.mailmeteor.com/introduction/advanced/personalize-emails
+
+  - name: Filter recipients
+    link: https://support.mailmeteor.com/introduction/advanced/filter-recipients
+
+  - name: Add images & emojis
+    link: https://support.mailmeteor.com/introduction/advanced/images-and-emojis
+
+  - name: Add cc & bcc
+    link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
+
+  - name: Attachments
+    link: https://support.mailmeteor.com/introduction/advanced/attachments
+
+  - name: My account
+    link: https://support.mailmeteor.com/help/faq/account
+
+  - name: Cancel subscription
+    link: https://support.mailmeteor.com/help/faq/subscription#how-to-cancel-my-subscription
+
+  - name: Email not sent
+    link: https://support.mailmeteor.com/help/troubleshooting/merge-status
+
+  - name: Error from Gmail
+    link: https://support.mailmeteor.com/help/troubleshooting/merge-status/error_from_gmail
+
+  - name: Domain installation
+    link: https://support.mailmeteor.com/introduction/quick-start/install-mailmeteor/domain-installation
+
+  - name: Privacy
+    link: https://support.mailmeteor.com/help/privacy

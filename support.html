@@ -1,0 +1,53 @@
+---
+layout: default
+title: Mailmeteor - Support & Help center
+description: Find out everything you need to send mail merges from Gmail. From getting-started, to setup aliases and more.
+canonical: https://mailmeteor.com/support
+
+og_title: Mailmeteor - Support & Help center
+og_description: Find out everything you need to send mail merges from Gmail. From getting-started, to setup aliases and more.
+og_url: https://mailmeteor.com/support
+---
+
+<!-- SUPPORT  -->
+
+<div class="page-support">
+  <!-- SUPPORT > SEARCH -->
+  <form action="https://support.mailmeteor.com/" class="text-center" method="get">
+    <div class="form-inline">
+      <input class="form-control" type="search" name="q" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-filled" type="submit">Search</button>
+    </div>
+  </form>
+
+  <div class="container">
+    <!-- SUPPORT > MAIN SECTIONS -->
+    <div class="page-support-sections">
+      <ul>
+        {% for section in site.data.support.sections %}
+        <li>
+          <a class="btn btn-outline" href="{{ section.link }}"> {{ section.name }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- SUPPORT > TOP ARTICLES -->
+    <div class="page-support-articles">
+      <h2>Promoted articles</h2>
+      <ul>
+        {% for article in site.data.support.articles %}
+        <li>
+          <a href="{{ article.link }}"> {{ article.name }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container text-center mb-4">
+    <a href="https://support.mailmeteor.com" class="btn btn-filled" style="display: inline-block"
+      >All tutorials & guides</a
+    >
+  </div>
+</div>
