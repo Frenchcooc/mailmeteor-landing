@@ -923,15 +923,13 @@ body > footer > div > p {
 /* Support page */
 
 .page-support-search {
-  margin: 4rem 0;
+  padding: 4rem 0;
+  background-color:#4853C6;
 }
 
 .page-support form {
   margin-bottom: 1rem;
-  padding: 6rem 0;
-  background-image: url("https://theme.zdassets.com/theme_assets/9678099/5611bdf851838bc70782efad31e4806303790891.png");
-  background-position: center;
-  background-size: cover;
+  padding: 3rem 0;
 }
 
 .page-support .form-inline {
@@ -939,7 +937,13 @@ body > footer > div > p {
 }
 
 .page-support .form-control {
-  max-width: 300px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 1rem;
+  border-radius: 25px;
+  height: 50px;
+  border: none;
+  box-shadow: 3px 5px 15px 0 rgba(0,0,0,0.11);
 }
 
 .page-support form .btn-filled {
@@ -956,6 +960,17 @@ body > footer > div > p {
 
 .page-support-sections li {
   margin-bottom: 1rem;
+  /* flex: 1 1 42%; */
+  box-sizing: border-box;
+  min-width: 370px;
+  min-height: 250px;
+  margin: 20px;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.03), 0 4px 22px 0 rgba(0,0,0,0.09);
 }
 
 .page-support-sections a.btn-outline {

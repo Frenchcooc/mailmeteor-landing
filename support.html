@@ -13,12 +13,16 @@ og_url: https://mailmeteor.com/support
 
 <div class="page-support">
   <!-- SUPPORT > SEARCH -->
-  <form action="https://support.mailmeteor.com/" class="text-center" method="get">
-    <div class="form-inline">
-      <input class="form-control" type="search" name="q" placeholder="Search" aria-label="Search" />
-      <button class="btn btn-filled" type="submit">Search</button>
+  <div class="page-support-search">
+    <div class="container">
+      <h1 class="text-center">Get help with Mailmeteor</h1>
+      <form action="https://support.mailmeteor.com/" class="text-center" method="get">
+        <div class="form-inline">
+          <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" />
+        </div>
+      </form>
     </div>
-  </form>
+  </div>
 
   <div class="container">
     <!-- SUPPORT > MAIN SECTIONS -->
@@ -26,7 +30,7 @@ og_url: https://mailmeteor.com/support
       <ul>
         {% for section in site.data.support.sections %}
         <li>
-          <a class="btn btn-outline" href="{{ section.link }}"> {{ section.name }} </a>
+          <a href="{{ section.link }}"> {{ section.name }} </a>
         </li>
         {% endfor %}
       </ul>
@@ -34,7 +38,7 @@ og_url: https://mailmeteor.com/support
 
     <!-- SUPPORT > TOP ARTICLES -->
     <div class="page-support-articles">
-      <h2>Promoted articles</h2>
+      <h2>Featured articles</h2>
       <ul>
         {% for article in site.data.support.articles %}
         <li>
