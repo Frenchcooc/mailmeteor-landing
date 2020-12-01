@@ -7,14 +7,13 @@
 html,
 body {
   scroll-behavior: smooth;
-  font-size:16px;
+  font-size: 16px;
 }
 
 body {
   max-width: 1920px;
   margin: 0 auto;
-  /* padding-top: 100px; */
-  padding-top: 160px; /* increase padding-top for BF banner */
+  padding-top: 6rem;
   padding-bottom: 10em;
   box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
@@ -529,14 +528,6 @@ section.features {
 
 /* ----Pricing section---- */
 
-#bf-banner {
-  background: #000000;
-  color: white;
-  text-align: center;
-  font-weight: 800;
-  padding: 1.2rem;
-}
-
 .pricing-header,
 .comparison-header {
   padding: 0.3em;
@@ -573,7 +564,7 @@ section.features {
 /*Pricing card*/
 
 .pricingcard {
-  display:flex;
+  display: flex;
   flex-direction: column;
   height: 100%;
   background-color: white;
@@ -964,10 +955,6 @@ section.legal {
 }
 
 #pricing-plans {
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
   background: linear-gradient(to bottom, #fff, #f5f6fa3b);
   z-index: -2;
   margin-bottom: 0;
