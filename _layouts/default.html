@@ -357,28 +357,27 @@
       $('#activeIndividualModal').on('show.bs.modal', planConfirmationModal)
       $('#activeEnterpriseModal').on('show.bs.modal', planConfirmationModal)
 
-      // Experience - 2020-12-01
-      // Stop handling ?coupon=OFF20
-      // function qs(key) {
-      //   key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
-      //   var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
-      //   return match && decodeURIComponent(match[1].replace(/\+/g, " "));
-      // }
-      // try {
-      //   var coupon = qs('coupon')
-      //   if (coupon && coupon === "OFF20") {
-      //     $("[data-checkout-product]").each(function () {
-      //       var card = $(this)
-      //       var productId = card.data("checkout-product")
+      // Handle 20% OFF link
+      function qs(key) {
+        key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+        var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+        return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+      }
+      try {
+        var coupon = qs('coupon')
+        if (coupon && coupon === "OFF20") {
+          $("[data-checkout-product]").each(function () {
+            var card = $(this)
+            var productId = card.data("checkout-product")
 
-      //       if (productId === "individual") {
-      //         card.data("checkout-product", "individual-OFF20")
-      //         renderProducts()
-      //       }
-      //     })
-      //   }
+            if (productId === "individual") {
+              card.data("checkout-product", "individual-OFF20")
+              renderProducts()
+            }
+          })
+        }
 
-      // } catch (e) { console.error(e) }
+      } catch (e) { console.error(e) }
     });
 
 
