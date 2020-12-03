@@ -19,7 +19,7 @@ og_url: https://mailmeteor.com/support
       <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
     </div>
   </form>
-  <p class="text-center">Search for answers or browse our knowledge base.</p>
+  <p class="text-center">Search for answers or browse our <a href="https://support.mailmeteor.com/" target"_blank">knowledge base</a>.</p>
 </section>
 
 <section class="page-support-featured">
@@ -29,7 +29,11 @@ og_url: https://mailmeteor.com/support
   <div class="container page-support-featured-sections">
     {% for section in site.data.support.sections %}
     <div>
-      <a href="{{ section.link }}">{{section.name}}</a>
+      <a href="{{ section.link }}">
+        <img src="{{ section.image }}" alt="{{section.name}}">
+        <h2>{{section.name}}</h2>
+        <p>{{section.description}}</p>
+      </a>
     </div>
     {% endfor %}
   </div>

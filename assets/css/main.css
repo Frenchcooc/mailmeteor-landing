@@ -935,7 +935,7 @@ body > footer > div > p {
   background-position: 20px;
   background-repeat: no-repeat;
   background-size: 17px;
-  background-image: url('https://d56vh6ph4jjmq.cloudfront.net/frontapp/icons/16x16/search.svg')
+  background-image: url(../img/elements/search.svg)
 }
 
 .page-support-search .form-inline {
@@ -966,7 +966,7 @@ body > footer > div > p {
 
 .page-support-featured-sections div {
   min-width: 300px;
-  min-height: 300px;
+  min-height: 200px;
   flex-grow: 1;
   flex-basis: 0;
   margin-bottom: 1rem;
@@ -980,6 +980,25 @@ body > footer > div > p {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.03), 0 4px 22px 0 rgba(0,0,0,0.09);
 }
 
+.page-support-featured-sections img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.page-support-featured-sections h2 {
+  font-size:1.2rem;
+  padding:0 1rem;
+}
+
+.page-support-featured-sections p {
+  color: black;
+  padding: 1rem;
+}
+
+
 .page-support-featured-sections a.btn-outline {
   margin: 0;
 }
@@ -987,13 +1006,29 @@ body > footer > div > p {
 /* Page support popular articles */
 
 .page-support-articles {
-  padding-top:6rem;
+  padding-top:5rem;
 } 
+
+@media (min-width: 1200px) {
+  .page-support-articles {
+    padding-top:10rem;
+  } 
+}
+
+.page-support-articles h2 {
+  text-align:center;
+}
 
 .page-support-articles ul {
   list-style: none;
   margin: 2rem 0;
   padding: 0;
+}
+
+@media (min-width: 576px) and (max-width: 960px) {
+  .page-support-articles ul {
+    columns: 2;
+  }
 }
 
 @media (min-width: 960px) {
@@ -1004,10 +1039,8 @@ body > footer > div > p {
 
 .page-support-articles li:before {
   content: ' ';
-  background-image: url(https://d56vh6ph4jjmq.cloudfront.net/frontapp/icons/16x16/post/post-sprite.svg);
+  background-image: url(../img/elements/articles.svg);
   background-repeat: no-repeat;
-  background-position: left top 3px;
-  background-size: 32px 16px;
   width: 16px;
   height: 20px;
   position: absolute;

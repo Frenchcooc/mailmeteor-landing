@@ -3,13 +3,19 @@
 #
 
 sections:
-  - name: Getting started with Mailmeteor
+  - name: Get started with Mailmeteor
+    image: /assets/img/icons/getting-started.svg
+    description: The Hitchhiker's Guide to the Mailmeteor Galaxy. Learn how to send your first email campaign in 5 minutes.
     link: https://support.mailmeteor.com/
 
-  - name: Mailmeteor Features
+  - name: Explore advanced features
+    image: /assets/img/icons/advanced-features.svg
+    description: Go further with Mailmeteor, track emails in real time, schedule your emails, add attachment files & more!
     link: https://support.mailmeteor.com/introduction/advanced
 
-  - name: Your Account
+  - name: Troubleshoot issues
+    image: /assets/img/icons/troubleshooting.svg
+    description: Having troubles with Mailmeteor? Find the answers to the most frequently asked questions or contact us.
     link: https://support.mailmeteor.com/help/faq/account
 
 #
@@ -17,56 +23,47 @@ sections:
 #
 
 articles:
-  - name: What is Mailmeteor?
-    link: https://support.mailmeteor.com/
+  - name: Where to download my invoices?
+    link: https://support.mailmeteor.com/help/faq/subscription#im-looking-for-my-invoices
 
-  - name: Installing Mailmeteor
-    link: https://support.mailmeteor.com/introduction/quick-start/install-mailmeteor/individual-installation
+  - name: How to cancel my subscription?
+    link: https://support.mailmeteor.com/help/troubleshooting/cancel
 
-  - name: Sending you first mail merge
-    link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
+  - name: I updated the wrong email address
+    link: https://support.mailmeteor.com/help/troubleshooting/payment-issues#how-to-change-the-email-address-linked-to-mailmeteor
 
-  - name: How quota works?
+  - name: When does my email quota renew?
     link: https://support.mailmeteor.com/introduction/quick-start/email-quota
 
-  - name: Tracking emails
+  - name: How real-time tracking works
     link: https://support.mailmeteor.com/introduction/advanced/tracking-report
 
-  - name: Sending guidelines
+  - name: How to avoid falling into spam? 
     link: https://support.mailmeteor.com/introduction/sending-guidelines
 
-  - name: Alias
+  - name: Configuring an email alias
     link: https://support.mailmeteor.com/introduction/advanced/alias
 
-  - name: Personalize email (variables)
+  - name: Personalize email with variables
     link: https://support.mailmeteor.com/introduction/advanced/personalize-emails
 
   - name: Filter recipients
     link: https://support.mailmeteor.com/introduction/advanced/filter-recipients
 
-  - name: Add images & emojis
+  - name: Including images or emojis in emails
     link: https://support.mailmeteor.com/introduction/advanced/images-and-emojis
 
-  - name: Add cc & bcc
+  - name: How to add cc & bcc recipients?
     link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
 
-  - name: Attachments
+  - name: Adding attachments files
     link: https://support.mailmeteor.com/introduction/advanced/attachments
 
   - name: My account
     link: https://support.mailmeteor.com/help/faq/account
 
-  - name: Cancel subscription
-    link: https://support.mailmeteor.com/help/faq/subscription#how-to-cancel-my-subscription
-
-  - name: Email not sent
-    link: https://support.mailmeteor.com/help/troubleshooting/merge-status
-
-  - name: Error from Gmail
-    link: https://support.mailmeteor.com/help/troubleshooting/merge-status/error_from_gmail
-
-  - name: Domain installation
+  - name: Domain installation guide
     link: https://support.mailmeteor.com/introduction/quick-start/install-mailmeteor/domain-installation
 
-  - name: Privacy
+  - name: Data privacy
     link: https://support.mailmeteor.com/help/privacy
