@@ -11,45 +11,42 @@ og_url: https://mailmeteor.com/support
 
 <!-- SUPPORT  -->
 
-<div class="page-support">
+<section class="page-support-search container">
   <!-- SUPPORT > SEARCH -->
-  <div class="page-support-search">
-    <div class="container">
-      <h1 class="text-center">Get help with Mailmeteor</h1>
-      <form action="https://support.mailmeteor.com/" class="text-center" method="get">
-        <div class="form-inline">
-          <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" />
-        </div>
-      </form>
+  <h1 class="text-center">Need help with Mailmeteor?</h1>
+  <form action="https://support.mailmeteor.com/" class="text-center" method="get">
+    <div class="form-inline">
+      <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
     </div>
-  </div>
+  </form>
+  <p class="text-center">Search for answers or browse our knowledge base.</p>
+</section>
 
-  <div class="container">
-    <!-- SUPPORT > MAIN SECTIONS -->
-    <div class="page-support-sections">
-      <ul>
-        {% for section in site.data.support.sections %}
-        <li>
-          <a href="{{ section.link }}"> {{ section.name }} </a>
-        </li>
-        {% endfor %}
-      </ul>
+<section class="page-support-featured">
+  <!-- SUPPORT > FEATURED SECTIONS -->
+  <div id="support-svg">
+  </div>
+  <div class="container page-support-featured-sections">
+    {% for section in site.data.support.sections %}
+    <div>
+      <a href="{{ section.link }}">{{section.name}}</a>
     </div>
-
-    <!-- SUPPORT > TOP ARTICLES -->
-    <div class="page-support-articles">
-      <h2>Featured articles</h2>
-      <ul>
-        {% for article in site.data.support.articles %}
-        <li>
-          <a href="{{ article.link }}"> {{ article.name }} </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
+    {% endfor %}
   </div>
+</section>
 
-  <div class="container text-center mb-4">
-    <a href="https://support.mailmeteor.com" class="btn btn-filled" style="display: inline-block">All tutorials & guides</a>
-  </div>
-</div>
+<!-- SUPPORT > TOP ARTICLES -->
+<section class="page-support-articles container">
+  <h2>Featured articles</h2>
+  <ul>
+    {% for article in site.data.support.articles %}
+    <li>
+      <a href="{{ article.link }}"> {{ article.name }} </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{%- include testimonials.html -%}
+{%- include reviews.html -%}
+{%- include faq.html -%}

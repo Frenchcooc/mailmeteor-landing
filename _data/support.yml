@@ -3,7 +3,7 @@
 #
 
 sections:
-  - name: What is Mailmeteor?
+  - name: Getting started with Mailmeteor
     link: https://support.mailmeteor.com/
 
   - name: Mailmeteor Features
@@ -12,17 +12,8 @@ sections:
   - name: Your Account
     link: https://support.mailmeteor.com/help/faq/account
 
-  - name: Troubleshootings
-    link: https://support.mailmeteor.com/help/troubleshooting
-
-  - name: Frequently Asked Questions
-    link: https://support.mailmeteor.com/help/faq
-
-  - name: Contact Us
-    link: https://support.mailmeteor.com/help/contact-support
-
 #
-# Top articles
+# Popular articles
 #
 
 articles:

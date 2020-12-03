@@ -924,22 +924,29 @@ body > footer > div > p {
 
 .page-support-search {
   padding: 4rem 0;
-  background-color:#4853C6;
 }
 
-.page-support form {
+.page-support-search form {
   margin-bottom: 1rem;
-  padding: 3rem 0;
+  padding: 1rem 0 0 0;
 }
 
-.page-support .form-inline {
+#support-searchbar {
+  background-position: 20px;
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-image: url('https://d56vh6ph4jjmq.cloudfront.net/frontapp/icons/16x16/search.svg')
+}
+
+.page-support-search .form-inline {
   justify-content: center;
 }
 
-.page-support .form-control {
+.page-support-search .form-control {
   width: 100%;
   max-width: 500px;
   margin: 0 1rem;
+  padding: .375rem 3rem;
   border-radius: 25px;
   height: 50px;
   border: none;
@@ -951,19 +958,19 @@ body > footer > div > p {
   padding: 0.375rem 0.75rem;
 }
 
-.page-support-sections ul,
-.page-support-articles ul {
-  list-style: none;
-  margin: 2rem 0;
-  padding: 0;
+.page-support-featured-sections {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
 }
 
-.page-support-sections li {
+.page-support-featured-sections div {
+  min-width: 300px;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
   margin-bottom: 1rem;
-  /* flex: 1 1 42%; */
   box-sizing: border-box;
-  min-width: 370px;
-  min-height: 250px;
   margin: 20px;
   font-size: 15px;
   background-color: #ffffff;
@@ -973,37 +980,69 @@ body > footer > div > p {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.03), 0 4px 22px 0 rgba(0,0,0,0.09);
 }
 
-.page-support-sections a.btn-outline {
+.page-support-featured-sections a.btn-outline {
   margin: 0;
 }
 
-@media (min-width: 960px) {
-  .page-support-sections ul,
-  .page-support-articles ul {
-    columns: 2;
-  }
+/* Page support popular articles */
+
+.page-support-articles {
+  padding-top:6rem;
+} 
+
+.page-support-articles ul {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
 }
 
-@media (min-width: 1200px) {
-  .page-support-sections ul,
+@media (min-width: 960px) {
   .page-support-articles ul {
     columns: 3;
   }
 }
 
+.page-support-articles li:before {
+  content: ' ';
+  background-image: url(https://d56vh6ph4jjmq.cloudfront.net/frontapp/icons/16x16/post/post-sprite.svg);
+  background-repeat: no-repeat;
+  background-position: left top 3px;
+  background-size: 32px 16px;
+  width: 16px;
+  height: 20px;
+  position: absolute;
+}
+
 .page-support-articles li {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 1rem
 }
 
 .page-support-articles li a {
   color: inherit;
+  margin-left: 28px;
 }
 
 .page-support-articles li a:hover {
   text-decoration: underline;
 }
+
+#support-svg {
+  width: 100%;
+  height: 100%;
+  top: 140px;
+  position: absolute;
+  background-image: url(../img/background/support.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  #support-svg {
+    top: 380px;
+  }
+}
+
 
 /* Legal pages */
 
