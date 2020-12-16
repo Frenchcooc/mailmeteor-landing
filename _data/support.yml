@@ -6,7 +6,7 @@ sections:
   - name: Get started with Mailmeteor
     image: /assets/img/icons/getting-started.svg
     description: The Hitchhiker's Guide to the Mailmeteor Galaxy. Learn how to send your first email campaign in 5 minutes.
-    link: https://support.mailmeteor.com/
+    link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
 
   - name: Explore advanced features
     image: /assets/img/icons/advanced-features.svg
@@ -38,7 +38,7 @@ articles:
   - name: How real-time tracking works
     link: https://support.mailmeteor.com/introduction/advanced/tracking-report
 
-  - name: How to avoid falling into spam? 
+  - name: How to avoid falling into spam?
     link: https://support.mailmeteor.com/introduction/sending-guidelines
 
   - name: Configuring an email alias

@@ -1,0 +1,62 @@
+---
+layout: default
+title: Features - Mailmeteor
+description: Find out the features you need to send mail merges from Gmail. Get up and running quickly with Mailmeteor.
+canonical: https://mailmeteor.com/support
+
+og_title:
+og_description: Find out the features you need to send mail merges from Gmail. Get up and running quickly with Mailmeteor.
+og_url: https://mailmeteor.com/support
+---
+
+<!-- FEATURES  -->
+
+<!-- FEATURES > HEADER -->
+<section class="page-featured--header">
+  <div class="container">
+    <h1 class="text-center">Find out how 1.5 million people use Mailmeteor</h1>
+    <p class="text-center">
+      Every single day, thousands of people trust Mailmeteor to send newsletters, questionnaires, cold emails,
+      greetings, invitations and more.
+    </p>
+  </div>
+</section>
+
+<!-- FEATURES > FEATURED SECTIONS -->
+<section class="page-featured--highlights">
+  <div class="page-featured--highlights-bg"></div>
+  <div class="container page-featured--highlights-col3">
+    {% for section in site.data.features.sections %}
+    <div>
+      <a href="{{ section.link }}">
+        <img src="{{ section.image }}" alt="{{section.name}}" />
+        <h2>{{section.name}}</h2>
+        <p>{{section.description}}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- FEATURES > LIST -->
+<section
+  class="page-featured--section page-featured--section-features container"
+  data-aos="fade-up"
+  data-aos-duration="600"
+  data-aos-easing="ease-out"
+>
+  <header>
+    <h2>Everything you need to mail merge</h2>
+    <p>Send hundreds of emails right from Google Sheets within seconds.</p>
+  </header>
+  <ul>
+    {% for feature in site.data.features.list %}
+    <li>
+      <h3>{{ feature.name }}</h3>
+      <p>{{ feature.desc }} <a href="{{feature.link}}" style="white-space: nowrap">Learn more &rarr;</a></p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{%- include testimonials.html -%} {%- include reviews.html -%} {%- include faq.html -%}

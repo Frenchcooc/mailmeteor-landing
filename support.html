@@ -11,22 +11,23 @@ og_url: https://mailmeteor.com/support
 
 <!-- SUPPORT  -->
 
-<section class="page-support-search container">
-  <!-- SUPPORT > SEARCH -->
-  <h1 class="text-center">Need help with Mailmeteor?</h1>
-  <form action="https://support.mailmeteor.com/" class="text-center" method="get">
-    <div class="form-inline">
-      <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
-    </div>
-  </form>
-  <p class="text-center">Search for answers or browse our <a href="https://support.mailmeteor.com/" target"_blank">knowledge base</a>.</p>
+<!-- SUPPORT > SEARCH -->
+<section class="page-featured--header">
+  <div class="container">
+    <h1 class="text-center">Need help with Mailmeteor?</h1>
+    <form class="page-featured--search" action="https://support.mailmeteor.com/" class="text-center" method="get">
+      <div class="form-inline">
+        <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
+      </div>
+    </form>
+    <p class="text-center">Search for answers or browse our <a href="https://support.mailmeteor.com/" target"_blank">knowledge base</a>.</p>
+  </div> 
 </section>
 
-<section class="page-support-featured">
+<section class="page-featured--highlights">
   <!-- SUPPORT > FEATURED SECTIONS -->
-  <div id="support-svg">
-  </div>
-  <div class="container page-support-featured-sections">
+  <div class="page-featured--highlights-bg"></div>
+  <div class="container page-featured--highlights-col3">
     {% for section in site.data.support.sections %}
     <div>
       <a href="{{ section.link }}">
@@ -40,8 +41,10 @@ og_url: https://mailmeteor.com/support
 </section>
 
 <!-- SUPPORT > TOP ARTICLES -->
-<section class="page-support-articles container" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-out">
-  <h2>Featured articles</h2>
+<section class="page-featured--section page-featured--section-articles container" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-out">
+  <header>
+    <h2>Featured articles</h2>
+  </header>
   <ul>
     {% for article in site.data.support.articles %}
     <li>

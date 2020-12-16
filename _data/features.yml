@@ -1,0 +1,72 @@
+#
+# Main sections
+#
+
+sections:
+  - name: Up to 1500 emails per day
+    image: /assets/img/icons/getting-started.svg
+    description: Follow our Hitchiker Guide to Mailmeteor's Galaxy and learn how to send your first email campaign in 5 minutes.
+    link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
+
+  - name: Best rated mail merge
+    image: /assets/img/icons/advanced-features.svg
+    description: With 5,000 reviews, Mailmeteor is rated 4.9/5. It's the top-rated add-on on Google Workspace marketplace.
+    link: https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301
+
+  - name: Designed for your privacy
+    image: /assets/img/icons/troubleshooting.svg
+    description: Mailmeteor sends your emails. It does not read them. At all times, you data are kept private. It's fundamental to us.
+    link: https://support.mailmeteor.com/help/privacy
+
+#
+# List of features
+#
+
+list:
+  - name: Personalization
+    desc: Use merge fields such as {{ Firstname }} to make your email looks unique. Each column of your Google Sheets can be used to personalize your emails.
+    link: https://support.mailmeteor.com/introduction/advanced/personalize-emails
+
+  - name: Real-time tracking
+    desc: Understand how many people have opened and clicked on your emails. Dive deeper with email by email report to segment and improve your marketing message.
+    link: https://support.mailmeteor.com/introduction/advanced/tracking-report
+
+  - name: Preview
+    desc: Make sure your emails look stunning before sending them. Flip through each contact of your mailing list and confirm the merge fields are nicely replaced.
+    link: https://support.mailmeteor.com/introduction/advanced/preview-emails
+
+  - name: Mail merge with attachments
+    desc: Attach PDF, Word, Excel, and more to your mail merge (up to 4MB per file). Perfect for sending invoices, payslips, invitations and more.
+    link: https://support.mailmeteor.com/introduction/advanced/attachments
+
+  - name: Google Sheets integration
+    desc: Open your mailing list in Google Sheets and send send up to 1500 emails in a few clicks. No technical skills required.
+    link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
+
+  - name: Unsubscribe
+    desc: Let your recipients unsubscribe from your mailing list in one click. All you need to do is to insert our custom unsubscribe link.
+    link: https://support.mailmeteor.com/introduction/advanced/unsubscribe-link
+
+  - name: Alias
+    desc: Using multiple email addresses? We got you covered. Send your mail merge from any of your email address (including non Gmail email addresses).
+    link: https://support.mailmeteor.com/introduction/advanced/alias
+
+  - name: Filters & Segments
+    desc: "Apply filters to your spreadsheet and segment your campaigns depending on multiple criteria. Pro tip: use the same sheet to send multiple mail merges."
+    link: https://support.mailmeteor.com/introduction/advanced/filter-recipients
+
+  - name: Add Cc or Bcc
+    desc: Add more recipients in cc or bcc. Whether it's someone from your team or another contact. They will receive the exact same email and be part of the discussion.
+    link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
+
+  - name: Schedule send
+    desc: In a few hours, tomorrow or even next week, define in advance when to send your emails. Choose the perfect time to make sure your emails are read.
+    link: https://support.mailmeteor.com/introduction/advanced/scheduling
+
+  - name: HTML Templates
+    desc: Every company has its own look and feel. Keep your very own design using HTML templates, with much more formattings available.
+    link: https://support.mailmeteor.com/introduction/advanced/html-template
+
+  - name: CRM Integration
+    desc: Plug your favorite CRM, such as Salesforce or Hubspot, and make sure that every discussion is reported to keep your teammates in the loop.
+    link: https://support.mailmeteor.com/introduction/advanced/crm-integration
