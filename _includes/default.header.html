@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navbarTabs">
           <ul class="navbar-nav ml-auto smooth-scroll">
             {% for nav in site.data.navigation.navbar %}
-            {% unless nav[0] == "features" or nav[0] == "install" %}
+            {% unless nav[0] == "features" or nav[0] == "install" or nav[0] == "signin" %}
             <li class="nav-item">
               <a class="nav-link" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
             </li>
@@ -45,9 +45,16 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
             </li>
+            {% elsif nav[0] == "signin" %}
+            <div class="nav-divider"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="https://dashboard.mailmeteor.com">
+                {{ nav[1][page.lang]  }}</a>
+            </li>
             {% elsif nav[0] == "install" %}
-            <li class="nav-item text-center ml-2">
-              <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled btn-inline" style="margin: auto; padding: 0.3em 0.6em 0.3em 0.6em">{{ nav[1][page.lang] }}</a>
+            <li class="nav-item text-center my-auto ml-2">
+              <a href="https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" class="btn btn-filled btn-inline">
+                {{ nav[1][page.lang] }}</a>
             </li>
             {% endif %}
             {% endfor %}
