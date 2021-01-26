@@ -17,11 +17,16 @@ navbar:
     en: "Pricing"
     fr: "Prix"
     es: "Precios"
+  signin:
+    url: "https://dashboard.mailmeteor.com"
+    en: "Sign in"
+    fr: "Se connecter"
+    es: "Iniciar sesión"
   install:
     url: "https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301"
-    en: "INSTALL"
-    fr: "INSTALLER"
-    es: "INSTALAR"
+    en: "Install"
+    fr: "Installer"
+    es: "Instalar"
 
 #
 # Footer
