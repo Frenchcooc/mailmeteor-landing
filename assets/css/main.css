@@ -1167,7 +1167,6 @@ article img :first-of-type :hover,
 }
 
 .page-support-featured-sections img {
-  vertical-align: middle;
   border-style: none;
   max-width: 100px;
   display: block;
