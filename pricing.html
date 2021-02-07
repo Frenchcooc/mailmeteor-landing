@@ -155,6 +155,7 @@ redirect_from: "/launch/deuxio"
   <div class="modal-dialog" role="document">
     <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
       <input type="hidden" name="plan_id" class="checkout-plan-id" />
+      <input type="hidden" name="currency" class="checkout-currency" />
       <div class="modal-content">
         <div class="modal-header" style="padding: 1rem 2rem;">
           <h5 class="modal-title" style="font-size: 1.2rem; font-weight: 700; color: #04143a;">Mailmeteor upgrade</h5>
@@ -202,6 +203,7 @@ redirect_from: "/launch/deuxio"
   <div class="modal-dialog" role="document">
     <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout" id="enterprise-form">
       <input type="hidden" name="plan_id" class="checkout-plan-id" />
+      <input type="hidden" name="currency" class="checkout-currency" />
       <div class="modal-content">
         <div class="modal-header" style="padding: 1rem 2rem;">
           <h5 class="modal-title" style="font-size: 1.2rem; font-weight: 700; color: #04143a;">Mailmeteor upgrade</h5>

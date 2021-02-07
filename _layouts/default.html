@@ -358,7 +358,11 @@
           event.preventDefault()
         } else {
           var modal = $(this)
+          
+          var currencyElt = $('[data-checkout-currency]').first()
+          var currency = currencyElt.data('checkout-currency') || 'USD'
           modal.find('input.checkout-plan-id').val(productId)
+          modal.find('input.checkout-currency').val(currency)
         }
       }
 
