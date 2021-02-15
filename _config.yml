@@ -1,9 +1,9 @@
+markdown: kramdown
 plugins:
   - jekyll-redirect-from
 
 defaults:
--
-  scope:
-    path: "" 
-  values:
-    lang: "en"
+  - scope:
+      path: ""
+    values:
+      lang: "en"

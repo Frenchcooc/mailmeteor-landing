@@ -1051,8 +1051,6 @@ body > footer > div > p {
 /* ######## 7. Articles ######## */
 
 article {
-  max-width: 960px;
-  margin: auto;
   padding: 2rem 0;
 }
 
