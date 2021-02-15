@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="google-site-verification" content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M" />
+    <link rel="icon" href="/assets/img/brand/favicon.ico" type="image/x-icon" />
+
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ page.canonical }}" />
+    <meta name="description" content="{{ page.description }}" />
+
+    <!-- Open graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ page.og_title }}" />
+    <meta property="og:description" content="{{ page.og_description }}" />
+    <meta
+      name="image"
+      property="og:image"
+      content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}"
+    />
+    <meta property="og:url" content="{{ page.og_url }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@mailmeteor" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="{{ page.og_url }}" />
+    <meta name="twitter:title" content="{{ page.og_title }}" />
+    <meta name="twitter:description" content="{{ page.og_description }}" />
+    <meta
+      name="twitter:image"
+      content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}"
+    />
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/blog.css" />
+
+    <title></title>
+  </head>
+  <body class="blogpost">
+    <article>
+      <header class="blogpost-header">
+        <div class="container">
+          <nav class="row">
+            <div class="col-xs-12 col-md-6 col-lg-8">Logo</div>
+            <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
+              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tools for Gmail.
+            </div>
+          </nav>
+          <div class="text-center">
+            <img src="{{page.meta_image}}" itemprop="image" class="blogpost-header-image" />
+            <h1>{{ page.title}}</h1>
+            <div class="blogpost-header-meta">
+              <a href="{{ page.meta_author_link }}" target="_blank">{{ page.meta_author }}</a> -
+              <span itemprop="dateModified">Updated: {{ page.meta_date_lastupdated }}</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container blogpost-content">
+        <div class="row">
+          <aside class="col-lg-2 blogpost-toc d-none d-lg-block">
+            <div style="font-weight: bold">Contents</div>
+            {% include blogpost-toc.html html=content h_max=2 %}
+          </aside>
+          <main class="col-lg-8 col-xs-12">{{ content }}</main>
+        </div>
+      </div>
+    </article>
+  </body>
+
+  {%- include default.footer.html -%}
+</html>
