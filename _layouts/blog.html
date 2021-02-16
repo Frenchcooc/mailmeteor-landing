@@ -41,15 +41,15 @@
     />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <link rel="stylesheet" href="/assets/css/blog.css" />
-
-    <title></title>
   </head>
   <body class="blogpost">
     <article>
       <header class="blogpost-header">
         <div class="container">
           <nav class="row">
-            <div class="col-xs-12 col-md-6 col-lg-8"><a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo"></a></div>
+            <div class="col-xs-12 col-md-6 col-lg-8">
+              <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
+            </div>
             <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
               Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.
             </div>
@@ -71,6 +71,40 @@
             {% include blogpost-toc.html html=content h_max=2 %}
           </aside>
           <main class="col-lg-8 col-xs-12">{{ content }}</main>
+          <aside class="col-lg-2 d-none d-lg-block">
+            <div class="blogpost-share">
+              <span class="d-block">122</span> shares
+              <ul>
+                <li>
+                  <a
+                    href="https://twitter.com/share?text={{ page.title | uri_escape }}&url={{ page.canonical | uri_escape }}&via=Mailmeteor"
+                    title="Share on Twitter"
+                    rel="nofollow"
+                    target="_blank"
+                    class="blogpost-share-btn"
+                  >
+                    <img src="/assets/img/icons/share-twitter.svg" alt="Share on Twitter" />
+                  </a>
+                </li>
+                <li>
+                  <!-- <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.canonical }}" title="Share on Facebook" rel="nofollow" target="_blank" class="blogpost-share-btn">
+                    <img src="/assets/img/icons/share-facebook.svg" alt="Share on Facebook" />
+                  </a> -->
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.canonical | uri_escape}}"
+                    title="Share on LinkedIn"
+                    rel="nofollow"
+                    target="_blank"
+                    class="blogpost-share-btn"
+                  >
+                    <img src="/assets/img/icons/share-linkedin.svg" alt="Share on LinkedIn" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </div>
     </article>
@@ -89,7 +123,25 @@
       }
     }
   }
+
+  // Share post on social networks
+  function sharePost() {
+    var socialButtons = document.getElementsByClassName("blogpost-share-btn");
+    for (var i = 0; i < socialButtons.length; i++) {
+      var btn = socialButtons[i];
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        console.log(e, this);
+        var href = this.href;
+        var features =
+          "width=840,height=400,scrollbars=yes,resizable=yes,noopener=no,status=no,toolbar=nolocation=no,copyhistory=no,menubar=no,directories=no";
+        var iframe = window.open(href, "MM_" + Date.now(), features);
+      });
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     loadVideo();
+    sharePost();
   });
 </script>
