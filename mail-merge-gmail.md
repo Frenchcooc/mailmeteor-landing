@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: "Mail merge in Gmail in 2021: the Definitive Guide"
+title: "Mail merge Gmail in 2021: the Definitive Guide"
+canonical: https://mailmeteor.com/mail-merge-gmail
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
