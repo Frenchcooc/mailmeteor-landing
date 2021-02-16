@@ -1,14 +1,15 @@
 ---
 layout: blog
-title: 'Mail merge in Gmail in 2021: the Definitive Guide'
+title: "Mail merge in Gmail in 2021: the Definitive Guide"
 meta_author: Jean Dubrulle
-meta_author_link: 'https://twitter.com/cuireuncroco'
+meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
-  https://ahrefs.com/blog/wp-content/uploads/2021/02/blog-best-marketing-newsletters.png
-meta_date_published: 'February 17, 2021'
-meta_date_lastupdated: 'February 17, 2021'
+  /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
+meta_date_published: "February 17, 2021"
+meta_date_lastupdated: "February 17, 2021"
 published: true
 ---
+
 This is a complete guide to mail merge from Gmail in 2021.
 
 In this all-new guide you’ll learn:
@@ -24,33 +25,43 @@ Let’s get started.
 
 Let’s say you want to send an email to all your customers, students, or employees. Manually composing emails for each person would take a long time. Instead, you can let your computer do the heavy lifting. That’s a mail merge.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+<video autoplay muted loop playsinline>
+  <source src="/assets/img/blog/mail-merge-gmail/what-is-mail-merge-gmail.mp4"/>
+</video>
 
-A mail merge lets you email multiple recipients without them knowing they’re part of a mailing list. The days of writing each email individually or putting everyone in BCC are over. Each of your recipients will receive a dedicated personalized email.
+A mail merge lets you email multiple recipients without them knowing they’re part of a mailing list. Each of your recipients will receive a dedicated personalized email.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+<figure>
+  <img src="/assets/img/blog/mail-merge-gmail/mail-merge-email-multiple-recipients.gif" alt="A mail merge lets you email multiple recipients with Gmail"/>
+  <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> (from Google Workspace's Youtube channel)</figcaption>
+</figure>
 
-A mail merge takes values from rows of a spreadsheet and inserts them into a template email. In this guide, we’ll focus on mail merge for Gmail, but you can also mail merge documents or mail merge labels. See the last section for more details.
+A mail merge takes values from rows of a spreadsheet and inserts them into a template email.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+**In this guide, we’ll focus on mail merge for Gmail, but you can also mail merge documents or mail merge labels. [See the last section for more details](mail-merge-gmail#5-beyond-mail-merge-for-gmail-discover-the-other-kinds-of-mail-merge).**
+
+![The first mail merge apps were released in the eighties](/assets/img/blog/mail-merge-gmail/mail-merge-vintage.gif)
 
 _A bit of history: mail merge might be the original productivity killer app. Mail merge has been around since the early days of personal computers. The first mail merge apps appeared during the eighties. They were later popularized by Microsoft Word’s mail merge. With Google taking over the emailing landscape, mail merge was then made possible within Gmail._
-
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
 
 ## 1. Gmail mail merge for dummies
 
 Mail merge is a time-saving feature for Gmail, allowing you to send personalized emails to multiple recipients at the same time.
 
+<img src="/assets/img/blog/mail-merge-gmail/mail-merge-gmail-personalize-emails.png" alt="Mail merge personalization" style="border:none"/>
+
 There are various ways to run a mail merge from Gmail. We’ll cover the different methods in the section [How to mail merge in Gmail](AJOUTER LIEN ICI).
 
 Customization works by storing your recipient's information in a Google Sheets spreadsheet. Each row represents a record and each column represents a field. It can be an email, address, company, order number…
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+<figure>
+  <img src="/assets/img/blog/mail-merge-gmail/mail-merge-google-sheets-to-gmail.gif" alt="A mail merge combining Google Sheets and Gmail"/>
+  <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> (from Google Workspace's Youtube channel)</figcaption>
+</figure>
 
 The spreadsheet will serve as the source for the merge. Each row of the spreadsheet will be processed and inputted into your email template.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![The first mail merge apps were released in the eighties](/assets/img/blog/mail-merge-gmail/mail-merge-gmail-example.png)
 
 You can personalize every part of the email, from the email subject line to the content. The personalization can include anything from:
 
@@ -61,27 +72,28 @@ You can personalize every part of the email, from the email subject line to the 
 
 ...the customization possibilities are endless.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![A mail merge lets you personalize every part of the email](/assets/img/blog/mail-merge-gmail/mail-merge-personalize-email-fields.png)
 
 ### Why use mail merge for Gmail?
 
 Email makes a comeback in 2021. For years, email remains the channel generating the best results. It’s a widespread means of communication that is affordable and a perfect way to reach people in a direct way. Studies show that email is still the channel with the highest return on investment. For every $1 spent, email marketing generates a $42 ROI.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+<figure>
+  <img src="/assets/img/blog/mail-merge-gmail/email-return-investment.png" alt="Email has a $42 ROI"/>
+  <figcaption>Extract from Litmus Blog <a href="https://www.litmus.com/blog/infographic-the-roi-of-email-marketing/" rel="noreferrer">The ROI of Email Marketing</a></figcaption>
+</figure>
 
 There are many ways to send emails, but running a mail merge from Gmail stands out.
 
 The top 5 benefits of mail merge from Gmail are:
 
-1. It’s simple. A mail merge integrated with Google use tools you are already familiar with (Gmail and Google Sheets). You can start sending your first emails in minutes.
-2. It’s time-saving. The tedious days of writing each email individually is over. A mail merge completely removes the friction of writing emails to multiple recipients.
-3. It’s personalized. A Gmail mail merge will make your recipients feel unique when compared to an email blast from an email marketing platform.
-4. It’s affordable. Most mail merge solutions for Gmail will provide a free version. The pricing options will be much less expensive than emailing platforms, like Mailchimp or Sendgrid.
-5. It’s better for email deliverability. Your emails have more chances to be read and responded to. That’s because emails are sent directly from Gmail servers, ensuring high email deliverability.
+1. **A mail merge is simple**. A mail merge integrated with Google use tools you are already familiar with (Gmail and Google Sheets). You can start sending your first emails in minutes.
+2. **A mail merge is time-saving**. The tedious days of writing each email individually is over. A mail merge completely removes the friction of writing emails to multiple recipients.
+3. **A mail merge is personalized**. A Gmail mail merge will make your recipients feel unique when compared to an email blast from an email marketing platform.
+4. **A mail merge is affordable**. Most mail merge solutions for Gmail will provide a free version. The pricing options will be much less expensive than emailing platforms, like Mailchimp or Sendgrid.
+5. **A mail merge is better for email deliverability**. Your emails have more chances to be read and responded to. That’s because emails are sent directly from Gmail servers, ensuring high email deliverability.
 
-
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
-
+![Mail merge benefits](/assets/img/blog/mail-merge-gmail/mail-merge-benefits.png)
 
 ### Mail merge from Gmail use cases
 
@@ -93,11 +105,14 @@ Here are some mail merge use cases examples with Gmail:
 
 ➤**Cold emailing from Gmail**: run efficient cold emailing or follow-up campaign right from Gmail to drive your sales.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+<figure>
+  <img src="/assets/img/blog/mail-merge-gmail/mail-merge-cold-emailing.png" alt="Using mail merge for cold emailing"/>
+  <figcaption>Extract from Marketing Examples <a href="https://marketingexamples.com/sales/dave-gerhardt" rel="noreferrer">Dave Gerhardt's 1 line sales email</a></figcaption>
+</figure>
 
 ➤**Sending newsletters from Gmail**: engage with your community with newsletters sent directly from Gmail. You will find that the combination of Google Sheets and Gmail is more than enough to replace a heavy email platform. You can even customize the design of your emails with HTML templates.
 
-➤**School, Colleges & Universities communications:**a mail merge is the best medium for teach-parent communications, as well as diffusing information to your students. A lot of schools, colleges, and universities across the world use mail merge for their staff and students. If you’re working in Education, there is a [free Education Program that offers free unlimited mail merge](https://mailmeteor.com/education-program).
+➤**School, Colleges & Universities communications:** a mail merge is the best medium for teach-parent communications, as well as diffusing information to your students. A lot of schools, colleges, and universities across the world use mail merge for their staff and students. If you’re working in Education, there is a [free Education Program that offers free unlimited mail merge](https://mailmeteor.com/education-program).
 
 ➤**Sending holidays greetings:** a mail merge is perfect to greet your friends and family at different periods of the year (New Year's Eve wishes, birthdays or Holidays…)
 
@@ -107,7 +122,10 @@ Here are some mail merge use cases examples with Gmail:
 
 ➤**Link building**: if you want to build authority backlinks, a good idea is to use email outreach. It will help each out to bloggers and journalists without ending up in their spam folder.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+<figure>
+  <img src="/assets/img/blog/mail-merge-gmail/mail-merge-seo-backlinks.png"/>
+  <figcaption>Extract from <a href="https://backlinko.com/" rel="noreferrer">Backlinko</a></figcaption>
+</figure>
 
 ➤**Job hunting**: no need to look further for the perfect email service for job applications. Apply to many job offers at once and track the status of your application straight from a spreadsheet.
 
@@ -117,7 +135,7 @@ Here are some mail merge use cases examples with Gmail:
 
 ### Is mail merge safe? A word on privacy & security
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Is mail merge safe?](/assets/img/blog/mail-merge-gmail/is-mail-merge-safe.png)
 
 Before going any further, it is important to understand how mail merge works. Sending your first email campaign in a fully automated way can be daunting at first and you might worry about your email privacy.
 
@@ -133,7 +151,7 @@ Before installing software offering mail merge solutions for Gmail, pay close at
 
 Some apps will require extensive rights such as the permission to read, modify AND delete your emails. The best is to go for the software that requires minimal permissions.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Is Mailmeteor safe? Is YAMM safe? Mail merge permissions](/assets/img/blog/mail-merge-gmail/mail-merge-permissions.png)
 
 _Can a mail merge harm my email reputation?_
 
@@ -163,7 +181,7 @@ There are 2 ways to mail in Gmail. You can either use a Google add-on that will 
 
 #### Method 1: How to mail merge in Gmail using Mailmeteor
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Sending 4 emails with Mailmeteor, a mail merge tool in Google Sheets](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-emails-sent.png)
 
 We’ll start with a real-life example to show you how to do a mail merge from Gmail using a Google Sheets add-on. In this example, we’re using Mailmeteor, the best rated Google mail merge add-on.
 
@@ -171,7 +189,7 @@ We’ll start with a real-life example to show you how to do a mail merge from G
 
 All you have to do is to install Mailmeteor from the Google Workspace Marketplace. This is a place where you can find all the apps compatible with your Google Suite. Mailmeteor is a tool that integrates with Gmail and Google Sheets to merge emails with Gmail.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Install Mailmeteor for Google Sheets](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-install.png)
 
 2.**Add contact in Google Sheets**
 
@@ -183,9 +201,10 @@ To create a mailing list you can either add your recipients manually or import c
 
 Here’s a mail merge demo spreadsheet we’re going to use:
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
-
-[Link to mail merge demo spreadsheet](https://docs.google.com/spreadsheets/d/1RAJPfeW8ehVYGpu6nziKuWmFbog8hJSlcTyKT7FO7iY/edit?usp=drive_web&ouid=110634960934586502748)
+<figure>
+  <img src="/assets/img/blog/mail-merge-gmail/tutorial-spreadsheet-demo-mail-merge.png" alt="Demo spreadsheet to mail merge in Gmail"/>
+  <figcaption><a href="https://docs.google.com/spreadsheets/d/1RAJPfeW8ehVYGpu6nziKuWmFbog8hJSlcTyKT7FO7iY/edit?usp=drive_web&ouid=110634960934586502748" rel="noreferrer">Link to mail merge demo spreadsheet</a></figcaption>
+</figure>
 
 _Note: When opening Mailmeteor for the first time, you will be guided through a quick onboarding tutorial. A demo spreadsheet like this one will be created for you._
 
@@ -197,7 +216,7 @@ Mailmeteor will pull the information from your spreadsheet to personalize your e
 
 In our example, we have 4 columns named: firstname, email, company, postscriptum.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Add column headers to mail merge in Mailmeteor](/assets/img/blog/mail-merge-gmail/tutorial-spreadsheet-demo-add-columns.gif)
 
 You could add as many columns as you want and pick any column header name you want. Make sure you have a column named “email”.
 
@@ -205,14 +224,11 @@ You could add as many columns as you want and pick any column header name you wa
 
 Fill your spreadsheet with your recipients’ info. Ensure all email cells are filled with valid email addresses. Apart from the emails, you can leave some cells blank, that is fine! In the example below, some recipients will get a Post Scriptum whereas others won't.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
-
-
 3.**Open Mailmeteor from the Add-ons menu in Google Sheets**
 
 Once your contact list is ready, open Mailmeteor. To open Mailmeteor go to the menu and select Add-ons> Mailmeteor > Open Mailmeteor.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Mailmeteor add-on to mail merge in Google Sheets](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-addon.png)
 
 This is the Mailmeteor interface. It tells you how many emails you can send per day and details related to your campaign. Next, we are going to compose the template that will be used for the mail merge.
 
@@ -220,7 +236,7 @@ This is the Mailmeteor interface. It tells you how many emails you can send per 
 
 Click on the “Create new template” button. This will open an editor in which you can compose your email. The Mailmeteor editor is the exact same as Gmail, you will find all the actions you need to customize your email.
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Create a new template in Mailmeteor](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-compose-template.gif)
 
 Now we’re going to personalize your email. Personalizing emails is important as it helps make your recipients feel unique when they receive your emails. Using personalization will also dramatically improve your opening rates - and thus the replies you will get.
 
@@ -229,6 +245,8 @@ Now we’re going to personalize your email. Personalizing emails is important a
 A mail merge transforms a standard email template into a personalized email copy. It’s done by replacing variables fields within the template with the content from your spreadsheet.
 
 To insert a variable it’s easy: add variables using double brackets like this {{ firstname }}
+
+![First template in Mailmeteor](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-new-template.png)
 
 When adding a variable, always make sure that it matches a header in your spreadsheet.
 
@@ -240,13 +258,15 @@ Once you are satisfied with your template, click the “**Save**” button.
 
 Mailmeteor offers a preview feature that is super helpful to review emails before sending. The preview mode gives you a glimpse of the actual output of your email once personalized for each recipient.
 
+![Preview mail merge before sending](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-preview-mail-merge.gif)
+
 You can also send a test email to yourself. Testing your emails on several devices is a best practice. This will ensure your emails will display correctly in most situations.
 
 7.**Send your mail merge**
 
 Ready for take-off? It’s time to send your mailmerge campaign. We know that a mail merge can be a bit daunting at first, letting a program send emails for you. No worries though, if you follow these steps, everything will be alright!
 
-![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
+![Sending a mail merge with Mailmeteor](/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-sending-mail-merge.gif)
 
 _For a real-life example, watch this teacher use Mailmeteor to mail merge emails to his students: _
 
@@ -446,8 +466,6 @@ Here’s how to add an unsubscribe link, taking Mailmeteor as an example:
 
 ![alt text](https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/0/aa/0aa1d7e7-c573-50f0-9853-a9cbc00aea08/5e98ab46316e9.image.jpg?resize=1200%2C800)
 
-[https://support.mailmeteor.com/introduction/advanced/unsubscribe-link](https://support.mailmeteor.com/introduction/advanced/unsubscribe-link)
-
 Your recipient will be able to opt-out from your emails in just a click, thanks to specific headers added to your email.
 
 You may wonder when is it ok to send a mail merge without an unsubscribe link? As long as you are writing to people who know you, that you're not sending repeated emails to these people with commercial intent, it’s OK. Let’s say you are sending an email to your relatives, colleagues, partners, clients, or students, there is no specific need to add an unsubscribe mean.
@@ -461,7 +479,6 @@ I can’t emphasize this enough: mail merge emails in Gmail is legal, sending un
 You can keep track of your conversations sent through a Gmail mail merge within your favorite CRMs.
 
 The most popular CRMs, such as Salesforce or Hubspot, offer to log conversations generated by your mail merge in Gmail using a Bcc address. All you have to do is to Bcc the email address provided by your CRM application and your email conversations will then be logged into the CRM.
-
 
 ## 4. The best mail merge solutions for Gmail
 
@@ -485,7 +502,10 @@ _Top Gmail mail merge software in 2021_
 
 #### Mailmeteor
 
-[https://www.youtube.com/watch?v=ccO5i3gQXSk](https://www.youtube.com/watch?v=ccO5i3gQXSk)
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/ccO5i3gQXSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<br>
 
 **Rated:** 4.9/5
 
@@ -540,7 +560,7 @@ https://www.youtube.com/watch?v=89vHrABUEbM
 **Alternatives to GMass:** Looking for the best free GMass alternative? Have a look at Mailmeteor, Mail Merge, Yesware, or Mailshake.
 
 **PROS:** GMass offers a lot of features and a complete universe of products.
-    
+
 **CONS:** GMass is a Chrome extension that can be quite complex to understand at first. GMass relies on third parties API like SendGrid to send emails over Gmail’s limit (one of GMass claims is to let you send 10,000 emails with Gmail). However, it regularly [causes sending problems](https://twitter.com/GMassForGmail/status/1299223795954315264). Also, GMass is the most expensive mail merge software.
 
 _Focus: YAMM vs GMass. While GMass is a complete emailing and sales solution, YAMM will be focused on mail merge in Gmail. For that reason, YAMM will be more affordable than GMass. Nonetheless, GMass offers a better quality-price ratio considering the various features it offers._
@@ -580,7 +600,7 @@ _Focus: YAMM vs GMass. While GMass is a complete emailing and sales solution, YA
 **Pricing:** [Mail Merge With Attachments pricing](https://digitalinspiration.com/product/gmail-mail-merge/#pricing)
 
 **Alternatives to Mail Merge With Attachments:** Looking to attach files in your mail merge? You can opt for solutions such as Mailmeteor or Mail Merge.
- 
+
 **PROS:** Send mail merge with attachments files from Gmail
 
 **CONS:** It’s focused on attachments but kind of neglects other important aspects in emailing such as email deliverability. Also, they only offer limited support to their premium clients.
@@ -663,7 +683,7 @@ _The following apps offer mail merge services, however, it’s not a feature at 
 
 [https://www.youtube.com/watch?v=4K4Ist1jGk0](https://www.youtube.com/watch?v=4K4Ist1jGk0)
 
-**A bit of history:** Yesware was founded in 2010 by Rajat Bhargava, Matthew Bellows,  and Cashman Andrus. The sales productivity platform has raised $48M ever since.
+**A bit of history:** Yesware was founded in 2010 by Rajat Bhargava, Matthew Bellows, and Cashman Andrus. The sales productivity platform has raised $48M ever since.
 
 **How to use Yesware?** [Getting started with Yesware](https://help.yesware.com/hc/en-us/sections/360008205753-Getting-Started-with-Yesware-for-Gmail)
 

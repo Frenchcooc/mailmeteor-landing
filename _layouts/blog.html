@@ -49,9 +49,9 @@
       <header class="blogpost-header">
         <div class="container">
           <nav class="row">
-            <div class="col-xs-12 col-md-6 col-lg-8">Logo</div>
+            <div class="col-xs-12 col-md-6 col-lg-8"><a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo"></a></div>
             <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
-              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tools for Gmail.
+              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.
             </div>
           </nav>
           <div class="text-center">
@@ -78,3 +78,18 @@
 
   {%- include default.footer.html -%}
 </html>
+
+<script>
+  // Youtube loader optimization
+  function loadVideo() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    loadVideo();
+  });
+</script>
