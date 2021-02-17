@@ -17,12 +17,7 @@ body.blogpost {
   min-height: 22rem;
   color: #fff;
   background: rgb(10, 19, 88);
-  background: linear-gradient(
-    170deg,
-    rgba(10, 19, 88, 1) 0%,
-    rgba(14, 24, 123, 1) 20%,
-    rgba(19, 35, 183, 1) 100%
-  );
+  background: linear-gradient(170deg, rgba(10, 19, 88, 1) 0%, rgba(14, 24, 123, 1) 20%, rgba(19, 35, 183, 1) 100%);
 }
 
 .blogpost-header h1 {
@@ -46,7 +41,8 @@ body.blogpost {
 }
 
 .blogpost-header-image {
-  max-width: 400px;
+  max-width: 380px;
+  width: 100%;
 }
 
 .blogpost-header-meta {
@@ -58,7 +54,8 @@ body.blogpost {
  */
 
 .blogpost-content {
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 /* Headings */
@@ -93,9 +90,13 @@ body.blogpost {
   max-width: 100%;
   margin: 1.5rem auto;
   border: none;
-  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 0 6px 0 rgb(0 0 0 / 10%),
-    0 2px 2px -2px rgb(0 0 0 / 15%);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 0 6px 0 rgb(0 0 0 / 10%), 0 2px 2px -2px rgb(0 0 0 / 15%);
   display: block;
+}
+
+.blogpost-content main img.no-shadow,
+.blogpost-content main video.no-shadow {
+  box-shadow: none;
 }
 
 .blogpost-content strong {

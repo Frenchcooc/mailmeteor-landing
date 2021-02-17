@@ -49,7 +49,7 @@ _A bit of history: mail merge might be the original productivity killer app. Mai
 
 Mail merge is a time-saving feature for Gmail, allowing you to send personalized emails to multiple recipients at the same time.
 
-<img src="/assets/img/blog/mail-merge-gmail/mail-merge-gmail-personalize-emails.png" alt="Mail merge personalization" style="box-shadow:none"/>
+![Mail merge personalization](/assets/img/blog/mail-merge-gmail/mail-merge-gmail-personalize-emails.png){:class="no-shadow"}
 
 There are various ways to run a mail merge from Gmail. We’ll cover the different methods in the section [How to mail merge in Gmail](AJOUTER LIEN ICI).
 
