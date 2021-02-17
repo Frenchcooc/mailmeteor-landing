@@ -70,7 +70,7 @@
             <div style="font-weight: bold">Contents</div>
             {% include blogpost-toc.html html=content h_max=2 %}
           </aside>
-          <main class="col-lg-8 col-xs-12">{{ content }}</main>
+          <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
           <aside class="col-lg-2 d-none d-lg-block">
             <div class="blogpost-share">
               <span class="d-block">122</span> shares
@@ -108,40 +108,40 @@
         </div>
       </div>
     </article>
-  </body>
 
-  {%- include default.footer.html -%}
-</html>
+    {%- include default.footer.html -%}
 
-<script>
-  // Youtube loader optimization
-  function loadVideo() {
-    var vidDefer = document.getElementsByTagName("iframe");
-    for (var i = 0; i < vidDefer.length; i++) {
-      if (vidDefer[i].getAttribute("data-src")) {
-        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+    <script>
+      // Youtube loader optimization
+      function loadVideo() {
+        var vidDefer = document.getElementsByTagName("iframe");
+        for (var i = 0; i < vidDefer.length; i++) {
+          if (vidDefer[i].getAttribute("data-src")) {
+            vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+          }
+        }
       }
-    }
-  }
 
-  // Share post on social networks
-  function sharePost() {
-    var socialButtons = document.getElementsByClassName("blogpost-share-btn");
-    for (var i = 0; i < socialButtons.length; i++) {
-      var btn = socialButtons[i];
-      btn.addEventListener("click", function (e) {
-        e.preventDefault();
-        console.log(e, this);
-        var href = this.href;
-        var features =
-          "width=840,height=400,scrollbars=yes,resizable=yes,noopener=no,status=no,toolbar=nolocation=no,copyhistory=no,menubar=no,directories=no";
-        var iframe = window.open(href, "MM_" + Date.now(), features);
+      // Share post on social networks
+      function sharePost() {
+        var socialButtons = document.getElementsByClassName("blogpost-share-btn");
+        for (var i = 0; i < socialButtons.length; i++) {
+          var btn = socialButtons[i];
+          btn.addEventListener("click", function (e) {
+            e.preventDefault();
+            console.log(e, this);
+            var href = this.href;
+            var features =
+              "width=840,height=400,scrollbars=yes,resizable=yes,noopener=no,status=no,toolbar=nolocation=no,copyhistory=no,menubar=no,directories=no";
+            var iframe = window.open(href, "MM_" + Date.now(), features);
+          });
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        loadVideo();
+        sharePost();
       });
-    }
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    loadVideo();
-    sharePost();
-  });
-</script>
+    </script>
+  </body>
+</html>
