@@ -1,414 +1,457 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}" prefix="og: http://ogp.me/ns#">
+  <head>
+    {%- include head.html -%}
+  </head>
 
-<head>
+  <body class="preload">
+    {%- include default.header.html -%} {{ content }} {%- include default.footer.html -%} {% if page.stripe == "popover"
+    %}
 
-  {%- include head.html -%}
-
-</head>
-
-<body class="preload">
-
-  {%- include default.header.html -%}
-
-  {{ content }}
-
-  {%- include default.footer.html -%}
-
-  {% if page.stripe == "popover" %}
-
-  <script>
-    // Enabling Stripe popovers
-    $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
-
-    /**
-     * Render products cards
-     */
-
-    function renderProducts() {
-      var products = {
-        monthly: {
-          'free': {
-            title: "Starter",
-            subtitle: "Start free, upgrade whenever you want.",
-            prices: {
-              usd: {
-                amount: 0,
-              },
-              eur: {
-                amount: 0,
-              },
-            },
-            cta: "START FREE"
-          },
-          'individual': {
-            title: "Individual",
-            subtitle: "Can be ended anytime. Billed monthly.",
-            prices: {
-              usd: {
-                amount: 8.99,
-                id: "price_1HPMJIKALIjZusuQZjuI5Xop"
-              },
-              eur: {
-                amount: 8.99,
-                id: "price_1HPMIfKALIjZusuQi90z2OsL"
-              },
-            },
-          },
-          'individual-OFF20': {
-            title: "Individual",
-            subtitle: "Can be ended anytime. Billed monthly.",
-            prices: {
-              usd: {
-                amount: 8.99,
-                discount: 7.20,
-                id: "price_1HPMVXKALIjZusuQ6PW2pG4j"
-              },
-              eur: {
-                amount: 8.99,
-                discount: 7.20,
-                id: "price_1HPMV3KALIjZusuQInCgqE8v"
-              },
-            },
-          },
-          'enterprise-3': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            prices: {
-              usd: {
-                amount: 24.99,
-                monthlySavings: '10%',
-                id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
-                quantity: 3,
-              },
-              eur: {
-                amount: 24.99,
-                monthlySavings: '10%',
-                id: "price_1IIW6TKALIjZusuQJWpGVFLt",
-                quantity: 3,
-              },
-            },
-          },
-          'enterprise-5': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            prices: {
-              usd: {
-                amount: 39.99,
-                monthlySavings: '10%',
-                id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
-                quantity: 5,
-              },
-              eur: {
-                amount: 39.99,
-                monthlySavings: '10%',
-                id: "price_1IIW6TKALIjZusuQJWpGVFLt",
-                quantity: 5
-              },
-            },
-          },
-          'enterprise-10': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            prices: {
-              usd: {
-                amount: 74.99,
-                monthlySavings: '10%',
-                id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
-                quantity: 10
-              },
-              eur: {
-                amount: 74.99,
-                monthlySavings: '10%',
-                id: "price_1IIW6TKALIjZusuQJWpGVFLt",
-                quantity: 10
-              },
-            },
-          },
-          'enterprise-more': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed monthly.",
-            cta: "CONTACT US",
-          },
-        },
-        yearly: {
-          'free': {
-            title: "Starter",
-            subtitle: "Start free, upgrade whenever you want.",
-            prices: {
-              usd: {
-                amount: 0,
-              },
-              eur: {
-                amount: 0,
-              },
-            },
-            cta: "START FREE"
-          },
-          'individual': {
-            title: "Individual",
-            subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
-            prices: {
-              usd: {
-                amount: 108,
-                discount: 49.99,
-                id: "price_1HlwUXKALIjZusuQfLtFodcR"
-              },
-              eur: {
-                amount: 108,
-                discount: 49.99,
-                id: "price_1HlwUnKALIjZusuQn9490Ffy"
-              },
-            },
-          },
-          'individual-OFF20': {
-            title: "Individual",
-            subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
-            prices: {
-              usd: {
-                amount: 49.99,
-                discount: 39.99,
-                id: "price_1HlwTQKALIjZusuQFCMqXE3T"
-              },
-              eur: {
-                amount: 49.99,
-                discount: 39.99,
-                id: "price_1HlwTdKALIjZusuQS4kt0BfI"
-              },
-            },
-          },
-          'enterprise-3': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            yearlySavings: 224,
-            prices: {
-              usd: {
-                amount: 99.99,
-                id: "price_1IIVNzKALIjZusuQABvyWsND",
-                quantity: 3
-              },
-              eur: {
-                amount: 99.99,
-                id: "price_1IIVOoKALIjZusuQoGlCPfxu",
-                quantity: 3
-              },
-            },
-          },
-          'enterprise-5': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            yearlySavings: 390,
-            prices: {
-              usd: {
-                amount: 159.99,
-                id: "price_1IIVNzKALIjZusuQABvyWsND",
-                quantity: 5
-              },
-              eur: {
-                amount: 159.99,
-                id: "price_1IIVOoKALIjZusuQoGlCPfxu",
-                quantity: 5
-              },
-            },
-          },
-          'enterprise-10': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            yearlySavings: 789,
-            prices: {
-              usd: {
-                amount: 299.99,
-                id: "price_1IIVNzKALIjZusuQABvyWsND",
-                quantity: 10
-              },
-              eur: {
-                amount: 299.99,
-                id: "price_1IIVOoKALIjZusuQoGlCPfxu",
-                quantity: 10
-              },
-            },
-          },
-          'enterprise-more': {
-            title: "Teams",
-            subtitle: "For teams and companies. Billed yearly.",
-            cta: "CONTACT US",
-          },
-        }
-      }
-
-      var currencies = { "usd": "$", "eur": "€" }
-
-
-      $("[data-checkout-product]").each(function () {
-        var card = $(this)
-        var recurrence = $('[data-checkout-recurrence]').first()
-        recurrence = recurrence && recurrence.data('checkout-recurrence') || "monthly"
-
-        var currency = $('[data-checkout-currency]').first()
-        currency = (currency && currency.data('checkout-currency') || "USD").toLowerCase()
-        if (!currencies[currency]) { currency = 'usd' }
-
-        var productType = card.data("checkout-product")
-        var productCategory = products[recurrence]
-        var product = productCategory && productCategory[productType]
-        if (!product) { return console.error('Undefined product: ' + productType) }
-
-        var title = card.find('[data-checkout-product-item="title"]')
-        if (title && product.title) { title.first().text(product.title) }
-
-        var subtitle = card.find('[data-checkout-product-item="subtitle"]')
-        if (subtitle && product.title) { subtitle.first().text(product.subtitle) }
-
-        var priceElt = card.find('[data-checkout-product-item="price"]')
-        var productPrice = product.prices && product.prices[currency] || null
-
-        if (priceElt) {
-          if (productPrice) {
-            var amount = productPrice.amount.toString().split('.')
-            var amountInteger = amount.shift()
-            var amountDecimal = amount.length && amount.shift()
-            var amountCurrency = currencies[currency]
-
-            var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>'
-            priceHtml += amountInteger
-            priceHtml += '<sup>' + (amountDecimal ? ('.' + amountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
-            priceElt.first().html(priceHtml)
-
-            // Show how much you save when buying Enterprise plan compared to individual plans
-            if (product.yearlySavings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + amountCurrency + product.yearlySavings + ' vs. individual plans')
-              $(".pricing-card-savings").show()
-            }
-
-            // Show the price "/user/month" when buying Enterprise plan
-            else if (productPrice.monthlySavings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + productPrice.monthlySavings + ' vs. individual plans' + (recurrence === "yearly" ? " Billed yearly" : ""))
-              $(".pricing-card-savings").show()
-            }
-
-            // Hide savings
-            else {
-              $(".pricing-card-savings").hide()
-            }
-
-            if (productPrice.discount) {
-              var discount = productPrice.discount.toString().split('.')
-              var discountInteger = discount.shift()
-              var discountDecimal = discount.length && discount.shift()
-              var discountCurrency = currencies[currency]
-
-              var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + '</small>'
-              discountHtml += discountInteger
-              discountHtml += '<sup>' + (discountDecimal ? ('.' + discountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
-
-              priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>')
-            }
-          }
-          else {
-            priceElt.first().html("Contact us")
-            $(".pricing-card-savings").hide()
-          }
-        }
-
-        var cta = card.find('[data-checkout-product-item="cta"]')
-        if (cta && cta.first()) {
-          cta.first().data("checkout-product-id", productPrice && productPrice.id || "")
-          cta.first().data("checkout-quantity", productPrice && productPrice.quantity || 1)
-          cta.first().text(product.cta || 'BUY NOW')
-        }
-      })
-    }
-
-    /**
-     * Handle user's currency
-     */
-
-    function setUserCurrency(currency) {
-      var currencyElt = $('[data-checkout-currency]').first()
-      if (currencyElt) { currencyElt.data('checkout-currency', currency || 'USD') }
-    }
-
-    /**
-     * Initialize products
-     */
-
-    $(function () {
-
-      // Render products with user's currency
-      if (window._geo && window._geo.currency) {
-        setUserCurrency(window._geo.currency)
-        renderProducts()
-      }
-
-      // Render products with default currency
-      else {
-        renderProducts()
-      }
-
-      // Handle monthly / yearly
-      $('input[name=checkout-recurrence]').on('change', function () {
-        var recurrence = $('[data-checkout-recurrence]').first()
-        if (recurrence) { recurrence.data('checkout-recurrence', $(this).val()) }
-        renderProducts()
-      })
-
-      // Handle users selector (for enterprise)
-      $('#checkout-selector-users').change(function () {
-        var card = $(this).closest('[data-checkout-product]')
-        if (card) { card.data('checkout-product', 'enterprise-' + $(this).val()) }
-        renderProducts()
+    <script>
+      // Enabling Stripe popovers
+      $(function () {
+        $('[data-toggle="popover"]').popover();
       });
 
-      // Handle confirmation modals
-      function planConfirmationModal(event) {
-        var button = $(event.relatedTarget)
-        var productId = button.data('checkout-product-id')
-        var productQuantity = button.data('checkout-quantity')
+      /**
+       * Render products cards
+       */
 
-        if (!productId) {
-          window.location.href = "https://support.mailmeteor.com/help/contact-support#contact-us"
-          event.preventDefault()
-        } else {
-          var modal = $(this)
-          var currencyElt = $('[data-checkout-currency]').first()
-          var currency = currencyElt.data('checkout-currency') || 'USD'
+      function renderProducts() {
+        var products = {
+          monthly: {
+            free: {
+              title: "Starter",
+              subtitle: "Start free, upgrade whenever you want.",
+              prices: {
+                usd: {
+                  amount: 0,
+                },
+                eur: {
+                  amount: 0,
+                },
+              },
+              cta: "START FREE",
+            },
+            individual: {
+              title: "Individual",
+              subtitle: "Can be ended anytime. Billed monthly.",
+              prices: {
+                usd: {
+                  amount: 8.99,
+                  id: "price_1HPMJIKALIjZusuQZjuI5Xop",
+                },
+                eur: {
+                  amount: 8.99,
+                  id: "price_1HPMIfKALIjZusuQi90z2OsL",
+                },
+              },
+            },
+            "individual-OFF20": {
+              title: "Individual",
+              subtitle: "Can be ended anytime. Billed monthly.",
+              prices: {
+                usd: {
+                  amount: 8.99,
+                  discount: 7.2,
+                  id: "price_1HPMVXKALIjZusuQ6PW2pG4j",
+                },
+                eur: {
+                  amount: 8.99,
+                  discount: 7.2,
+                  id: "price_1HPMV3KALIjZusuQInCgqE8v",
+                },
+              },
+            },
+            "enterprise-3": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed monthly.",
+              prices: {
+                usd: {
+                  amount: 24.99,
+                  monthlySavings: "10%",
+                  id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+                  quantity: 3,
+                },
+                eur: {
+                  amount: 24.99,
+                  monthlySavings: "10%",
+                  id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+                  quantity: 3,
+                },
+              },
+            },
+            "enterprise-5": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed monthly.",
+              prices: {
+                usd: {
+                  amount: 39.99,
+                  monthlySavings: "10%",
+                  id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+                  quantity: 5,
+                },
+                eur: {
+                  amount: 39.99,
+                  monthlySavings: "10%",
+                  id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+                  quantity: 5,
+                },
+              },
+            },
+            "enterprise-10": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed monthly.",
+              prices: {
+                usd: {
+                  amount: 74.99,
+                  monthlySavings: "10%",
+                  id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+                  quantity: 10,
+                },
+                eur: {
+                  amount: 74.99,
+                  monthlySavings: "10%",
+                  id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+                  quantity: 10,
+                },
+              },
+            },
+            "enterprise-more": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed monthly.",
+              cta: "CONTACT US",
+            },
+          },
+          yearly: {
+            free: {
+              title: "Starter",
+              subtitle: "Start free, upgrade whenever you want.",
+              prices: {
+                usd: {
+                  amount: 0,
+                },
+                eur: {
+                  amount: 0,
+                },
+              },
+              cta: "START FREE",
+            },
+            individual: {
+              title: "Individual",
+              subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
+              prices: {
+                usd: {
+                  amount: 108,
+                  discount: 49.99,
+                  id: "price_1HlwUXKALIjZusuQfLtFodcR",
+                },
+                eur: {
+                  amount: 108,
+                  discount: 49.99,
+                  id: "price_1HlwUnKALIjZusuQn9490Ffy",
+                },
+              },
+            },
+            "individual-OFF20": {
+              title: "Individual",
+              subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
+              prices: {
+                usd: {
+                  amount: 49.99,
+                  discount: 39.99,
+                  id: "price_1HlwTQKALIjZusuQFCMqXE3T",
+                },
+                eur: {
+                  amount: 49.99,
+                  discount: 39.99,
+                  id: "price_1HlwTdKALIjZusuQS4kt0BfI",
+                },
+              },
+            },
+            "enterprise-3": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed yearly.",
+              yearlySavings: 224,
+              prices: {
+                usd: {
+                  amount: 99.99,
+                  id: "price_1IIVNzKALIjZusuQABvyWsND",
+                  quantity: 3,
+                },
+                eur: {
+                  amount: 99.99,
+                  id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+                  quantity: 3,
+                },
+              },
+            },
+            "enterprise-5": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed yearly.",
+              yearlySavings: 390,
+              prices: {
+                usd: {
+                  amount: 159.99,
+                  id: "price_1IIVNzKALIjZusuQABvyWsND",
+                  quantity: 5,
+                },
+                eur: {
+                  amount: 159.99,
+                  id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+                  quantity: 5,
+                },
+              },
+            },
+            "enterprise-10": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed yearly.",
+              yearlySavings: 789,
+              prices: {
+                usd: {
+                  amount: 299.99,
+                  id: "price_1IIVNzKALIjZusuQABvyWsND",
+                  quantity: 10,
+                },
+                eur: {
+                  amount: 299.99,
+                  id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+                  quantity: 10,
+                },
+              },
+            },
+            "enterprise-more": {
+              title: "Teams",
+              subtitle: "For teams and companies. Billed yearly.",
+              cta: "CONTACT US",
+            },
+          },
+        };
 
-          modal.find('input.checkout-plan-id').val(productId)
-          modal.find('input.checkout-currency').val(currency)
-          modal.find('input.checkout-quantity').val(productQuantity || '')
-        }
-      }
+        var currencies = { usd: "$", eur: "€" };
 
-      $('#activeIndividualModal').on('show.bs.modal', planConfirmationModal)
-      $('#activeEnterpriseModal').on('show.bs.modal', planConfirmationModal)
+        $("[data-checkout-product]").each(function () {
+          var card = $(this);
+          var recurrence = $("[data-checkout-recurrence]").first();
+          recurrence = (recurrence && recurrence.data("checkout-recurrence")) || "monthly";
 
-      // Handle 20% OFF link
-      function qs(key) {
-        key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
-        var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
-        return match && decodeURIComponent(match[1].replace(/\+/g, " "));
-      }
-      try {
-        var coupon = qs('coupon')
-        if (coupon && coupon === "OFF20") {
-          $("[data-checkout-product]").each(function () {
-            var card = $(this)
-            var productId = card.data("checkout-product")
+          var currency = $("[data-checkout-currency]").first();
+          currency = ((currency && currency.data("checkout-currency")) || "USD").toLowerCase();
+          if (!currencies[currency]) {
+            currency = "usd";
+          }
 
-            if (productId === "individual") {
-              card.data("checkout-product", "individual-OFF20")
-              renderProducts()
+          var productType = card.data("checkout-product");
+          var productCategory = products[recurrence];
+          var product = productCategory && productCategory[productType];
+          if (!product) {
+            return console.error("Undefined product: " + productType);
+          }
+
+          var title = card.find('[data-checkout-product-item="title"]');
+          if (title && product.title) {
+            title.first().text(product.title);
+          }
+
+          var subtitle = card.find('[data-checkout-product-item="subtitle"]');
+          if (subtitle && product.title) {
+            subtitle.first().text(product.subtitle);
+          }
+
+          var priceElt = card.find('[data-checkout-product-item="price"]');
+          var productPrice = (product.prices && product.prices[currency]) || null;
+
+          if (priceElt) {
+            if (productPrice) {
+              var amount = productPrice.amount.toString().split(".");
+              var amountInteger = amount.shift();
+              var amountDecimal = amount.length && amount.shift();
+              var amountCurrency = currencies[currency];
+
+              var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + "</small>";
+              priceHtml += amountInteger;
+              priceHtml +=
+                "<sup>" + (amountDecimal ? "." + amountDecimal : "") + " / " + recurrence.slice(0, -2) + "</sup>";
+              priceElt.first().html(priceHtml);
+
+              // Show how much you save when buying Enterprise plan compared to individual plans
+              if (product.yearlySavings && window.location.href.indexOf("coupon") === -1) {
+                $(".pricing-card-savings").text(
+                  "Save " + amountCurrency + product.yearlySavings + " vs. individual plans"
+                );
+                $(".pricing-card-savings").show();
+              }
+
+              // Show the price "/user/month" when buying Enterprise plan
+              else if (productPrice.monthlySavings && window.location.href.indexOf("coupon") === -1) {
+                $(".pricing-card-savings").text(
+                  "Save " +
+                    productPrice.monthlySavings +
+                    " vs. individual plans" +
+                    (recurrence === "yearly" ? " Billed yearly" : "")
+                );
+                $(".pricing-card-savings").show();
+              }
+
+              // Hide savings
+              else {
+                $(".pricing-card-savings").hide();
+              }
+
+              if (productPrice.discount) {
+                var discount = productPrice.discount.toString().split(".");
+                var discountInteger = discount.shift();
+                var discountDecimal = discount.length && discount.shift();
+                var discountCurrency = currencies[currency];
+
+                var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + "</small>";
+                discountHtml += discountInteger;
+                discountHtml +=
+                  "<sup>" + (discountDecimal ? "." + discountDecimal : "") + " / " + recurrence.slice(0, -2) + "</sup>";
+
+                priceElt
+                  .first()
+                  .html(
+                    '<strike style="font-size:0.7em">' +
+                      priceHtml +
+                      '</strike><span style="color:#FF486A;">' +
+                      discountHtml +
+                      "</span>"
+                  );
+              }
+            } else {
+              priceElt.first().html("Contact us");
+              $(".pricing-card-savings").hide();
             }
-          })
+          }
+
+          var cta = card.find('[data-checkout-product-item="cta"]');
+          if (cta && cta.first()) {
+            cta.first().data("checkout-product-id", (productPrice && productPrice.id) || "");
+            cta.first().data("checkout-quantity", (productPrice && productPrice.quantity) || 1);
+            cta.first().text(product.cta || "BUY NOW");
+          }
+        });
+      }
+
+      /**
+       * Handle user's currency
+       */
+
+      function setUserCurrency(currency) {
+        var currencyElt = $("[data-checkout-currency]").first();
+        if (currencyElt) {
+          currencyElt.data("checkout-currency", currency || "USD");
+        }
+      }
+
+      /**
+       * Initialize products
+       */
+
+      $(function () {
+        // Render products with user's currency
+        if (window._geo && window._geo.currency) {
+          setUserCurrency(window._geo.currency);
+          renderProducts();
         }
 
-      } catch (e) { console.error(e) }
-    });
-  </script>
+        // Render products with default currency
+        else {
+          renderProducts();
+        }
 
-  {% endif %}
-</body>
+        // Handle monthly / yearly
+        $("input[name=checkout-recurrence]").on("change", function () {
+          var recurrence = $("[data-checkout-recurrence]").first();
+          if (recurrence) {
+            recurrence.data("checkout-recurrence", $(this).val());
+          }
+          renderProducts();
+        });
 
+        // Handle users selector (for enterprise)
+        $("#checkout-selector-users").change(function () {
+          var card = $(this).closest("[data-checkout-product]");
+          if (card) {
+            card.data("checkout-product", "enterprise-" + $(this).val());
+          }
+          renderProducts();
+        });
+
+        // Handle confirmation modals
+        function planConfirmationModal(event) {
+          var button = $(event.relatedTarget);
+          var productId = button.data("checkout-product-id");
+          var productQuantity = button.data("checkout-quantity");
+
+          if (!productId) {
+            window.location.href = "https://support.mailmeteor.com/help/contact-support#contact-us";
+            event.preventDefault();
+          } else {
+            var modal = $(this);
+            var currencyElt = $("[data-checkout-currency]").first();
+            var currency = currencyElt.data("checkout-currency") || "USD";
+
+            modal.find("input.checkout-plan-id").val(productId);
+            modal.find("input.checkout-currency").val(currency);
+            modal.find("input.checkout-quantity").val(productQuantity || "");
+          }
+        }
+
+        $("#activeIndividualModal").on("show.bs.modal", planConfirmationModal);
+        $("#activeEnterpriseModal").on("show.bs.modal", planConfirmationModal);
+
+        // Handle 20% OFF link
+        function qs(key) {
+          key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+          var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+          return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+        }
+        try {
+          var coupon = qs("coupon");
+          if (coupon && coupon === "OFF20") {
+            $("[data-checkout-product]").each(function () {
+              var card = $(this);
+              var productId = card.data("checkout-product");
+
+              if (productId === "individual") {
+                card.data("checkout-product", "individual-OFF20");
+                renderProducts();
+              }
+            });
+          }
+
+          // Handle 500 emails warning for Gmail users
+          $("#activeIndividualModal")
+            .find('input[name="active_email"]')
+            .first()
+            .on("input", function (e) {
+              var input = $(this);
+              var val = input.val();
+              var tip = $("#checkout-gmail-accounts-tip");
+              var isGmailAccount = val.indexOf("@gmail.com") > -1 || val.indexOf("@googlemail.com") > -1;
+
+              console.log(isGmailAccount, tip);
+              if (!tip) {
+                return;
+              }
+
+              if (isGmailAccount) {
+                tip.show();
+                console.log("showing");
+              } else {
+                tip.hide();
+                console.log("hiding");
+              }
+            });
+        } catch (e) {
+          console.error(e);
+        }
+      });
+    </script>
+
+    {% endif %}
+  </body>
 </html>
