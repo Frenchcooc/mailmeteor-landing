@@ -99,6 +99,12 @@ h2 {
 }
 
 h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+}
+
+h4 {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.01rem;
@@ -806,6 +812,7 @@ sup {
 }
 
 /* #### 5.6 Pricing modal #### */
+
 .popover-header,
 .popover-body {
   background: white;
@@ -816,13 +823,13 @@ sup {
   font-weight: 700;
 }
 
-#activeIndividualModal input:focus,
-#activeIndividualModal input:active {
+#pricingIndividualModal input:focus,
+#pricingIndividualModal input:active {
   outline: none !important;
 }
 
-#activeIndividualModal button:focus,
-#activeIndividualModal button:active {
+#pricingIndividualModal button:focus,
+#pricingIndividualModal button:active {
   outline: none !important;
 }
 
@@ -839,7 +846,67 @@ sup {
   transform: scale(0.8);
 }
 
-/* #### 5.7 Sales #### */
+/* #### 5.7 Pricing Team ### */
+
+.pricing-team .btn-outline {
+  padding: 0.25rem 0.75rem;
+  text-transform: uppercase;
+  border-color: #2c1996;
+  color: #2c1996;
+}
+
+.pricing-team .btn-outline:hover {
+  padding: 0.25rem 1.25rem;
+  text-transform: uppercase;
+  border-color: #2c1996;
+  background: #2c1996;
+  background: -webkit-gradient(linear, left top, right top, from(#525df9), to(#2c1996));
+  color: #fff;
+  transition: padding 0.5s ease 0s;
+}
+
+#pricingTeamSlider.slider {
+  width: 100%;
+}
+
+#pricingTeamSlider.slider .tooltip.bs-tooltip-bottom {
+  top: 14px !important;
+  z-index: 1 !important;
+}
+
+#pricingTeamSlider.slider .tooltip .arrow::before,
+#pricingTeamSlider.slider .tooltip .tooltip-inner {
+  border-color: transparent;
+  background-color: transparent;
+  color: #7da4ff;
+  font-weight: bold;
+}
+
+#pricingTeamSlider.slider .slider-selection {
+  background: #525df9;
+  background: -webkit-gradient(linear, left top, right top, from(#525df9), to(#2c1996));
+  background: linear-gradient(90deg, #525df9 0, #2c1996);
+}
+
+#pricingTeamSlider.slider .slider-track-high {
+  background: #ededed;
+}
+
+#pricingTeamSlider.slider .slider-handle.min-slider-handle.round {
+  width: 22px;
+  height: 22px;
+  border: 3px solid #ddd;
+  background: #fff;
+  border-radius: 50%;
+  top: -1px;
+}
+
+.pricing-team .badge,
+.pricing-team .tooltip-inner {
+  cursor: pointer;
+}
+
+/* #### 5.8 Sales #### */
 
 .sales-form {
   display: flex;

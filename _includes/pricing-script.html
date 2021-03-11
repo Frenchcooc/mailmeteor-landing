@@ -1,0 +1,565 @@
+<script>
+  // Enabling Stripe popovers
+  $(function () {
+    $('[data-toggle="popover"]').popover();
+  });
+
+  /**
+   * Render products cards
+   */
+
+  var _allProducts = {
+    monthly: {
+      free: {
+        title: "Starter",
+        subtitle: "Start free, upgrade whenever you want.",
+        prices: {
+          usd: {
+            amount: 0,
+          },
+          eur: {
+            amount: 0,
+          },
+        },
+        cta: "START FREE",
+      },
+      individual: {
+        title: "Individual",
+        subtitle: "Can be ended anytime. Billed monthly.",
+        prices: {
+          usd: {
+            amount: 8.99,
+            id: "price_1HPMJIKALIjZusuQZjuI5Xop",
+          },
+          eur: {
+            amount: 8.99,
+            id: "price_1HPMIfKALIjZusuQi90z2OsL",
+          },
+        },
+      },
+      "individual-OFF20": {
+        title: "Individual",
+        subtitle: "Can be ended anytime. Billed monthly.",
+        prices: {
+          usd: {
+            amount: 8.99,
+            discount: 7.2,
+            id: "price_1HPMVXKALIjZusuQ6PW2pG4j",
+          },
+          eur: {
+            amount: 8.99,
+            discount: 7.2,
+            id: "price_1HPMV3KALIjZusuQInCgqE8v",
+          },
+        },
+      },
+      "enterprise-3": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed monthly.",
+        prices: {
+          usd: {
+            amount: 24.99,
+            monthlySavings: "10%",
+            id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+            quantity: 3,
+          },
+          eur: {
+            amount: 24.99,
+            monthlySavings: "10%",
+            id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+            quantity: 3,
+          },
+        },
+      },
+      "enterprise-5": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed monthly.",
+        prices: {
+          usd: {
+            amount: 39.99,
+            monthlySavings: "10%",
+            id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+            quantity: 5,
+          },
+          eur: {
+            amount: 39.99,
+            monthlySavings: "10%",
+            id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+            quantity: 5,
+          },
+        },
+      },
+      "enterprise-10": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed monthly.",
+        prices: {
+          usd: {
+            amount: 74.99,
+            monthlySavings: "10%",
+            id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+            quantity: 10,
+          },
+          eur: {
+            amount: 74.99,
+            monthlySavings: "10%",
+            id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+            quantity: 10,
+          },
+        },
+      },
+      "enterprise-more": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed monthly.",
+        cta: "CONTACT US",
+      },
+    },
+    yearly: {
+      free: {
+        title: "Starter",
+        subtitle: "Start free, upgrade whenever you want.",
+        prices: {
+          usd: {
+            amount: 0,
+          },
+          eur: {
+            amount: 0,
+          },
+        },
+        cta: "START FREE",
+      },
+      individual: {
+        title: "Individual",
+        subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
+        prices: {
+          usd: {
+            amount: 108,
+            discount: 49.99,
+            id: "price_1HlwUXKALIjZusuQfLtFodcR",
+          },
+          eur: {
+            amount: 108,
+            discount: 49.99,
+            id: "price_1HlwUnKALIjZusuQn9490Ffy",
+          },
+        },
+      },
+      "individual-OFF20": {
+        title: "Individual",
+        subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
+        prices: {
+          usd: {
+            amount: 49.99,
+            discount: 39.99,
+            id: "price_1HlwTQKALIjZusuQFCMqXE3T",
+          },
+          eur: {
+            amount: 49.99,
+            discount: 39.99,
+            id: "price_1HlwTdKALIjZusuQS4kt0BfI",
+          },
+        },
+      },
+      "enterprise-3": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed yearly.",
+        yearlySavings: 224,
+        prices: {
+          usd: {
+            amount: 99.99,
+            id: "price_1IIVNzKALIjZusuQABvyWsND",
+            quantity: 3,
+          },
+          eur: {
+            amount: 99.99,
+            id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+            quantity: 3,
+          },
+        },
+      },
+      "enterprise-5": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed yearly.",
+        yearlySavings: 390,
+        prices: {
+          usd: {
+            amount: 159.99,
+            id: "price_1IIVNzKALIjZusuQABvyWsND",
+            quantity: 5,
+          },
+          eur: {
+            amount: 159.99,
+            id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+            quantity: 5,
+          },
+        },
+      },
+      "enterprise-10": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed yearly.",
+        yearlySavings: 789,
+        prices: {
+          usd: {
+            amount: 299.99,
+            id: "price_1IIVNzKALIjZusuQABvyWsND",
+            quantity: 10,
+          },
+          eur: {
+            amount: 299.99,
+            id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+            quantity: 10,
+          },
+        },
+      },
+      "enterprise-more": {
+        title: "Teams",
+        subtitle: "For teams and companies. Billed yearly.",
+        cta: "CONTACT US",
+      },
+    },
+    "team-pack": {
+      title: "Teams",
+      subtitle: "For teams and companies. Billed monthly.",
+      prices: {
+        usd: {
+          id: "price_1IIVNzKALIjZusuQABvyWsND",
+        },
+        eur: {
+          id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+        },
+      },
+    },
+  };
+
+  function renderProducts() {
+    var currencies = { usd: "$", eur: "€" };
+
+    $("[data-checkout-product]").each(function () {
+      var card = $(this);
+      var recurrence = $("[data-checkout-recurrence]").first();
+      recurrence = (recurrence && recurrence.data("checkout-recurrence")) || "monthly";
+
+      var currency = getUserCurrency().toLowerCase();
+
+      if (!currencies[currency]) {
+        currency = "usd";
+      }
+
+      var productType = card.data("checkout-product");
+      var productCategory = _allProducts[recurrence];
+      var product = productCategory && productCategory[productType];
+      if (!product) {
+        return console.error("Undefined product: " + productType);
+      }
+
+      var title = card.find('[data-checkout-product-item="title"]');
+      if (title && product.title) {
+        title.first().text(product.title);
+      }
+
+      var subtitle = card.find('[data-checkout-product-item="subtitle"]');
+      if (subtitle && product.title) {
+        subtitle.first().text(product.subtitle);
+      }
+
+      var priceElt = card.find('[data-checkout-product-item="price"]');
+      var productPrice = (product.prices && product.prices[currency]) || null;
+
+      if (priceElt) {
+        if (productPrice) {
+          var amount = productPrice.amount.toString().split(".");
+          var amountInteger = amount.shift();
+          var amountDecimal = amount.length && amount.shift();
+          var amountCurrency = currencies[currency];
+
+          var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + "</small>";
+          priceHtml += amountInteger;
+          priceHtml +=
+            "<sup>" + (amountDecimal ? "." + amountDecimal : "") + " / " + recurrence.slice(0, -2) + "</sup>";
+          priceElt.first().html(priceHtml);
+
+          // Show how much you save when buying Enterprise plan compared to individual plans
+          if (product.yearlySavings && window.location.href.indexOf("coupon") === -1) {
+            $(".pricing-card-savings").text("Save " + amountCurrency + product.yearlySavings + " vs. individual plans");
+            $(".pricing-card-savings").show();
+          }
+
+          // Show the price "/user/month" when buying Enterprise plan
+          else if (productPrice.monthlySavings && window.location.href.indexOf("coupon") === -1) {
+            $(".pricing-card-savings").text(
+              "Save " +
+                productPrice.monthlySavings +
+                " vs. individual plans" +
+                (recurrence === "yearly" ? " Billed yearly" : "")
+            );
+            $(".pricing-card-savings").show();
+          }
+
+          // Hide savings
+          else {
+            $(".pricing-card-savings").hide();
+          }
+
+          if (productPrice.discount) {
+            var discount = productPrice.discount.toString().split(".");
+            var discountInteger = discount.shift();
+            var discountDecimal = discount.length && discount.shift();
+            var discountCurrency = currencies[currency];
+
+            var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + "</small>";
+            discountHtml += discountInteger;
+            discountHtml +=
+              "<sup>" + (discountDecimal ? "." + discountDecimal : "") + " / " + recurrence.slice(0, -2) + "</sup>";
+
+            priceElt
+              .first()
+              .html(
+                '<strike style="font-size:0.7em">' +
+                  priceHtml +
+                  '</strike><span style="color:#FF486A;">' +
+                  discountHtml +
+                  "</span>"
+              );
+          }
+        } else {
+          priceElt.first().html("Contact us");
+          $(".pricing-card-savings").hide();
+        }
+      }
+
+      var cta = card.find('[data-checkout-product-item="cta"]');
+      if (cta && cta.first()) {
+        cta.first().data("checkout-product-id", (productPrice && productPrice.id) || "");
+        cta.first().data("checkout-quantity", (productPrice && productPrice.quantity) || 1);
+        cta.first().text(product.cta || "BUY NOW");
+      }
+    });
+  }
+
+  /**
+   * Handle user's currency
+   */
+
+  var _defaultCurrency = "USD";
+  var _cachedCurrency = null;
+
+  function setUserCurrency(currency) {
+    var currencyElt = $("[data-checkout-currency]").first();
+    if (currencyElt) {
+      _cachedCurrency = currency || _defaultCurrency;
+      currencyElt.data("checkout-currency", currency || _defaultCurrency);
+    }
+  }
+
+  function getUserCurrency() {
+    if (_cachedCurrency) {
+      return _cachedCurrency;
+    }
+
+    var currencyElt = $("[data-checkout-currency]").first();
+    var currency = currencyElt.data("checkout-currency") || _defaultCurrency;
+    _cachedCurrency = String(currency);
+    return currency;
+  }
+
+  /**
+   * Initialize products
+   */
+
+  $(function () {
+    // Try to retrieve user's currency
+    if (window._geo && window._geo.currency) {
+      setUserCurrency(window._geo.currency);
+    }
+
+    // Render products with user's currency
+    renderProducts();
+    renderTeamPack();
+
+    // Handle monthly / yearly
+    $("input[name=checkout-recurrence]").on("change", function () {
+      var recurrence = $("[data-checkout-recurrence]").first();
+      if (recurrence) {
+        recurrence.data("checkout-recurrence", $(this).val());
+      }
+      renderProducts();
+    });
+
+    // Handle users selector (for enterprise)
+    $("#checkout-selector-users").change(function () {
+      var card = $(this).closest("[data-checkout-product]");
+      if (card) {
+        card.data("checkout-product", "enterprise-" + $(this).val());
+      }
+      renderProducts();
+    });
+
+    // Handle confirmation modals
+    function planConfirmationModal(event) {
+      var button = $(event.relatedTarget);
+      var productId = button.data("checkout-product-id");
+      var productQuantity = button.data("checkout-quantity") || 1;
+
+      if (!productId) {
+        window.location.href = "https://mailmeteor.com/sales";
+        event.preventDefault();
+      } else {
+        var modal = $(this);
+
+        modal.find("input.checkout-plan-id").val(productId);
+        modal.find("input.checkout-currency").val(getUserCurrency());
+        modal.find("input.checkout-quantity").val(productQuantity);
+
+        var quantitySelector = modal.find("#modalTeamQuantity");
+        if (quantitySelector) {
+          var option = quantitySelector.find("[value=" + productQuantity + "]");
+
+          if (option.length) {
+            option.prop("selected", true);
+          } else {
+            var custom = quantitySelector.find('[value="custom"]');
+
+            if (!custom.length) {
+              quantitySelector.append("<option value='custom' disabled>Custom packs:</option>");
+            }
+
+            quantitySelector.append(
+              "<option value='" + productQuantity + "' selected>" + productQuantity + " users included</option>"
+            );
+          }
+        }
+      }
+    }
+
+    $("#pricingIndividualModal").on("show.bs.modal", planConfirmationModal);
+    $("#pricingTeamModal").on("show.bs.modal", planConfirmationModal);
+
+    // Handle 20% OFF link
+    function qs(key) {
+      key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+      var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+      return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+    }
+    try {
+      var coupon = qs("coupon");
+      if (coupon && coupon === "OFF20") {
+        $("[data-checkout-product]").each(function () {
+          var card = $(this);
+          var productId = card.data("checkout-product");
+
+          if (productId === "individual") {
+            card.data("checkout-product", "individual-OFF20");
+            renderProducts();
+          }
+        });
+      }
+
+      // Handle 500 emails warning for Gmail users
+      $("#pricingIndividualModal")
+        .find('input[name="active_email"]')
+        .first()
+        .on("input", function (e) {
+          var input = $(this);
+          var val = input.val();
+          var tip = $("#checkout-gmail-accounts-tip");
+          var isGmailAccount = val.indexOf("@gmail.com") > -1 || val.indexOf("@googlemail.com") > -1;
+
+          console.log(isGmailAccount, tip);
+          if (!tip) {
+            return;
+          }
+
+          if (isGmailAccount) {
+            tip.show();
+            console.log("showing");
+          } else {
+            tip.hide();
+            console.log("hiding");
+          }
+        });
+    } catch (e) {
+      console.error(e);
+    }
+  });
+</script>
+
+<!-- Bootsrap Slider -->
+<script src="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/bootstrap-slider.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/css/bootstrap-slider.min.css"
+/>
+
+<script>
+  $(function () {
+    $("#pricingTeamSlider")
+      .slider({
+        min: 2,
+        max: 100,
+        value: 5,
+        scale: "logarithmic",
+        tooltip: "always",
+        tooltip_position: "bottom",
+        lock_to_ticks: true,
+        formatter: function (value) {
+          if (value > 25) {
+            return "Contact us";
+          }
+          return value + " users";
+        },
+      })
+      .on("change", function (event) {
+        if (!event || !event.value) {
+          return;
+        }
+        var units = event.value.newValue;
+        renderTeamPack(units);
+      });
+  });
+
+  function renderTeamPack(units = 5) {
+    var cta = $(".pricing-team--cta").first();
+    var pack = $(".pricing-team--pack").first();
+    var amountElt = $(".pricing-team--amount").first();
+    var savingsElt = $(".pricing-team--save").first();
+
+    if (units > 25) {
+      cta.html("Contact us &rarr;");
+      cta.data("checkout-product-id", null);
+      pack.data("checkout-product-id", null);
+      return;
+    }
+
+    function computePackPrice(units) {
+      var total = 0;
+
+      if (units <= 3) {
+        total = units * 33.33;
+      } else if (units <= 5) {
+        total = 3 * 33.33 + (units - 3) * 30;
+      } else {
+        total = 3 * 33.33 + 2 * 30 + (units - (3 + 2)) * 28;
+      }
+
+      return total;
+    }
+
+    var amount = computePackPrice(units);
+    var save = units * 8.99 * 12 - amount;
+    var currency = getUserCurrency();
+    var currencySymbol = currency === "EUR" ? "€" : "$";
+
+    cta.html("Get " + units + " users pack &rarr;");
+    pack.text(units + " users pack");
+    amountElt.text("= " + currencySymbol + amount.toFixed(2) + " / year");
+    savingsElt.text("(save " + currencySymbol + save.toFixed(0) + " / year!)");
+
+    var product = _allProducts["team-pack"];
+    var productPrice = (product.prices && product.prices[currency.toLowerCase()]) || null;
+    var productId = (productPrice && productPrice.id) || null;
+
+    pack.data("checkout-product-id", productId);
+    cta.data("checkout-product-id", productId);
+    pack.data("checkout-quantity", units);
+    cta.data("checkout-quantity", units);
+  }
+</script>
