@@ -1,0 +1,102 @@
+<!-- FAQs  -->
+<section class="faq" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-easing="ease-out">
+	<div class="container">
+		<h2 id="faq" class="text-center">Questions & answers</h2>
+		<p class="text-center">Find tutorials & help guides in our <a href="https://support.mailmeteor.com/" target="_blank" rel="noopener">documentation</a>.</p>
+		<div id="accordion-billing" class="accordions">
+			{% assign i = 0 %}
+			<h3>Billing</h3>
+			{% for entry in site.data.faqs.billing %}
+			<div class="card">
+				<div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+					<p class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}">{{entry.question}}</p>
+					<span class="faq-expander"></span>
+				</div>
+
+				<div id="collapse{{i}}" class="collapse" aria-labelledby="heading{{i}}" data-parent="#accordion-billing">
+					<div class="card-body">
+						{{entry.answer | markdownify}}
+					</div>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+			{% endfor %}
+		</div>
+		<div id="accordion-security" class="accordions">
+			<h3>Security & Privacy</h3>
+			{% for entry in site.data.faqs.security  %}
+			<div class="card">
+				<div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+					<p class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}">{{entry.question}}</p>
+					<span class="faq-expander"></span>
+				</div>
+
+				<div id="collapse{{i}}" class="collapse" aria-labelledby="heading{{i}}" data-parent="#accordion-security">
+					<div class="card-body">
+						{{entry.answer | markdownify}}
+					</div>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+			{% endfor %}
+		</div>
+		<div id="accordion-deliverability" class="accordions">
+			<h3>Email deliverability</h3>
+			{% for entry in site.data.faqs.deliverability %}
+			<div class="card">
+				<div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+					<p class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}">{{entry.question}}</p>
+					<span class="faq-expander"></span>
+				</div>
+
+				<div id="collapse{{i}}" class="collapse" aria-labelledby="heading{{i}}" data-parent="#accordion-deliverability">
+					<div class="card-body">
+						{{entry.answer | markdownify}}
+					</div>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+			{% endfor %}
+		</div>
+		<div id="accordion-features" class="accordions">
+			<h3>Features</h3>
+			{% for entry in site.data.faqs.features %}
+			<div class="card">
+				<div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+					<p class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}">{{entry.question}}</p>
+					<span class="faq-expander"></span>
+				</div>
+
+				<div id="collapse{{i}}" class="collapse" aria-labelledby="heading{{i}}" data-parent="#accordion-features">
+					<div class="card-body">
+						{{entry.answer | markdownify}}
+					</div>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+			{% endfor %}
+		</div>
+		<div id="accordion-help" class="accordions">
+			<h3>Help</h3>
+			{% for entry in site.data.faqs.help %}
+			<div class="card">
+				<div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+					<p class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}">{{entry.question}}</p>
+					<span class="faq-expander"></span>
+				</div>
+
+				<div id="collapse{{i}}" class="collapse" aria-labelledby="heading{{i}}" data-parent="#accordion-help">
+					<div class="card-body">
+						{{entry.answer | markdownify}}
+					</div>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+			{% endfor %}
+		</div> 
+		<div class="container d-flex justify-content-center mt-3">
+			<a href="/pricing" class="btn btn-filled mx-2" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-out"><span style=font-size:75%>READY FOR TAKE OFF?</span> <br> GET MAILMETEOR → </a>
+		</div>
+	</div>
+
+</section>
