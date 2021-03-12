@@ -1,0 +1,40 @@
+#
+# Pricing features
+#
+
+features:
+  - title: Send up to 1500 emails per day with Gmail.
+    description: Mailmeteor Premium lets you email a maximum number of recipients with Gmail.
+
+  - title: Track emails in real-time.
+    description: Know when your emails are opened and clicked.
+
+  - title: Personalize your emails.
+    description: From subject line to email content, the possibilities are endless.
+
+  - title: Add attachments files,
+    description: such as PDF, Word, Excel, pictures and various other file types. Perfect for sending invoices, payslips, invitations and more.
+
+  - title: Send from an email alias.
+    description: Useful when you want to send emails from another email address you own (Gmail, Outlook and more).
+
+  - title: Add CC and BCC recipients.
+    description: You can add Cc and Bcc recipients to involve more people in the conversation, keep someone in the loop or log your emails in your CRM.
+
+  - title: Integrate with your CRM.
+    description: such as PDF, Word, Excel, pictures and various other file types. Perfect for sending invoices, payslips, invitations and more.
+
+  - title: Import your own HTML templates,
+    description: perfect to design your email newsletters.
+
+  - title: Include unsubscribe links.
+    description: Manage unsubscribes easily with a 1-click unsubscribe button.
+
+  - title: Invite new users.
+    description: Add new members to your license easily with Mailmeteor Dashboard.
+
+  - title: View the stats of your campaigns at a glance.
+    description: Mailmeteor Dashboard gives you an overview of all your campaigns.
+
+  - title: Custom support.
+    description: Our team speaks English, Spanish and French and answers under 24h to help you achieve your emailing goals.

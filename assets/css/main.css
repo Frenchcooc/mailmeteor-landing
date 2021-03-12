@@ -14,7 +14,10 @@
 *   5.3 - Pricing header
 *   5.4 - Pricing body
 *   5.5 - Pricing features
-*   5.6 - Pricing modal
+*   5.6 - Lifetime plan
+*   5.7 - Pricing modal
+*   5.8 - Pricing team
+*   5.9 - Sales
 *  6 - Includes
 *   6.1 - Pricing table
 *   6.2 - Testimonials
@@ -825,7 +828,18 @@ sup {
   background-repeat: no-repeat;
 }
 
-/* Lifetime plan */
+/* What's included features */
+
+@media (min-width: 768px) {
+  #included-features {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 100px;
+    align-self: flex-start; /* set the height of flexbox element to auto */
+  }
+}
+
+/* #### 5.6 Lifetime plan #### */
 
 .lifetime-plan .pricing-plan-features li:before {
   content: "";
@@ -841,7 +855,7 @@ sup {
   text-transform: uppercase;
 }
 
-/* #### 5.6 Pricing modal #### */
+/* #### 5.7 Pricing modal #### */
 
 .popover-header,
 .popover-body {
@@ -876,7 +890,7 @@ sup {
   transform: scale(0.8);
 }
 
-/* #### 5.7 Pricing Team ### */
+/* #### 5.8 Pricing Team ### */
 
 .pricing-team .btn-outline {
   padding: 0.25rem 0.75rem;
@@ -890,7 +904,13 @@ sup {
   text-transform: uppercase;
   border-color: #2c1996;
   background: #2c1996;
-  background: -webkit-gradient(linear, left top, right top, from(#525df9), to(#2c1996));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#525df9),
+    to(#2c1996)
+  );
   color: #fff;
   transition: padding 0.5s ease 0s;
 }
@@ -914,7 +934,13 @@ sup {
 
 #pricingTeamSlider.slider .slider-selection {
   background: #525df9;
-  background: -webkit-gradient(linear, left top, right top, from(#525df9), to(#2c1996));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#525df9),
+    to(#2c1996)
+  );
   background: linear-gradient(90deg, #525df9 0, #2c1996);
 }
 
@@ -936,7 +962,7 @@ sup {
   cursor: pointer;
 }
 
-/* #### 5.8 Sales #### */
+/* #### 5.9 Sales #### */
 
 .sales-form {
   display: flex;
