@@ -30,7 +30,7 @@ redirect_from: "/launch/deuxio"
     <br>
     <div class="container text-center">
       <div class="row">
-        <div data-checkout-product="" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
+        <div data-checkout-product="monthly" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
           <div class="pricing-card" style="border-color: #ff486a; border-width: 2.5px;">
             <div class="pricing-card-header">
               <div id="launch-offer">Most popular</div>
@@ -48,17 +48,17 @@ redirect_from: "/launch/deuxio"
                 <li>Invite new users</li>
               </ul>
             </div>
-            <button class="stripe-checkout btn btn-filled" data-toggle="modal" data-target="#activeIndividualModal" role="link" data-checkout-product-item="cta">
+            <button class="stripe-checkout btn btn-filled" data-toggle="modal" data-target="#pricingIndividualModal" role="link" data-checkout-product-item="cta">
               GET STARTED
             </button>
           </div>
         </div>
-        <div data-checkout-product="" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
+        <div data-checkout-product="yearly" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
           <div class="pricing-card">
             <div class="pricing-card-header">
               <p class="pricing-card-title" data-checkout-product-item="title">Yearly</p>
               <p class="pricing-card-price" data-checkout-product-item="price">
-                <strike style="font-size:0.6em"><small class="pricing-card-currency">€</small>108<sup> / year</sup></strike><small class="pricing-card-currency">€</small>49<sup>.99 / year</sup></span>
+                <small class="pricing-card-currency">$</small>49<sup>.99 / year</sup></span>
               </p>
               <span class="pricing-card-savings">Save 50% vs monthly plan</span>
             </div>
@@ -76,7 +76,7 @@ redirect_from: "/launch/deuxio"
             </button>
           </div>
         </div>
-        <div data-checkout-product="" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto lifetime-plan">
+        <div data-checkout-product="lifetime" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto lifetime-plan">
           <div class="pricing-card" style="background-image: radial-gradient(circle at 50% 0px, rgb(58, 65, 111), rgb(33, 36, 61)); color:white">
             <div class="pricing-card-header" style="background-color:transparent">
               <p class="pricing-card-title" style="color:white" data-checkout-product-item="title">Lifetime</p>
@@ -91,9 +91,9 @@ redirect_from: "/launch/deuxio"
                 <li>Offer valid until April 30th 2021</li>
               </ul>
             </div>
-            <button class="stripe-checkout btn btn-lifetime-plan" data-toggle="modal" data-target="#pricingTeamModal" role="link" data-checkout-product-item="cta">
-              GET STARTED
-            </button>
+            <a href="https://forms.gle/PVGZnfzn2xobnF4w8" target="_blank" class="stripe-checkout btn btn-lifetime-plan" role="link">
+              REQUEST ACCESS
+            </a>
           </div>
         </div>
       </div>
@@ -169,6 +169,7 @@ redirect_from: "/launch/deuxio"
       <input type="hidden" name="plan_id" class="checkout-plan-id" />
       <input type="hidden" name="currency" class="checkout-currency" />
       <input type="hidden" name="quantity" class="checkout-quantity" />
+      <input type="hidden" name="coupon" class="checkout-coupon"/>
       <div class="modal-content">
         <div class="modal-header" style="padding: 1rem 2rem;">
           <h5 class="modal-title" style="font-size: 1.2rem; font-weight: 700; color: #04143a;">Mailmeteor upgrade</h5>
