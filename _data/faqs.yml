@@ -59,17 +59,17 @@ entries:
     answer: Sure you can. Add a column in your sheet with "cc" or "bcc" as header. Then, add emails in the cells. If you have several recipients in CC or BCC, separate emails with commas. Here is a [video tutorial](https://www.youtube.com/watch?v=3me-iWYFSY0).
 
   - question: Is Mailmeteor suitable for working in teams?
-    answer: Sure! [Mailmeteor’s Enterprise licenses](/pricing) allow users to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs.
+    answer: Sure! [Mailmeteor Enterprise](/sales) allows teams to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs. Our largest customer has 100,000 employees using Mailmeteor.
 
   - question: What CRMs does Mailmeteor integrate with?
     answer: You can use Mailmeteor with your favorite CRM tool, like Salesforce or Hubspot. To log emails sent with Mailmeteor, you will need to find your unique BCC address provided by your CRM. You will put this address as a BCC recipient when sending emails from Mailmeteor. Here is a [guide to help you use Mailmeteor with your CRM](https://support.mailmeteor.com/introduction/advanced/crm-integration).
 
   - question: How do I manage my subscription?
     answer: >
-      To manage your account, open a Google spreadsheet, **go to the "Add-ons" menu, then select "Mailmeteor" > "My account"**.
+      To manage your account, [access your settings from Mailmeteor's dashboard](https://dashboard.mailmeteor.com/account).
 
 
-      To cancel your account, click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
+      To cancel your account, on the same page click on “Cancel” within your account profile. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
 
   - question: I need help with Mailmeteor
     answer: >
@@ -109,10 +109,10 @@ billing:
 
   - question: How do I manage my subscription?
     answer: >
-      To manage your account, open a Google spreadsheet, **go to the "Add-ons" menu, then select "Mailmeteor" > "My account"**.
+      To manage your account, [access your settings from Mailmeteor's dashboard](https://dashboard.mailmeteor.com/account).
 
 
-      To cancel your account, click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
+      To cancel your account, on the same page click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
 
   - question: Is it possible to transfer my license to a different Gmail or Google Workspace account?
     answer: Of course! If you need to change ownership of your license, please [contact us](https://support.mailmeteor.com/help/contact-support) and we’ll proceed with the change.
@@ -169,7 +169,7 @@ features:
       You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination!
 
 
-      Imagine having a “firstname” column in your spreadsheet, adding *"Hi {{firstname}}"* in your email will be automatically replaced by your recipient’s first name (*"Hi Sally"* for example).You just need to put your variables inside double brackets, like this → {{ }}
+      Imagine having a “firstname” column in your spreadsheet, adding *"Hi {{firstname}}"* in your email will be automatically replaced by your recipient’s first name (*"Hi Sally"* for example). You just need to put your variables inside double brackets, like this → {{ }}
 
 
       Here are some examples:
@@ -180,10 +180,10 @@ features:
       Emails sent with Mailmeteor look as if you typed them manually for each of your recipients.
 
   - question: How to add CC or BCC recipients?
-    answer: Sure you can. Add a column in your sheet with "cc" or "bcc" as header. Then, add emails in the cells. If you have several recipients in CC or BCC, separate emails with commas. Here is a [video tutorial](https://www.youtube.com/watch?v=3me-iWYFSY0).
+    answer: That's really easy. In your spreadsheet, add a column with "cc" (and/or "bcc") as header. Then, add emails in the cells. Mailmeteo will add those recipients in CC (or BCC). If you have several recipients in CC or BCC, separate emails with commas. Here is a [video tutorial](https://www.youtube.com/watch?v=3me-iWYFSY0).
 
   - question: Is Mailmeteor suitable for working in teams?
-    answer: Sure! [Mailmeteor’s Enterprise licenses](/pricing) allow users to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs.
+    answer: Sure! [Mailmeteor Enterprise](/sales) allows teams to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs. Our largest customer has 100,000 employees using Mailmeteor.
 
   - question: What CRMs does Mailmeteor integrate with?
     answer: You can use Mailmeteor with your favorite CRM tool, like Salesforce or Hubspot. To log emails sent with Mailmeteor, you will need to find your unique BCC address provided by your CRM. You will put this address as a BCC recipient when sending emails from Mailmeteor. Here is a [guide to help you use Mailmeteor with your CRM](https://support.mailmeteor.com/introduction/advanced/crm-integration).
