@@ -1076,13 +1076,19 @@ sup {
   cursor: pointer;
 }
 
-.faq #accordion {
+.faq .accordions {
   max-width: 960px;
   margin: auto;
 }
 
-.faq #accordion .card-header {
+.faq .accordions .card-header {
   font-weight: 700;
+}
+
+.faq .accordions h3 {
+  text-transform: uppercase;
+  color: #7da4ff;
+  padding: 2rem 0 0 0;
 }
 
 @media (max-width: 768px) {
