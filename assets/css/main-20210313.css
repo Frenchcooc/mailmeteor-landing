@@ -18,6 +18,7 @@
 *   5.7 - Pricing modal
 *   5.8 - Pricing team
 *   5.9 - Sales
+*   5.10 - Promo code page
 *  6 - Includes
 *   6.1 - Pricing table
 *   6.2 - Testimonials
@@ -126,9 +127,20 @@ strong {
   color: white;
 }
 
+.is-red {
+  color: #FF486A;
+}
+
 .is-centered {
   margin: auto;
   text-align: center;
+}
+
+.is-small-purple {
+  color: #7da4ff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
 }
 
 /* Handling big displays > 1920px */
@@ -1001,6 +1013,60 @@ sup {
   background-repeat: no-repeat;
 }
 
+/* #### 5.10 Promo code page #### */
+
+
+.promo-code-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgb(0 0 0 / 1%);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+  padding: 2rem 2rem;
+  margin: 1rem auto;
+}
+
+.promo-code-title-container {
+  text-align: left;
+  padding: 1rem 0;
+}
+
+.promo-code-cta-container {
+  border-top: 1px solid #eee;
+  padding: 1rem 0 0 0;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .promo-code-cards {
+    flex-direction: row;
+    padding: 0rem 2rem;
+  }
+  .promo-code-cta-container {
+    border-left: 1px solid #eee;
+    padding: 0 0 0 2rem;
+    width: auto;
+  }
+} 
+
+.promo-code-cards:hover {
+  background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+}
+
+.promo-code-countdown {
+  color:#FF486A;
+  font-weight:bold;
+  margin-bottom:.5remr;
+}
 /* ######## 6. INCLUDES ######## */
 
 /* #### 6.1 Pricing table #### */
@@ -1450,13 +1516,6 @@ article img :first-of-type :hover,
   background-color: white;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
-}
-
-.features-excerpt {
-  color: #7da4ff;
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
 }
 
 .features-card img {
