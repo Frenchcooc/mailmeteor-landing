@@ -6,78 +6,88 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://mailmeteor.com/</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/support</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/features</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/pricing</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://mailmeteor.com/mail-merge-gmail</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <loc>https://mailmeteor.com/mail-merge-gmail/</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/mail-merge-gmail/tutorial</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://mailmeteor.com/gmail-deliverability</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://mailmeteor.com/alternative/yetanothermailmerge</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://mailmeteor.com/alternative/gmass</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
-    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/es/</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/fr/</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://mailmeteor.com/alternative</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <loc>https://mailmeteor.com/alternative/</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/alternative/yetanothermailmerge</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/alternative/gmass</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/coupon</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/education-program</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/privacy-policy</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/terms</loc>
-    <lastmod>2021-03-14T08:38:22+00:00</lastmod>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
     <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/blog/</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/blog/gmail-deliverability</loc>
+    <lastmod>2021-04-05T14:24:42+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
 </urlset>
 
