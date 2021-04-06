@@ -14,14 +14,12 @@ body.blogpost {
 
 .blogpost-header {
   padding: 1rem 0 3rem 0;
-  min-height: 22rem;
   color: #fff;
-  background: rgb(10, 19, 88);
-  background: linear-gradient(
-    170deg,
-    rgba(10, 19, 88, 1) 0%,
-    rgba(14, 24, 123, 1) 20%,
-    rgba(19, 35, 183, 1) 100%
+  background: rgb(19, 2, 164);
+  background: radial-gradient(
+    circle,
+    rgba(19, 2, 164, 1) 0%,
+    rgba(15, 2, 116, 1) 80%
   );
 }
 
@@ -159,7 +157,7 @@ body.blogpost {
 .blogpost-share {
   align-self: flex-start;
   margin: 0 auto;
-  margin-left: 0.4rem;
+  margin-left: 1rem;
   font-size: 0.8rem;
 }
 
@@ -192,4 +190,23 @@ body.blogpost {
   border: 1px solid #eee;
   padding: 0.8rem;
   border-radius: 12px;
+}
+
+/**
+ * Blog > homepage
+ */
+
+.blog-article-featured {
+  padding: 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-article-row {
+  text-align: center;
+  padding: 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-article-row:last-of-type {
+  border-bottom: none;
 }
