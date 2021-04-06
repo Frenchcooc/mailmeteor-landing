@@ -80,6 +80,11 @@ footer:
       fr: "Ressources"
       es: "Producto"
     links:
+      blog:
+        url: "/blog/"
+        en: "Mailmeteor blog"
+        fr: "Mailmeteor blog"
+        es: "Mailmeteor blog"
       blog-mail-merge:
         url: "/mail-merge-gmail"
         en: "Mail merge Gmail guide"
