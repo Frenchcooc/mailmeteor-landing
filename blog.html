@@ -1,0 +1,103 @@
+--- 
+title: Mailmeteor Blog - Learn how to send mass emails with Gmail
+description: "We help you get better at Email Marketing with Gmail: detailed Gmail merge tutorials, case studies and opinion pieces."
+
+canonical: https://mailmeteor.com/blog/
+permalink: /blog/
+
+og_title: Mailmeteor Blog - Learn how to send mass emails with Gmail
+og_description: "We help you get better at Email Marketing with Gmail: detailed Gmail merge tutorials, case studies and opinion pieces."
+og_url: https://mailmeteor.com/blog
+og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="google-site-verification" content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M" />
+    <link rel="icon" href="/assets/img/brand/favicon.ico" type="image/x-icon" />
+
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ page.canonical }}" />
+    <meta name="description" content="{{ page.description }}" />
+
+    <!-- Open graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ page.og_title }}" />
+    <meta property="og:description" content="{{ page.og_description }}" />
+    <meta
+      name="image"
+      property="og:image"
+      content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}"
+    />
+    <meta property="og:url" content="{{ page.og_url }}" />
+    <meta name="twitter:site" content="@mailmeteor" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="{{ page.og_url }}" />
+    <meta name="twitter:title" content="{{ page.og_title }}" />
+    <meta name="twitter:description" content="{{ page.og_description }}" />
+    <meta
+      name="twitter:image"
+      content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}"
+    />
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/main-20210313.css" />
+    <link rel="stylesheet" href="/assets/css/blog.css" />
+  </head>
+  <body class="blogpost">
+    <article itemid="{{ page.canonical }}" itemscope itemtype="https://schema.org/BlogPosting">
+      <header class="blogpost-header">
+        <div class="container">
+          <nav class="row">
+            <div class="col-xs-12 col-md-6 col-lg-8">
+              <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
+            </div>
+            <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
+              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.
+            </div>
+          </nav>
+          <div class="text-center">
+            <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" />
+            <h1 itemprop="headline">{{ page.title}}</h1>
+            <p class="is-white">{{ page.description}}</p>
+        </div>
+      </header>
+      <main>
+        <div class="container blog-article-featured">
+            <div class="row">
+              <div class="col-lg-5 rounded" style="background: rgb(19, 2, 164);">
+                <img class="w-100" src="/assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png" alt="Mail merge Gmail: the Definitive Guide"/>
+              </div>
+              <div class="col-lg-7 p-4">
+                <p>FEATURED</p>
+                <h2><a href="/mail-merge-gmail">Mail merge Gmail in 2021: the Definitive Guide</a></h2>
+                <p>Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail</p>
+                <small>Jean Dubrulle • March 4, 2021</small>
+              </div>
+          </div>
+        </div>
+        {% for post in site.posts %}
+        <div class="blog-article-row">
+          <div class="container">
+            <p>{{ post.category }}</p>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p><small>{{ post.meta_author }} • {{ post.meta_date_published }}</small></p>
+          </div>
+        {% endfor %}
+      </div>
+      </main>
+
+    {%- include default.footer.html -%}
+
+  </body>
+</html>
