@@ -86,17 +86,17 @@ footer:
         fr: "Mailmeteor blog"
         es: "Mailmeteor blog"
       blog-mail-merge:
-        url: "/mail-merge-gmail"
+        url: "/mail-merge-gmail/"
         en: "Mail merge Gmail guide"
         fr: "Guide du publipostage"
         es: "Guía de mail merge"
       tips:
-        url: "https://support.mailmeteor.com/introduction/quick-start/sending-tips"
+        url: "/blog/gmail-deliverability"
         en: "Gmail sending tips"
         fr: "Conseils d'utilisation"
         es: "Consejos de uso"
       alternative:
-        url: "/alternative"
+        url: "/alternative/"
         en: "Mail merge tools"
         fr: "Comparaison"
         es: "Comparación"
