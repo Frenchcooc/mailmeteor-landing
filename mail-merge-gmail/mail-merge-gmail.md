@@ -878,3 +878,8 @@ We hope you now better understand this simple yet incredibly powerful tool calle
   <br>
   <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, mail merge for Gmail</a></p>
 </div>
+
+<small class="blogpost-related-articles">
+Learn more about Gmail merge: 
+<a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a>
+</small>
