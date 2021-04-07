@@ -192,6 +192,12 @@ body.blogpost {
   border-radius: 12px;
 }
 
+.blogpost-related-articles {
+  margin: 0 0 1rem;
+  padding: 0 1rem;
+  border-left: 3px solid #7da4ff;
+}
+
 /**
  * Blog > homepage
  */
