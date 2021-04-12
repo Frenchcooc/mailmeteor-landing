@@ -15,7 +15,7 @@ og_url: https://mailmeteor.com/mail-merge-gmail/tutorial
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
 
 meta_date_published: "April 6, 2021"
-meta_date_lastupdated: "April 6, 2021"
+meta_date_lastupdated: "April 12, 2021"
 published: true
 
 permalink: /mail-merge-gmail/tutorial
@@ -120,7 +120,7 @@ Mailmeteor is the top-rated Google mail merge add-on, designed to make mail merg
 
    If you’ve followed our mail merge instructions above, your mail merge will get people reading your emails and engaging with your brand. It’s that simple.
 
-**With that, you’re all set! Mailmeteor is the top-rated Gmail mail merge add-on for sending high-quality, personalized email content to up to 1,500 recipients with just a click of a button. [Start your mail merge in Gmail with Mailmeteor](/).**
+**With that, you’re all set! Mailmeteor is the top-rated Gmail mail merge add-on for sending high-quality, personalized email content to up to 2000 recipients with just a click of a button. [Start your mail merge in Gmail with Mailmeteor](/).**
 
 ## Method 2 – Mail merge with Gmail through Google Apps Scripts
 
