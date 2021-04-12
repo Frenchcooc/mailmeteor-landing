@@ -1,49 +1,52 @@
 ---
 layout: default
 title: Features - Mailmeteor
-description: Discover all the unique mail merge features offered by Mailmeteor. Send up to 1500 emails a day with Gmail, personalize email subject and content, preview emails before sending, track emails in real time, segment and follow-up, schedule emails, attach files, send from an alias, manage unsubscribes, import HTML templates and integrate mail merge with your CRM.
+description: Discover all the unique mail merge features offered by Mailmeteor. Send up to 2000 emails a day with Gmail, personalize email subject and content, preview emails before sending, track emails in real time, segment and follow-up, schedule emails, attach files, send from an alias, manage unsubscribes, import HTML templates and integrate mail merge with your CRM.
 canonical: https://mailmeteor.com/features
 
 og_title:
-og_description: Discover all the unique mail merge features offered by Mailmeteor. Send up to 1500 emails a day with Gmail, personalize email subject and content, preview emails before sending, track emails in real time, segment and follow-up, schedule emails, attach files, send from an alias, manage unsubscribes, import HTML templates and integrate mail merge with your CRM.
+og_description: Discover all the unique mail merge features offered by Mailmeteor. Send up to 2000 emails a day with Gmail, personalize email subject and content, preview emails before sending, track emails in real time, segment and follow-up, schedule emails, attach files, send from an alias, manage unsubscribes, import HTML templates and integrate mail merge with your CRM.
 og_url: https://mailmeteor.com/features
 ---
 
 <section>
-    <div class="container text-center">
-        <h1>Gmail mail merge, made easy.
-        </h1>
-        <p>
-            Discover all the unique features offered by Mailmeteor, the best rated Google Workspace add-on.
-        </p>
-        <div class="col-md-9 mx-auto">
-            <div class="embed-responsive embed-responsive-16by9" data-aos="fade-up" data-aos-duration="800">
-                <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="https://www.youtube.com/embed/ccO5i3gQXSk" show-info="O" data-src="https://www.youtube.com/embed/ccO5i3gQXSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-            </div>
-            <div class="testimonials">
-                {%- include testimonials-logo.html -%}
-            </div>
-        </div>
+  <div class="container text-center">
+    <h1>Gmail mail merge, made easy.</h1>
+    <p>Discover all the unique features offered by Mailmeteor, the best rated Google Workspace add-on.</p>
+    <div class="col-md-9 mx-auto">
+      <div class="embed-responsive embed-responsive-16by9" data-aos="fade-up" data-aos-duration="800">
+        <iframe
+          class="embed-responsive-item"
+          title="Mailmeteor Product Tour"
+          src="https://www.youtube.com/embed/ccO5i3gQXSk"
+          show-info="O"
+          data-src="https://www.youtube.com/embed/ccO5i3gQXSk"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="testimonials">{%- include testimonials-logo.html -%}</div>
     </div>
+  </div>
 </section>
 <section>
-    <div class="container" style="max-width: 960px; margin-bottom:10rem">
-        {% for section in site.data.features.sections %}
-        <div class="features-sections row" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
-            <div class="col-md-6">
-                <p class="is-small-purple">{{section.excerpt | upcase}}</p>
-                <h2>{{section.title}}</h2>
-                <p>{{section.description}}</p>
-                <a class="features-link" href="{{section.link}}" target="_blank" rel="noopener">
-                    Learn more →</a>
-            </div>
-            <div class="col-md-6 mb-2">
-                <img class="rounded" style="max-width: 100%;" src="{{section.image}}" alt="{{section.title}}" />
-            </div>
-        </div>
-        {% endfor %}
+  <div class="container" style="max-width: 960px; margin-bottom: 10rem">
+    {% for section in site.data.features.sections %}
+    <div class="features-sections row" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
+      <div class="col-md-6">
+        <p class="is-small-purple">{{section.excerpt | upcase}}</p>
+        <h2>{{section.title}}</h2>
+        <p>{{section.description}}</p>
+        <a class="features-link" href="{{section.link}}" target="_blank" rel="noopener"> Learn more →</a>
+      </div>
+      <div class="col-md-6 mb-2">
+        <img class="rounded" style="max-width: 100%" src="{{section.image}}" alt="{{section.title}}" />
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </section>
 
-{%- include pricingtable.html -%}
-{%- include faq.html -%}
+{%- include pricingtable.html -%} {%- include faq.html -%}
