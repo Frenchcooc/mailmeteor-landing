@@ -1,0 +1,25 @@
+<!-- What's included -->
+<section style="margin-bottom: 8rem">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" id="pricing-included-features">
+          <p class="is-small-purple">WHAT'S INCLUDED?</p>
+          <h2>Unlock everything with Mailmeteor Premium.</h2>
+          <p>
+            Mailmeteor Premium lets you send personalized emails without limits. Your mail merge experience is made
+            effortless and designed to respect your privacy.
+          </p>
+        </div>
+        <div class="col-md-7 mt-3">
+          <ul class="p-0">
+            {% for feature in site.data.pricing.features %}
+            <li class="d-flex my-3">
+              <img src="/assets/img/elements/tick-round.svg" alt="tick" width="20px" style="margin: 1rem" />
+              <div><b>{{feature.title}}</b> {{feature.description}}</div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
