@@ -15,10 +15,10 @@
   property="og:image"
   content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}"
 />
-<meta property="og:url" content="{{ page.og_url }}" />
+<meta property="og:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:site" content="@mailmeteor" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:url" content="{{ page.og_url }}" />
+<meta name="twitter:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:title" content="{{ page.og_title }}" />
 <meta name="twitter:description" content="{{ page.og_description }}" />
 <meta
