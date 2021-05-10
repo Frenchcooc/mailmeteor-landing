@@ -9,7 +9,7 @@ apps:
   {% assign app = app_hash[1] %}
   {% if page.apps contains app.id %}
   <li>
-    <a href="https://github.com/{{ org.username }}"> {{ app.name }} </a>
+    <a href="{{ app.link }}"> {{ app.name }} </a>
   </li>
   {% endif %}
   {% endfor %}
