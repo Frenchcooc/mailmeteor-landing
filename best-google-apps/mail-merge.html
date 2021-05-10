@@ -1,0 +1,16 @@
+---
+apps:
+  - 1008170693301
+  - 1008170693302
+---
+
+<ul>
+  {% for app_hash in site.data.googleapps %}
+  {% assign app = app_hash[1] %}
+  {% if page.apps contains app.id %}
+  <li>
+    <a href="https://github.com/{{ org.username }}"> {{ app.name }} </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
