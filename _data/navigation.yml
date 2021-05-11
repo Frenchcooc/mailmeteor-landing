@@ -110,6 +110,11 @@ footer:
         en: "Compare with GMass"
         fr: "Comparaison avec GMass"
         es: "Comparación con GMass"
+      best-google-apps:
+        url: "/best-google-apps"
+        en: "Best Google Apps"
+        fr: "Les meilleures apps Google"
+        es: "Las mejores apps de Google"
   support:
     title:
       en: "Support"
