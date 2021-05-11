@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{% assign appsCounter = page.apps.size %}
+
 <section class="m-3">
   <div class="container page-title">
     <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
     <h1>{{ page.heading | default: page.title }}</h1>
-    <p>{{ page.punchline | default: page.description}}</p>
+    <p>{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
   </div>
 </section>
 
@@ -14,7 +16,6 @@ layout: default
 
 <article class="article-container">
   <div class="container">
-    {% assign appsCounter = page.apps.size %}
     <h2>{{ page.list | replace: "(X)", appsCounter }}</h2>
 
     <ol class="gapps-product-list">
