@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% assign appsCounter = page.apps.size %}
+{% assign apps = "" | split: ',' %} {% for app_id in page.apps %} {% for app_hash in site.data.googleapps %} {% assign
+app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app %} {% endif %} {% endfor %} {% endfor
+%} {% assign appsCounter = apps.size %}
 
 <section class="m-3">
   <div class="container page-title">
@@ -19,16 +21,14 @@ layout: default
     <h2>{{ page.list | replace: "(X)", appsCounter }}</h2>
 
     <ol class="gapps-product-list">
-      {% for app_id in page.apps %} {% for app_hash in site.data.googleapps %} {% assign app = app_hash[1] %} {% if
-      app.id == app_id %}
+      {% for app in apps %}
       <li>
         <a href="#{{ app.name | slugify }}"> {{ app.name }} </a>
       </li>
-      {% endif %} {% endfor %} {% endfor %}
+      {% endfor %}
     </ol>
 
-    {% for app_id in page.apps %} {% for app_hash in site.data.googleapps %} {% assign app = app_hash[1] %} {% if app.id
-    == app_id %}
+    {% for app in apps %}
     <div class="gapps-product-card" id="{{ app.name | slugify }}">
       <img src="{{ app.image }}" alt="Logo of {{ app.name | escape }}" />
       <h3><a href="/">{{ app.name }}</a></h3>
@@ -75,7 +75,7 @@ layout: default
         </svg>
       </a>
     </div>
-    {% endif %} {% endfor %} {% endfor %}
+    {% endfor %}
   </div>
 </article>
 
