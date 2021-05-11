@@ -1,0 +1,9 @@
+id: 197704990495
+name: "Intellisync CRM Connector for SugarCRM"
+author: "console.intellisync.net"
+description: "This gadget provides integration between SugarCRM and Google Apps. It allows users to save emails from Google Apps to SugarCRM, create cases, leads, contacts and companies, as well as any custom records. It has full support for dynamic layouts generated from the studio and will reflect custom fields as well as standard fields in the record creation forms. As of version 2.0, the connector supports synchronising contacts, leads, meetings and tasks between Google Apps and SugarCRM."
+image: https://lh3.googleusercontent.com/-rWd9Qh1iT3s/VDXvUJwpSiI/AAAAAAAAEoI/ag491Dx0poc/s0/intellisync_icons_B-128.png
+link: https://gsuite.google.com/marketplace/app/intellisync_crm_connector_for_sugarcrm/197704990495
+stars: 4.5
+votes: 2
+installs: 3380

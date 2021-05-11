@@ -1,0 +1,9 @@
+id: 328915503637
+name: "AWS Pricing"
+author: "Mike Heffner"
+description: "Import the latest AWS pricing data to your Google Spreadsheet using simple functions. Reduce the time spent and mistakes made copying-and-pasting snapshots of pricing data into your cloud cost analysis sheets. Data is pulled directly from the latest APIs. Quickly update prices as you modify purchasing options, operating system, and region details. The easy-to-use settings generator makes it simple to specify once the per-environment purchasing details and use in multiple cell locations."
+image: https://lh3.googleusercontent.com/-bpHsGCdvtdU/XRbrDSIiSzI/AAAAAAAANkw/mWrbYj4EVTgb9q3sEmdmVBW35fkQLixvgCLcBGAs/s400/icon_128x128.png
+link: https://gsuite.google.com/marketplace/app/aws_pricing/328915503637
+stars: 4.9
+votes: 13
+installs: 4976

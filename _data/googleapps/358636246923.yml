@@ -1,0 +1,9 @@
+id: 358636246923
+name: "ERPNext"
+author: "Frappe Technologies Pvt Ltd"
+description: "ERPNext is a fully open-source ERP system for companies of different sizes (SMBs to Enterprises) across multiple verticals. This integration allows sharing files in ERPNext on Google Drive. Having an ERPNext account is a prerequisite. ERPNext is built to serve organizations in various industries across different domains like Manufacturing, Distribution, Retail, Services, Education, Healthcare, Agricultural, and Not for Profit organizations. You can start using ERPNext by signing up for a trial account on https://erpnext.com or by setting up an instance with your favorite VPS provider by following: https://github.com/frappe/bench Documentation to setting up Google Apps in ERPNext: https://docs.erpnext.com/docs/user/manual/en/erpnext_integration/contents#google-integration"
+image: https://lh3.googleusercontent.com/-xtjk1Lrw63M/XYxYBKyHrEI/AAAAAAAAAUI/-a6AW7v7r6ENmWG5zx-gQ1b5ZpbS8nKtQCLcBGAsYHQ/s400/erpnext-logo%2B%25281%2529.png
+link: https://gsuite.google.com/marketplace/app/erpnext/358636246923
+stars: 4.5
+votes: 15
+installs: 15389

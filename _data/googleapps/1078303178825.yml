@@ -1,0 +1,9 @@
+id: 1078303178825
+name: "Audiographs"
+author: "Andrés Aparicio"
+description: "Audiograph, a web-based auditory graph application that allows users to sonify numerical data directly from a spreadsheet, using Google Sheets. One or more data series can be converted into sound at the same time. Our tool is implemented as an add-on inside Google Sheets using the powerful sound synthesis engine FAUST. We have chosen FAUST as the sonification platform due to its highly efficient rendering of digital sound processing algorithms and its integration with WebAssembly, which allows to use any modern web browser in a much more powerful way that with previous JavaScript-based technologies."
+image: https://lh3.googleusercontent.com/-CNGXI97PtGM/Ww2gwJYwcMI/AAAAAAAAQlM/jljTHBQqgaMEGT-e8sL6moCm8yfKxfjvACLcBGAs/s400/icon.png
+link: https://gsuite.google.com/marketplace/app/audiographs/1078303178825
+stars: 0
+votes: 0
+installs: 1863

@@ -1,0 +1,9 @@
+id: 804446241029
+name: "EINstein: Look Up Non-Profit Tax Data by EIN"
+author: "drew"
+description: "This Google Sheets addon allows you to pull IRS tax filing data about US-based nonprofits right into your spreadsheet. Just drop EINstein(ein) into a cell & the most recent tax filing data appears!"
+image: https://lh3.googleusercontent.com/-AQx50QJtcBA/WTGwNGKibnI/AAAAAAAAQng/eIlMPPRKthYsBWIxT7EV9zNlhbc4JjDdACLcB/s400/albert-einstein-square-128x128.jpg
+link: https://gsuite.google.com/marketplace/app/einstein_look_up_nonprofit_tax_data_by_e/804446241029
+stars: 5
+votes: 3
+installs: 2203
