@@ -1,3 +1,7 @@
+<!-- Stripe SDK -->
+<script async src="https://js.stripe.com/v3/"></script>
+
+<!-- Products pricing -->
 <script>
   // Enabling Stripe popovers
   $(function () {
@@ -45,13 +49,11 @@
       prices: {
         usd: {
           amount: 199.99,
-          link:
-            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
+          link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
         },
         eur: {
           amount: 199.99,
-          link:
-            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
+          link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
         },
       },
     },
