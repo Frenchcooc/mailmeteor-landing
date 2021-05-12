@@ -1,21 +1,20 @@
+{% if page.apps %} {% assign title = page.title | replace: "(X)", page.apps.size %} {% endif %} {% assign og_title =
+page.og_title | default: title | default: page.title %} {% assign og_description = page.og_description | default:
+page.description %}
+
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-/>
-<meta
-  name="google-site-verification"
-  content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M"
-/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="google-site-verification" content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M" />
 <link rel="icon" href="/assets/img/brand/favicon.ico" type="image/x-icon" />
 
-<title>{{ page.title }}</title>
+<title>{{ title | default: page.title }}</title>
+
 <link rel="canonical" href="{{ page.canonical }}" />
 <meta name="description" content="{{ page.description }}" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{ page.og_title }}" />
-<meta property="og:description" content="{{ page.og_description }}" />
+<meta property="og:title" content="{{ og_title }}" />
+<meta property="og:description" content="{{ og_description  }}" />
 <meta
   name="image"
   property="og:image"
@@ -24,12 +23,9 @@
 <meta property="og:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:site" content="@mailmeteor" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta
-  name="twitter:url"
-  content="{{ page.og_url | default: page.canonical }}"
-/>
-<meta name="twitter:title" content="{{ page.og_title }}" />
-<meta name="twitter:description" content="{{ page.og_description }}" />
+<meta name="twitter:url" content="{{ page.og_url | default: page.canonical }}" />
+<meta name="twitter:title" content="{{ og_title }}" />
+<meta name="twitter:description" content="{{ og_description }}" />
 <meta
   name="twitter:image"
   content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}"
