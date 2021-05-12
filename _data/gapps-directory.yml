@@ -3,28 +3,31 @@
 #
 
 categories:
-  - title: Mail merge Gmail
   - title: Gmail
   - title: Google Docs
   - title: Google Sheets
   - title: Google Drive
-  # - title: Google Calendar
-  # - title: Google Slides
-  # - title: Google Forms
-  # - title: Business Tools
-  # - title: Accounting & Finance
-  # - title: Administration & Management
-  # - title: ERP & Logistics
-  # - title: HR & Legal
-  # - title: Marketing & Analytics
-  # - title: Sales & CRM
-  # - title: Productivity
-  # - title: Creative Tools
-  # - title: Web Development
-  # - title: Office Applications
-  # - title: Task Management
-  # - title: Education
-  # - title: Academic Resources
-  # - title: Teacher & Admin Tools
-  # - title: Communication
-  # - title: Utilities
+  - title: Google Calendar
+  - title: Google Slides
+  - title: Google Forms
+  - title: Google Workspace
+  - title: Mail merge Gmail
+  - title: Business Tools
+  - title: Accounting & Finance
+  - title: Administration & Management
+  - title: Logistics & ERP
+  - title: HR
+  - title: Legal
+  - title: Marketing & Analytics
+  - title: Sales
+  - title: CRM
+  - title: Productivity
+  - title: Creative Tools
+  - title: Web Development
+  - title: Office Applications
+  - title: Task Management
+  - title: Education
+  - title: Academic Resources
+  - title: Teacher & Admin Tools
+  - title: Communication
+  - title: Utilities
