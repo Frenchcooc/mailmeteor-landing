@@ -6,8 +6,25 @@
   <div class="fixed-top">
     <nav class="navbar navbar-expand-md navbar-light bg-light" id="navbar">
       <div class="container">
-        <a href="/"><img class="navbar-brand" id="logo" alt="Mailmeteor logo" itemprop="logo" src="/assets/img/brand/logo_mailmeteor.svg" /></a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTabs" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <a href="/"
+          ><img
+            class="navbar-brand"
+            id="logo"
+            alt="Mailmeteor logo"
+            itemprop="logo"
+            width="150"
+            height="60"
+            src="/assets/img/brand/logo_mailmeteor.svg"
+        /></a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTabs"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="icon-bar top-bar"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
@@ -15,21 +32,22 @@
 
         <div class="collapse navbar-collapse" id="navbarTabs">
           <ul class="navbar-nav ml-auto smooth-scroll">
-            {% for nav in site.data.navigation.navbar %}
-            {% unless nav[0] == "features" or nav[0] == "install" or nav[0] == "signin" %}
+            {% for nav in site.data.navigation.navbar %} {% unless nav[0] == "features" or nav[0] == "install" or nav[0]
+            == "signin" %}
             <li class="nav-item">
               <a class="nav-link" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
             </li>
-            {% endunless %}
-            {% if nav[0] == "features" and page.lang == "en" %}
+            {% endunless %} {% if nav[0] == "features" and page.lang == "en" %}
             <li class="nav-item dropdown">
-              <a class="nav-link" role="button" id="dropdownMenuButton" aria-haspopup="true" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
+              <a class="nav-link" role="button" id="dropdownMenuButton" aria-haspopup="true" href="{{ nav[1].url }}">
+                {{ nav[1][page.lang] }}</a
+              >
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 {% for section in site.data.features.sections %}
                 <li>
                   <a href="{{section.link}}" target="_blank" rel="noopener" class="dropdown-items">
                     <div>
-                      <img src="{{section.thumbnail}}" alt="{{section.title}}">
+                      <img src="{{section.thumbnail}}" alt="{{section.title}}" />
                     </div>
                     <div>
                       <p>{{section.excerpt}}</p>
@@ -48,16 +66,18 @@
             {% elsif nav[0] == "signin" %}
             <div class="nav-divider"></div>
             <li class="nav-item">
-              <a class="nav-link" href="https://dashboard.mailmeteor.com">
-                {{ nav[1][page.lang]  }}</a>
+              <a class="nav-link" href="https://dashboard.mailmeteor.com"> {{ nav[1][page.lang] }}</a>
             </li>
             {% elsif nav[0] == "install" %}
             <li class="nav-item text-center my-auto ml-2">
-              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-filled btn-inline">
-                {{ nav[1][page.lang] }}</a>
+              <a
+                href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
+                class="btn btn-filled btn-inline"
+              >
+                {{ nav[1][page.lang] }}</a
+              >
             </li>
-            {% endif %}
-            {% endfor %}
+            {% endif %} {% endfor %}
           </ul>
         </div>
       </div>
