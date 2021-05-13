@@ -110,6 +110,11 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://mailmeteor.com/best-google-apps/all/</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://mailmeteor.com/best-google-apps/mail-merge-gmail</loc>
     <lastmod>2021-05-11T13:05:20+00:00</lastmod>
     <priority>0.80</priority>
@@ -132,6 +137,121 @@
   <url>
     <loc>https://mailmeteor.com/best-google-apps/google-drive</loc>
     <lastmod>2021-05-11T13:05:20+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/google-calendar</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/google-forms</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/google-slides</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/google-workspace</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/business-tools</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/accounting-finance</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/administration-management</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/logistics-erp</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/hr</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/legal</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/marketing-analytics</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/sales</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/crm</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/productivity</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/creative-tools</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/web-development</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/office-applications</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/task-management</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/education</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/academic-resources</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/teachers</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/communication</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/best-google-apps/utilities</loc>
+    <lastmod>2021-05-13T16:28:24+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
