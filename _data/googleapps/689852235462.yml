@@ -1,9 +1,10 @@
 id: 689852235462
-name: "Atlassian Cloud"
+title: "Atlassian Cloud"
+slug: "atlassian-cloud"
 author: "Atlassian"
 description: "View info and take action on issues, pull requests & pipelines from Jira Cloud and Bitbucket Cloud."
 image: https://lh3.googleusercontent.com/-IRorYEunIF4/W1YGEf2fS6I/AAAAAAAAAws/RpewFIiDgcIoQimVZ0D9JHaB4vGAqZcSACLcBGAs/s400/Icon_128.png
 link: https://gsuite.google.com/marketplace/app/atlassian_cloud/689852235462
 stars: 4
 votes: 144
-installs: 417331
+installs: 418062

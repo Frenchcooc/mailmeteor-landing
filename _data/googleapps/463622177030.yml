@@ -1,9 +1,10 @@
 id: 463622177030
-name: "PandaDoc for Google Docs"
+title: "PandaDoc for Google Docs"
+slug: "pandadoc-for-google-docs"
 author: "PandaDoc"
 description: "Send, track, and e-sign your Google Docs with PandaDoc. Features include legally binding eSignature as well as recipient and document analytics. Start by creating an account at www.pandadoc.com."
 image: https://lh3.googleusercontent.com/9tisd6D9FM9nh3fZQeH5fmifxDkorVN_u-h0KSPM-38AF1_NOzBJiAIVDeccudU-hxkKE3m2
 link: https://gsuite.google.com/marketplace/app/pandadoc_for_google_docs/463622177030
 stars: 2.7
 votes: 442
-installs: 261213
+installs: 261543

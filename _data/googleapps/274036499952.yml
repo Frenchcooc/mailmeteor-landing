@@ -1,9 +1,10 @@
 id: 274036499952
-name: "µFunds"
+title: "µFunds"
+slug: "-funds"
 author: "José Ballester"
 description: "µFunds is a Google Sheets add-on introducing all type of data for your mutual funds into your spreadsheet: last NAV and its date, currency or expenses ratio, as well as fund category, investment style and other attributes from Morningstar. By the use of a simple spreadsheet formula, the desired data can be introduced into your document for many purposes, e.g. portfolio supervision and management or investment strategies. Once installed, µFunds is ready to use: after introducing the data attribute and the fund identifier, the information will appear in the selected cell. Funds can be identified by their ISIN (European funds), ticker (American funds) and also by their Morningstar Security ID (all funds and many pension plans)."
 image: https://lh3.googleusercontent.com/-PuzS5G_ayRY/W6w_aTbsvfI/AAAAAAAAhnE/nnuq0oMHPJkGoYsjJQvITrhKsEtLU2JVwCLcBGAs/s400/logo.png
 link: https://gsuite.google.com/marketplace/app/%C2%B5funds/274036499952
 stars: 4.3
 votes: 64
-installs: 3672
+installs: 3676

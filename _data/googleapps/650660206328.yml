@@ -1,9 +1,10 @@
 id: 650660206328
-name: "Multiple Images to PDF"
+title: "Multiple Images to PDF"
+slug: "multiple-images-to-pdf"
 author: "image2pdf.iblogbox.com"
 description: "This app allows you to convert jpg, png images photos easily to a PDF for free. It works locally without going through the server."
 image: https://lh3.googleusercontent.com/rI1bTxWGI4XPa6kQSGSYGLmrijXpe3IgCuUEdc50Q6yNz0wXPjzOdeV-ROFXgzTeUn4fyO7X
 link: https://gsuite.google.com/marketplace/app/multiple_images_to_pdf/650660206328
 stars: 4
 votes: 186
-installs: 123951
+installs: 123980

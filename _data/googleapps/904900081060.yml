@@ -1,9 +1,10 @@
 id: 904900081060
-name: "Play YouTube™ in the Google Drive"
+title: "Play YouTube™ in the Google Drive"
+slug: "play-youtube-in-the-google-drive"
 author: "speedtesting.herokuapp.com/videodrive"
 description: "Allows you to save the video link of YouTube, Dailymotion, Vimeo to Google Drive, and Play a video directly in the Google Drive."
 image: https://lh3.googleusercontent.com/-mFf8TEmF_y0uSEf-KPD9P3eOJXMsQOs_ZL1Fb8biDnXC09lRheT9utBGA9y4vxDOoJZxs-DBw
 link: https://gsuite.google.com/marketplace/app/play_youtube_in_the_google_drive/904900081060
 stars: 3.7
 votes: 164
-installs: 505902
+installs: 506178

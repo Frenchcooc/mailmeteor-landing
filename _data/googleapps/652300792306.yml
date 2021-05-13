@@ -1,9 +1,10 @@
 id: 652300792306
-name: "G-Accon for QuickBooks"
+title: "G-Accon for QuickBooks"
+slug: "g-accon-for-quickbooks"
 author: "G-Accon"
 description: "Automatically export, refresh, and bulk upload data to QuickBooks directly from Google Sheets. Certified by Intuit QuickBooks."
 image: https://lh3.googleusercontent.com/-570YYyeR594/XIXYn-lTikI/AAAAAAAAADU/P-fen74D0ZALQMM39e1IwN3cxRAMgox2ACLcBGAs/s400/icon.png
 link: https://gsuite.google.com/marketplace/app/gaccon_for_quickbooks/652300792306
 stars: 4.7
 votes: 23
-installs: 7164
+installs: 7180

@@ -1,9 +1,0 @@
-id: 898701910474
-name: "NBRBRates"
-author: "Valery Leontyev"
-description: "This extension provides custom function NBRBRate(currency, date) to export National Bank of Belarus currency exchange rate on given date to given currency to your spreadsheet. Depending on the date local currency is BYN, BYR or BYB."
-image: https://lh3.googleusercontent.com/-3aOmaVmfYhc/W92aOwkilrI/AAAAAAAAIYw/6E7hCEwmsL8Yt2sHHrNQlxT5FehxpfdfwCLcBGAs/s400/nbrb.png
-link: https://gsuite.google.com/marketplace/app/nbrbrates/898701910474
-stars: 5
-votes: 1
-installs: 26

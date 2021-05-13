@@ -1,9 +1,10 @@
 id: 1001929801522
-name: "Teamwork Desk for Gmail"
+title: "Teamwork Desk for Gmail"
+slug: "teamwork-desk-for-gmail"
 author: "apps@teamwork.com"
 description: "Turn emails in your Gmail inbox into tickets in Teamwork Desk"
 image: https://lh3.googleusercontent.com/-ILcbK9sT2lc/XHhNQqqB1lI/AAAAAAAAA3U/0MIZ4-z4_cAqdNHyhBNpUM1_Jku_v-2qgCLcBGAs/s400/128_128_desk.png
 link: https://gsuite.google.com/marketplace/app/teamwork_desk_for_gmail/1001929801522
 stars: 4.7
 votes: 31
-installs: 15939
+installs: 15943

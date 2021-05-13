@@ -1,9 +1,10 @@
 id: 207775923633
-name: "Sensitivity Macro"
+title: "Sensitivity Macro"
+slug: "sensitivity-macro"
 author: "nickbritz"
 description: "Create \"data tables\", \"tornado\", and Monte Carlo sensitivities. Also, type \"<hide>\" in Row 1 or Column A to group rows and columns."
 image: https://lh3.googleusercontent.com/XRy0UP0mpIoO7TQT1u1OM-pzxfGkBIZ9NB32Iuixle6lloF7zRjuUlx1ZctiNJ_LETXLZU1a7g
 link: https://gsuite.google.com/marketplace/app/sensitivity_macro/207775923633
 stars: 3.5
 votes: 36
-installs: 3715
+installs: 3725

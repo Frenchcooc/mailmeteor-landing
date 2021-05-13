@@ -1,9 +1,10 @@
 id: 191121176373
-name: "Workep"
+title: "Workep"
+slug: "workep"
 author: "app.workep.com"
 description: "The best cross-enterprise project management and collaboration experience ever made!"
 image: https://lh3.googleusercontent.com/-0t7H_L93h4E/XuItJSFzxDI/AAAAAAAAAK8/oHm6jfvRWkc608hbYeysiaxzaOMsgsASQCLcBGAsYHQ/s400/128.png
 link: https://gsuite.google.com/marketplace/app/workep/191121176373
 stars: 4.4
 votes: 113
-installs: 316460
+installs: 316652

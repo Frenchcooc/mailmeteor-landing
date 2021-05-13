@@ -1,9 +1,10 @@
 id: 347814268012
-name: "Remove Duplicates"
+title: "Remove Duplicates"
+slug: "remove-duplicates"
 author: "Ablebits"
 description: "Find, highlight, combine, and remove duplicates in Google Sheets."
 image: https://lh4.googleusercontent.com/Y6ONXjp1nL2r3vdF2i5mAarc_MErphyuz6QP68sLo-NjvV9-7lUvatVr0epjPPOp6lDJocU_5kI
 link: https://gsuite.google.com/marketplace/app/remove_duplicates/347814268012
 stars: 3.3
 votes: 1834
-installs: 2043299
+installs: 2044876

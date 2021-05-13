@@ -1,9 +1,10 @@
 id: 969673929375
-name: "Adobe Creative Cloud"
+title: "Adobe Creative Cloud"
+slug: "adobe-creative-cloud"
 author: "Adobe Inc"
 description: "Streamline team collaboration with access to Creative Cloud right from Gmail, Docs, and Slides"
 image: https://lh3.googleusercontent.com/-X4f8ktaF3gI/XwdWaIr_JiI/AAAAAAAAAIA/kKtKILyemjQsD9m9MSi_0cvEAtX725-4gCLcBGAsYHQ/s400/cc_appicon_128.png
 link: https://gsuite.google.com/marketplace/app/adobe_creative_cloud/969673929375
 stars: 4.5
-votes: 229
-installs: 1048121
+votes: 233
+installs: 1049354

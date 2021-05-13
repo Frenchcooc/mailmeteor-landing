@@ -1,9 +1,10 @@
 id: 310801260299
-name: "Podio"
+title: "Podio"
+slug: "podio"
 author: "podio.com"
 description: "Podio"
 image: https://lh3.googleusercontent.com/-zI11pLKQTJA/VS-R1kyLvMI/AAAAAAAARY4/Irma4xegL3w/s0/podio_logo_128.png
 link: https://gsuite.google.com/marketplace/app/podio/310801260299
 stars: 4.1
 votes: 24
-installs: 146385
+installs: 146506

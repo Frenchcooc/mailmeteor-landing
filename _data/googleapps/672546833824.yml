@@ -1,9 +1,10 @@
 id: 672546833824
-name: "GQueues for Google Workspace"
+title: "GQueues for Google Workspace"
+slug: "gqueues-for-google-workspace"
 author: "GQueues"
 description: "Create tasks out of emails and mark tasks complete directly from your inbox and calendar."
 image: https://lh3.googleusercontent.com/-AFZ3SluUdZM/W-9AlYYSXTI/AAAAAAAACJY/jsXHp4Pu0fAvsEJ_Y-C_7FQQI6AWXqQggCLcBGAs/s400/gqIcon128n.gif
 link: https://gsuite.google.com/marketplace/app/gqueues_for_google_workspace/672546833824
 stars: 4.6
 votes: 157
-installs: 210693
+installs: 210726

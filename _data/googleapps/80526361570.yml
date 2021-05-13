@@ -1,9 +1,10 @@
 id: 80526361570
-name: "SmartMonkey.io Route Optimizer for Google Spreadsheet"
+title: "SmartMonkey.io Route Optimizer for Google Spreadsheet"
+slug: "smartmonkey-io-route-optimizer-for-google-spreadsheet"
 author: "SmartMonkey.io"
 description: "How much time are you going to waste today calculating routes? This tool helps you finding the best route to find your clients, quick and easily. Are you going to continue wasting your time?"
 image: https://lh3.googleusercontent.com/-IZspPIaEeA0/WiqqhRaNgwI/AAAAAAAAB44/9NIuwqt3tmU4k0O1ShE2qkzF0DdO7QUdgCLcBGAs/s400/logo128x128.png
 link: https://gsuite.google.com/marketplace/app/smartmonkeyio_route_optimizer_for_google/80526361570
 stars: 3.9
 votes: 28
-installs: 5189
+installs: 5197

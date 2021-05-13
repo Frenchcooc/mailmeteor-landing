@@ -1,9 +1,10 @@
 id: 619726404418
-name: "Social Drive, Comment and Reply for any file"
+title: "Social Drive, Comment and Reply for any file"
+slug: "social-drive-comment-and-reply-for-any-file"
 author: "imclient.herokuapp.com/socialdrive"
 description: "This app allows you to comment, manage comments (list, reply, edit, delete..) on Google Drive's file. Share it with your friends."
 image: https://lh3.googleusercontent.com/zSM1o7oXYbm9ZdfWdeukBR3IIaUM2Dr7Jb7ReEVGESUP1lFnyiOOlVE8DwTIzFCS7y1jp5u0Jg
 link: https://gsuite.google.com/marketplace/app/social_drive_comment_and_reply_for_any_f/619726404418
 stars: 4.9
-votes: 267
-installs: 46958
+votes: 268
+installs: 46987

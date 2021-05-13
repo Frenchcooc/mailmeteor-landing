@@ -1,9 +1,10 @@
 id: 18972185070
-name: "Kerika"
+title: "Kerika"
+slug: "kerika"
 author: "Kerika"
 description: "Task management and creative collaboration for remote teams, that integrates perfectly with all your Google Apps."
 image: https://lh6.googleusercontent.com/-sluAntZT-Sc/U-gVbiUDfKI/AAAAAAAAAHo/_6duIYDwXcs/s0/Kerika_128x128.png
 link: https://gsuite.google.com/marketplace/app/kerika/18972185070
 stars: 4.8
 votes: 32
-installs: 423570
+installs: 423982

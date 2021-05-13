@@ -1,9 +1,10 @@
 id: 974978407354
-name: "Classroom Manager"
+title: "Classroom Manager"
+slug: "classroom-manager"
 author: "MTMOMK"
 description: "Allows Super Admins to manage all the Google Classroom courses in your domain. And teachers to manage their own classes. Get reports on assignments and grades for all classes."
 image: https://lh3.googleusercontent.com/eV9Wyuh3XXOaPUR2kCiEbPX8_wa5UVGexRHoL9aJ4FGrUvIRfHaY3SMUxZRZQMmgeheMlP-0
 link: https://gsuite.google.com/marketplace/app/classroom_manager/974978407354
 stars: 4.4
-votes: 111
+votes: 112
 installs: 10000000

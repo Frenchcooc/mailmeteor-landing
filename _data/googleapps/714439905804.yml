@@ -1,9 +1,10 @@
 id: 714439905804
-name: "RingCentral for Gmail [Deprecated]"
+title: "RingCentral for Gmail [Deprecated]"
+slug: "ringcentral-for-gmail-deprecated-"
 author: "RingCentral"
 description: "This app is deprecated and will be removed on 4/6/2020."
 image: https://lh3.googleusercontent.com/-GqZXA83N9GE/W8EFnQpHFAI/AAAAAAAAAfw/UTVKvpKMyJ81l07d2dYML6wldMSGU8EVgCLcBGAs/s400/icon128.png
 link: https://gsuite.google.com/marketplace/app/ringcentral_for_gmail_deprecated/714439905804
 stars: 3.7
 votes: 40
-installs: 31207
+installs: 31209

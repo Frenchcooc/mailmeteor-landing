@@ -1,9 +1,10 @@
 id: 1065669263016
-name: "Jira Cloud for Sheets"
+title: "Jira Cloud for Sheets"
+slug: "jira-cloud-for-sheets"
 author: "Atlassian"
 description: "Work with Jira issues from Google Sheets. Get data using a filter or query directly using JQL."
 image: https://lh3.googleusercontent.com/-iWUqhO0VJVY/XFo4HOLyFtI/AAAAAAAAB1A/hGZX-C9lYdAnMpPekvYa3AkmJHJSyEvYwCLcBGAs/s400/Icon_128x128.png
 link: https://gsuite.google.com/marketplace/app/jira_cloud_for_sheets/1065669263016
 stars: 3.6
 votes: 175
-installs: 958610
+installs: 961569

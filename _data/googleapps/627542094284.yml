@@ -1,9 +1,10 @@
 id: 627542094284
-name: "Chat Viewer for WhatsApp™"
+title: "Chat Viewer for WhatsApp™"
+slug: "chat-viewer-for-whatsapp-"
 author: "overbits.herokuapp.com/chatviewer"
 description: "Viewer for easy reading of exported WhatsApp chat logs (.txt file). You can view the log as if you're viewing it in the app itself."
 image: https://lh3.googleusercontent.com/2WeG5pWRRmLQuIpC_xvhFGm9oQmEoJMvoN4lasAtkeA1MtKz214HkvtgX-cc7nmoDbpdCbz4
 link: https://gsuite.google.com/marketplace/app/chat_viewer_for_whatsapp/627542094284
 stars: 4.3
 votes: 302
-installs: 72597
+installs: 72751

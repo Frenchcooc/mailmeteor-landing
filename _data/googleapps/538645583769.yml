@@ -1,9 +1,10 @@
 id: 538645583769
-name: "SurveyMonkey"
+title: "SurveyMonkey"
+slug: "surveymonkey"
 author: "www.surveymonkey.com"
 description: "Now you can access the world's most popular web-based survey solution through your Google Apps environment."
 image: https://lh3.googleusercontent.com/-hrUygsmjUMk/XbBcllAZExI/AAAAAAAAANc/-_sA5JitrH8Sod3r2-JmnWkapksBsOHVgCLcBGAsYHQ/s400/sm_icon.png
 link: https://gsuite.google.com/marketplace/app/surveymonkey/538645583769
 stars: 4.5
 votes: 69
-installs: 1669133
+installs: 1673213

@@ -1,9 +1,10 @@
 id: 536677932554
-name: "Mover"
+title: "Mover"
+slug: "mover"
 author: "mover-google-app"
 description: "Migrate your users into G Suite Drive. Swiftly copy content and permissions from Box, Dropbox, Egnyte, OneDrive, SharePoint, Office 365, NetApp, file shares, servers, and more. This app grants Mover access to your G Suite domain and is required to use https://app.mover.io."
 image: https://lh3.googleusercontent.com/-DbMiVRBKW4M/WlAGRK_ocNI/AAAAAAAAFng/25ywEZcTcWwEhXxxaN0tKuvOo-0RU4OFgCLcBGAs/s400/Official-Sparks-128x128-Google-Marketplace.png
 link: https://gsuite.google.com/marketplace/app/mover/536677932554
 stars: 3.4
 votes: 29
-installs: 3388179
+installs: 3412593

@@ -1,9 +1,10 @@
 id: 562457960346
-name: "Cloud Flow Director"
+title: "Cloud Flow Director"
+slug: "cloud-flow-director"
 author: "Jivrus Technologies"
 description: "Interact with all your apps on the cloud - right from Gmail and Calendar"
 image: https://lh3.googleusercontent.com/-SzJsSlHP2-I/XfG9hk3grlI/AAAAAAAABDY/v8FfIWjMwJ06tF6dlZf-xCfBSbXDW4aaACLcBGAsYHQ/s400/CFD_LOGO_300.png
 link: https://gsuite.google.com/marketplace/app/cloud_flow_director/562457960346
 stars: 4.3
 votes: 92
-installs: 25932
+installs: 25962

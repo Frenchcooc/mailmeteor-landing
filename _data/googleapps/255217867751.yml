@@ -1,9 +1,10 @@
 id: 255217867751
-name: "UberConference for Google Calendar"
+title: "UberConference for Google Calendar"
+slug: "uberconference-for-google-calendar"
 author: "Dialpad, Inc"
 description: "Schedule calls from Google Calendar and easily access your call info."
 image: https://lh3.googleusercontent.com/-osq-buXD_3w/W2o2NwcjU_I/AAAAAAAAB-8/A1OTUZkUZZABBd6djm__SptvGQwsqfvLwCLcBGAs/s400/icon_128.png
 link: https://gsuite.google.com/marketplace/app/uberconference_for_google_calendar/255217867751
 stars: 4.5
 votes: 108
-installs: 449846
+installs: 450151

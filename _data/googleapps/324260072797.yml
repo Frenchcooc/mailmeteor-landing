@@ -1,9 +1,10 @@
 id: 324260072797
-name: "Flat for Docs"
+title: "Flat for Docs"
+slug: "flat-for-docs"
 author: "Tutteo Limited - Flat"
 description: "Add music notation to your documents using Flat's editor in Google Docs and Google Slides."
 image: https://lh3.googleusercontent.com/-kClY1J3cog0/XEYBxG2pBbI/AAAAAAAAAxU/c28ntC5Fcp8PFNtKMU5Yfa0YkvGo2H3_gCLcBGAs/128.png
 link: https://gsuite.google.com/marketplace/app/flat_for_docs/324260072797
 stars: 3.1
-votes: 1073
-installs: 7815756
+votes: 1077
+installs: 7818754

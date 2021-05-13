@@ -1,9 +1,10 @@
 id: 228371523437
-name: "SignatureSatori - Email signature management for Gmail"
+title: "SignatureSatori - Email signature management for Gmail"
+slug: "signaturesatori-email-signature-management-for-gmail"
 author: "signaturesatori.com"
 description: "Tool for central management of Gmail email signatures in G Suite. Unleash marketing potential of email signatures and keep your company branding consistent."
 image: https://lh5.googleusercontent.com/-zQ2JGn2AToc/VLOUTqg71lI/AAAAAAAAJtg/h11bMRXCm2o/s0/signaturesatori_square_logo_128v2.png
 link: https://gsuite.google.com/marketplace/app/signaturesatori_email_signature_manageme/228371523437
 stars: 4.7
 votes: 42
-installs: 767602
+installs: 768209

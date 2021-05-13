@@ -1,9 +1,10 @@
 id: 1086928993551
-name: "BP Simulator"
+title: "BP Simulator"
+slug: "bp-simulator"
 author: "prolis lab2k"
 description: "Business process simulations modeling tool"
 image: https://lh3.googleusercontent.com/-xX_gu2SQdr0/V1QEb1B-FvI/AAAAAAAAVsI/rSWUgI21lagZjkPg-MzJqWjbk_3ZnU85wCLcB/s400/128.png
 link: https://gsuite.google.com/marketplace/app/bp_simulator/1086928993551
 stars: 4.3
 votes: 382
-installs: 749930
+installs: 750086

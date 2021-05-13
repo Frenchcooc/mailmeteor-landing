@@ -1,9 +1,10 @@
 id: 828801433755
-name: "Box for Google Workspace Add-on"
+title: "Box for Google Workspace Add-on"
+slug: "box-for-google-workspace-add-on"
 author: "Box"
 description: "Seamlessly copy your Google files over to Box, attach files to emails from Box, and download email attachments to Box"
 image: https://lh3.googleusercontent.com/-jUNld4on7rM/W8ZMR5CrVQI/AAAAAAAAAFg/oszdniz7S4A1ZV_48G9u0T1_UEviGNuEQCLcBGAs/s400/128_logo.png
 link: https://gsuite.google.com/marketplace/app/box_for_google_workspace_addon/828801433755
 stars: 4.4
-votes: 652
-installs: 581301
+votes: 655
+installs: 583638

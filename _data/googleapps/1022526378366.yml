@@ -1,9 +1,10 @@
 id: 1022526378366
-name: "AppSheet"
+title: "AppSheet"
+slug: "appsheet"
 author: "AppSheet"
 description: "Build a custom mobile app based on your Google doc. It is quick, easy, and no coding is involved."
 image: https://lh3.googleusercontent.com/-P6YtW7jdGNc/YAshTTtYSdI/AAAAAAAAAjk/r1oHSEdV-qMMClCTnpjuBQkOeqaQk5XJgCNcBGAsYHQ/s400/128.png
 link: https://gsuite.google.com/marketplace/app/appsheet/1022526378366
 stars: 3
 votes: 65
-installs: 570433
+installs: 569112

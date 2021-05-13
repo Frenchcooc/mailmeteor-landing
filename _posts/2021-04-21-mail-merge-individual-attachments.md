@@ -3,6 +3,7 @@ layout: blogpost
 title: "Introducing mail merge individual attachments with Gmail"
 description: It is now possible to mail merge personalized attachments with Gmail, send up to 2000 emails per day under the Gmail limit and schedule your mail merge faster.
 category: NEWS
+
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-

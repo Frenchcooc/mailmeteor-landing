@@ -1,9 +1,0 @@
-id: 362989401133
-name: "Contacts Cleaner"
-author: "contacts-cleaner.com"
-description: "The ‘create contacts for auto-complete’ is an awesome feature allowing Gmail to add new email addresses to Other Contacts so that users could autocomplete to them next time when sending a message to same person. However, when people change their name or leave the company and their email address is assigned to someone else, this feature can easily create a lot of confusion and mess. Stalled contacts remain forever making it fairly complex to remove them on a domain level. Contacts Cleaner is designed to allow domain’s super-admins to find and delete these legacy contacts from user’s Other Contacts. These contacts can be removed for all users in the domain, per organization unit or for a specific user."
-image: https://lh3.googleusercontent.com/-hxvTLnO9NPQ/Vcd_A1cBsnI/AAAAAAAAO9Q/g8OY3dCN--Y/s400/contact-cleaner-logo-128.png
-link: https://gsuite.google.com/marketplace/app/contacts_cleaner/362989401133
-stars: 2.7
-votes: 13
-installs: 222263

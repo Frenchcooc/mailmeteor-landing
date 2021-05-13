@@ -1,9 +1,10 @@
 id: 428888432468
-name: "Sheet Director"
+title: "Sheet Director"
+slug: "sheet-director"
 author: "Jivrus Technologies"
 description: "Manage bi-directional data flow between Google Sheets and your favorite Apps."
 image: https://lh3.googleusercontent.com/-WQGa7myPKbA/XOT6YfG-hsI/AAAAAAAAAz4/WV2odpi6Qjw_fK2rEgL22xttD3aVaExlgCLcBGAs/s400/sheet%2Bdirector%2Blogo%2B128.png
 link: https://gsuite.google.com/marketplace/app/sheet_director/428888432468
 stars: 4.6
 votes: 47
-installs: 90051
+installs: 90151

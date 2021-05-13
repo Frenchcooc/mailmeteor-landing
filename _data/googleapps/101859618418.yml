@@ -1,9 +1,10 @@
 id: 101859618418
-name: "Calendar Events Creator"
+title: "Calendar Events Creator"
+slug: "calendar-events-creator"
 author: "New Addons"
 description: "Create Google calendar events automatically: - add events to a Google Calendar from a Google Sheet automatically. - create an event from a Google Form submission."
 image: https://lh3.googleusercontent.com/-7Mn1aMbAXs4/WYCYolWNrVI/AAAAAAAAF-o/ujQi6Jq0nUE2CnAFviminFsjyDqtip0WACLcBGAs/s400/icon_calendar_128x128.png
 link: https://gsuite.google.com/marketplace/app/calendar_events_creator/101859618418
 stars: 2.5
-votes: 459
-installs: 367528
+votes: 461
+installs: 367822

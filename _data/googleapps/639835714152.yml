@@ -1,9 +1,10 @@
 id: 639835714152
-name: "Zoho Invoice for Gmail"
+title: "Zoho Invoice for Gmail"
+slug: "zoho-invoice-for-gmail"
 author: "Zoho Corporation"
 description: "Add senders as contacts and view related transactions within Gmail."
 image: https://lh3.googleusercontent.com/-F0OQJx7cPgA/XMsOpTJ-TII/AAAAAAAACNY/q95zdYYBjV0tB8h42Vhba9SbuACCxJFNwCLcBGAs/s400/invoice-128.png
 link: https://gsuite.google.com/marketplace/app/zoho_invoice_for_gmail/639835714152
 stars: 4.5
 votes: 28
-installs: 21633
+installs: 21666

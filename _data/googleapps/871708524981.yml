@@ -1,9 +1,10 @@
 id: 871708524981
-name: "Doc Tools"
+title: "Doc Tools"
+slug: "doc-tools"
 author: "Ablebits"
 description: "A set of single-click tools to change case, highlight text, sort tables and lists, change numbers to text, and more."
 image: https://lh3.googleusercontent.com/7mkjQNuP_fDzFZzSBevbSSIRgF-Q0IWCM7tdzeifhyw9oEn-vl1mHlOvzZ2pW6N-uDKtAJiBBds
 link: https://gsuite.google.com/marketplace/app/doc_tools/871708524981
 stars: 3.5
-votes: 957
-installs: 2437676
+votes: 958
+installs: 2441734

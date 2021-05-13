@@ -1,9 +1,10 @@
 id: 526297669360
-name: "Zoho Invoice"
+title: "Zoho Invoice"
+slug: "zoho-invoice"
 author: "zoho.com"
 description: "Create invoices and estimates online easily with Zoho Invoice. Track the billable hours and create instant invoices for the staff hours. Record and categorise your expenses."
 image: https://lh3.googleusercontent.com/-ICgJ6H2F19A/XW4eL8uKWLI/AAAAAAAACnc/Y0CfaHqkYmoG3PfgkCS3TVuyB-6wQrIOwCLcBGAs/s400/Invoice-128.png
 link: https://gsuite.google.com/marketplace/app/zoho_invoice/526297669360
 stars: 4.6
 votes: 155
-installs: 555069
+installs: 555347

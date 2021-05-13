@@ -1,9 +1,10 @@
 id: 1009448003
-name: "PracticePanther for Gmail"
+title: "PracticePanther for Gmail"
+slug: "practicepanther-for-gmail"
 author: "PracticePanther"
 description: "Add emails, attachments, tasks, and time entries to new or existing contacts in PracticePanther without leaving Gmail."
 image: https://lh3.googleusercontent.com/-WBqDJLWR4hI/WuNqacWQEeI/AAAAAAAAAFw/UJES1XKq9JMxV9olD_qDIF9sNOkRi3bhQCLcBGAs/s400/128x128_PracticePanther_brand.png
 link: https://gsuite.google.com/marketplace/app/practicepanther_for_gmail/1009448003
 stars: 4.4
 votes: 53
-installs: 12475
+installs: 12486

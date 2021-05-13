@@ -1,9 +1,10 @@
 id: 404177452106
-name: "Add Reminders"
+title: "Add Reminders"
+slug: "add-reminders"
 author: "Awesome Gapps"
 description: "Receive email reminders before dates in a specific column of your Sheet are reached."
 image: https://lh6.googleusercontent.com/-aQ2L-okJLwQ/VQ0uv9VhS1I/AAAAAAAASyE/Bp0ibDnBQsA/s0/Add%2BReminders%2BIcon.png
 link: https://gsuite.google.com/marketplace/app/add_reminders/404177452106
 stars: 3.1
 votes: 798
-installs: 1088875
+installs: 1089847

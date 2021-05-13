@@ -1,9 +1,10 @@
 id: 989612280692
-name: "Hippo Video"
+title: "Hippo Video"
+slug: "hippo-video"
 author: "www.hippovideo.io"
 description: "Rapid content creation & sharing software for the busiest people i.e. sales and support. Quickly create Videos & Screen-capture required for their sales and support life cycle."
 image: https://lh3.googleusercontent.com/-NNOpeg1gaTU/Ww5BNX3Ee9I/AAAAAAAAA1Y/HLa1FisUfrYUmWqp5ykyEL6n3sChdbwdQCLcBGAs/s400/logo-128.png
 link: https://gsuite.google.com/marketplace/app/hippo_video/989612280692
 stars: 2.7
 votes: 96
-installs: 246724
+installs: 246778

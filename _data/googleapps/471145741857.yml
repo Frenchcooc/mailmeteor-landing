@@ -1,9 +1,0 @@
-id: 471145741857
-name: "Slides QR Codes"
-author: "Matheus Giovani"
-description: "Easily create QR codes inside your Google Slides presentations. Known issue: due to API limitations of Slides, the element alternatives (title and description) are used as metadata storage and cannot be used as their intended function."
-image: https://lh3.googleusercontent.com/-AQkEuEGjQF4/XZqqzrhaf4I/AAAAAAAAWpk/dVzq2Xy8fq82jfQYynCeFABpPRJrhU2QACMYCGAYYCw/s400/1281x128.png
-link: https://gsuite.google.com/marketplace/app/slides_qr_codes/471145741857
-stars: 5
-votes: 1
-installs: 58857

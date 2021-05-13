@@ -1,9 +1,10 @@
 id: 1085347754823
-name: "AVI, WMV, MOV Video Play Preview"
+title: "AVI, WMV, MOV Video Play Preview"
+slug: "avi-wmv-mov-video-play-preview"
 author: "nsspot.herokuapp.com/videoplayer"
 description: "This player can play media files including avi, wmv, mov. Play and decode media files directly from your browser without plugins."
 image: https://lh3.googleusercontent.com/OncYi84CM1CWec0Eq4s8N-T682YcceqOkKvgEtWiTTMh-yzFIwUeDQavJEi6keu-oUDH3qzj
 link: https://gsuite.google.com/marketplace/app/avi_wmv_mov_video_play_preview/1085347754823
 stars: 2.4
 votes: 147
-installs: 126339
+installs: 127625

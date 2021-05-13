@@ -1,9 +1,10 @@
 id: 229931235832
-name: "G-Accon for XERO"
+title: "G-Accon for XERO"
+slug: "g-accon-for-xero"
 author: "G-Accon"
 description: "Instantly Connect Google Sheets to Xero and Automate Your Reports"
 image: https://lh3.googleusercontent.com/-6EXVLgNufA0/WVbfOzA4_MI/AAAAAAAAABY/ci1gpjeu2x409ClI6pGWaymdAWb6wvxZQCLcBGAs/s400/icon.png
 link: https://gsuite.google.com/marketplace/app/gaccon_for_xero/229931235832
 stars: 4.6
 votes: 59
-installs: 19686
+installs: 19732

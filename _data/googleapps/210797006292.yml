@@ -1,9 +1,10 @@
 id: 210797006292
-name: "Form to Calendar"
+title: "Form to Calendar"
+slug: "form-to-calendar"
 author: "New Addons"
 description: "A simple way to create an event from a Google Form submission."
 image: https://lh3.googleusercontent.com/R2Nck6yoUCTb7tP_RZGfe7X0pDCH5UeG1xKh9q2eL8L0oweg5pmr5shtOvdd3RRo2BlXq18CSQ
 link: https://gsuite.google.com/marketplace/app/form_to_calendar/210797006292
 stars: 3.6
 votes: 77
-installs: 699691
+installs: 698026

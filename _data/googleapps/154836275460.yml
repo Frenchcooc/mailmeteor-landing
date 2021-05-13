@@ -1,9 +1,10 @@
 id: 154836275460
-name: "MyBib"
+title: "MyBib"
+slug: "mybib"
 author: "MyBib"
 description: "Auto-login to MyBib. Generate APA, Chicago, Harvard, and MLA style bibliographies automatically."
 image: https://lh3.googleusercontent.com/-LzBfAysMdHY/XU7qgA_qcdI/AAAAAAAAAMs/n9vSxniVRs06a36pIbgni38d7gTi60tSgCLcBGAs/s400/logo-128.png
 link: https://gsuite.google.com/marketplace/app/mybib/154836275460
 stars: 4
 votes: 22
-installs: 465869
+installs: 466042

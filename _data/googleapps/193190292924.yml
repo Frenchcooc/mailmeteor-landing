@@ -1,9 +1,10 @@
 id: 193190292924
-name: "Form Scheduler"
+title: "Form Scheduler"
+slug: "form-scheduler"
 author: "Digital Thoughts"
 description: "Lets you to limit responses and schedule the form based on the google calendar events."
 image: https://lh3.googleusercontent.com/-h4VRVFkdKV0/WQ6PJf7pJ4I/AAAAAAAAK10/DwgtYtoH9ok1FeBbDp9A81ysz323VTCGACMYC/s400/128.png
 link: https://gsuite.google.com/marketplace/app/form_scheduler/193190292924
 stars: 4
 votes: 177
-installs: 1696593
+installs: 1698090

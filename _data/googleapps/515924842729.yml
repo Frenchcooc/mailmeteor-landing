@@ -1,9 +1,0 @@
-id: 515924842729
-name: "Formulas by Top Contributors"
-author: "madebytopcontributors"
-description: "The Add-on installs all of the released formulas made by Top Contributors, like the MATRIX, SQLJOINS and CONSTANTS formulas. The formulas themselves use only JavaScript to perform their magic in presenting the result and no service is evoked (like the SpreadsheetApp) during operation which (in many cases) leads to a shorter processing time."
-image: https://lh3.googleusercontent.com/-W0anGlzv4Wc/WeCgIvNeMBI/AAAAAAAAAHQ/rcDEhjKbX3UtPKij9E14MqcZkol7_enCACLcBGAs/s400/128x128_FINAL%2B%25281%2529.png
-link: https://gsuite.google.com/marketplace/app/formulas_by_top_contributors/515924842729
-stars: 4.3
-votes: 17
-installs: 26446

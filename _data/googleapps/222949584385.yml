@@ -1,9 +1,10 @@
 id: 222949584385
-name: "SetImageSize"
+title: "SetImageSize"
+slug: "setimagesize"
 author: "Wouter Denayer"
 description: "This Add-on makes it possible to precisely control the size images in Google docs."
 image: https://lh3.googleusercontent.com/OkB7Q8oMeWdXl0-_0b4Rhs0UWmKResQbpKxo2hbbkpFt4Xx348DPdEiATkmauLVcD7Xf7H-H7LM
 link: https://gsuite.google.com/marketplace/app/setimagesize/222949584385
 stars: 3.4
 votes: 208
-installs: 223219
+installs: 222567

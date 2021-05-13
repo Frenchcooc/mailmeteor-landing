@@ -1,9 +1,0 @@
-id: 453054993044
-name: "MetaRover"
-author: "Cem Simsek"
-description: "MetaRover is a Google Sheets Add-on which can parse URLs from XML sitemaps and scrape html tags and their content in text format from a list of URLs utilizing Google Apps Script's URLFetchApp service."
-image: https://lh3.googleusercontent.com/-OqMSUtXVcgc/WfSY143wsrI/AAAAAAAACXA/V42oQ-swb3g8hVhG5tGiy-iuH_ro8alSACMYCGAYYCw/s400/MetaRoverIconBlack_128x128.png
-link: https://gsuite.google.com/marketplace/app/metarover/453054993044
-stars: 4.3
-votes: 4
-installs: 588

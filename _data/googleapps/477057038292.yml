@@ -1,9 +1,10 @@
 id: 477057038292
-name: "Adobe Stock"
+title: "Adobe Stock"
+slug: "adobe-stock"
 author: "Adobe Systems Incorporated"
 description: "Adobe Stock integrates seamlessly with Google Slides so you can easily search for images without leaving your presentation."
 image: https://lh3.googleusercontent.com/-XcOr44dU94c/Xuf9fwYf7BI/AAAAAAAAAFA/WIFswIoJJKERMut4zjeXveeeR04QnuRTwCLcBGAsYHQ/s400/st_appicon_128.png
 link: https://gsuite.google.com/marketplace/app/adobe_stock/477057038292
 stars: 2.6
 votes: 239
-installs: 950858
+installs: 950887

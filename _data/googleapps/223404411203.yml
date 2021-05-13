@@ -1,9 +1,10 @@
 id: 223404411203
-name: "Mail Merge with Attachments"
+title: "Mail Merge with Attachments"
+slug: "mail-merge-with-attachments"
 author: "Digital Inspiration"
 description: "Send personalized emails with Gmail Mail Merge. Include different file attachments, schedule emails for sending later, CC and BCC support, track email opens, clicks, and bounces messages."
 image: https://lh3.googleusercontent.com/-_eyHEF-GQYk/XXI_QS8PsvI/AAAAAAABumw/Shh5pSSwyesFivDL7Tdaogjn_yVDxYTMgCLcBGAs/s400/filled-sent.png
 link: https://gsuite.google.com/marketplace/app/mail_merge_with_attachments/223404411203
 stars: 4.3
-votes: 2978
-installs: 5047291
+votes: 2981
+installs: 5085511

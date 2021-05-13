@@ -1,9 +1,10 @@
 id: 823170055939
-name: "Scrible Writer"
+title: "Scrible Writer"
+slug: "scrible-writer"
 author: "Scrible, Inc."
 description: "Search and bring your research into Google Docs while automagically managing your citations and properly formatted bibliography."
 image: https://lh3.googleusercontent.com/-4EvmaiwDG_Y/VY2dTaYPosI/AAAAAAAADuA/Ult85Pjjwu0/s400/Favicon128.png
 link: https://gsuite.google.com/marketplace/app/scrible_writer/823170055939
 stars: 2.4
-votes: 129
+votes: 130
 installs: 10000000

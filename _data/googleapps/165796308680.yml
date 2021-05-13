@@ -1,9 +1,10 @@
 id: 165796308680
-name: "Map My Sheet"
+title: "Map My Sheet"
+slug: "map-my-sheet"
 author: "Jivrus Technologies"
 description: "Make Google Maps directly from Google Sheet data."
 image: https://lh3.googleusercontent.com/-o0fzft84kGQ/XApVzMCAVbI/AAAAAAAAAgI/hZAloyr4yf4sOK0JCT7vzmbAX-1IJWMbgCLcBGAs/s400/Map%2Bmy%2Bsheet%2Blogo_1.png
 link: https://gsuite.google.com/marketplace/app/map_my_sheet/165796308680
 stars: 3.3
 votes: 87
-installs: 65472
+installs: 65555

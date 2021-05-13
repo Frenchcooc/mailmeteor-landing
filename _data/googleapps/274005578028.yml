@@ -1,9 +1,10 @@
 id: 274005578028
-name: "MindMeister"
+title: "MindMeister"
+slug: "mindmeister"
 author: "www.mindmeister.com"
 description: "MindMeister lets you turn any bullet-point list into a visually appealing mind map and insert it into your Google Document."
 image: https://lh3.googleusercontent.com/-d6uKe1WPOAE/XMgqiax6o9I/AAAAAAAAAqg/4TclZKi8864Vzox5J_azVOoNb_cZ2H5NACLcBGAs/Glyph128.png
 link: https://gsuite.google.com/marketplace/app/mindmeister/274005578028
-stars: 2.9
-votes: 956
-installs: 864032
+stars: 3
+votes: 957
+installs: 864178

@@ -1,9 +1,10 @@
 id: 458006161590
-name: "Email Forwarder"
+title: "Email Forwarder"
+slug: "email-forwarder"
 author: "Amit Agarwal"
 description: "Auto forward email messages from Gmail to any other email address. Just create a search rule and the addon will automatically bulk-forward all matching email messages to any address. You can forward old emails as well."
 image: https://lh3.googleusercontent.com/-TmBEexgH2qo/WSWL-8T3MBI/AAAAAAABBpk/qlrR3ixhxpQ_LAW4ksvvG2fgmHCbFgplACLcB/noun_61573.png
 link: https://gsuite.google.com/marketplace/app/email_forwarder/458006161590
 stars: 3.4
 votes: 91
-installs: 99955
+installs: 99977

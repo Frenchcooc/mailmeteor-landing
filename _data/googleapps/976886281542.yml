@@ -1,9 +1,10 @@
 id: 976886281542
-name: "Tweet Archiver"
+title: "Tweet Archiver"
+slug: "tweet-archiver"
 author: "Digital Inspiration"
 description: "Search Twitter by keyword or hashtags and save matching tweets in a Google Spreadsheet automatically. Use the archive to download your brand mentions, conference tweets, geo-tagged tweets and more."
 image: https://lh3.googleusercontent.com/-c1L5xBjJaE8/XSlyS0fKlaI/AAAAAAABqWg/jsWdQSozb5IOTcoVOSlQAr-MZzhdtmAswCLcBGAs/s400/twitter%2B%25281%2529.png
 link: https://gsuite.google.com/marketplace/app/tweet_archiver/976886281542
 stars: 3.9
 votes: 216
-installs: 14622
+installs: 14643

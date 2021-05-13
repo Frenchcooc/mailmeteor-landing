@@ -1,9 +1,10 @@
 id: 418593827117
-name: "Adapt Seeker - Email Finder"
+title: "Adapt Seeker - Email Finder"
+slug: "adapt-seeker-email-finder"
 author: "Adapt"
 description: "Use Adapt Seeker to get verified emails from name and domain in a Google sheet."
 image: https://lh3.googleusercontent.com/yt6rdG_xWWBS4Sv-0yrT0-50-l3VAmwzRoHh38CIMvycJqUW4U_O1YMC2F6wRVNX_BwQDZ8o
 link: https://gsuite.google.com/marketplace/app/adapt_seeker_email_finder/418593827117
 stars: 3.8
 votes: 26
-installs: 2189
+installs: 2192

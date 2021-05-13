@@ -1,9 +1,10 @@
 id: 1082163372793
-name: "Password Protect for Google Documents"
+title: "Password Protect for Google Documents"
+slug: "password-protect-for-google-documents"
 author: "password.youfiles.net"
 description: "It allows you to create a password pretected document for Google Documents. You can share this file with others directly."
 image: https://lh3.googleusercontent.com/J_P2xl3OHJ2Gu4DqDeK53v66uzt7JwftimC4JpQ0q9BO3Ed6FFYxMpmLeBkUq0XFoz6bVbs4Chs
 link: https://gsuite.google.com/marketplace/app/password_protect_for_google_documents/1082163372793
 stars: 4.6
 votes: 300
-installs: 136000
+installs: 136098

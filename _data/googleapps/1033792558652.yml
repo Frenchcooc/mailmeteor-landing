@@ -1,9 +1,10 @@
 id: 1033792558652
-name: "SMART Learning Suite"
+title: "SMART Learning Suite"
+slug: "smart-learning-suite"
 author: "SMART Technologies Inc"
 description: "Transform static lesson delivery with game-based activities, formative assessments, and student collaboration."
 image: https://lh3.googleusercontent.com/-nbYvvSkuCws/XGzZhMHKp3I/AAAAAAAAAYY/cAy2AIzJITgQcyLqIAejq_b3jLYR2bmzwCLcBGAs/s400/128.png
 link: https://gsuite.google.com/marketplace/app/smart_learning_suite/1033792558652
 stars: 4.5
-votes: 85
+votes: 86
 installs: 10000000

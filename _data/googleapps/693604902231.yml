@@ -1,9 +1,10 @@
 id: 693604902231
-name: "Oudercontacten"
+title: "Oudercontacten"
+slug: "oudercontacten"
 author: "Jasper Cuvelier"
 description: "Maak oudercontacten-formulier op basis van een door leerkrachten ingevulde Spreadsheet."
 image: https://lh3.googleusercontent.com/ODqnjvDbk_N_iKiKr6RXbsBHaForLq_YhYXQb1KdD1RUxOgs2aaTHcF-aE6fUvrebkcrFQDJbA
 link: https://gsuite.google.com/marketplace/app/oudercontacten/693604902231
 stars: 4.7
 votes: 39
-installs: 217517
+installs: 217894

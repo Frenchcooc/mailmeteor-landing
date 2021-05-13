@@ -1,9 +1,10 @@
 id: 791533993644
-name: "ToogleBox Recall"
+title: "ToogleBox Recall"
+slug: "tooglebox-recall"
 author: "ISP Cloud Services"
 description: "Email Recall for End-Users Ordinary users are enabled to RECALL SENT EMAIL (delete from the recipients' mailboxes) on their own. No need to ask an administrator for help."
 image: https://lh3.googleusercontent.com/-ueSFA6pb6YE/W1CrVOZpLHI/AAAAAAAABb4/cXmv62UdRfYOnMBZT3CBE6ZwF-bCPVSDgCLcBGAs/s400/ToogleBoxRecall128.png
 link: https://gsuite.google.com/marketplace/app/tooglebox_recall/791533993644
 stars: 4.2
 votes: 101
-installs: 488844
+installs: 489175

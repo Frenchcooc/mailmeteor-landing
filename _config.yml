@@ -11,7 +11,11 @@ defaults:
       path: "best-google-apps"
     values:
       title: "The best apps to improve your Google Workspace (G Suite)"
-      description: Choose from 100+ hand-curated collections of free & paid Gmail Apps to enhance your Google Workspace (formerly G Suite apps)
-      og_title: "The best apps to improve your Google Workspace (G Suite)"
-      og_description: Choose from 100+ hand-curated collections of free & paid apps to enhance your Google Workspace (formerly G Suite apps)
+      description: "Choose from 100+ hand-curated collections of free & paid Gmail Apps to enhance your Google Workspace (formerly G Suite apps)"
       list: "The best apps"
+
+collections:
+  googleapps:
+    output: true
+    permalink: /best-google-apps/all/:name
+    sort_by: installs

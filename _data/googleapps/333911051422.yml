@@ -1,9 +1,10 @@
 id: 333911051422
-name: "Slides Translator"
+title: "Slides Translator"
+slug: "slides-translator"
 author: "Automagical Apps"
 description: "Slides Translator automagically translates text in your Slides. Communicate across multiple languages with ease! Now includes Voice Typing in over 60+ language dialects!"
 image: https://lh3.googleusercontent.com/-r3NCyxoyyEw/XWK_x12kqmI/AAAAAAAES_A/UpyWlfa5yTIepWDaHrbQbrsMkCxFATLwwCLcBGAs/s400/Slides%2BTranslator%2BLogo%2BOAuth%2B%25283%2529.png
 link: https://gsuite.google.com/marketplace/app/slides_translator/333911051422
 stars: 3.3
-votes: 102
+votes: 103
 installs: 10000000

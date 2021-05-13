@@ -1,3 +1,7 @@
+<!-- Stripe SDK -->
+<script async src="https://js.stripe.com/v3/"></script>
+
+<!-- Products pricing -->
 <script>
   // Enabling Stripe popovers
   $(function () {
@@ -45,13 +49,11 @@
       prices: {
         usd: {
           amount: 199.99,
-          link:
-            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
+          link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
         },
         eur: {
           amount: 199.99,
-          link:
-            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
+          link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
         },
       },
     },
@@ -68,16 +70,50 @@
     },
   };
 
-  function renderProducts() {
-    var currencies = { usd: "$", eur: "€" };
+  /**
+   * Handle user's currency
+   */
 
+  var _defaultCurrency = "USD";
+  var _cachedCurrency = null;
+  var _validCurrencies = { usd: "$", eur: "€" };
+
+  function setUserCurrency(currency) {
+    if (typeof currency !== "string" || !_validCurrencies[currency]) {
+      currency = "usd";
+    }
+
+    var currencyElt = $("[data-checkout-currency]").first();
+    if (currencyElt) {
+      _cachedCurrency = currency || _defaultCurrency;
+      currencyElt.data("checkout-currency", currency || _defaultCurrency);
+    }
+  }
+
+  function getUserCurrency() {
+    if (_cachedCurrency) {
+      return _cachedCurrency;
+    }
+
+    var currencyElt = $("[data-checkout-currency]").first();
+    var currency = currencyElt.data("checkout-currency") || _defaultCurrency;
+    _cachedCurrency = String(currency) || "";
+
+    if (!_validCurrencies[currency]) {
+      currency = "usd";
+    }
+
+    return currency.toLowerCase();
+  }
+
+  /**
+   * Render products
+   */
+
+  function renderProducts() {
     $("[data-checkout-product]").each(function () {
       var card = $(this);
       var currency = getUserCurrency().toLowerCase();
-
-      if (!currencies[currency]) {
-        currency = "usd";
-      }
 
       var productType = card.data("checkout-product");
       var product = _allProducts && _allProducts[productType];
@@ -101,7 +137,7 @@
           var amount = productPrice.amount.toString().split(".");
           var amountInteger = amount.shift();
           var amountDecimal = amount.length && amount.shift();
-          var amountCurrency = currencies[currency];
+          var amountCurrency = _validCurrencies[currency];
 
           var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + "</small>";
           priceHtml += amountInteger;
@@ -112,7 +148,7 @@
             var discount = (Math.round(productPrice.amount * (1 - 0.2) * 100) / 100).toString().split(".");
             var discountInteger = discount.shift();
             var discountDecimal = discount.length && discount.shift();
-            var discountCurrency = currencies[currency];
+            var discountCurrency = _validCurrencies[currency];
 
             var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + "</small>";
             discountHtml += discountInteger;
@@ -146,32 +182,6 @@
         cta.text(product.cta || "GET STARTED");
       }
     });
-  }
-
-  /**
-   * Handle user's currency
-   */
-
-  var _defaultCurrency = "USD";
-  var _cachedCurrency = null;
-
-  function setUserCurrency(currency) {
-    var currencyElt = $("[data-checkout-currency]").first();
-    if (currencyElt) {
-      _cachedCurrency = currency || _defaultCurrency;
-      currencyElt.data("checkout-currency", currency || _defaultCurrency);
-    }
-  }
-
-  function getUserCurrency() {
-    if (_cachedCurrency) {
-      return _cachedCurrency;
-    }
-
-    var currencyElt = $("[data-checkout-currency]").first();
-    var currency = currencyElt.data("checkout-currency") || _defaultCurrency;
-    _cachedCurrency = String(currency);
-    return currency;
   }
 
   /**
@@ -279,32 +289,6 @@
 />
 
 <script>
-  $(function () {
-    $("#pricingTeamSlider")
-      .slider({
-        min: 2,
-        max: 100,
-        value: 5,
-        scale: "logarithmic",
-        tooltip: "always",
-        tooltip_position: "bottom",
-        lock_to_ticks: true,
-        formatter: function (value) {
-          if (value > 25) {
-            return "Contact us";
-          }
-          return value + " users";
-        },
-      })
-      .on("change", function (event) {
-        if (!event || !event.value) {
-          return;
-        }
-        var units = event.value.newValue;
-        renderTeamPack(units);
-      });
-  });
-
   function renderTeamPack(units = 5) {
     var cta = $(".pricing-team--cta").first();
     var pack = $(".pricing-team--pack").first();
@@ -354,12 +338,38 @@
     savingsElt.text("(save " + currencySymbol + save.toFixed(0) + " / year!)");
 
     var product = _allProducts["team-pack"];
-    var productPrice = (product.prices && product.prices[currency.toLowerCase()]) || null;
-    var productId = (productPrice && productPrice.price_id) || null;
+    var productPrice = product.prices && product.prices[currency.toLowerCase()];
+    var productId = (productPrice && productPrice.price_id) || "price_1Igmj3KALIjZusuQyaFm5WF0";
 
     pack.data("checkout-product-id", productId);
     cta.data("checkout-product-id", productId);
     pack.data("checkout-quantity", units);
     cta.data("checkout-quantity", units);
   }
+
+  $(function () {
+    $("#pricingTeamSlider")
+      .slider({
+        min: 2,
+        max: 100,
+        value: 5,
+        scale: "logarithmic",
+        tooltip: "always",
+        tooltip_position: "bottom",
+        lock_to_ticks: true,
+        formatter: function (value) {
+          if (value > 25) {
+            return "Contact us";
+          }
+          return value + " users";
+        },
+      })
+      .on("change", function (event) {
+        if (!event || !event.value) {
+          return;
+        }
+        var units = event.value.newValue;
+        renderTeamPack(units);
+      });
+  });
 </script>

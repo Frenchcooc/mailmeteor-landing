@@ -1,9 +1,10 @@
 id: 436537305615
-name: "Video Downloader"
+title: "Video Downloader"
+slug: "video-downloader"
 author: "cloudapps.herokuapp.com/facebookdown"
 description: "Download video from Facebook in few seconds easily, and Save to Google Drive directly. Just copy the url from Facebook & paste it."
 image: https://lh3.googleusercontent.com/w_yoqXm_LJyVXyPr-Y_I3anut5y6FjKbkNdYvyJ2r4A_eZCXLkhLwIvfrGDmU-wRrXay4-4f_A
 link: https://gsuite.google.com/marketplace/app/video_downloader/436537305615
 stars: 3.4
 votes: 682
-installs: 27049
+installs: 27098

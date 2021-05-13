@@ -1,9 +1,10 @@
 id: 207548580557
-name: "Reports for Gmail"
+title: "Reports for Gmail"
+slug: "reports-for-gmail"
 author: "Gdev apps"
 description: "Consolidate emails into a nicely organized Google Doc. Teachers can track emails about students. -developed by Gdev apps (gdevapps.com)"
 image: https://lh3.googleusercontent.com/-QoomGKQxfJI/XoKLFDCBM2I/AAAAAAAAArI/847bRu2I9aw6uE84YfjHgYTQmMVsYt_4gCMYCGAYYCw/s400/Mail128x128.png
 link: https://gsuite.google.com/marketplace/app/reports_for_gmail/207548580557
 stars: 4.3
 votes: 97
-installs: 217719
+installs: 218083
