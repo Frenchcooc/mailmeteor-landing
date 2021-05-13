@@ -843,6 +843,8 @@ To run an Excel to Gmail mail merge it’s actually pretty simple.
 3. Your Excel document will be converted into a Google Sheets spreadsheet
 4. [Open your favorite mail merge add-on](https://mailmeteor.com)
 
+We've made an extensive tutorial on [how to import your Excel file in Google Sheets](/mail-merge-gmail/excel). Go check it out!
+
 ### Mail merge in Gmail using Outlook
 
 ![Mail merge in Gmail using Outlook](/assets/img/blog/mail-merge-gmail/mail-merge-gmail-using-outlook.png){:width="600px" height="300px"}
