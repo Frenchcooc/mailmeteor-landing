@@ -25,12 +25,12 @@ permalink: /mail-merge-gmail/excel
 
 Gmail is the most popular email platform, with over 1.8 billions active users in 2021. Unfortunately, Gmail does not have a built-in solution to send a mail merge from an Excel. You need to use a third-party solution such as Mailmeteor, which let you send a mail merge from an Excel file (or a .CSV).
 
-First, here's what you need to send emails in bulk with Gmail:
+First, here's what you need to send emails in Gmail using an Excel file:
 
 - Have a Gmail account or a Google Workspace account (formely GSuite);
 - Have a mailing list in an Excel file ([here's an example](https://docs.google.com/spreadsheets/d/1oH6COWBVweMoPMtXmVGzcBqnb9Kw4dM3AyaMhaisqRI/edit?usp=sharing)).
 
-Now let's see the 5 steps to reproduce to send a mail merge with your Excel file.
+Now let's see the 5 steps to reproduce to send emails to your mailing list stored in an Excel file.
 
 ## Step 1. Import your Excel file in Google Sheets
 
@@ -57,7 +57,7 @@ Right from Google Sheets, in the menu, select "Add-ons" > "Mailmeteor" > "Open M
 
 If you don't have Mailmeteor, just [open this link](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) to install the add-on in a few seconds.
 
-<div class="blogpost-note">Mailmeteor is the top rated add-on for Google Workspace. It's built with privacy in mind and you can use it for free to send up to 75 emails/day. If your Excel file has more contacts, look at their [pricing plan](/pricing).</div>
+<div class="blogpost-note">Mailmeteor is the top rated add-on for Google Workspace. It's built with privacy in mind and you can use it for free to send up to 75 emails/day. If your Excel file has more contacts, look at our [pricing plan](/pricing).</div>
 
 ## Step 3. Compose your template in Mailmeteor
 
