@@ -4,6 +4,8 @@ title: "Getting started with Mail Merge in Gmail using Google Sheets"
 description: Learn how to send personalized emails using Gmail and a Google Sheets spreadsheet with our guide on Mail merge in Gmail using Google Sheets.
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/google-sheets
+category: TUTORIAL
+
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-

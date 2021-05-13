@@ -4,6 +4,8 @@ title: "How to mail merge in Gmail (2021 tutorial)"
 description: Learn how to send personalized emails with Mail Merge in Gmail.
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/tutorial
+category: TUTORIAL
+
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-

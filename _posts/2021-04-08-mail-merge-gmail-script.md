@@ -4,6 +4,8 @@ title: "Gmail Mail Merge Script Example using Google Apps Script"
 description: Learn how to send hundreds of emails in Gmail by building your very own mail merge Gmail script.
 cta_title: Mailmeteor is the best rated mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/script
+category: TUTORIAL
+
 meta_author: Corentin Brossault
 meta_author_link: "https://twitter.com/frenchcooc"
 meta_image: >-
