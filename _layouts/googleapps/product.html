@@ -1,25 +1,14 @@
 ---
 layout: default
-title: The Best Gmail apps to improve your Google Workspace (G Suite)
-description: Choose from 100+ hand-curated collections of free & paid Gmail Apps to enhance your Google Workspace (formerly G Suite apps)
-canonical: https://mailmeteor.com/apps/mailmeteor
-permalink: /best-google-apps/apps/mailmeteor
-
-og_title: The Best Gmail apps to improve your Google Workspace (G Suite)
-og_description: Choose from 100+ hand-curated collections of free & paid Gmail Apps to enhance your Google Workspace (formerly G Suite apps)
 ---
 
 <section class="m-3">
   <div class="container page-title">
     <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
     <div class="gapps-product-card mt-3">
-      <img
-        src="https://lh3.googleusercontent.com/-VdGUc7xTyNc/XEWRZQ66w8I/AAAAAAAAABQ/CQOh0BoIxeoT1ZoxSjfgUrllUrnBGF2swCLcBGAs/s400/Mailmeteor_icon_128x128.png"
-        alt="Mailmeteor logo"
-        style="max-width: 50px"
-      />
-      <h1>Mailmeteor</h1>
-      <p>Mail merge & email campaigns by Mailmeteor</p>
+      <img src="{{ page.image }}" alt="Logo of {{ page.title | escape }}" style="max-width: 50px" />
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.author }}</p>
       <p>
         <svg
           width="20"
@@ -34,30 +23,17 @@ og_description: Choose from 100+ hand-curated collections of free & paid Gmail A
             fill="url(#a)"
           ></path>
           <defs>
-            <linearGradient
-              id="a"
-              x1="8"
-              y1=".185"
-              x2="8"
-              y2="13.815"
-              gradientUnits="userSpaceOnUse"
-            >
+            <linearGradient id="a" x1="8" y1=".185" x2="8" y2="13.815" gradientUnits="userSpaceOnUse">
               <stop offset="0" stop-color="#FFEB83"></stop>
               <stop offset="1" stop-color="#FCBC14"></stop>
             </linearGradient>
           </defs>
         </svg>
-        4.9/5 (out of 6340 reviews)
+        {{ page.stars }}/5 (out of {{ page.votes}} reviews)
       </p>
-      <p>
-        Save time on sending emails with Gmail. Mailmeteor is the best mail
-        merge for Gmail. Email multiple recipients at once, track emails in real
-        time & more. Built on privacy-first. Mailmeteor lets you send mail merge
-        campaigns so that every of your recipients get a personalized email.
-        Mailmeteor is the #1 Best rated app on the Google Workspace Marketplace.
-      </p>
-      <a href="/">
-        View on the Google Workspace Marketplace
+      <p>{{ page.description }}</p>
+      <a href="{{ page.link }}">
+        Open in the Google Workspace Marketplace
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -81,15 +57,14 @@ og_description: Choose from 100+ hand-curated collections of free & paid Gmail A
 <section>
   <div class="article-container">
     <div class="container">
-      <h3 class="is-centered mt-5 mb-3">Related Google Apps</h3>
+      <h3 class="is-centered mt-5 mb-3">Browse Best Google Apps Collections</h3>
+      <p class="is-centered mb-5">Find more related apps in our handpicked collections</p>
       <div class="gapps-directory container">
-        {% assign i = 0 %} {% for category in
-        site.data.gapps-directory.categories %} {% if i == 3 %} {% break %} {%
-        endif %}
+        {% assign categories = site.data.gapps-directory.categories | sample: 6 %} {% for category in categories %}
         <div class="gapps-categories-card">
-          <a href="/">
+          <a href="/best-google-apps/{{ category.title | slugify }}">
             <h2>{{ category.title }}</h2>
-            <p>5 best {{ category.title }} apps</p>
+            <p style="text-transform: capitalize">The best {{ category.title }} apps</p>
             <span>
               View
               <svg
@@ -108,7 +83,7 @@ og_description: Choose from 100+ hand-curated collections of free & paid Gmail A
             </span>
           </a>
         </div>
-        {% assign i = i | plus:1 %} {% endfor %}
+        {% endfor %}
       </div>
     </div>
   </div>

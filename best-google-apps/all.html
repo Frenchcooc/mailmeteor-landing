@@ -2,7 +2,7 @@
 layout: default
 title: The Best Google apps to improve your Google Workspace (G Suite)
 description: Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
-canonical: https://mailmeteor.com/best-google-apps/
+canonical: https://mailmeteor.com/best-google-apps/all/
 
 og_title: The Best Google apps to improve your Google Workspace (G Suite)
 og_description: Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
@@ -22,11 +22,11 @@ og_description: Choose from 100+ hand-curated collections of free & paid Google 
 <!-- Categories Directory -->
 <section>
   <div class="gapps-directory container">
-    {% for category in site.data.gapps-directory.categories %}
+    {% for app in site.googleapps %}
     <div class="gapps-categories-card">
-      <a href="{{ category.title | slugify }}">
-        <h2>{{ category.title }}</h2>
-        <p style="text-transform: capitalize">The best {{ category.title }} apps</p>
+      <a href="{{ app.url }}">
+        <h2>{{ app.title | truncate: 25 }}</h2>
+        <p>{{ app.description | truncate: 180 }}</p>
         <span>
           View
           <svg
