@@ -1587,7 +1587,8 @@ article img :first-of-type {
   }
 }
 
-.gapps-categories-card {
+.gapps-categories-card,
+.gapps-products-card {
   padding: 1rem 1.2rem;
   width: 100%;
   min-height: 100%;
@@ -1599,23 +1600,47 @@ article img :first-of-type {
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
 }
 
-.gapps-categories-card:hover {
+.gapps-products-card {
+  min-width: 0;
+}
+
+.gapps-categories-card:hover,
+.gapps-products-card:hover {
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
 
-.gapps-categories-card img {
+.gapps-categories-card img,
+.gapps-products-card img {
   width: 50px;
   height: 50px;
   margin: 0.5rem;
 }
-.gapps-categories-card h2 {
+
+.gapps-products-card img {
+  align-self: center;
+}
+
+.gapps-categories-card h2,
+.gapps-products-card h2 {
   font-size: 1.2rem;
 }
 
-.gapps-categories-card p {
+.gapps-categories-card p,
+.gapps-products-card p {
   color: black;
   word-break: break-word;
+}
+
+.gapps-products-card p {
+  flex: 1 0 auto;
+}
+
+.gapps-products-card a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
 }
 
 .gapps-category-page {
