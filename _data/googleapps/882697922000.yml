@@ -1,9 +1,10 @@
 id: 882697922000
-name: "Custom Count and Sum"
+title: "Custom Count and Sum"
+slug: "custom-count-and-sum"
 author: "JPV"
 description: "The custom functions of this add-on will allow you to count and sum based on color, style and perform 3D calculations."
 image: https://lh3.googleusercontent.com/MQLiCVCaGbbFHz8CZclN2-d8gSXYOtEhu-7P2fVzUTrXhscqrSOXED2aoDAxcOrLq7FQuuvM3w
 link: https://gsuite.google.com/marketplace/app/custom_count_and_sum/882697922000
 stars: 2.9
 votes: 104
-installs: 154917
+installs: 154400

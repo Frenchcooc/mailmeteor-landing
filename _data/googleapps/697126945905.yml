@@ -1,9 +1,10 @@
 id: 697126945905
-name: "Circuit for Gmail"
+title: "Circuit for Gmail"
+slug: "circuit-for-gmail"
 author: "Unify Software and Solutions GmbH & Co. KG"
 description: "The Circuit for Gmail add-on integrates Circuit real-time collaboration features into the Gmail app."
 image: https://lh3.googleusercontent.com/-0cAm7Z52_1E/XKaBquSXSxI/AAAAAAAAADk/QSHIkucdjQEM89gdEyC1wEXHWr48RxfhQCLcBGAs/s400/Logo_Add-on_128.png
 link: https://gsuite.google.com/marketplace/app/circuit_for_gmail/697126945905
 stars: 4.4
 votes: 23
-installs: 137288
+installs: 137603

@@ -1,9 +1,10 @@
 id: 273764076887
-name: "Grackle Slides"
+title: "Grackle Slides"
+slug: "grackle-slides"
 author: "GrackleDocs"
 description: "Grackle Slides will automatically check the accessibility of Google Slides and guide users through corrections."
 image: https://lh3.googleusercontent.com/-zSWHPqL_j1E/WL2j8AVd2xI/AAAAAAAAAB4/dGMJ2rzioDITAgGFGERiGG1qjKgwV1vSgCMYCGAYYCw/s400/grackle-checker-icon-128.png
 link: https://gsuite.google.com/marketplace/app/grackle_slides/273764076887
 stars: 3.7
 votes: 84
-installs: 2901175
+installs: 2902130

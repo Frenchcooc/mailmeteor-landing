@@ -1,9 +1,10 @@
 id: 595832407768
-name: "Connector for SugarCRM and G Suite"
+title: "Connector for SugarCRM and G Suite"
+slug: "connector-for-sugarcrm-and-g-suite"
 author: "iEnterprises"
 description: "An easy to use full featured integration between Gmail, Google Calendar and SugarCRM"
 image: https://lh3.googleusercontent.com/-e6mgaZo60mM/Xov4hlGvy9I/AAAAAAAAAcI/l3Mx1ElZARse5S769hDnewugfP5k0TF6ACLcBGAsYHQ/s400/logo_sugar_128.png
 link: https://gsuite.google.com/marketplace/app/connector_for_sugarcrm_and_g_suite/595832407768
 stars: 4.7
 votes: 50
-installs: 6782
+installs: 6787

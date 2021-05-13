@@ -1,9 +1,10 @@
 id: 294974410262
-name: "Evernote for Gmail"
+title: "Evernote for Gmail"
+slug: "evernote-for-gmail"
 author: "Evernote Corporation"
 description: "Overcome inbox overload. Bring the best out of your email inbox into a distraction-free workspace."
 image: https://lh3.googleusercontent.com/-62Tb3Pt9rWw/XIvQBmWF2CI/AAAAAAAAADU/TeUtb-ul82gOGajiNd94NjF4Jnsx9JELwCLcBGAs/s400/icon_128x128.png
 link: https://gsuite.google.com/marketplace/app/evernote_for_gmail/294974410262
 stars: 4.4
 votes: 950
-installs: 1209837
+installs: 1211615

@@ -1,9 +1,10 @@
 id: 979668934766
-name: "Doctopus"
+title: "Doctopus"
+slug: "doctopus"
 author: "New Visions Cloudlab"
 description: "An octopus for docs! Teacher-built tool for scaffolding, managing, organizing, and assessing student projects in Google Drive."
 image: https://lh3.googleusercontent.com/-LHfLi8zKt4A/XQAD2a8Xw1I/AAAAAAAAA6s/zLYs-O4ikPQuSI5KvAzvJRaQkjaY1bNMQCLcBGAs/s400/Doctopus.png
 link: https://gsuite.google.com/marketplace/app/doctopus/979668934766
 stars: 4.1
-votes: 446
+votes: 445
 installs: 10000000

@@ -1,9 +1,10 @@
 id: 249464630588
-name: "Anyfile Notepad"
+title: "Anyfile Notepad"
+slug: "anyfile-notepad"
 author: "anyfile-notepad.semaan.ca"
 description: "Anyfile Notepad is a Google Drive compatible app that let's you open any type of files."
 image: https://lh3.googleusercontent.com/PjMw8wArm7wS-2Uvjz_mCzyX3HPPDomn_qnU0WtIaVTYoYOsMib8GTs5ineAA_RcZIqFPNmIjQ
 link: https://gsuite.google.com/marketplace/app/anyfile_notepad/249464630588
 stars: 3.6
 votes: 948
-installs: 78548
+installs: 78674

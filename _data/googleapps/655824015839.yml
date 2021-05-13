@@ -1,9 +1,10 @@
 id: 655824015839
-name: "SchreibRex"
+title: "SchreibRex"
+slug: "schreibrex"
 author: "Oribi AB"
 description: "SchreibRex ist ein Rechtschreibprogramm, das Rechtschreib- und Grammatikfehler in deutschen Texten korrigiert."
 image: https://lh3.googleusercontent.com/-_aCeaa7nLkU/V8A0TWiJIHI/AAAAAAAAAJE/e6DDROm-dcQRcLYEOBW962muUw-wgmzAACLcB/s400/icon-128.png
 link: https://gsuite.google.com/marketplace/app/schreibrex/655824015839
 stars: 2.8
 votes: 23
-installs: 134351
+installs: 134412

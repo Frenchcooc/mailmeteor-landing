@@ -1,9 +1,10 @@
 id: 519962361005
-name: "Wizkids CAS"
+title: "Wizkids CAS"
+slug: "wizkids-cas"
 author: "Wizkids A/S"
 description: "Wizkids CAS is a Computer Algebra System that works with Google Docs' built-in equations. With Wizkids CAS users can: • Solve equations and plot graphs. • Find numerical and exact solutions. • Simplify and factorise expressions with variables. • Drag and drop results and graphs from the sidebar in Google Docs."
 image: https://lh3.googleusercontent.com/-FClz5OQwdsg/Voppr6ILijI/AAAAAAAAGk0/14YKvRqXZqw/s400/CAS%2B128x128.png
 link: https://gsuite.google.com/marketplace/app/wizkids_cas/519962361005
 stars: 2.2
-votes: 232
-installs: 311494
+votes: 231
+installs: 311506

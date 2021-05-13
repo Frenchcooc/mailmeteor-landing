@@ -1,9 +1,10 @@
 id: 258462462506
-name: "FinSheets for Stripe & PayPal"
+title: "FinSheets for Stripe & PayPal"
+slug: "finsheets-for-stripe-paypal"
 author: "Michel Helms"
 description: "Connect your Stripe & PayPal accounts to Google Sheets, import your data and keep your transactions up to date with one click"
 image: https://lh3.googleusercontent.com/-99PAsaJdcYY/Wq9OJWJckjI/AAAAAAAAXeA/4Vnsvni2MT4ONbBO1mh2CwVRNoY5eCb-ACLcBGAs/s400/v1-128x128.png
 link: https://gsuite.google.com/marketplace/app/finsheets_for_stripe_paypal/258462462506
 stars: 3.8
 votes: 26
-installs: 2119
+installs: 2120

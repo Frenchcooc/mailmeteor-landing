@@ -1,9 +1,10 @@
 id: 82574770793
-name: "Fountainize"
+title: "Fountainize"
+slug: "fountainize"
 author: "Fountainize"
 description: "The easiest way to write screenplays with Google Docs."
 image: https://lh3.googleusercontent.com/v9jA_DbmV28t_u-NGw80Lxl0oUErm3dBIDtbHORcfbfUUb7eXUksx9JxL8yWCaTxq_FesmXE
 link: https://gsuite.google.com/marketplace/app/fountainize/82574770793
 stars: 3.5
 votes: 76
-installs: 64686
+installs: 64774

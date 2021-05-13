@@ -1,9 +1,0 @@
-id: 890180827857
-name: "Bjorn's Springy Graphs Studio"
-author: "Bjorn's Playground"
-description: "Design cool and beautiful (potentially animated) force directed network graphs. Springy is a force directed graph layout algorithm using some real world physics to try and figure out how to show a network graph in a way that looks good. Supports node and edge styles to ease design process. Generate PNG or animated GIF. Quicky add images to nodes with drag and drop. Add images to nodes from Google Drive or Google Photos."
-image: https://lh3.googleusercontent.com/-Fm7Q40_9rIk/XJvyv7zKt5I/AAAAAAAAzV8/go-ehYP9AyI63mHyqXcle29PeQ2AVItvgCMYCGAYYCw/s400/Logo_New_128.png
-link: https://gsuite.google.com/marketplace/app/bjorns_springy_graphs_studio/890180827857
-stars: 4.7
-votes: 3
-installs: 2733

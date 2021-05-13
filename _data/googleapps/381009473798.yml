@@ -1,9 +1,10 @@
 id: 381009473798
-name: "Zoho Analytics"
+title: "Zoho Analytics"
+slug: "zoho-analytics"
 author: "zoho.com"
 description: "Visualize your data as beautiful charts and dashboards. Get valuable insights."
 image: https://lh3.googleusercontent.com/-EOt12EZo6uY/W_LE-x_Et0I/AAAAAAAAB6Q/WTTJW9me-v4MmtGzARU_D5Z90fJmfGGYQCLcBGAs/s400/Analytics-128.png
 link: https://gsuite.google.com/marketplace/app/zoho_analytics/381009473798
 stars: 4.7
 votes: 42
-installs: 242411
+installs: 242503

@@ -18,3 +18,4 @@ collections:
   googleapps:
     output: true
     permalink: /best-google-apps/all/:name
+    sort_by: installs

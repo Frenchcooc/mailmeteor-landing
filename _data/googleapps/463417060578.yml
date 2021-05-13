@@ -1,9 +1,10 @@
 id: 463417060578
-name: "Form Builder for Sheets"
+title: "Form Builder for Sheets"
+slug: "form-builder-for-sheets"
 author: "Jivrus Technologies"
 description: "Build your Google Forms directly from the contents of Google Sheets"
 image: https://lh3.googleusercontent.com/-qCI_rGBOSZs/XLbUVXiDoVI/AAAAAAAAAws/4N5tCCVcDfIas2NW1CXndVc6Or2bBbX5QCLcBGAs/s400/Form_Builder_new%2B_logo_128%2B%25281%2529.png
 link: https://gsuite.google.com/marketplace/app/form_builder_for_sheets/463417060578
-stars: 4.2
-votes: 103
-installs: 941584
+stars: 4.3
+votes: 104
+installs: 943827

@@ -1,9 +1,10 @@
 id: 1080532206233
-name: "ProjectSheet planning"
+title: "ProjectSheet planning"
+slug: "projectsheet-planning"
 author: "Forscale"
 description: "Create and modify a planning schedule for project management in a spreadsheet with WBS work breakdown and Gantt time chart."
 image: https://lh3.googleusercontent.com/B_j_9SQElenRgnNXUGxFV6Vxtccgfs04DqNe5xmAXVERYy2eUYEX6wsJTYkGvuAKoWkLlJS2Lg
 link: https://gsuite.google.com/marketplace/app/projectsheet_planning/1080532206233
 stars: 3.4
-votes: 759
-installs: 671945
+votes: 760
+installs: 672622

@@ -1,9 +1,10 @@
 id: 406592889490
-name: "Simplebooklet"
+title: "Simplebooklet"
+slug: "simplebooklet"
 author: "Simplebooklet"
 description: "Make a microsite from your Google Docs, Slides, and PDFs."
 image: https://lh3.googleusercontent.com/-YFcs6JDJDcU/XBAP1H5sBUI/AAAAAAAAAIQ/0OKn6pAp6lwFve-ZAzREzuA538YlRBIQwCLcBGAs/s400/logo-128.png
 link: https://gsuite.google.com/marketplace/app/simplebooklet/406592889490
 stars: 4
 votes: 25
-installs: 59942
+installs: 59978

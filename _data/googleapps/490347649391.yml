@@ -1,9 +1,10 @@
 id: 490347649391
-name: "Zoho CRM for Gmail"
+title: "Zoho CRM for Gmail"
+slug: "zoho-crm-for-gmail"
 author: "Zoho Corporation"
 description: "Zoho CRM is a flexible cloud-based CRM for your business that helps you attract, retain and delight customers."
 image: https://lh3.googleusercontent.com/-sscrH6xWuKw/W8c1hzACtLI/AAAAAAAAByI/lCDvdE6AL-4S6YXlwRUYrzsgp87ugf1rQCLcBGAs/s400/Crm-128.png
 link: https://gsuite.google.com/marketplace/app/zoho_crm_for_gmail/490347649391
 stars: 4.3
 votes: 78
-installs: 111444
+installs: 111615

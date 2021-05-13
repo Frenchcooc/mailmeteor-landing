@@ -1,9 +1,10 @@
 id: 989205566780
-name: "Doc To Form"
+title: "Doc To Form"
+slug: "doc-to-form"
 author: "Oli Trussell"
 description: "Doc to Form allows you to quickly and easily create a form from text within a Google Doc."
 image: https://lh3.googleusercontent.com/--2StUk-wrEg/VRSAytvtqdI/AAAAAAAAJCE/c0VmDXo7uDk/s0/Doc%2Bto%2BForm%2B128x128.png
 link: https://gsuite.google.com/marketplace/app/doc_to_form/989205566780
 stars: 3.7
-votes: 755
+votes: 756
 installs: 10000000

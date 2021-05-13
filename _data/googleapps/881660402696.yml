@@ -1,9 +1,10 @@
 id: 881660402696
-name: "Change Case"
+title: "Change Case"
+slug: "change-case"
 author: "Alec Tutin"
 description: "Current features: - All characters to uppercase - All characters to lowercase - First letter capitals - Invert the case of each character - Sentence case capitalization - Title case capitalization Follow me on Twitter for updates and information on my other work! @Chootin"
 image: https://lh3.googleusercontent.com/-8KSFXgAOXdo/Wv4rZOvmaTI/AAAAAAAADew/bQc2hgSyyWIrb3LIwmbozwVv0yWOZNuWACLcBGAs/s400/cc_icon.png
 link: https://gsuite.google.com/marketplace/app/change_case/881660402696
 stars: 3.9
 votes: 903
-installs: 925161
+installs: 925764

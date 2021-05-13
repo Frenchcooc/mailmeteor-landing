@@ -1,9 +1,10 @@
 id: 66351547828
-name: "eSignature Legacy"
+title: "eSignature Legacy"
+slug: "esignature-legacy"
 author: "www.docusign.com"
 description: "DocuSign eSignature easily integrates with Drive and Docs"
 image: https://lh3.googleusercontent.com/-8Tv988tzBe8/XueeSCilTgI/AAAAAAAAAyk/8Rh2wi17TPkJa_lv3dFSIaTZZrCsQU43ACLcBGAsYHQ/s400/128.png
 link: https://gsuite.google.com/marketplace/app/esignature_legacy/66351547828
 stars: 4.3
 votes: 3054
-installs: 5200180
+installs: 5205191

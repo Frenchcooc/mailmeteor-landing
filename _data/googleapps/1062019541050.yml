@@ -1,9 +1,10 @@
 id: 1062019541050
-name: "Miro"
+title: "Miro"
+slug: "miro"
 author: "Miro"
 description: "Miro is the most intuitive visual collaboration and whiteboard platform for agile product teams, project managers, UI/UX designers, developers, marketers, and creatives."
 image: https://lh3.googleusercontent.com/-obfeR3dT__0/XIaFKvaXcnI/AAAAAAAAAWc/MBsCmHvSRVYIxH0MVzksjS3LiMTuggfGgCLcBGAs/s400/Miro_Icon_App_rounded_128.png
 link: https://gsuite.google.com/marketplace/app/miro/1062019541050
 stars: 4.5
 votes: 21
-installs: 509798
+installs: 510924

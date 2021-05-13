@@ -1,9 +1,10 @@
 id: 477988381226
-name: "Google Analytics"
+title: "Google Analytics"
+slug: "google-analytics"
 author: "google-analytics-add-ons"
 description: "Access all of your Google Analytics data in Google Spreadsheets."
 image: https://lh3.googleusercontent.com/-RIU4XBMiTdA/VUqLAbxE0rI/AAAAAAAAAYk/nC1bIrMK2F4/s0/ga-logo-128.png
 link: https://gsuite.google.com/marketplace/app/google_analytics/477988381226
 stars: 4.2
-votes: 1999
+votes: 2002
 installs: 10000000

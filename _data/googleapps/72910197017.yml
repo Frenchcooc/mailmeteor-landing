@@ -1,9 +1,0 @@
-id: 72910197017
-name: "[Deprecated] AODocs AwesomeTable connector"
-author: "AODocs"
-description: "Sync the content of your AODocs library with a Google Sheet to display it with AwesomeTable powerful rendering features. Deprecation notice: this tool is now deprecated, you should use the Bulk Updater to export AODocs Data to a spreadsheet: https://support.aodocs.com/hc/en-us/articles/115001574603-What-is-Bulk-Updater-"
-image: https://lh3.googleusercontent.com/-D6_KACSIQis/WhxAvk9MEAI/AAAAAAAACY0/tZaXJvj8i7UhJvKTzTM8IKikiDCjvpAmQCLcBGAs/s400/icon-aatc-128.png
-link: https://gsuite.google.com/marketplace/app/deprecated_aodocs_awesometable_connector/72910197017
-stars: 4
-votes: 14
-installs: 422423

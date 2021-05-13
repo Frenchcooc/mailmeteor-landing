@@ -1,9 +1,10 @@
 id: 356405545193
-name: "Jivrus' Integra for QuickBooks"
+title: "Jivrus' Integra for QuickBooks"
+slug: "jivrus-integra-for-quickbooks"
 author: "Jivrus Technologies"
 description: "Jivrus Integra for QuickBooks is an add-on app for Google Sheets to help users to get objects and reports into Google Sheet."
 image: https://lh3.googleusercontent.com/-5BZXs8t2xco/WCTIg5CnMQI/AAAAAAAAAkw/s4XTEMWznGk9QdcC3jpA-CB7aVAh-A5OACLcB/s400/AppLogoQB.png
 link: https://gsuite.google.com/marketplace/app/jivrus_integra_for_quickbooks/356405545193
 stars: 3.9
 votes: 32
-installs: 14273
+installs: 14278

@@ -1,9 +1,10 @@
 id: 513239564707
-name: "Save Emails and Attachments"
+title: "Save Emails and Attachments"
+slug: "save-emails-and-attachments"
 author: "Digital Inspiration"
 description: "Download email messages and file attachments from Gmail to Google Drive, automatically. Emails are saved as PDF and attachments are archived in native formats."
 image: https://lh3.googleusercontent.com/-Tw7MyJSbVxI/XXI68kzTDCI/AAAAAAABumQ/kFFKA0IROjIcR_gG-4wI2n8bouqoDfbrgCLcBGAs/s400/e-mail-folder.png
 link: https://gsuite.google.com/marketplace/app/save_emails_and_attachments/513239564707
 stars: 3.8
 votes: 716
-installs: 1679800
+installs: 1682134

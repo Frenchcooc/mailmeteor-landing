@@ -1,9 +1,10 @@
 id: 595109124715
-name: "Wikipedia and Wikidata Tools"
+title: "Wikipedia and Wikidata Tools"
+slug: "wikipedia-and-wikidata-tools"
 author: "Thomas Steiner"
 description: "Adds Wikipedia and Wikidata functions for use in Google Spreadsheets like WIKITRANSLATE, WIKISYNONYMS, WIKIGEOCOORDINATES, etc."
 image: https://lh3.googleusercontent.com/H75FZv7aOsAxM20cEoQbjA69ub8BXY89j6baPwCjRTAI1Dl1COROJ6oZ35AC4SQ9CSNZLNFxug
 link: https://gsuite.google.com/marketplace/app/wikipedia_and_wikidata_tools/595109124715
 stars: 4.6
 votes: 37
-installs: 25910
+installs: 25920

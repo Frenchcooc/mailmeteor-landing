@@ -1,9 +1,10 @@
 id: 710372432947
-name: "Trello for Gmail"
+title: "Trello for Gmail"
+slug: "trello-for-gmail"
 author: ""
 description: "Quickly create new cards on your Trello boards without leaving your inbox."
 image: https://lh3.googleusercontent.com/-GFRElODelfg/YHiMpksDz1I/AAAAAAAAAFM/ahhdCoGfBZITWBw7TEXE-e75emQEn0H0QCLcBGAsYHQ/logo.png
 link: https://gsuite.google.com/marketplace/app/trello_for_gmail/710372432947
 stars: 3.7
-votes: 1988
-installs: 6751342
+votes: 1990
+installs: 6761918

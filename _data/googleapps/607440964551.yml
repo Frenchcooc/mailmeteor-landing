@@ -1,9 +1,0 @@
-id: 607440964551
-name: "Inläsningstjänst"
-author: "iltappen.appspot.com"
-description: "Applikation för att skapa upp användare existerande G Suite-användare i Inläsningstjänst. De kommer logga in med sitt Google-konto. Varje konfiguration skapas från den nyckel som försätts av Inläsningstjänst. Konto-överföringen konfigureras med regler som filtrerar vilka användare som hör till vilken organisation samt vilken behörighet de ska ha."
-image: https://lh3.googleusercontent.com/-AGNoM2MGGvg/WONrooR_J-I/AAAAAAAABEg/UJu3R2IqdzI8MGvyNlVq67nCzAKvmur7gCLcB/s400/128x128.png
-link: https://gsuite.google.com/marketplace/app/inl%C3%A4sningstj%C3%A4nst/607440964551
-stars: 5
-votes: 3
-installs: 657030

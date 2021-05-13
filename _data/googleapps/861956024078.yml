@@ -1,9 +1,10 @@
 id: 861956024078
-name: "AudioStudio"
+title: "AudioStudio"
+slug: "audiostudio"
 author: "Redcoolmedia"
 description: "Audio editor to create and edit audio and music online"
 image: https://lh3.googleusercontent.com/-58ZCDU_C_Rg/XSszMJD645I/AAAAAAAAADc/cnEBuuZ7_-Aa1rxQqNLVTxQBB9jE4gUVwCLcBGAs/s400/app_128.jpg
 link: https://gsuite.google.com/marketplace/app/audiostudio/861956024078
 stars: 4.2
 votes: 26
-installs: 166266
+installs: 164415

@@ -1,9 +1,10 @@
 id: 1068646806018
-name: "Dynamics 365 Connector for G Suite"
+title: "Dynamics 365 Connector for G Suite"
+slug: "dynamics-365-connector-for-g-suite"
 author: "iEnterprises"
 description: "An easy to use full featured integration between Gmail, Google Calendar and Microsoft Dynamics 365 CRM"
 image: https://lh3.googleusercontent.com/-KvpB47tnJWg/XlU8KDw-GWI/AAAAAAAAAQo/Ywi9pc_ork0-ZHQeawOhmGQTlGzLm6zTQCLcBGAsYHQ/s400/mscrm_128.png
 link: https://gsuite.google.com/marketplace/app/dynamics_365_connector_for_g_suite/1068646806018
 stars: 4.8
 votes: 133
-installs: 29240
+installs: 29273

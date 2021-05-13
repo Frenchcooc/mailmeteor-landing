@@ -1,9 +1,10 @@
 id: 309062064248
-name: "Risk Solver"
+title: "Risk Solver"
+slug: "risk-solver"
 author: "Frontline Systems Inc."
 description: "Easily perform risk analysis using Monte Carlo simulation in your spreadsheet. Go beyond what-if to see the full range of outcomes."
 image: https://lh5.googleusercontent.com/oW11LXc9y_Tc7KIbhetdQ0lBy0dBdM1FgR2RRrn83RUUJQ-QXDXpnOrJYut_8UOjjpisI-4qRMM
 link: https://gsuite.google.com/marketplace/app/risk_solver/309062064248
 stars: 2.5
 votes: 74
-installs: 5946
+installs: 5952

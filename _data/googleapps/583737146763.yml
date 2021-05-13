@@ -1,9 +1,10 @@
 id: 583737146763
-name: "Goal Seek"
+title: "Goal Seek"
+slug: "goal-seek"
 author: "google.com"
 description: "The Goal Seek add-on for Google Sheets enables users to calculate the required value of a cell to achieve a desired formula value in another cell."
 image: https://lh3.googleusercontent.com/-zyzRUKlN4Bw/XXt-5MC5Z1I/AAAAAAAAEcE/mbbjCf9KJhQNTrYmg36hrdBY2m0vS6PcwCNcBGAsYHQ/s400/cloud-logo-128x128.png
 link: https://gsuite.google.com/marketplace/app/goal_seek/583737146763
 stars: 2.7
 votes: 155
-installs: 1348619
+installs: 1351604

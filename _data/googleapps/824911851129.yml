@@ -1,9 +1,10 @@
 id: 824911851129
-name: "ZIP Extractor"
+title: "ZIP Extractor"
+slug: "zip-extractor"
 author: "ZIP Extractor"
 description: "ZIP Extractor is a free app for creating and opening ZIP files on your computer and Google Drive. Files in the RAR, 7z, and TAR format are also supported, including password-protected files."
 image: https://lh3.googleusercontent.com/-GWRXnTbq-i0/XzqT4FahCLI/AAAAAAAFm-M/cn2vl05ZscQYBsfYOnO8L8QoFFN9IulfQCLcBGAsYHQ/s400/ZIP_NEW_128x128.png
 link: https://gsuite.google.com/marketplace/app/zip_extractor/824911851129
 stars: 4.3
-votes: 16434
-installs: 515049
+votes: 16438
+installs: 519241

@@ -1,9 +1,10 @@
 id: 865237847665
-name: "AppSheet"
+title: "AppSheet"
+slug: "appsheet"
 author: "AppSheet"
 description: "Build a custom mobile app from the response spreadsheet of your Google Form. It is quick, easy, and no coding is involved."
 image: https://lh3.googleusercontent.com/-5LFgiYx_pRk/YAshz7uxqBI/AAAAAAAAAkQ/YideqSgi0cAdQWGjmOrBxhPEbr1X31E9ACNcBGAsYHQ/s400/128.png
 link: https://gsuite.google.com/marketplace/app/appsheet/865237847665
 stars: 4.2
-votes: 319
-installs: 971592
+votes: 320
+installs: 971753

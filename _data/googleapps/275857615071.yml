@@ -1,9 +1,10 @@
 id: 275857615071
-name: "Teamwork for Gmail"
+title: "Teamwork for Gmail"
+slug: "teamwork-for-gmail"
 author: "api@teamwork.com"
 description: "Turn talk into tasks with the Teamwork add-on for Gmail."
 image: https://lh3.googleusercontent.com/-sRhQAEYNfc4/YF3JXI8Z-BI/AAAAAAAABMU/BG6pKiEC5VQYd5-J7AjdeG-7Wj2rsdiggCNcBGAsYHQ/s400/teamwrok-short-pill-white_128.png
 link: https://gsuite.google.com/marketplace/app/teamwork_for_gmail/275857615071
 stars: 4.1
 votes: 115
-installs: 109835
+installs: 109988

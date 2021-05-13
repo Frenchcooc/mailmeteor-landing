@@ -1,9 +1,10 @@
 id: 600284989882
-name: "XLMiner Analysis ToolPak"
+title: "XLMiner Analysis ToolPak"
+slug: "xlminer-analysis-toolpak"
 author: "Frontline Systems Inc."
 description: "Statistical analysis in Google Sheets, with functions matching the Analysis ToolPak in desktop Excel."
 image: https://lh3.googleusercontent.com/fbYKrX345U0M32DUIzR78U7Z-ldtmE9t64LIUfILBFJqPv6Wh4REDyyt1eniP1F-QVROp_EnUw0
 link: https://gsuite.google.com/marketplace/app/xlminer_analysis_toolpak/600284989882
 stars: 3.3
 votes: 194
-installs: 2032670
+installs: 2033449

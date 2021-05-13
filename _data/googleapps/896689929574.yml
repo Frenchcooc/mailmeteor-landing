@@ -1,9 +1,10 @@
 id: 896689929574
-name: "Drive Links Exporter"
+title: "Drive Links Exporter"
+slug: "drive-links-exporter"
 author: ". Carlin"
 description: "Have a lot of files in a Drive folder that you need to export links to for sharing? This is for you!"
 image: https://lh3.googleusercontent.com/-koEx9o8JTrY/VVJ3MN-uf1I/AAAAAAAA59s/MMlMyO9E8s4/s0/logo128.png
 link: https://gsuite.google.com/marketplace/app/drive_links_exporter/896689929574
 stars: 3.9
 votes: 47
-installs: 76903
+installs: 76961

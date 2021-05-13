@@ -1,9 +1,10 @@
 id: 199128637118
-name: "TeamGram Gmail Addon"
+title: "TeamGram Gmail Addon"
+slug: "teamgram-gmail-addon"
 author: "TeamGram Inc."
 description: "This Gmail addon seamlessly integrates TeamGram CRM with your Gmail inbox. Lookup senders and recipients in TeamGram. Find related leads, contacts, companies, deals. Create a TeamGram note from any email and automatically connect it with related contacts and leads."
 image: https://lh3.googleusercontent.com/-I_NF81vICdw/WyPXUiy4voI/AAAAAAAABaA/6VrJWmH8bboaaoDxGxmMtglvbIdAf79ggCLcBGAs/s400/tg_fish_128px.png
 link: https://gsuite.google.com/marketplace/app/teamgram_gmail_addon/199128637118
 stars: 4.5
 votes: 39
-installs: 7588
+installs: 7586

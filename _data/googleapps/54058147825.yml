@@ -1,9 +1,10 @@
 id: 54058147825
-name: "Scan-IT to Office"
+title: "Scan-IT to Office"
+slug: "scan-it-to-office"
 author: "TEC-IT"
 description: "Mobile Data Collection and Barcode Scanning for Google Sheets"
 image: https://lh3.googleusercontent.com/8bvc7tTTBAPOKmUh18-4zeTb-aSlBG0BQ8FV63xOImWHjN0sF2yXSF7jhbOC59qelup0wqDyow
 link: https://gsuite.google.com/marketplace/app/scanit_to_office/54058147825
 stars: 4.3
 votes: 146
-installs: 196504
+installs: 196604

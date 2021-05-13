@@ -1,9 +1,10 @@
 id: 700764010405
-name: "SysCloud Security And Backup"
+title: "SysCloud Security And Backup"
+slug: "syscloud-security-and-backup"
 author: "www.syscloud.com"
 description: "Protect your data and users in Google G suite from phishing, data breaches with DLP, encrypt Drive documents, restore data lost to user error and ransomware."
 image: https://lh4.googleusercontent.com/-T1hYJ_Jmm7Q/VBrPsawoeII/AAAAAAAAARs/Zm642hOVnFk/s0/SYS_Logo_128.png
 link: https://gsuite.google.com/marketplace/app/syscloud_security_and_backup/700764010405
 stars: 4
 votes: 47
-installs: 6569308
+installs: 6564800

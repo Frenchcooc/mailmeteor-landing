@@ -1,9 +1,10 @@
 id: 771094986501
-name: "QR Code Generator"
+title: "QR Code Generator"
+slug: "qr-code-generator"
 author: "INNOVA apps"
 description: "Generate QR codes directly from Google Spreadsheets."
 image: https://lh4.googleusercontent.com/CliqIJ21X8hcEsLRzD19SBP2660k-Cq8RmhE4693ts5vl-8NuDu4M9NV9uoxecD0p_oVZ9uO-A
 link: https://gsuite.google.com/marketplace/app/qr_code_generator/771094986501
 stars: 4.1
 votes: 561
-installs: 1411278
+installs: 1411761

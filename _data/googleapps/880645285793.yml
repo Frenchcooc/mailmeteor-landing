@@ -1,9 +1,10 @@
 id: 880645285793
-name: "Accelo for Gmail"
+title: "Accelo for Gmail"
+slug: "accelo-for-gmail"
 author: "Accelo Inc"
 description: "Manage your conversations in Accelo directly from Gmail."
 image: https://lh3.googleusercontent.com/-f7Qx-4pH5QM/Xh5oF10P9II/AAAAAAAACXY/u6S7ULsZvdEkHmuDNHWQ9sny-jFn_WyGwCLcBGAsYHQ/s400/Icon%2B-%2B128x128%2B%25281%2529.png
 link: https://gsuite.google.com/marketplace/app/accelo_for_gmail/880645285793
 stars: 4.3
 votes: 30
-installs: 10023
+installs: 10032

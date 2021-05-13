@@ -1,9 +1,10 @@
 id: 64414253903
-name: "National Geographic™ Photo Of The Day"
+title: "National Geographic™ Photo Of The Day"
+slug: "national-geographic-photo-of-the-day"
 author: "ngphoto.thetimetube.com"
 description: "Beautiful and Interesting colorful photos. Enjoy National Geographic's incredible photo collection. You'll get new pictures daily."
 image: https://lh6.googleusercontent.com/zLYgD5Fo0VeeCOJl2SnvaBw74ckwwPYuxMh_-houyFmXOaGo9ytXbzxbvidWbskuDo-FSNS0apY
 link: https://gsuite.google.com/marketplace/app/national_geographic_photo_of_the_day/64414253903
 stars: 4.4
 votes: 140
-installs: 106585
+installs: 106634

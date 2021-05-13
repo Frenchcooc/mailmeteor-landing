@@ -1,9 +1,10 @@
 id: 766777090412
-name: "Music Player Online"
+title: "Music Player Online"
+slug: "music-player-online"
 author: "Music Player Online"
 description: "Play your music quickly from Google Drive"
 image: https://lh3.googleusercontent.com/-YxvryJo2VC4/XHYLWGbIPgI/AAAAAAAAARY/MjVeHjwhwPQhvtxGIM7YFGE_o_awn84bACLcBGAs/s400/icon-128.png
 link: https://gsuite.google.com/marketplace/app/music_player_online/766777090412
 stars: 3.5
 votes: 67
-installs: 83280
+installs: 83343

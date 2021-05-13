@@ -1,9 +1,10 @@
 id: 230905528911
-name: "Groove Gmail Add-on"
+title: "Groove Gmail Add-on"
+slug: "groove-gmail-add-on"
 author: "Groove"
 description: "Bring the #1 sales engagement platform into Gmail"
 image: https://lh3.googleusercontent.com/-emj_Ri8gKSw/YCwQZwpQJgI/AAAAAAAAEo4/c2prxLomBzgv4L6UwStS--KzEI2dyxVLQCLcBGAsYHQ/Groove%2BIcon%2Brounded%2B%25281%2529.png
 link: https://gsuite.google.com/marketplace/app/groove_gmail_addon/230905528911
 stars: 4.3
 votes: 86
-installs: 34735
+installs: 34948

@@ -1,9 +1,10 @@
 id: 232821636920
-name: "Doc Variables"
+title: "Doc Variables"
+slug: "doc-variables"
 author: "jesse.mccabe"
 description: "Simple tool to add variables in content, title, header, and footer. Great way to add easy replacements in docs and templates!"
 image: https://lh3.googleusercontent.com/-3WId3RJhXSw/XzVdZyrNh8I/AAAAAAAAFxE/qcl16MtDrd8DRkWkA12dxYyz6Oh8fh5nwCLcBGAsYHQ/s400/Doc_Variables-app_icon-128x128.png
 link: https://gsuite.google.com/marketplace/app/doc_variables/232821636920
 stars: 4.3
 votes: 338
-installs: 129862
+installs: 129984

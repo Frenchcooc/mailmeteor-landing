@@ -1,9 +1,10 @@
 id: 1092747904276
-name: "Analytics Buddy"
+title: "Analytics Buddy"
+slug: "analytics-buddy"
 author: "Monitus LLC"
 description: "Do you have an online store and use Google Analytics to track your performance? See important Google Analytics data right next to your order confirmations and craft relevant emails to your customers."
 image: https://lh3.googleusercontent.com/-5MFavLSTxII/Wina9awLZqI/AAAAAAABIeU/vE_dNpls_XsZPOTKLBWPAXrMeB_qJS46ACLcBGAs/s400/analyticBuddy_128.png
 link: https://gsuite.google.com/marketplace/app/analytics_buddy/1092747904276
 stars: 4.6
 votes: 58
-installs: 10388
+installs: 10392

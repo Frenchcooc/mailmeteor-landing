@@ -1,9 +1,10 @@
 id: 8721525582
-name: "Sejda PDF Editor"
+title: "Sejda PDF Editor"
+slug: "sejda-pdf-editor"
 author: "Sejda PDF"
 description: "PDF Editor. Edit, sign, compress, convert to office or image, split and merge PDF documents."
 image: https://lh3.googleusercontent.com/-F57r2U1d0AY/WIMOoOQJvjI/AAAAAAAAABo/m8YmDduotRMjZWOZPfknJIaNSWAQXDOYACLcB/s400/icon_128.png
 link: https://gsuite.google.com/marketplace/app/sejda_pdf_editor/8721525582
 stars: 4.5
-votes: 1859
-installs: 452552
+votes: 1860
+installs: 453218

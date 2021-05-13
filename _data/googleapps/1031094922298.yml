@@ -1,9 +1,10 @@
 id: 1031094922298
-name: "Lumin PDF"
+title: "Lumin PDF"
+slug: "lumin-pdf"
 author: "Nitrolabs Limited"
 description: "Highlight, annotate and sign PDF files with this easy PDF tool! Lumin PDF allows you to edit and share PDF files in real-time."
 image: https://lh3.googleusercontent.com/-i0SEzB7CvGw/XPm9UOfLKfI/AAAAAAABLZU/O8FYBnsm3DsS4JL_WMYxGQ7eJFKZYWO_gCLcBGAs/s400/logo-128px.png
 link: https://gsuite.google.com/marketplace/app/lumin_pdf/1031094922298
 stars: 3.7
-votes: 10168
-installs: 2234415
+votes: 10169
+installs: 2238521

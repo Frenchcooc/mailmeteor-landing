@@ -1,9 +1,10 @@
 id: 453425818251
-name: "One Player for All Audio Formats"
+title: "One Player for All Audio Formats"
+slug: "one-player-for-all-audio-formats"
 author: "nsspot.herokuapp.com/oneplayer"
 description: "Play and listen to various audio formats without conversion through the server. mp3, aac, flac, ogg, wma, ra, asf...and more."
 image: https://lh3.googleusercontent.com/MmONPWncEUjX07KgBwJxtWbvNGl9jGE-NvkoLdl6jmFe1x8Hl0gIexCxTcfwWFbL7-Ui7mRF
 link: https://gsuite.google.com/marketplace/app/one_player_for_all_audio_formats/453425818251
 stars: 2.6
 votes: 40
-installs: 47031
+installs: 47095

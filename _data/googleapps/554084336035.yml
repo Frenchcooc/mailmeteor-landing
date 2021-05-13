@@ -1,9 +1,10 @@
 id: 554084336035
-name: "pdfFiller for Google Drive"
+title: "pdfFiller for Google Drive"
+slug: "pdffiller-for-google-drive"
 author: "airSlate Inc."
 description: "Easily edit, annotate, eSign and transform any PDF from Google Drive into a fillable PDF form."
 image: https://lh3.googleusercontent.com/-wZot7HCUgao/YJKVwi4s7LI/AAAAAAAAAfU/q9qg3jETOoUEK_hjd9-35jg8Y6mzID4CQCNcBGAsYHQ/s400/pf3-128x128.png
 link: https://gsuite.google.com/marketplace/app/pdffiller_for_google_drive/554084336035
 stars: 2
 votes: 1915
-installs: 350151
+installs: 351113

@@ -1,9 +1,10 @@
 id: 898843532532
-name: "Cryptosheets"
+title: "Cryptosheets"
+slug: "cryptosheets"
 author: "Cryptosheets.com"
 description: "Cryptosheets simplifies the process of accessing, aggregating, manipulating, and processing cryptocurrency API data."
 image: https://lh3.googleusercontent.com/-7EyEZ8G3HV0/XiC5Jsx3XYI/AAAAAAAADyA/TUiW7S078XYmsuXkyrWGqzrIo5FaLq8AwCLcBGAsYHQ/cs-logo-full-blk-1400x1400%255B1%255D.png
 link: https://gsuite.google.com/marketplace/app/cryptosheets/898843532532
-stars: 3.5
-votes: 318
-installs: 33555
+stars: 3.6
+votes: 319
+installs: 34027

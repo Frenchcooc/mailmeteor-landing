@@ -1,9 +1,0 @@
-id: 850073846865
-name: "LunchVote"
-author: "scotthmccoy"
-description: "Allows you to quickly and easily run ranked-ballot elections in Sheets. Uses the Schulze Method, a Condorcet voting algorithm."
-image: https://lh3.googleusercontent.com/-HN9LhjAZsLo/V5J0zEniF0I/AAAAAAAADTo/mMtdrZWzTdUWuvYs24CiOKNh9TSCvzZ5QCLcB/s400/128.png
-link: https://gsuite.google.com/marketplace/app/lunchvote/850073846865
-stars: 3.5
-votes: 13
-installs: 20025

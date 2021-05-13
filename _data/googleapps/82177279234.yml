@@ -1,9 +1,10 @@
 id: 82177279234
-name: "Show"
+title: "Show"
+slug: "show"
 author: "pasgoude"
 description: "Displays non-printable characters within a Google Docs document. Affiche les caractères non-imprimables d'un document."
 image: https://lh3.googleusercontent.com/BB4rNFf2EZaWGbMBxEaEVQruKBHAZhXrKmkGeDJ9xMBUzxz9L6Az4toM5GhmapxVtSqP9UJOaQ
 link: https://gsuite.google.com/marketplace/app/show/82177279234
 stars: 2.2
 votes: 765
-installs: 1094158
+installs: 1098011

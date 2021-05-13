@@ -1,9 +1,10 @@
 id: 62102485975
-name: "OrganicLearningResource"
+title: "OrganicLearningResource"
+slug: "organiclearningresource"
 author: "Giovanni Fonseca (@giofonsecaf)"
 description: "This add-on helps to create the structure of an #OrganicLearningResource something like an \"interactive Mind Map\" in Google Slides."
 image: https://lh3.googleusercontent.com/mpmQLDSkQ57CMxFhG0F3On4WP1RRncXDgmt71dj2fNgLJn1Z7XLHW89JXzuXBxjAe5L4O0h8
 link: https://gsuite.google.com/marketplace/app/organiclearningresource/62102485975
 stars: 3.5
 votes: 21
-installs: 291766
+installs: 291857

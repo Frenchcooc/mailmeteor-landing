@@ -1,9 +1,10 @@
 id: 376242260902
-name: "AppSheet"
+title: "AppSheet"
+slug: "appsheet"
 author: "AppSheet"
 description: "AppSheet is the intelligent, no-code application development platform. With AppSheet, anyone can build and deploy mobile apps in minutes without code."
 image: https://lh3.googleusercontent.com/-TEBbuBmABF4/X7MUVFdJR4I/AAAAAAAAAbA/aji48Jw22Y0cG_OtTprXW4H3BGS6k8HvgCNcBGAsYHQ/s400/128.png
 link: https://gsuite.google.com/marketplace/app/appsheet/376242260902
 stars: 4.4
-votes: 1196
-installs: 2110057
+votes: 1197
+installs: 2119550

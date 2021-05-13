@@ -1,9 +1,10 @@
 id: 785803880206
-name: "MovieStudio video editor"
+title: "MovieStudio video editor"
+slug: "moviestudio-video-editor"
 author: "RedcoolMedia"
 description: "Movie maker online to create, edit and record videos, and adding videos, audios, images and texts"
 image: https://lh3.googleusercontent.com/-IV1gXtz6AYY/XSixt0PzpeI/AAAAAAAAAAw/auafkiZ8sDcWl9fKqE2gyO0EX26pSC7bQCLcBGAs/s400/app_128.png
 link: https://gsuite.google.com/marketplace/app/moviestudio_video_editor/785803880206
 stars: 3.7
-votes: 248
-installs: 1013741
+votes: 250
+installs: 1014721

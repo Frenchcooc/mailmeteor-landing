@@ -1,9 +1,10 @@
 id: 199590644126
-name: "CloudConvert"
+title: "CloudConvert"
+slug: "cloudconvert"
 author: "CloudConvert"
 description: "convert anything to anything"
 image: https://lh3.googleusercontent.com/-tdkVdAakq8U/WEE9pCVUcQI/AAAAAAAAKWo/kfL_vq6eoEMoeZKzVosldO85itt67DGpACLcB/s400/logo_flat_128x128.png
 link: https://gsuite.google.com/marketplace/app/cloudconvert/199590644126
 stars: 4.3
-votes: 3546
-installs: 1104510
+votes: 3548
+installs: 1107512

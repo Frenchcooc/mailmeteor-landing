@@ -1,9 +1,0 @@
-id: 180728516017
-name: "Fancy Progressbar"
-author: "Liubomudr Nazariev"
-description: "Add a progress bar on slides in your presentation. Customizable. Known issue: Should not add a line to skipped slides. But there is no method in API to get skipped status. You may vote to fix this at https://issuetracker.google.com/issues/70530893"
-image: https://lh3.googleusercontent.com/Hrr8EZMoEmZnwAusZaYXs3UI_G5pgIaf9q6dx4rWEFLuOVhjWSsUkJOGk-6TpVybxRPyQ3rb
-link: https://gsuite.google.com/marketplace/app/fancy_progressbar/180728516017
-stars: 3.7
-votes: 7
-installs: 19196

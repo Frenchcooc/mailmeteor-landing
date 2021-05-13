@@ -1,9 +1,10 @@
 id: 1027370902578
-name: "Dialpad Add-on"
+title: "Dialpad Add-on"
+slug: "dialpad-add-on"
 author: "Dialpad, Inc"
 description: "Dialpad Add-on for G Suite & Gmail"
 image: https://lh3.googleusercontent.com/-Xn-mkBfN8YA/XrmWpDVsZWI/AAAAAAAAEMU/JsuAXozFVNI33j0OimpA8nRgViG3-jCBQCLcBGAsYHQ/s400/dialpad_logo_128x128.png
 link: https://gsuite.google.com/marketplace/app/dialpad_addon/1027370902578
 stars: 3.7
 votes: 302
-installs: 146439
+installs: 146360

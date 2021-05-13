@@ -1,9 +1,10 @@
 id: 360115564222
-name: "Word Cloud Generator"
+title: "Word Cloud Generator"
+slug: "word-cloud-generator"
 author: "Tanya Gupta, learnin60seconds.com"
 description: "Generates a downloadable word cloud, other features include control over number of words, dropping words auto pretty & word tables"
 image: https://lh3.googleusercontent.com/-_dhQfd2eYYg/WGQ5toRA1wI/AAAAAAAAJ60/YR-07PQYxGQ8UmjQcgQ-iMyQSuIdwVvWgCLcB/s400/wordcloud_128_128.png
 link: https://gsuite.google.com/marketplace/app/word_cloud_generator/360115564222
 stars: 3.2
 votes: 1121
-installs: 4535914
+installs: 4543593

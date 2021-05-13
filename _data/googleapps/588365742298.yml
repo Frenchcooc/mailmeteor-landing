@@ -1,9 +1,10 @@
 id: 588365742298
-name: "Egnyte for Gmail"
+title: "Egnyte for Gmail"
+slug: "egnyte-for-gmail"
 author: "Egnyte, Inc."
 description: "View and save email attachments to Egnyte in your Gmail. Access your Egnyte files easily in Google Calendar"
 image: https://lh3.googleusercontent.com/-lXBqYlP3CgM/X2O4a55paLI/AAAAAAAAA_4/RyMsOQOpy88dceg8iNQ6D0f2So155uJHgCO8EGAYYCw/s400/128x128_Dark-Logo.png
 link: https://gsuite.google.com/marketplace/app/egnyte_for_gmail/588365742298
 stars: 4.3
 votes: 27
-installs: 19038
+installs: 19025

@@ -1,9 +1,10 @@
 id: 429818142582
-name: "HelloFax"
+title: "HelloFax"
+slug: "hellofax"
 author: "www.hellofax.com"
 description: "HelloFax is designed with Google Apps users in mind. HelloFax’s seamless integration turns your Google Drive into a fax machine."
 image: https://lh3.googleusercontent.com/-4e2w82TQxbk/VVKjeSzT93I/AAAAAAAAAKE/qnpxKXWcmikTkGtRfyuZIt_Q4W57GmdvQCKgB/apple-touch-icon.png
 link: https://gsuite.google.com/marketplace/app/hellofax/429818142582
 stars: 4
 votes: 1983
-installs: 473613
+installs: 473844

@@ -1,9 +1,10 @@
 id: 63828731146
-name: "Fillable Document for Sheets"
+title: "Fillable Document for Sheets"
+slug: "fillable-document-for-sheets"
 author: "Jivrus Technologies"
 description: "Generate merged Google Docs, PDF from Google Sheets and deliver via email. Make live Fillable Form to store, publish and deliver."
 image: https://lh3.googleusercontent.com/-bzlAR_v_DdM/XUGROy56KiI/AAAAAAAAA6Y/n7xFbSGYZG03O5KKEjUM7QuCut9PLWHngCLcBGAs/s400/Fillable%2Bdocument%2Blogo.png
 link: https://gsuite.google.com/marketplace/app/fillable_document_for_sheets/63828731146
 stars: 3.9
 votes: 23
-installs: 269965
+installs: 269890

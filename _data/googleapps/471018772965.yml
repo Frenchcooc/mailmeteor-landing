@@ -1,9 +1,10 @@
 id: 471018772965
-name: "ShiftEdit"
+title: "ShiftEdit"
+slug: "shiftedit"
 author: "ShiftCreate"
 description: "ShiftEdit is an online IDE for developing PHP, Ruby, HTML, CSS and JavaScript using (S)FTP, Dropbox or Google Drive"
 image: https://lh6.googleusercontent.com/KCYOUvvp6cHAd3wPnanfU6KWfHq6xk8WgNV6ztU8YTAPoY1tlEbuOA8KVdyRbWG7XGXVuMeDDw
 link: https://gsuite.google.com/marketplace/app/shiftedit/471018772965
 stars: 4.2
 votes: 1498
-installs: 14621
+installs: 14636

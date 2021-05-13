@@ -1,9 +1,10 @@
 id: 654198028809
-name: "DigiXport"
+title: "DigiXport"
+slug: "digixport"
 author: "ritwikga"
 description: "Export Google Ads, Facebook Ads, Facebook Page & Microsoft (Bing) Ads Data & more.. in Spreadsheet & Upload it to Google Analytics."
 image: https://lh3.googleusercontent.com/-mwap_zGdsDM/WesL5N2Fh5I/AAAAAAAAAgo/AdQlIOyn-lwk9aLKsLpeTHffgofXqS53ACLcBGAs/s400/Logo-White-128_128.jpg
 link: https://gsuite.google.com/marketplace/app/digixport/654198028809
 stars: 3.2
 votes: 29
-installs: 9010
+installs: 9033

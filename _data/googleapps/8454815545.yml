@@ -1,9 +1,10 @@
 id: 8454815545
-name: "HelloSign"
+title: "HelloSign"
+slug: "hellosign"
 author: "www.hellosign.com"
 description: "Making signatures easy. HelloSign's secure electronic signatures are business-caliber, easy-to-use, and legally binding."
 image: https://lh5.googleusercontent.com/8x2_jscwwt_hmc6o9XQYLukS_2rC5UfrHmjRwzopPBIiFD2NaToxgiuOsuiluPdId7WFHIgHwdg
 link: https://gsuite.google.com/marketplace/app/hellosign/8454815545
 stars: 2.6
 votes: 675
-installs: 364847
+installs: 365145

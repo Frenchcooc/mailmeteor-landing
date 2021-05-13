@@ -1,9 +1,0 @@
-id: 1054412249402
-name: "Lntol Sheet Translator"
-author: "Lntol Software"
-description: "Lntol Google Sheet Translator is used to convert texts between different languages using google native translation inside google sheet. First time translation cell will contain =GOOGLETRANSLATE(D7,\"en\",\"zh-CN\") , but second time will convert it to actual text. Feel tree to update the translation in cell if if you feel it is not accurate. Translate button will not override it. Select a block of text and try our translate button. It will append the translation to the end of project file. This tool is currently supporting 104 different languages. It can create as many as projects as you like. Each projects supports one source language and multiple target languages."
-image: https://lh3.googleusercontent.com/-UornmbZOyrY/XT4YYV1pOLI/AAAAAAAAAEM/krp1FNLkgqgWSYRs6g1fcQHPX2crFjcHgCLcBGAs/s400/lntol%2Bicon%2B128.png
-link: https://gsuite.google.com/marketplace/app/lntol_sheet_translator/1054412249402
-stars: 4.3
-votes: 12
-installs: 4366

@@ -1,9 +1,10 @@
 id: 351103992693
-name: "EasyBib Bibliography Creator"
+title: "EasyBib Bibliography Creator"
+slug: "easybib-bibliography-creator"
 author: "© 2001-2020 EasyBib, a Chegg service"
 description: "The easiest automatic bibliography citation generator is now on Google Docs! Format in MLA, APA, Harvard, and over 7K more styles!"
 image: https://lh3.googleusercontent.com/J0Vo45yHPvYmlWhuCWIFKehQYs1o5XLXpCP6ZglahGkd0hCry0Mj0kxAsvDH-P7KoUPo7qOb
 link: https://gsuite.google.com/marketplace/app/easybib_bibliography_creator/351103992693
 stars: 3.6
-votes: 7342
+votes: 7345
 installs: 10000000

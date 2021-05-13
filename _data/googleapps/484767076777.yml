@@ -1,9 +1,10 @@
 id: 484767076777
-name: "FreshBooks"
+title: "FreshBooks"
+slug: "freshbooks"
 author: "www.freshbooks.com"
 description: "FreshBooks is the fastest way to invoice your clients, organize expenses and track time on the go. Join over 24 million small business owners already using FreshBooks to make billing painless."
 image: https://lh3.googleusercontent.com/-plEVgPfrpf4/U-UNYE9V-lI/AAAAAAAAAC8/VXYmaEVq1Rs/s0/leaf_128x128.png
 link: https://gsuite.google.com/marketplace/app/freshbooks/484767076777
 stars: 4.6
 votes: 38
-installs: 180335
+installs: 180410

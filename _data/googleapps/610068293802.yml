@@ -1,9 +1,10 @@
 id: 610068293802
-name: "CloudM - Manage"
+title: "CloudM - Manage"
+slug: "cloudm-manage"
 author: "CloudM"
 description: "CloudM for Management"
 image: https://lh3.googleusercontent.com/-vN8kd8-50Hk/XrKTY3pnVzI/AAAAAAAABZI/4ozN7X349YYWqKAhwi5SQx7DUuH7T3bZACLcBGAsYHQ/s400/cloudm_marketplace_icon_128.png
 link: https://gsuite.google.com/marketplace/app/cloudm_manage/610068293802
 stars: 4.1
 votes: 56
-installs: 3595132
+installs: 3590331

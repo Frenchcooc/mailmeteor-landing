@@ -1,5 +1,6 @@
 id: 817638980086
-name: "Flubaroo"
+title: "Flubaroo"
+slug: "flubaroo"
 author: "Dave Abouav {edCode.org}"
 description: "Flubaroo is a Google Spreadsheets Add-on that helps educators quickly grade and analyze online assignments and assessments, as well as share scores with students!"
 image: https://lh3.googleusercontent.com/-Z7PgKuGFE3g/VzMyFfL0pbI/AAAAAAAAAHc/KZKtSEnpJH4xOIv3Zla2hzf_S2P1Qy-gACLcB/s400/Flubaroo_128x128_no_padding%2B%25282%2529.png

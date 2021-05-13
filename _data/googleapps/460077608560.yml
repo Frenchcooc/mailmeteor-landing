@@ -1,9 +1,10 @@
 id: 460077608560
-name: "Advanced Find and Replace"
+title: "Advanced Find and Replace"
+slug: "advanced-find-and-replace"
 author: "Ablebits"
 description: "Search in values, formulas, notes, hyperlinks in all sheets at once. Get the list with the found entries and replace them in a click."
 image: https://lh6.googleusercontent.com/W3hiEH0arjTND8DG6i4I6FXi6z5ROVp-SXm0iS1tGrjJaLd4bHuXLq9DegtFKwowEFA7dr_Rug
 link: https://gsuite.google.com/marketplace/app/advanced_find_and_replace/460077608560
 stars: 3.6
 votes: 380
-installs: 126680
+installs: 126782

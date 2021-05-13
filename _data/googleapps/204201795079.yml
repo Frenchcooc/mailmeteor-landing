@@ -1,9 +1,10 @@
 id: 204201795079
-name: "BlueJeans Meeting"
+title: "BlueJeans Meeting"
+slug: "bluejeans-meeting"
 author: "BlueJeans Plugin Team"
 description: "Easily Schedule and Join BlueJeans meeting directly from Google Calendar."
 image: https://lh3.googleusercontent.com/-zfbXRku1HlA/XI8rGHY-pjI/AAAAAAAAAB4/dnk1flndxn0YXesT2EKP-5V9Mtq8hlcnACLcBGAs/s400/128X128.png
 link: https://gsuite.google.com/marketplace/app/bluejeans_meeting/204201795079
 stars: 3.8
-votes: 106
-installs: 317661
+votes: 108
+installs: 317853

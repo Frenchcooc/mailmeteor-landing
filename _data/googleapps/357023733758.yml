@@ -1,9 +1,10 @@
 id: 357023733758
-name: "Circuit Simulator and Editor"
+title: "Circuit Simulator and Editor"
+slug: "circuit-simulator-and-editor"
 author: "thumbsdb.herokuapp.com/circuit"
 description: "Electronic circuit simulator that runs in the browser. This app lets you simulate the behavior of arbitrary electrical circuits."
 image: https://lh3.googleusercontent.com/z8WnFOMp7mMVeRDKtXgI86kbc02Vjohr-T0g8AEfmaeTLJ0VY_keHI6LENgTGoBNW-4KMlFp
 link: https://gsuite.google.com/marketplace/app/circuit_simulator_and_editor/357023733758
 stars: 4.6
 votes: 34
-installs: 411641
+installs: 411866

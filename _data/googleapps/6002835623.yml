@@ -1,9 +1,10 @@
 id: 6002835623
-name: "TimeSheet"
+title: "TimeSheet"
+slug: "timesheet"
 author: "timesheet.mob.fish"
 description: "TimeSheet utilizes your Google Calendar as a time recording tool."
 image: https://lh3.googleusercontent.com/_MDFL8qoW1q-4QkHpuviipOGObrIh2OpjZj71WDPjP0y3nzxI0ki1FzfAS55c8iHbliLOkCMzA
 link: https://gsuite.google.com/marketplace/app/timesheet/6002835623
 stars: 4
 votes: 292
-installs: 290655
+installs: 291131

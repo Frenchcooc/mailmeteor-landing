@@ -1,9 +1,10 @@
 id: 1009043385982
-name: "GMass: Mail merge for Gmail"
+title: "GMass: Mail merge for Gmail"
+slug: "gmass-mail-merge-for-gmail"
 author: "Ajay Goel"
 description: "A powerful mail merge and mass email system for Gmail."
 image: https://lh3.googleusercontent.com/-KyLk65IKm0M/Wsz1svN4NpI/AAAAAAAAHwg/OMm5l9J8oyAjgm3FFn5ORZQDNLS9EbiZgCLcBGAs/s400/128%2Bx%2B128.png
 link: https://gsuite.google.com/marketplace/app/gmass_mail_merge_for_gmail/1009043385982
 stars: 4.7
-votes: 4950
-installs: 910191
+votes: 4956
+installs: 910561

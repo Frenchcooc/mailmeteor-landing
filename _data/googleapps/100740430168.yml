@@ -1,9 +1,10 @@
 id: 100740430168
-name: "Code Blocks"
+title: "Code Blocks"
+slug: "code-blocks"
 author: "Alex Forsythe"
 description: "Syntax highlighting for Google Docs"
 image: https://lh3.googleusercontent.com/-tEu6zfCZYLU/XyEhdaLN0_I/AAAAAAAAhws/9aIa97doGcAbCRJYMttmV2_8WDcQtLBkgCNcBGAsYHQ/s400/Code-Blocks-Logo-small.png
 link: https://gsuite.google.com/marketplace/app/code_blocks/100740430168
 stars: 4
-votes: 1208
-installs: 2147476
+votes: 1209
+installs: 2150813

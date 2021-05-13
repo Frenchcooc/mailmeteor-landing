@@ -1,9 +1,10 @@
 id: 606635256305
-name: "Files Cabinet by Awesome Table"
+title: "Files Cabinet by Awesome Table"
+slug: "files-cabinet-by-awesome-table"
 author: "Awesome Gapps"
 description: "Quickly list all the files of a Google Drive folder in a spreadsheet, and automatically display it in an Awesome Table view."
 image: https://lh3.googleusercontent.com/U8pqZ09vKQxQkHrIkLq6w1zWAZlyLY_4hc6IskFw3jYMhQWJw0HSeFQ5qY927zP7nQ5lunY2
 link: https://gsuite.google.com/marketplace/app/files_cabinet_by_awesome_table/606635256305
 stars: 4.2
 votes: 122
-installs: 479650
+installs: 479957

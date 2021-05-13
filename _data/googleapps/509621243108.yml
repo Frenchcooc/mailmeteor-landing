@@ -1,9 +1,10 @@
 id: 509621243108
-name: "Creator Studio"
+title: "Creator Studio"
+slug: "creator-studio"
 author: "Digital Inspiration"
 description: "Convert Google Slides presentation to animated GIF images and video slideshows. Extract Speaker Notes from Slides. Sync PowerPoint with YouTube using Slidecasts."
 image: https://lh3.googleusercontent.com/-LddHxWcM0T8/XTK7A33mDcI/AAAAAAABrZY/dQ51lg1Q1XcJkSlPKQJ6deAxOfnnzGnyQCLcBGAs/s400/google-slides.png
 link: https://gsuite.google.com/marketplace/app/creator_studio/509621243108
 stars: 3.1
-votes: 388
-installs: 5737576
+votes: 389
+installs: 5738550
