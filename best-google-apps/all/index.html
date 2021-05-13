@@ -1,21 +1,32 @@
 ---
 layout: default
-title: The Best Google apps to improve your Google Workspace (G Suite)
-description: Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
+title: The complete list of Google Apps for Workspace & G Suite
+description: Choose from 1000+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
 canonical: https://mailmeteor.com/best-google-apps/all/
 
-og_title: The Best Google apps to improve your Google Workspace (G Suite)
-og_description: Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
+og_title: The complete list of Google Apps for Workspace & G Suite
+og_description: Choose from 1000+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
 ---
 
 <section class="m-3">
   <div class="container page-title">
-    <h1>The Best Google apps to improve Google Workspace & G Suite</h1>
+    <h1>List of All Google Apps for Google Workspace & Google Suite</h1>
     <p>
-      Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G
-      Suite apps)
+      Here is a collection of all Google Apps and extensions compatible with
+      your Google Suite (Gmail, Docs, Sheets, Forms, Slides, Calendar,
+      Drive...). These apps have at least 20 ratings on the Google Workspace
+      Marketplace and are sorted by alphabetical order. Most G Suite marketplace
+      apps are free, but some offer paying options. For your convenience, we
+      also handpicked the
+      <a href="/best-google-apps">best Google Apps by categories</a>.
     </p>
-    <img src="/assets/img/elements/workspace.webp" style="max-width: 300px" alt="Best Google Apps" />
+    <a href="/best-google-apps">
+      <img
+        src="/assets/img/elements/workspace.webp"
+        style="max-width: 300px"
+        alt="Best Google Apps"
+      />
+    </a>
   </div>
 </section>
 
@@ -23,10 +34,15 @@ og_description: Choose from 100+ hand-curated collections of free & paid Google 
 <section>
   <div class="gapps-directory container">
     {% for app in site.googleapps %}
-    <div class="gapps-categories-card">
+    <div class="gapps-products-card">
       <a href="{{ app.url }}">
-        <h2>{{ app.title | truncate: 25 }}</h2>
-        <p>{{ app.description | truncate: 180 }}</p>
+        <img
+          src="{{ app.image }}"
+          alt="Logo of {{ app.title | escape }}"
+          loading="lazy"
+        />
+        <h2>{{ app.title }}</h2>
+        <p>{{ app.description | truncate: 100 }}</p>
         <span>
           View
           <svg
