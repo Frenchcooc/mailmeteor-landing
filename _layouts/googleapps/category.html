@@ -65,7 +65,7 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
             </defs>
           </svg>
           <span itemprop="ratingValue">{{ app.stars }}</span>/5 (out of
-          <span itemprop="reviewCount">{{ app.votes}}</span> reviews)
+          <span itemprop="reviewCount">{{ app.votes}}</span> reviews) • {{ page.installs}} installs
         </p>
         <p itemprop="description">{{ app.description }}</p>
         <a href="{{ app.link }}" class="d-inline-block pr-2" itemprop="installUrl">
