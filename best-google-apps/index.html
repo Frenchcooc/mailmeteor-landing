@@ -1,21 +1,22 @@
 ---
 layout: default
 title: The Best Google apps to improve Google Workspace (G Suite)
-description: Choose from 1000+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
+description: Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
 canonical: https://mailmeteor.com/best-google-apps/
 
 og_title: The Best Google apps to improve Google Workspace (G Suite)
-og_description: Choose from 1000+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
+og_description: Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)
 ---
 
-<section class="m-3">
+<section class="m-3" itemscope="" itemtype="https://schema.org/ItemList">
   <div class="container page-title">
-    <h1>The Best Google apps to improve Google Workspace & G Suite</h1>
-    <p>
-      Choose from 1000+ hand-curated collections of free & paid Google Apps to
+    <h1 itemprop="name">The Best Google apps to improve Google Workspace & G Suite</h1>
+    <p itemprop="description">
+      Choose from 100+ hand-curated collections of free & paid Google Apps to
       enhance your Google Workspace (formerly G Suite apps)
     </p>
     <img
+      itemprop="image"
       src="/assets/img/elements/workspace.webp"
       style="max-width: 300px"
       alt="Best Google Apps"
@@ -27,9 +28,9 @@ og_description: Choose from 1000+ hand-curated collections of free & paid Google
 <section>
   <div class="gapps-directory container">
     {% for category in site.data.gapps-directory.categories %}
-    <div class="gapps-categories-card">
+    <div class="gapps-categories-card" >
       <a href="{{ category.title | replace: '&', '' | slugify }}">
-        <h2>{{ category.title }}</h2>
+        <h2 itemprop="itemListElement">{{ category.title }}</h2>
         <p style="text-transform: capitalize">
           The best {{ category.title }} apps
         </p>

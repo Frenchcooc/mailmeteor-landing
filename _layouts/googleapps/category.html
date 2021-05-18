@@ -11,8 +11,8 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
   <section class="m-3">
     <div class="container page-title">
       <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
-      <h1>{{ page.heading | default: page.title }}</h1>
-      <p>{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
+      <h1 itemprop="name">{{ page.heading | default: page.title }}</h1>
+      <p itemprop="description">{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
     </div>
   </section>
 
@@ -20,7 +20,7 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
 
   <article class="article-container">
     <div class="container">
-      <h2 itemprop="name">{{ page.list | replace: "(X)", appsCounter }}</h2>
+      <h2>{{ page.list | replace: "(X)", appsCounter }}</h2>
 
       <ol class="gapps-product-list">
         {% for app in apps %}
