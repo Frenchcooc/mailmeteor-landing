@@ -34,7 +34,7 @@ endfor %} {% assign appsCounter = apps.size %}
 
     {% for app in apps %}
 
-    <div class="gapps-products-page-card" id="{{ app.title | slugify }}">
+    <div class="gapps-products-page-card" id="{{ app.title | slugify }}" itemscope="" itemtype="https://schema.org/WebApplication">
       <img
         src="{{ app.image }}"
         alt="Logo of {{ app.title | escape }}"
@@ -42,11 +42,11 @@ endfor %} {% assign appsCounter = apps.size %}
         height="50px"
         loading="lazy"
       />
-      <h3>{{ app.title }}</h3>
+      <h3 itemprop="name">{{ app.title }}</h3>
       {% if app.title != app.author %}
-      <p class="gapps-products-page-card-subtitle">{{ app.author }}</p>
+      <p itemprop="author" class="gapps-products-page-card-subtitle">{{ app.author }}</p>
       {% endif %}
-      <p>
+      <p itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
         <svg
           width="20"
           height="20"
@@ -73,10 +73,10 @@ endfor %} {% assign appsCounter = apps.size %}
             </linearGradient>
           </defs>
         </svg>
-        {{ app.stars }}/5 (out of {{ app.votes}} reviews)
+        <span itemprop="ratingValue">{{ app.stars }}</span>/5 (out of <span itemprop="reviewCount">{{ app.votes}}</span> reviews)
       </p>
-      <p>{{ app.description }}</p>
-      <a href="{{ app.link }}" class="d-inline-block pr-2">
+      <p itemprop="description">{{ app.description }}</p>
+      <a href="{{ app.link }}" class="d-inline-block pr-2" itemprop="installUrl">
         Google Workspace Marketplace link
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -86,14 +86,14 @@ endfor %} {% assign appsCounter = apps.size %}
           height="18"
           viewBox="0 0 24 24"
           fill="#007bff"
-          style="vertical-align: sub; display"
+          style="vertical-align: sub;"
         >
           <path
             d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
           />
         </svg>
       </a>
-      <a href="/best-google-apps/all/{{ app.slug }}" class="d-inline-block">
+      <a href="/best-google-apps/all/{{ app.slug }}" class="d-inline-block" itemprop="sameAs">
         More info
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ endfor %} {% assign appsCounter = apps.size %}
         %} {% for category in categories %}
         <div class="gapps-categories-card">
           <a href="/best-google-apps/{{ category.title | slugify }}">
-            <h2>{{ category.title }}</h2>
+            <h4>{{ category.title }}</h4>
             <p style="text-transform: capitalize">
               The best {{ category.title }} apps
             </p>
